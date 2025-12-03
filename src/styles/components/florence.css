@@ -1,0 +1,930 @@
+/**
+ * Florence Components Styles
+ * Stili per tutti i componenti della sezione FlorenceEGI
+ */
+
+/* ==========================================================================
+   FLORENCE HERO
+   ========================================================================== */
+
+.florence-hero {
+  position: relative;
+  padding: 4rem 2rem;
+  text-align: center;
+  background: linear-gradient(135deg, rgba(59, 130, 246, 0.1) 0%, rgba(139, 92, 246, 0.1) 100%);
+  border-radius: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.florence-hero__badge {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #3b82f6;
+  background: rgba(59, 130, 246, 0.2);
+  border-radius: 9999px;
+  margin-bottom: 1rem;
+}
+
+.florence-hero__title {
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  font-weight: 800;
+  color: #ffffff;
+  margin-bottom: 0.5rem;
+  line-height: 1.1;
+}
+
+.florence-hero__subtitle {
+  font-size: 1.25rem;
+  color: #8b5cf6;
+  margin-bottom: 1rem;
+}
+
+.florence-hero__description {
+  font-size: 1.1rem;
+  color: #a0a0a8;
+  max-width: 600px;
+  margin: 0 auto 2rem;
+  line-height: 1.6;
+}
+
+.florence-hero__cta {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.florence-hero__cta-button {
+  padding: 0.875rem 1.75rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.florence-hero__cta-button--primary {
+  background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+  color: white;
+}
+
+.florence-hero__cta-button--secondary {
+  background: transparent;
+  color: #3b82f6;
+  border: 2px solid #3b82f6;
+}
+
+/* ==========================================================================
+   FLORENCE INTRO
+   ========================================================================== */
+
+.florence-intro {
+  padding: 3rem 2rem;
+  margin-bottom: 3rem;
+}
+
+.florence-intro__title {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.florence-intro__content {
+  display: grid;
+  gap: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.florence-intro__concept,
+.florence-intro__vision {
+  display: flex;
+  gap: 1rem;
+  padding: 1.5rem;
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.florence-intro__concept-icon,
+.florence-intro__vision-icon {
+  font-size: 2rem;
+  flex-shrink: 0;
+}
+
+.florence-intro__concept-text,
+.florence-intro__vision-text {
+  color: #c0c0c8;
+  line-height: 1.7;
+}
+
+.florence-intro__pillars {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.florence-intro__pillar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.florence-intro__pillar-icon {
+  font-size: 2rem;
+}
+
+.florence-intro__pillar-label {
+  font-size: 0.875rem;
+  color: #a0a0a8;
+  font-weight: 500;
+}
+
+/* ==========================================================================
+   FLORENCE PROBLEMS
+   ========================================================================== */
+
+.florence-problems {
+  padding: 3rem 2rem;
+  margin-bottom: 3rem;
+}
+
+.florence-problems__header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.florence-problems__title {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 0.5rem;
+}
+
+.florence-problems__subtitle {
+  color: #a0a0a8;
+}
+
+.florence-problems__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.florence-problems__card {
+  perspective: 1000px;
+  min-height: 200px;
+}
+
+.florence-problems__card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-height: 200px;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  cursor: pointer;
+}
+
+.florence-problems__card:hover .florence-problems__card-inner,
+.florence-problems__card:focus-within .florence-problems__card-inner {
+  transform: rotateY(180deg);
+}
+
+.florence-problems__card-front,
+.florence-problems__card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.florence-problems__card-front {
+  background: rgba(239, 68, 68, 0.1);
+  border: 1px solid rgba(239, 68, 68, 0.2);
+}
+
+.florence-problems__card-back {
+  background: rgba(34, 197, 94, 0.1);
+  border: 1px solid rgba(34, 197, 94, 0.2);
+  transform: rotateY(180deg);
+}
+
+.florence-problems__card-icon {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.florence-problems__card-title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 0.75rem;
+}
+
+.florence-problems__card-text {
+  font-size: 0.875rem;
+  color: #c0c0c8;
+  line-height: 1.5;
+}
+
+.florence-problems__card-label {
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.5rem;
+}
+
+.florence-problems__card-front .florence-problems__card-label {
+  color: #ef4444;
+}
+
+.florence-problems__card-back .florence-problems__card-label {
+  color: #22c55e;
+}
+
+/* ==========================================================================
+   FLORENCE EXAMPLES
+   ========================================================================== */
+
+.florence-examples {
+  padding: 3rem 2rem;
+  margin-bottom: 3rem;
+}
+
+.florence-examples__header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.florence-examples__title {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 0.5rem;
+}
+
+.florence-examples__tabs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.florence-examples__tab {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.25rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #a0a0a8;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 9999px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.florence-examples__tab:hover {
+  background: rgba(255, 255, 255, 0.05);
+  color: #ffffff;
+}
+
+.florence-examples__tab[aria-selected="true"] {
+  background: rgba(59, 130, 246, 0.2);
+  border-color: rgba(59, 130, 246, 0.4);
+  color: #3b82f6;
+}
+
+.florence-examples__panel {
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.florence-examples__sector-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 0.75rem;
+}
+
+.florence-examples__sector-description {
+  color: #a0a0a8;
+  margin-bottom: 1.5rem;
+}
+
+.florence-examples__use-cases {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 0.75rem;
+}
+
+.florence-examples__use-case {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  color: #c0c0c8;
+}
+
+.florence-examples__use-case::before {
+  content: "✓";
+  color: #22c55e;
+  font-weight: bold;
+}
+
+/* ==========================================================================
+   FLORENCE AMMK
+   ========================================================================== */
+
+.florence-ammk {
+  padding: 3rem 2rem;
+  margin-bottom: 3rem;
+}
+
+.florence-ammk__header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.florence-ammk__title {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 0.5rem;
+}
+
+.florence-ammk__engines {
+  display: grid;
+  gap: 1rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.florence-ammk__engine {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.florence-ammk__engine-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.25rem 1.5rem;
+  width: 100%;
+  text-align: left;
+  background: transparent;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.florence-ammk__engine-header:hover {
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.florence-ammk__engine-icon {
+  font-size: 1.5rem;
+}
+
+.florence-ammk__engine-info {
+  flex: 1;
+}
+
+.florence-ammk__engine-title {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+
+.florence-ammk__engine-description {
+  font-size: 0.875rem;
+  color: #a0a0a8;
+}
+
+.florence-ammk__engine-toggle {
+  color: #a0a0a8;
+  transition: transform 0.2s;
+}
+
+.florence-ammk__engine[aria-expanded="true"] .florence-ammk__engine-toggle {
+  transform: rotate(180deg);
+}
+
+.florence-ammk__engine-content {
+  padding: 0 1.5rem 1.5rem;
+}
+
+.florence-ammk__engine-features {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 0.5rem;
+}
+
+.florence-ammk__engine-feature {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #c0c0c8;
+  font-size: 0.875rem;
+}
+
+.florence-ammk__engine-feature::before {
+  content: "•";
+  color: #3b82f6;
+}
+
+/* ==========================================================================
+   FLORENCE TECH
+   ========================================================================== */
+
+.florence-tech {
+  padding: 3rem 2rem;
+  margin-bottom: 3rem;
+}
+
+.florence-tech__header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.florence-tech__title {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 0.5rem;
+}
+
+.florence-tech__tabs {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.florence-tech__tab {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.25rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #a0a0a8;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.florence-tech__tab--active {
+  background: rgba(59, 130, 246, 0.2);
+  border-color: rgba(59, 130, 246, 0.4);
+  color: #3b82f6;
+}
+
+.florence-tech__panel {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.florence-tech__view-description {
+  text-align: center;
+  color: #a0a0a8;
+  margin-bottom: 1.5rem;
+}
+
+.florence-tech__features {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 0.75rem;
+}
+
+.florence-tech__feature {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 0.5rem;
+  color: #c0c0c8;
+}
+
+.florence-tech__feature-icon {
+  color: #22c55e;
+}
+
+.florence-tech__metrics {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1.5rem;
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 1rem;
+}
+
+.florence-tech__metric {
+  text-align: center;
+}
+
+.florence-tech__metric-value {
+  display: block;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #3b82f6;
+  margin-bottom: 0.25rem;
+}
+
+.florence-tech__metric-label {
+  font-size: 0.875rem;
+  color: #a0a0a8;
+}
+
+.florence-tech__code-example {
+  margin-top: 1.5rem;
+  background: #0d1117;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.florence-tech__code-example pre {
+  padding: 1.5rem;
+  overflow-x: auto;
+  margin: 0;
+}
+
+.florence-tech__code-example code {
+  font-family: 'Fira Code', monospace;
+  font-size: 0.875rem;
+  color: #c9d1d9;
+  white-space: pre;
+}
+
+/* ==========================================================================
+   FLORENCE PRICING
+   ========================================================================== */
+
+.florence-pricing {
+  padding: 3rem 2rem;
+  margin-bottom: 3rem;
+}
+
+.florence-pricing__header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.florence-pricing__title {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 0.5rem;
+}
+
+.florence-pricing__table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1rem;
+}
+
+.florence-pricing__table th,
+.florence-pricing__table td {
+  padding: 1rem;
+  text-align: left;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.florence-pricing__table th {
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #a0a0a8;
+}
+
+.florence-pricing__fee-title {
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.florence-pricing__badge {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  font-weight: 600;
+  color: #22c55e;
+  background: rgba(34, 197, 94, 0.15);
+  border-radius: 9999px;
+}
+
+.florence-pricing__fee-description {
+  color: #a0a0a8;
+}
+
+.florence-pricing__note {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 1rem;
+  background: rgba(59, 130, 246, 0.1);
+  border-radius: 0.5rem;
+  color: #a0a0a8;
+  font-size: 0.875rem;
+}
+
+.florence-pricing__payments {
+  margin-top: 3rem;
+}
+
+.florence-pricing__payments-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+.florence-pricing__payments-subtitle {
+  text-align: center;
+  color: #a0a0a8;
+  margin-bottom: 1.5rem;
+}
+
+.florence-pricing__payment-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.florence-pricing__payment-card {
+  padding: 1.5rem;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 1rem;
+  text-align: center;
+}
+
+.florence-pricing__payment-icon {
+  font-size: 2rem;
+  margin-bottom: 0.75rem;
+}
+
+.florence-pricing__payment-title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 0.5rem;
+}
+
+.florence-pricing__payment-description {
+  font-size: 0.875rem;
+  color: #a0a0a8;
+  margin-bottom: 0.75rem;
+}
+
+.florence-pricing__payment-note {
+  font-size: 0.75rem;
+  color: #3b82f6;
+}
+
+/* ==========================================================================
+   FLORENCE NATAN
+   ========================================================================== */
+
+.florence-natan {
+  padding: 3rem 2rem;
+  margin-bottom: 3rem;
+  background: linear-gradient(135deg, rgba(139, 92, 246, 0.1) 0%, rgba(59, 130, 246, 0.1) 100%);
+  border-radius: 1.5rem;
+}
+
+.florence-natan__container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 3rem;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .florence-natan__container {
+    grid-template-columns: 1fr;
+  }
+}
+
+.florence-natan__visual {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.florence-natan__avatar {
+  position: relative;
+  width: 150px;
+  height: 150px;
+}
+
+.florence-natan__avatar-core {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80px;
+  height: 80px;
+  background: linear-gradient(135deg, #8b5cf6, #3b82f6);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
+  z-index: 1;
+}
+
+.florence-natan__avatar-ring {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  border: 2px solid rgba(139, 92, 246, 0.3);
+}
+
+.florence-natan__avatar-ring--1 {
+  width: 100px;
+  height: 100px;
+  animation: pulse 2s ease-in-out infinite;
+}
+
+.florence-natan__avatar-ring--2 {
+  width: 130px;
+  height: 130px;
+  animation: pulse 2s ease-in-out infinite 0.5s;
+}
+
+.florence-natan__avatar-ring--3 {
+  width: 160px;
+  height: 160px;
+  animation: pulse 2s ease-in-out infinite 1s;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 0.3; transform: translate(-50%, -50%) scale(1); }
+  50% { opacity: 0.7; transform: translate(-50%, -50%) scale(1.05); }
+}
+
+.florence-natan__title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 0.25rem;
+}
+
+.florence-natan__subtitle {
+  color: #8b5cf6;
+  margin-bottom: 0.75rem;
+}
+
+.florence-natan__description {
+  color: #a0a0a8;
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+}
+
+.florence-natan__features {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+@media (max-width: 500px) {
+  .florence-natan__features {
+    grid-template-columns: 1fr;
+  }
+}
+
+.florence-natan__feature {
+  display: flex;
+  gap: 0.75rem;
+}
+
+.florence-natan__feature-icon {
+  font-size: 1.25rem;
+}
+
+.florence-natan__feature-title {
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 0.875rem;
+}
+
+.florence-natan__feature-description {
+  font-size: 0.75rem;
+  color: #a0a0a8;
+}
+
+.florence-natan__cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.875rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: white;
+  background: linear-gradient(135deg, #8b5cf6, #3b82f6);
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.florence-natan__cta:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 20px rgba(139, 92, 246, 0.4);
+}
+
+/* ==========================================================================
+   FLORENCE FAQ
+   ========================================================================== */
+
+.florence-faq {
+  padding: 3rem 2rem;
+  margin-bottom: 3rem;
+}
+
+.florence-faq__header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.florence-faq__title {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.florence-faq__list {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.florence-faq__item {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.florence-faq__question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 1.25rem 0;
+  font-size: 1rem;
+  font-weight: 500;
+  text-align: left;
+  color: #ffffff;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.florence-faq__toggle {
+  color: #a0a0a8;
+  transition: transform 0.2s;
+}
+
+.florence-faq__item[aria-expanded="true"] .florence-faq__toggle {
+  transform: rotate(180deg);
+}
+
+.florence-faq__answer {
+  padding: 0 0 1.25rem;
+  color: #a0a0a8;
+  line-height: 1.6;
+}
+
+.florence-faq__item[aria-expanded="false"] .florence-faq__answer {
+  display: none;
+}

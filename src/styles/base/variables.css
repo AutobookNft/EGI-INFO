@@ -1,0 +1,258 @@
+/**
+ * EGI-INFO CSS Variables
+ * Design Tokens for consistent theming
+ * 
+ * ARCHITECTURE PRINCIPLES:
+ * - All values use relative units (rem, em, %)
+ * - No fixed widths - content adapts to container
+ * - Golden ratio (1.618) for spacing harmony
+ * - Ready for CJK, RTL, and 100+ languages
+ */
+
+:root {
+  /* ============================================
+   * COLOR PALETTE - Renaissance Theme
+   * ============================================ */
+  
+  /* Primary Colors */
+  --color-primary: #8B4513;           /* Sienna - Renaissance earth tone */
+  --color-primary-light: #A0522D;     /* Lighter sienna */
+  --color-primary-dark: #654321;      /* Darker sienna */
+  
+  /* Secondary Colors */
+  --color-secondary: #2F4F4F;         /* Dark slate gray - Florentine marble */
+  --color-secondary-light: #4A6A6A;
+  --color-secondary-dark: #1A2F2F;
+  
+  /* Accent Colors */
+  --color-accent: #DAA520;            /* Goldenrod - Renaissance gold */
+  --color-accent-light: #F5DEB3;      /* Wheat */
+  --color-accent-dark: #B8860B;       /* Dark goldenrod */
+  
+  /* Semantic Colors */
+  --color-success: #228B22;           /* Forest green - Nature/EPP */
+  --color-warning: #FF8C00;           /* Dark orange */
+  --color-error: #DC143C;             /* Crimson */
+  --color-info: #4682B4;              /* Steel blue */
+  
+  /* Neutral Colors */
+  --color-white: #FFFFFF;
+  --color-black: #1A1A1A;
+  --color-gray-50: #FAFAFA;
+  --color-gray-100: #F5F5F5;
+  --color-gray-200: #EEEEEE;
+  --color-gray-300: #E0E0E0;
+  --color-gray-400: #BDBDBD;
+  --color-gray-500: #9E9E9E;
+  --color-gray-600: #757575;
+  --color-gray-700: #616161;
+  --color-gray-800: #424242;
+  --color-gray-900: #212121;
+  
+  /* Background Colors */
+  --color-bg-primary: #FDF8F3;        /* Warm parchment */
+  --color-bg-secondary: #F5EDE4;      /* Aged paper */
+  --color-bg-tertiary: #FFFFFF;
+  --color-bg-dark: #1A1A1A;
+  
+  /* Text Colors */
+  --color-text-primary: #2C2C2C;
+  --color-text-secondary: #5A5A5A;
+  --color-text-muted: #8A8A8A;
+  --color-text-inverse: #FFFFFF;
+  --color-text-link: var(--color-primary);
+  --color-text-link-hover: var(--color-primary-dark);
+  
+  /* ============================================
+   * TYPOGRAPHY
+   * ============================================ */
+  
+  /* Font Families - System fonts for CJK support */
+  --font-family-sans: 
+    -apple-system, BlinkMacSystemFont, 
+    "Segoe UI", Roboto, 
+    "Noto Sans", "Noto Sans CJK JP", "Noto Sans CJK KR", "Noto Sans CJK SC",
+    "Helvetica Neue", Arial, 
+    sans-serif, 
+    "Apple Color Emoji", "Segoe UI Emoji";
+  
+  --font-family-serif: 
+    "Playfair Display", Georgia, 
+    "Noto Serif", "Noto Serif CJK JP",
+    "Times New Roman", serif;
+  
+  --font-family-mono: 
+    "Fira Code", "JetBrains Mono", 
+    Consolas, "Courier New", monospace;
+  
+  /* Font Sizes - Modular scale (1.25 ratio) */
+  --font-size-xs: 0.75rem;      /* 12px */
+  --font-size-sm: 0.875rem;     /* 14px */
+  --font-size-base: 1rem;       /* 16px */
+  --font-size-lg: 1.125rem;     /* 18px */
+  --font-size-xl: 1.25rem;      /* 20px */
+  --font-size-2xl: 1.5rem;      /* 24px */
+  --font-size-3xl: 1.875rem;    /* 30px */
+  --font-size-4xl: 2.25rem;     /* 36px */
+  --font-size-5xl: 3rem;        /* 48px */
+  --font-size-6xl: 3.75rem;     /* 60px */
+  
+  /* Font Weights */
+  --font-weight-light: 300;
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  
+  /* Line Heights */
+  --line-height-tight: 1.25;
+  --line-height-snug: 1.375;
+  --line-height-normal: 1.5;
+  --line-height-relaxed: 1.625;
+  --line-height-loose: 2;
+  
+  /* Letter Spacing */
+  --letter-spacing-tighter: -0.05em;
+  --letter-spacing-tight: -0.025em;
+  --letter-spacing-normal: 0;
+  --letter-spacing-wide: 0.025em;
+  --letter-spacing-wider: 0.05em;
+  --letter-spacing-widest: 0.1em;
+  
+  /* ============================================
+   * SPACING - Golden Ratio Based (φ = 1.618)
+   * ============================================ */
+  
+  --spacing-0: 0;
+  --spacing-1: 0.25rem;         /* 4px */
+  --spacing-2: 0.5rem;          /* 8px */
+  --spacing-3: 0.75rem;         /* 12px */
+  --spacing-4: 1rem;            /* 16px - base */
+  --spacing-5: 1.25rem;         /* 20px */
+  --spacing-6: 1.618rem;        /* ~26px - φ */
+  --spacing-8: 2rem;            /* 32px */
+  --spacing-10: 2.618rem;       /* ~42px - φ² */
+  --spacing-12: 3rem;           /* 48px */
+  --spacing-16: 4.236rem;       /* ~68px - φ³ */
+  --spacing-20: 5rem;           /* 80px */
+  --spacing-24: 6.854rem;       /* ~110px - φ⁴ */
+  --spacing-32: 8rem;           /* 128px */
+  
+  /* ============================================
+   * LAYOUT
+   * ============================================ */
+  
+  /* Container - Relative, no fixed max-width */
+  --container-padding-x: var(--spacing-4);
+  --container-padding-y: var(--spacing-6);
+  
+  /* Content width constraints (optional, use sparingly) */
+  --content-width-prose: 65ch;  /* Optimal reading width */
+  --content-width-narrow: 45ch;
+  --content-width-wide: 85ch;
+  
+  /* Grid */
+  --grid-gap: var(--spacing-6);
+  --grid-gap-sm: var(--spacing-4);
+  --grid-gap-lg: var(--spacing-10);
+  
+  /* ============================================
+   * BORDERS & RADIUS
+   * ============================================ */
+  
+  --border-width-thin: 1px;
+  --border-width-medium: 2px;
+  --border-width-thick: 4px;
+  
+  --border-color: var(--color-gray-300);
+  --border-color-light: var(--color-gray-200);
+  --border-color-dark: var(--color-gray-400);
+  
+  --radius-none: 0;
+  --radius-sm: 0.25rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 0.75rem;
+  --radius-xl: 1rem;
+  --radius-2xl: 1.5rem;
+  --radius-full: 9999px;
+  
+  /* ============================================
+   * SHADOWS
+   * ============================================ */
+  
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  --shadow-2xl: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  --shadow-inner: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06);
+  
+  /* ============================================
+   * TRANSITIONS
+   * ============================================ */
+  
+  --transition-fast: 150ms ease-in-out;
+  --transition-normal: 250ms ease-in-out;
+  --transition-slow: 350ms ease-in-out;
+  
+  /* ============================================
+   * Z-INDEX SCALE
+   * ============================================ */
+  
+  --z-behind: -1;
+  --z-base: 0;
+  --z-dropdown: 10;
+  --z-sticky: 20;
+  --z-fixed: 30;
+  --z-overlay: 40;
+  --z-modal: 50;
+  --z-popover: 60;
+  --z-tooltip: 70;
+  
+  /* ============================================
+   * COMPONENT TOKENS - Glossary
+   * ============================================ */
+  
+  --glossary-term-color: var(--color-primary);
+  --glossary-term-border: var(--color-primary-light);
+  --glossary-term-bg-hover: var(--color-accent-light);
+  --glossary-modal-bg: var(--color-white);
+  --glossary-modal-shadow: var(--shadow-xl);
+  
+  /* ============================================
+   * COMPONENT TOKENS - Topic Sections
+   * ============================================ */
+  
+  --topic-section-padding: var(--spacing-10);
+  --topic-section-gap: var(--spacing-6);
+  --topic-card-radius: var(--radius-lg);
+  --topic-card-shadow: var(--shadow-md);
+  --topic-card-border: var(--border-color-light);
+}
+
+/* ============================================
+ * DARK MODE (optional, prepared for future)
+ * ============================================ */
+
+[data-theme="dark"] {
+  --color-bg-primary: #1A1A1A;
+  --color-bg-secondary: #2C2C2C;
+  --color-bg-tertiary: #3D3D3D;
+  
+  --color-text-primary: #F5F5F5;
+  --color-text-secondary: #BDBDBD;
+  --color-text-muted: #9E9E9E;
+  
+  --border-color: var(--color-gray-700);
+  --border-color-light: var(--color-gray-800);
+  --border-color-dark: var(--color-gray-600);
+}
+
+/* ============================================
+ * RTL SUPPORT (Arabic, Hebrew, etc.)
+ * ============================================ */
+
+[dir="rtl"] {
+  /* Flip padding/margins if needed */
+  /* Most flexbox/grid layouts handle this automatically */
+}

@@ -1,0 +1,161 @@
+{
+  "meta": {
+    "title": "What are EGI - FlorenceEGI",
+    "description": "EGI (Eco Goods Invent) are digital certificates that combine art, blockchain and environmental impact in a single innovative solution.",
+    "keywords": "EGI, Eco Goods Invent, sustainable NFT, blockchain art, digital art, authenticity certificate, FlorenceEGI"
+  },
+
+  "hero": {
+    "badge": "Eco Goods Invent",
+    "title": "What are EGI?",
+    "subtitle": "Digital Certificates of the Ecological Renaissance",
+    "description": "EGI stands for Eco Goods Invent: digital certificates that combine aesthetic value, immutable blockchain record, and verifiable environmental contribution.",
+    "cta": {
+      "primary": "Explore EGI",
+      "secondary": "How it works"
+    }
+  },
+
+  "definition": {
+    "title": "EGI: Much More Than an NFT",
+    "intro": "EGI represents the natural evolution of NFTs, overcoming their limitations and adding concrete utility.",
+    "acronym": {
+      "title": "What does EGI mean?",
+      "e": {
+        "letter": "E",
+        "word": "Eco",
+        "meaning": "Positive environmental impact natively integrated"
+      },
+      "g": {
+        "letter": "G",
+        "word": "Goods",
+        "meaning": "Real-world goods, services and utilities"
+      },
+      "i": {
+        "letter": "I",
+        "word": "Invent",
+        "meaning": "Certified creative and technological innovation"
+      }
+    },
+    "summary": "An EGI is a digital asset that combines artistic value with real utilities and measurable environmental impact, all certified on blockchain."
+  },
+
+  "components": {
+    "title": "The Three Fundamental Components",
+    "subtitle": "Each EGI consists of three elements working in perfect synergy",
+    
+    "epp": {
+      "icon": "🌍",
+      "badge": "Environmental Protection Programs",
+      "title": "EPP - Environmental Protection Programs",
+      "shortTitle": "EPP",
+      "description": "Each EGI automatically allocates a share to verified environmental projects. It's not optional, it's part of every certificate's DNA.",
+      "features": [
+        "Automatic contribution on every transaction",
+        "Verified and traceable projects",
+        "Measurable and certified impact",
+        "Total transparency on blockchain"
+      ],
+      "cta": "Discover EPP projects"
+    },
+
+    "goods": {
+      "icon": "📦",
+      "badge": "Goods and Services",
+      "title": "GOODS - Tangible Value",
+      "shortTitle": "GOODS",
+      "description": "The GOODS component represents concrete value: it can be artwork, a service, a right, or any asset with real utility.",
+      "features": [
+        "Digital or physical artwork",
+        "Concrete services and utilities",
+        "Verifiable rights and licenses",
+        "Unique collectibles"
+      ],
+      "cta": "Explore collections"
+    },
+
+    "creativity": {
+      "icon": "💡",
+      "badge": "Creative Innovation",
+      "title": "INVENT - What Makes It Unique",
+      "shortTitle": "INVENT",
+      "description": "The INVENT component is what makes each EGI truly special: evolved smart contracts, dynamic utilities, and participatory governance mechanisms.",
+      "features": [
+        "Customizable smart contracts",
+        "Dynamic utilities over time",
+        "Participatory governance",
+        "Programmable evolution"
+      ],
+      "cta": "Discover innovations"
+    }
+  },
+
+  "functions": {
+    "title": "The 5 Revolutionary Functions",
+    "subtitle": "Each EGI carries unique capabilities that make it much more than a simple token",
+
+    "rebind": {
+      "icon": "🔗",
+      "title": "Rebind - Dynamic Linking",
+      "description": "The Rebind function allows linking a digital EGI to a physical asset in the real world, creating a bridge between digital and tangible."
+    },
+
+    "tokenization": {
+      "icon": "🪙",
+      "title": "Tokenization - Smart Fractionalization",
+      "description": "Tokenization allows dividing EGI ownership into shares, democratizing access to art and valuable assets."
+    },
+
+    "multirole": {
+      "icon": "👥",
+      "title": "Multirole - Multiple Roles",
+      "description": "The Multirole system allows defining different roles for each EGI: creator, co-creator, patron, collector, each with specific rights."
+    },
+
+    "interface": {
+      "icon": "🔌",
+      "title": "Interface - Interoperability",
+      "description": "EGIs are designed to be interoperable with other systems and platforms, thanks to open standards and documented APIs."
+    },
+
+    "signature": {
+      "icon": "✍️",
+      "title": "Signature - Digital Signature",
+      "description": "Each EGI carries the creator's cryptographic digital signature, ensuring irrefutable authenticity and attribution."
+    }
+  },
+
+  "advantages": {
+    "title": "Why Choose EGI",
+    "subtitle": "Advantages over traditional NFTs and digital certificates",
+    "items": [
+      {
+        "icon": "🌱",
+        "title": "Positive Environmental Impact",
+        "description": "Each EGI automatically contributes to environmental protection projects."
+      },
+      {
+        "icon": "✅",
+        "title": "Guaranteed Authenticity",
+        "description": "Immutable blockchain certification with creator's digital signature."
+      },
+      {
+        "icon": "📊",
+        "title": "Total Transparency",
+        "description": "Every transaction, royalty and contribution is traceable on blockchain."
+      },
+      {
+        "icon": "⚖️",
+        "title": "Regulatory Compliance",
+        "description": "Designed to comply with MiCA, GDPR and international regulations."
+      }
+    ]
+  },
+
+  "cta": {
+    "title": "Start Your Digital Renaissance Journey",
+    "description": "Discover how EGI can transform the way you create, collect and contribute to the environment.",
+    "primary": "Explore Collections",
+    "secondary": "Become a Creator"
+  }
+}

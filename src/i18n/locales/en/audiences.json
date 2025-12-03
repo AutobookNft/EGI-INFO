@@ -1,0 +1,189 @@
+{
+  "artists": {
+    "hero": {
+      "badge": "🎨",
+      "title": "Are you an",
+      "titleHighlight": "Artist",
+      "titleEnd": "?",
+      "description": "FlorenceEGI is your ally to certify, protect and enhance your works in the digital world."
+    },
+    "cta": {
+      "primary": "Discover the benefits",
+      "secondary": "What are EGIs?"
+    },
+    "benefits": {
+      "sectionTitle": "Why choose FlorenceEGI",
+      "cards": {
+        "protection": {
+          "icon": "🛡️",
+          "title": "Work Protection",
+          "description": "Every creation is certified on {{blockchain}} with verifiable {{coa}}."
+        },
+        "royalties": {
+          "icon": "💰",
+          "title": "Automatic Royalties",
+          "description": "{{royalty}} on every resale, plus the legal {{diritto}}."
+        },
+        "rights": {
+          "icon": "📜",
+          "title": "Guaranteed Rights",
+          "description": "Always keep your {{morali}} and {{patrimoniali}}."
+        },
+        "environment": {
+          "icon": "🌱",
+          "title": "Environmental Impact",
+          "description": "Every work contributes to {{epp}} for sustainability."
+        },
+        "ai": {
+          "icon": "🤖",
+          "title": "AI Assistant",
+          "description": "{{natan}} helps you with SEO descriptions, valuations and promotion."
+        },
+        "drops": {
+          "icon": "🏆",
+          "title": "Quarterly Drops",
+          "description": "Participate in {{drops}} and {{serata}}."
+        }
+      }
+    },
+    "finalCta": {
+      "title": "Start your journey",
+      "description": "Join the community of artists who have chosen FlorenceEGI for their Digital Renaissance.",
+      "primary": "Register as Creator",
+      "secondary": "Explore documentation"
+    }
+  },
+  "entrepreneurs": {
+    "hero": {
+      "badge": "💼",
+      "title": "Are you an",
+      "titleHighlight": "Entrepreneur",
+      "titleEnd": "?",
+      "description": "FlorenceEGI offers innovative solutions for your company: certifications, commercial tokens and blockchain services."
+    },
+    "cta": {
+      "primary": "Discover solutions",
+      "secondary": "The platform"
+    },
+    "solutions": {
+      "sectionTitle": "Solutions for your Business",
+      "cards": {
+        "certification": {
+          "icon": "📊",
+          "title": "Product Certification",
+          "description": "Certify the authenticity of your products on {{blockchain}} with verifiable {{qrnfc}}."
+        },
+        "tokens": {
+          "icon": "🎫",
+          "title": "Commercial Tokens",
+          "description": "Create utility tokens for customer loyalty, premium service access, dynamic discounts."
+        },
+        "notarization": {
+          "icon": "📝",
+          "title": "Document Notarization",
+          "description": "{{natan}} offers blockchain notarization for contracts, invoices, legal documents."
+        },
+        "compliance": {
+          "icon": "✅",
+          "title": "Guaranteed Compliance",
+          "description": "Full {{gdpr}} and {{mica}} compliance by-design."
+        }
+      }
+    },
+    "finalCta": {
+      "title": "Contact us for a demo",
+      "description": "Discover how FlorenceEGI can transform your business.",
+      "primary": "Request information"
+    }
+  },
+  "publicAdmin": {
+    "hero": {
+      "badge": "🏛️",
+      "title": "Public",
+      "titleHighlight": "Administration",
+      "description": "Solutions for cultural heritage digitization, act notarization and administrative transparency."
+    },
+    "cta": {
+      "primary": "Services for PA",
+      "secondary": "Technical documentation"
+    },
+    "services": {
+      "sectionTitle": "Services for Public Entities",
+      "cards": {
+        "heritage": {
+          "icon": "🏺",
+          "title": "Cultural Heritage",
+          "description": "Digitization and certification of artistic and cultural heritage on {{blockchain}}."
+        },
+        "notarization": {
+          "icon": "📋",
+          "title": "Act Notarization",
+          "description": "Immutable {{auditTrail}} for administrative acts, resolutions, determinations."
+        },
+        "transparency": {
+          "icon": "🔍",
+          "title": "Transparency",
+          "description": "Complete traceability compliant with {{gdpr}} using {{ulm}}."
+        }
+      }
+    },
+    "finalCta": {
+      "title": "Let's talk about your project",
+      "description": "Contact us for a free consultation on PA solutions.",
+      "primary": "Contact PA team"
+    }
+  },
+  "collectors": {
+    "hero": {
+      "badge": "🖼️",
+      "title": "Are you a",
+      "titleHighlight": "Collector",
+      "titleEnd": "?",
+      "description": "Purchase certified works, become a guardian of value and participate in the Digital Renaissance."
+    },
+    "cta": {
+      "primary": "Benefits for you",
+      "secondary": "Co-Creation"
+    },
+    "benefits": {
+      "sectionTitle": "Why collect EGI",
+      "cards": {
+        "authenticity": {
+          "icon": "✨",
+          "title": "Guaranteed Authenticity",
+          "description": "Every work has a verifiable {{coa}} on {{blockchain}}."
+        },
+        "coCreation": {
+          "icon": "🤝",
+          "title": "Become Co-Creator",
+          "description": "As {{coCreator}}, your name is forever linked to the work."
+        },
+        "impact": {
+          "icon": "🌍",
+          "title": "Positive Impact",
+          "description": "Every purchase contributes to environmental {{epp}} projects."
+        },
+        "security": {
+          "icon": "🔐",
+          "title": "Secure Wallet",
+          "description": "{{nonCustodial}} with {{encryption}}."
+        },
+        "tokens": {
+          "icon": "💎",
+          "title": "Equilibrium Token",
+          "description": "Earn {{equilibrium}} and {{egili}} for your activities."
+        },
+        "value": {
+          "icon": "📈",
+          "title": "Value Over Time",
+          "description": "Certified provenance increases the value of works in the secondary market."
+        }
+      }
+    },
+    "finalCta": {
+      "title": "Start collecting",
+      "description": "Explore available collections and find the work for you.",
+      "primary": "Explore collections"
+    }
+  }
+}

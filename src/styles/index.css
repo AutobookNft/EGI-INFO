@@ -1,0 +1,17 @@
+/**
+ * EGI-INFO Styles Entry Point
+ * Import all base styles, themes, and component styles
+ */
+
+/* Base styles (order matters) */
+@import './base/reset.css';
+@import './base/variables.css';
+@import './base/typography.css';
+@import './base/layout.css';
+
+/* Component styles */
+@import './components/topic-section.css';
+@import './components/glossary.css';
+
+/* Themes */
+@import './themes/renaissance.css';

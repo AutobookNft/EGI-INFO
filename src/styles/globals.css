@@ -1,0 +1,597 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,500;1,600&family=Inter:wght@300;400;500;600;700&display=swap');
+
+/* Component Styles */
+@import "./components/florence.css";
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   GOLDEN RATIO DESIGN SYSTEM
+   φ = 1.618033988749895
+   
+   Scale basata su sezione aurea:
+   Base: 1rem (16px)
+   φ^-3 = 0.236 → 3.78px  → --space-3xs
+   φ^-2 = 0.382 → 6.11px  → --space-2xs  
+   φ^-1 = 0.618 → 9.89px  → --space-xs
+   φ^0  = 1.000 → 16px    → --space-sm
+   φ^1  = 1.618 → 25.89px → --space-md
+   φ^2  = 2.618 → 41.89px → --space-lg
+   φ^3  = 4.236 → 67.78px → --space-xl
+   φ^4  = 6.854 → 109.7px → --space-2xl
+   φ^5  = 11.09 → 177.4px → --space-3xl
+═══════════════════════════════════════════════════════════════════════════ */
+
+@theme {
+  /* Golden Ratio */
+  --phi: 1.618033988749895;
+  
+  /* Colors - FlorenceEGI Palette */
+  --color-gold: #D4AF37;
+  --color-gold-light: #F4E4BC;
+  --color-gold-dark: #B8860B;
+  --color-dark: #0A0A0F;
+  --color-dark-section: #0D0D14;
+  --color-dark-card: #12121A;
+  --color-dark-elevated: #1A1A24;
+  --color-text-primary: #FFFFFF;
+  --color-text-secondary: #C0C0D0;
+  --color-text-muted: #808090;
+  --color-text-subtle: #606070;
+  --color-border-subtle: rgba(212, 175, 55, 0.15);
+  --color-border-active: rgba(212, 175, 55, 0.4);
+  --color-verde-rinascimento: #2E8B57;
+  --color-blu-medici: #1E3A5F;
+  
+  /* Typography - Golden Ratio Scale */
+  --font-serif: 'Playfair Display', Georgia, serif;
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  
+  /* Spacing - Golden Ratio */
+  --space-3xs: 0.236rem;
+  --space-2xs: 0.382rem;
+  --space-xs: 0.618rem;
+  --space-sm: 1rem;
+  --space-md: 1.618rem;
+  --space-lg: 2.618rem;
+  --space-xl: 4.236rem;
+  --space-2xl: 6.854rem;
+  --space-3xl: 11.09rem;
+  
+  /* Font Sizes - Golden Ratio */
+  --text-xs: 0.618rem;
+  --text-sm: 0.764rem;
+  --text-base: 1rem;
+  --text-lg: 1.236rem;
+  --text-xl: 1.618rem;
+  --text-2xl: 2.618rem;
+  --text-3xl: 4.236rem;
+  --text-4xl: 6.854rem;
+  --text-hero: clamp(4rem, 12vw, 8rem);
+  
+  /* Border Radius - Golden Ratio */
+  --radius-sm: 0.382rem;
+  --radius-md: 0.618rem;
+  --radius-lg: 1rem;
+  --radius-xl: 1.618rem;
+  --radius-2xl: 2.618rem;
+  
+  /* Animations */
+  --ease-golden: cubic-bezier(0.618, 0, 0.382, 1);
+  --duration-fast: 150ms;
+  --duration-normal: 300ms;
+  --duration-slow: 500ms;
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   BASE RESET & DEFAULTS
+═══════════════════════════════════════════════════════════════════════════ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: calc(var(--space-xl) + var(--space-md));
+  font-size: 16px;
+}
+
+body {
+  font-family: var(--font-sans);
+  background: var(--color-dark);
+  color: var(--color-text-primary);
+  line-height: var(--phi);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   ACCESSIBILITY - Focus Styles (WCAG 2.1)
+   Si attivano SOLO con navigazione tastiera (Tab), non con mouse click
+═══════════════════════════════════════════════════════════════════════════ */
+
+/* Focus visibile solo con tastiera */
+:focus-visible {
+  outline: 2px solid var(--color-gold);
+  outline-offset: 2px;
+  border-radius: var(--radius-sm);
+}
+
+/* Rimuove outline di default per click mouse */
+:focus:not(:focus-visible) {
+  outline: none;
+}
+
+/* Bottoni e link interattivi */
+a:focus-visible,
+button:focus-visible,
+[role="button"]:focus-visible {
+  outline: 2px solid var(--color-gold);
+  outline-offset: 3px;
+  box-shadow: 0 0 0 4px rgba(212, 175, 55, 0.2);
+}
+
+/* Input e form elements */
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible {
+  outline: 2px solid var(--color-gold);
+  outline-offset: 0;
+  border-color: var(--color-gold);
+  box-shadow: 0 0 0 3px rgba(212, 175, 55, 0.15);
+}
+
+/* Card e elementi cliccabili */
+[tabindex]:focus-visible:not(input):not(textarea):not(select) {
+  outline: 2px solid var(--color-gold);
+  outline-offset: 4px;
+}
+
+/* Skip link per screen reader */
+.skip-link {
+  position: absolute;
+  top: -100%;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: var(--space-sm) var(--space-md);
+  background: var(--color-gold);
+  color: var(--color-dark);
+  font-weight: 600;
+  border-radius: var(--radius-md);
+  z-index: 9999;
+  transition: top var(--duration-fast) var(--ease-golden);
+}
+
+.skip-link:focus {
+  top: var(--space-sm);
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   TYPOGRAPHY - Golden Ratio Scale
+═══════════════════════════════════════════════════════════════════════════ */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-serif);
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+}
+
+.heading-hero {
+  font-size: var(--text-hero);
+  font-weight: 900;
+  line-height: 1;
+}
+
+.heading-1 {
+  font-size: clamp(2rem, 5vw, var(--text-3xl));
+  margin-bottom: var(--space-md);
+}
+
+.heading-2 {
+  font-size: clamp(1.5rem, 4vw, var(--text-2xl));
+  margin-bottom: var(--space-sm);
+}
+
+.heading-3 {
+  font-size: var(--text-xl);
+  margin-bottom: var(--space-xs);
+}
+
+.text-body {
+  font-size: var(--text-base);
+  line-height: var(--phi);
+  color: var(--color-text-secondary);
+}
+
+.text-body-large {
+  font-size: var(--text-lg);
+  line-height: var(--phi);
+  color: var(--color-text-secondary);
+}
+
+.text-muted {
+  color: var(--color-text-muted);
+}
+
+.text-gold {
+  background: linear-gradient(135deg, var(--color-gold), var(--color-gold-light), var(--color-gold));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.text-gold-solid {
+  color: var(--color-gold);
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   LAYOUT CONTAINERS - Golden Ratio Proportions
+═══════════════════════════════════════════════════════════════════════════ */
+.container {
+  width: 100%;
+  max-width: 1200px; /* ~φ × 740px */
+  margin: 0 auto;
+  padding-inline: var(--space-md);
+}
+
+.container--narrow {
+  max-width: 800px; /* ~φ × 494px */
+}
+
+.container--wide {
+  max-width: 1440px;
+}
+
+/* Section spacing basato su φ */
+.section {
+  padding-block: var(--space-2xl);
+}
+
+.section--hero {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: var(--space-xl) var(--space-md) var(--space-lg);
+  position: relative;
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   GRIDS - Golden Ratio
+═══════════════════════════════════════════════════════════════════════════ */
+.grid-golden {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-md);
+}
+
+@media (min-width: 768px) {
+  .grid-golden {
+    /* 61.8% / 38.2% - Golden Ratio Split */
+    grid-template-columns: 1.618fr 1fr;
+  }
+  
+  .grid-golden--reverse {
+    grid-template-columns: 1fr 1.618fr;
+  }
+}
+
+.grid-thirds {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: var(--space-md);
+}
+
+.grid-halves {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: var(--space-md);
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   BADGES
+═══════════════════════════════════════════════════════════════════════════ */
+.badge {
+  display: inline-block;
+  padding: var(--space-2xs) var(--space-sm);
+  font-size: var(--text-sm);
+  font-weight: 600;
+  border-radius: var(--radius-2xl);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.badge--gold {
+  background: rgba(212, 175, 55, 0.15);
+  color: var(--color-gold);
+}
+
+.badge--green {
+  background: rgba(34, 197, 94, 0.15);
+  color: #22c55e;
+}
+
+.badge--blue {
+  background: rgba(59, 130, 246, 0.15);
+  color: #3b82f6;
+}
+
+.badge--purple {
+  background: rgba(168, 85, 247, 0.15);
+  color: #a855f7;
+}
+
+.badge--orange {
+  background: rgba(249, 115, 22, 0.15);
+  color: #f97316;
+}
+
+.badge--cyan {
+  background: rgba(6, 182, 212, 0.15);
+  color: #06b6d4;
+}
+
+.badge--emerald {
+  background: rgba(16, 185, 129, 0.15);
+  color: #10b981;
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   CARDS - Golden Ratio Design
+═══════════════════════════════════════════════════════════════════════════ */
+.card {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: var(--radius-xl);
+  padding: var(--space-lg);
+  transition: all var(--duration-normal) var(--ease-golden);
+}
+
+.card:hover {
+  background: rgba(212, 175, 55, 0.05);
+  border-color: var(--color-border-subtle);
+  transform: translateY(calc(-1 * var(--space-2xs)));
+}
+
+.card--gold {
+  background: rgba(212, 175, 55, 0.05);
+  border-color: var(--color-border-subtle);
+}
+
+.card--gold:hover {
+  background: rgba(212, 175, 55, 0.1);
+  border-color: var(--color-border-active);
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   BUTTONS - Golden Ratio Proportions
+═══════════════════════════════════════════════════════════════════════════ */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-xs);
+  padding: var(--space-sm) var(--space-lg);
+  font-size: var(--text-base);
+  font-weight: 600;
+  border-radius: var(--radius-lg);
+  text-decoration: none;
+  cursor: pointer;
+  transition: all var(--duration-normal) var(--ease-golden);
+  border: none;
+}
+
+.btn--primary {
+  background: linear-gradient(135deg, var(--color-gold), var(--color-gold-dark));
+  color: var(--color-dark);
+}
+
+.btn--primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 var(--space-xs) var(--space-lg) rgba(212, 175, 55, 0.3);
+}
+
+.btn--secondary {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: var(--color-text-primary);
+}
+
+.btn--secondary:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.btn--outline-gold {
+  background: transparent;
+  border: 1px solid var(--color-gold);
+  color: var(--color-gold);
+}
+
+.btn--outline-gold:hover {
+  background: var(--color-gold);
+  color: var(--color-dark);
+}
+
+.btn--large {
+  padding: var(--space-md) var(--space-xl);
+  font-size: var(--text-lg);
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   GLOSSARY STYLES
+═══════════════════════════════════════════════════════════════════════════ */
+.glossary-link {
+  color: var(--color-gold);
+  font-weight: 600;
+  text-decoration: underline;
+  text-decoration-color: rgba(212, 175, 55, 0.4);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+  cursor: pointer;
+  transition: all var(--duration-normal) var(--ease-golden);
+  background: none;
+  border: none;
+  padding: 0;
+  font-size: inherit;
+  font-family: inherit;
+}
+
+.glossary-link:hover {
+  color: var(--color-gold-light);
+  text-decoration-color: var(--color-gold);
+  text-shadow: 0 0 var(--space-xs) rgba(212, 175, 55, 0.3);
+}
+
+.glossary-highlight {
+  animation: highlightTerm 2s var(--ease-golden);
+}
+
+.source-highlight {
+  animation: sourceHighlight 1.5s var(--ease-golden);
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   BACKGROUNDS
+═══════════════════════════════════════════════════════════════════════════ */
+.bg-dark { background: var(--color-dark); }
+.bg-section { background: var(--color-dark-section); }
+.bg-card { background: var(--color-dark-card); }
+
+.bg-gradient-hero {
+  background: 
+    radial-gradient(ellipse at center top, rgba(212, 175, 55, 0.08) 0%, transparent 50%),
+    linear-gradient(180deg, var(--color-dark) 0%, var(--color-dark-section) 100%);
+}
+
+.bg-gradient-section {
+  background: linear-gradient(180deg, var(--color-dark-section) 0%, var(--color-dark) 100%);
+}
+
+.bg-gradient-gold {
+  background: linear-gradient(135deg, rgba(212, 175, 55, 0.1) 0%, transparent 50%);
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   ANIMATIONS - Golden Ratio Timing
+═══════════════════════════════════════════════════════════════════════════ */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(var(--space-sm));
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(var(--space-md));
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes highlightTerm {
+  0% {
+    background-color: rgba(212, 175, 55, 0.3);
+    transform: scale(1.02);
+  }
+  50% {
+    background-color: rgba(212, 175, 55, 0.15);
+  }
+  100% {
+    background-color: transparent;
+    transform: scale(1);
+  }
+}
+
+@keyframes sourceHighlight {
+  0% {
+    box-shadow: 0 0 0 4px rgba(212, 175, 55, 0.4);
+  }
+  100% {
+    box-shadow: 0 0 0 0px rgba(212, 175, 55, 0);
+  }
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(var(--space-xs)); }
+}
+
+.animate-fade-in {
+  animation: fadeIn var(--duration-slow) var(--ease-golden);
+}
+
+.animate-slide-up {
+  animation: slideUp var(--duration-slow) var(--ease-golden);
+}
+
+.animate-bounce {
+  animation: bounce 2s infinite;
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   SCROLLBAR
+═══════════════════════════════════════════════════════════════════════════ */
+::-webkit-scrollbar {
+  width: var(--space-xs);
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-dark-card);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-gold);
+  border-radius: var(--radius-sm);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-gold-light);
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   FOCUS & SELECTION
+═══════════════════════════════════════════════════════════════════════════ */
+:focus-visible {
+  outline: 2px solid var(--color-gold);
+  outline-offset: 2px;
+}
+
+::selection {
+  background-color: rgba(212, 175, 55, 0.3);
+  color: var(--color-text-primary);
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   RESPONSIVE - Golden Ratio Breakpoints
+   φ × 480 = 776 ≈ 768px (tablet)
+   φ × 768 = 1242 ≈ 1280px (desktop)
+═══════════════════════════════════════════════════════════════════════════ */
+@media (max-width: 768px) {
+  :root {
+    font-size: 15px;
+  }
+  
+  .section {
+    padding-block: var(--space-xl);
+  }
+  
+  .section--hero {
+    padding: var(--space-lg) var(--space-sm) var(--space-md);
+  }
+  
+  .container {
+    padding-inline: var(--space-sm);
+  }
+}

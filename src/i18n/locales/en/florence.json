@@ -1,0 +1,95 @@
+{
+  "meta": {
+    "title": "FlorenceEGI - The Digital Renaissance Platform",
+    "description": "FlorenceEGI: the platform that unites art, blockchain and sustainability. Discover how to create, trade and manage EGI digital certificates.",
+    "keywords": "FlorenceEGI, platform, blockchain, digital art, sustainable NFT, Algorand, AMMk, marketplace"
+  },
+
+  "hero": {
+    "badge": "The Platform",
+    "title": "FlorenceEGI",
+    "subtitle": "The Digital Renaissance Starts Here",
+    "description": "A complete platform to create, trade and manage EGI digital certificates with integrated environmental impact.",
+    "cta": {
+      "primary": "Start Now",
+      "secondary": "Discover How It Works"
+    }
+  },
+
+  "intro": {
+    "title": "What is FlorenceEGI?",
+    "concept": "FlorenceEGI is the platform that enables the Digital Renaissance: an ecosystem where art, technology and sustainability meet to create shared value."
+  },
+
+  "problems": {
+    "title": "The Problems We Solve",
+    "subtitle": "Before FlorenceEGI vs With FlorenceEGI",
+
+    "items": [
+      {
+        "id": "authenticity",
+        "title": "Authenticity",
+        "before": "Widespread counterfeiting, falsifiable paper certificates, uncertain provenance",
+        "after": "Cryptographic digital signature, immutable provenance on blockchain, instant verification"
+      },
+      {
+        "id": "royalties",
+        "title": "Artist Royalties",
+        "before": "Artist earns only on first sale, no benefit from resales",
+        "after": "Automatic royalties on every resale, percentages defined in smart contract"
+      },
+      {
+        "id": "environment",
+        "title": "Environmental Impact",
+        "before": "Energy-hungry blockchains, no environmental contribution, greenwashing",
+        "after": "Algorand carbon-negative, integrated EPP, measurable impact"
+      }
+    ]
+  },
+
+  "ammk": {
+    "title": "The 5 Ecosystem Engines",
+    "subtitle": "The AMMk architecture powering FlorenceEGI",
+
+    "engines": {
+      "creation": {
+        "icon": "🎨",
+        "title": "Creation Engine",
+        "description": "The creation engine: upload, minting, traits configuration and smart contracts."
+      },
+      "market": {
+        "icon": "🏪",
+        "title": "Market Engine",
+        "description": "The integrated marketplace: listing, offers, auctions and direct sales."
+      },
+      "distribution": {
+        "icon": "💸",
+        "title": "Distribution Engine",
+        "description": "Automatic distribution: royalties, EPP and split payments."
+      },
+      "governance": {
+        "icon": "🗳️",
+        "title": "Governance Engine",
+        "description": "Participatory governance: voting, proposals and collective decisions."
+      },
+      "analytics": {
+        "icon": "📊",
+        "title": "Analytics Engine",
+        "description": "Data analysis: dashboards, reports and insights."
+      }
+    }
+  },
+
+  "natan": {
+    "title": "NATAN - Your AI Assistant",
+    "subtitle": "Artificial Intelligence at your service",
+    "description": "NATAN (Navigational AI Technical Assistant Navigator) is the intelligent assistant that guides you through the FlorenceEGI ecosystem."
+  },
+
+  "cta": {
+    "title": "Ready for the Digital Renaissance?",
+    "description": "Join thousands of creators and collectors already building the future of sustainable digital art.",
+    "primary": "Create Your Account",
+    "secondary": "Explore Collections"
+  }
+}

@@ -1,0 +1,227 @@
+{
+  "nav": {
+    "home": "Home",
+    "egi": "Cosa sono gli EGI",
+    "epp": "Progetti EPP",
+    "platform": "La Piattaforma",
+    "coCreate": "Co-Creazione",
+    "disclaimer": "Disclaimer",
+    "whyCannotBuy": "FAQ Acquisto",
+    "sourceTruth": "Documentazione"
+  },
+  "approfondimenti": {
+    "title": "Approfondimenti",
+    "subtitle": "Esplora ogni aspetto dell'ecosistema FlorenceEGI. Dalla tecnologia blockchain ai progetti ambientali, dalla governance alla compliance.",
+    "sections": {
+      "egi": {
+        "title": "Cosa sono gli EGI",
+        "description": "Eco Goods Invent: certificati digitali che uniscono arte, blockchain e impatto ambientale."
+      },
+      "epp": {
+        "title": "Progetti Ambientali (EPP)",
+        "description": "Environmental Protection Projects: come ogni EGI contribuisce alla sostenibilità."
+      },
+      "florenceEgi": {
+        "title": "FlorenceEGI Platform",
+        "description": "La piattaforma, l'architettura e i servizi che rendono possibile l'ecosistema."
+      },
+      "coCreate": {
+        "title": "Ecosistema Co-Creativo",
+        "description": "Il principio di co-creazione: artista, mecenate e collezionista insieme."
+      },
+      "disclaimer": {
+        "title": "Disclaimer Legale",
+        "description": "Informazioni legali, compliance MiCA e GDPR, limitazioni di responsabilità."
+      },
+      "whyCannotBuy": {
+        "title": "Perché non posso acquistare?",
+        "description": "Risposte alle domande frequenti sui requisiti per partecipare all'ecosistema."
+      },
+      "sourceTruth": {
+        "title": "Fonte di Verità",
+        "description": "Documentazione tecnica completa: architettura, glossario, specifiche."
+      }
+    },
+    "discoverMore": "Scopri di più",
+    "bottomCta": {
+      "title": "Non sai da dove iniziare?",
+      "description": "Scopri quale percorso è più adatto a te in base al tuo profilo.",
+      "artistCta": "🎨 Sono un Artista",
+      "entrepreneurCta": "💼 Sono un Imprenditore"
+    }
+  },
+  "egi": {
+    "badge": "Eco Goods Invent",
+    "title": "Cosa sono gli EGI?",
+    "subtitle": "Certificati digitali che uniscono valore estetico, traccia {{blockchain}} immutabile e contributo ambientale tramite {{epp}}.",
+    "beyondNft": {
+      "title": "Oltre gli NFT tradizionali",
+      "description": "Gli {{egi}} non sono semplici NFT. Sono asset digitali evoluti che portano utilità concreta, certificazione verificabile e impatto ambientale misurabile nel mondo reale.",
+      "cards": {
+        "aesthetic": {
+          "icon": "🎨",
+          "title": "Valore Estetico",
+          "description": "Bellezza e significato culturale certificati su blockchain."
+        },
+        "digital": {
+          "icon": "⛓️",
+          "title": "Traccia Digitale",
+          "description": "Immutabile su {{algorand}}, blockchain {{carbonNegative}}."
+        },
+        "environmental": {
+          "icon": "🌱",
+          "title": "Impatto Ambientale",
+          "description": "Contributo verificabile tramite {{epp}}."
+        }
+      }
+    },
+    "threeComponents": {
+      "title": "Le Tre Componenti",
+      "description": "Ogni EGI è composto da tre elementi fondamentali che lavorano in sinergia:",
+      "epp": {
+        "icon": "🌍",
+        "title": "EPP - Environment Protection Programs",
+        "description": "Progetti ambientali verificati integrati nativamente. Ogni transazione destina automaticamente una quota a questi progetti."
+      },
+      "goods": {
+        "icon": "📦",
+        "title": "GOODS - Beni e Servizi",
+        "description": "Asset digitali che rappresentano beni, servizi, utility o diritti nel mondo reale."
+      },
+      "invent": {
+        "icon": "💡",
+        "title": "INVENT - Innovazione",
+        "description": "La componente innovativa che rende ogni EGI unico: {{smartContract}}, utilità dinamiche, governance partecipativa."
+      }
+    },
+    "relatedTerms": "Termini correlati"
+  },
+  "epp": {
+    "badge": "Environmental Protection Projects",
+    "title": "Progetti Ambientali EPP",
+    "subtitle": "Come ogni EGI contribuisce concretamente alla sostenibilità ambientale.",
+    "intro": {
+      "title": "Il Cuore Verde di FlorenceEGI",
+      "description": "Gli EPP rappresentano l'impegno concreto della piattaforma verso la sostenibilità. Ogni transazione, ogni minting, ogni vendita contribuisce automaticamente ai progetti ambientali verificati."
+    },
+    "howItWorks": {
+      "title": "Come Funziona",
+      "steps": {
+        "automatic": {
+          "icon": "🔄",
+          "title": "Contributo Automatico",
+          "description": "Una percentuale di ogni transazione viene automaticamente destinata agli EPP."
+        },
+        "verified": {
+          "icon": "✅",
+          "title": "Progetti Verificati",
+          "description": "Solo progetti con impatto misurabile e verificabile vengono selezionati."
+        },
+        "transparent": {
+          "icon": "📊",
+          "title": "Tracciabilità",
+          "description": "Ogni contributo è registrato su blockchain per massima trasparenza."
+        }
+      }
+    },
+    "relatedTerms": "Termini correlati"
+  },
+  "florenceEgi": {
+    "badge": "Platform Overview",
+    "title": "La Piattaforma FlorenceEGI",
+    "subtitle": "L'architettura tecnica e i servizi che rendono possibile il Rinascimento Digitale.",
+    "architecture": {
+      "title": "Architettura",
+      "description": "FlorenceEGI è costruita su Algorand, una blockchain {{carbonNegative}} e altamente scalabile."
+    },
+    "relatedTerms": "Termini correlati"
+  },
+  "coCreate": {
+    "badge": "Co-Creazione",
+    "title": "Ecosistema Co-Creativo",
+    "subtitle": "Il principio fondante di FlorenceEGI: artista, mecenate e collezionista crescono insieme.",
+    "philosophy": {
+      "title": "La Filosofia",
+      "description": "In FlorenceEGI non esiste un semplice acquirente. Chi possiede un EGI diventa {{coCreator}}, parte integrante della storia dell'opera."
+    },
+    "roles": {
+      "title": "I Ruoli",
+      "artist": {
+        "icon": "🎨",
+        "title": "Artista (Creator)",
+        "description": "Crea l'opera, definisce le royalty, mantiene i diritti morali."
+      },
+      "patron": {
+        "icon": "🤝",
+        "title": "Mecenate (Patron)",
+        "description": "Supporta l'artista, finanzia la creazione, diventa co-creatore."
+      },
+      "collector": {
+        "icon": "🖼️",
+        "title": "Collezionista",
+        "description": "Custodisce l'opera, partecipa al valore, entra nella storia."
+      }
+    },
+    "relatedTerms": "Termini correlati"
+  },
+  "disclaimer": {
+    "badge": "Informazioni Legali",
+    "title": "Disclaimer",
+    "subtitle": "Informazioni legali importanti sull'utilizzo della piattaforma FlorenceEGI.",
+    "sections": {
+      "nature": {
+        "title": "Natura degli EGI",
+        "description": "Gli EGI sono certificati digitali che attestano proprietà e autenticità. Non sono strumenti finanziari e non devono essere considerati investimenti."
+      },
+      "compliance": {
+        "title": "Compliance Normativa",
+        "description": "FlorenceEGI opera in conformità al regolamento {{mica}} e al {{gdpr}}."
+      },
+      "risks": {
+        "title": "Avvertenze sui Rischi",
+        "description": "Il valore degli asset digitali può fluttuare. Si raccomanda di acquistare solo ciò che si è disposti a perdere."
+      }
+    },
+    "relatedTerms": "Termini correlati"
+  },
+  "whyCannotBuy": {
+    "badge": "FAQ",
+    "title": "Perché non posso acquistare?",
+    "subtitle": "Risposte alle domande più frequenti sui requisiti di partecipazione.",
+    "reasons": {
+      "kyc": {
+        "title": "Verifica Identità (KYC)",
+        "description": "Per acquistare è necessario completare la verifica dell'identità. Questo è un requisito legale per la compliance AML."
+      },
+      "wallet": {
+        "title": "Wallet Non Configurato",
+        "description": "Devi creare e configurare il tuo {{wallet}} per poter effettuare transazioni."
+      },
+      "region": {
+        "title": "Restrizioni Geografiche",
+        "description": "Alcuni servizi potrebbero non essere disponibili in tutte le giurisdizioni."
+      }
+    },
+    "relatedTerms": "Termini correlati"
+  },
+  "sourceTruth": {
+    "badge": "Documentazione Tecnica",
+    "title": "Fonte di Verità",
+    "subtitle": "La documentazione tecnica completa dell'ecosistema FlorenceEGI.",
+    "sections": {
+      "architecture": {
+        "title": "Architettura",
+        "description": "Diagrammi, specifiche e documentazione dell'architettura di sistema."
+      },
+      "glossary": {
+        "title": "Glossario Completo",
+        "description": "Tutti i termini tecnici spiegati in modo chiaro e accessibile."
+      },
+      "api": {
+        "title": "API Reference",
+        "description": "Documentazione delle API per sviluppatori e integrazioni."
+      }
+    },
+    "relatedTerms": "Termini correlati"
+  }
+}

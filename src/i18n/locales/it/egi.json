@@ -1,0 +1,515 @@
+{
+  "meta": {
+    "title": "Cosa sono gli EGI - FlorenceEGI",
+    "description": "Gli EGI (Eco Goods Invent) sono certificati digitali che uniscono arte, blockchain e impatto ambientale in un'unica soluzione innovativa.",
+    "keywords": "EGI, Eco Goods Invent, NFT sostenibile, blockchain art, arte digitale, certificato autenticità, FlorenceEGI"
+  },
+
+  "hero": {
+    "badge": "Eco Goods Invent",
+    "title": "Cosa sono gli EGI?",
+    "subtitle": "I Certificati Digitali del Rinascimento Ecologico",
+    "description": "EGI significa Eco Goods Invent: certificati digitali che uniscono valore estetico, traccia blockchain immutabile e contributo ambientale verificabile.",
+    "cta": {
+      "primary": "Esplora gli EGI",
+      "secondary": "Come funzionano"
+    }
+  },
+
+  "definition": {
+    "title": "L'EGI: Molto più di un NFT",
+    "intro": "Gli EGI rappresentano l'evoluzione naturale degli NFT, superandone i limiti e aggiungendo utilità concreta.",
+    "acronym": {
+      "title": "Cosa significa EGI?",
+      "e": {
+        "letter": "E",
+        "word": "Eco",
+        "meaning": "Impatto ambientale positivo integrato nativamente"
+      },
+      "g": {
+        "letter": "G",
+        "word": "Goods",
+        "meaning": "Beni, servizi e utilità concrete nel mondo reale"
+      },
+      "i": {
+        "letter": "I",
+        "word": "Invent",
+        "meaning": "Innovazione creativa e tecnologica certificata"
+      }
+    },
+    "summary": "Un EGI è un asset digitale che combina il valore artistico con utilità reali e impatto ambientale misurabile, tutto certificato su blockchain."
+  },
+
+  "components": {
+    "title": "I Componenti Tecnici dell'EGI",
+    "subtitle": "Ogni EGI è costruito su una base tecnologica solida e verificabile",
+    "ariaLabel": "Componenti tecnici dell'EGI",
+    "schemaName": "Componenti Tecnici EGI",
+    "schemaDescription": "I cinque componenti fondamentali che costituiscono ogni EGI: certificato digitale, registro blockchain, smart contract, layer metadati, protocollo verifica",
+    "listLabel": "Lista componenti EGI",
+    
+    "intro": {
+      "part1": "Ogni",
+      "part2": "è costruito su una architettura modulare che sfrutta la",
+      "part3": "per garantire immutabilità, trasparenza e verificabilità."
+    },
+    
+    "techNote": {
+      "label": "Nota tecnica",
+      "text": "Tutti i componenti sono open-source e verificabili. Il codice sorgente è disponibile su GitHub."
+    },
+    
+    "items": {
+      "digital-certificate": {
+        "name": "Certificato Digitale",
+        "description": "Il documento crittografico che attesta autenticità, provenienza e proprietà dell'asset.",
+        "purpose": "Autenticazione"
+      },
+      "blockchain-record": {
+        "name": "Registro Blockchain",
+        "description": "La registrazione immutabile su blockchain che garantisce la tracciabilità di ogni transazione.",
+        "purpose": "Immutabilità"
+      },
+      "smart-contract": {
+        "name": "Smart Contract",
+        "description": "Il contratto intelligente che gestisce royalty, regole di trasferimento e governance.",
+        "purpose": "Automazione"
+      },
+      "metadata-layer": {
+        "name": "Layer Metadati",
+        "description": "Lo strato informativo che contiene tutti i dati strutturati: traits, utilità, storia.",
+        "purpose": "Informazione"
+      },
+      "verification-protocol": {
+        "name": "Protocollo di Verifica",
+        "description": "Il sistema che permette a chiunque di verificare autenticità e stato dell'EGI.",
+        "purpose": "Trasparenza"
+      }
+    },
+    
+    "threeComponents": {
+      "title": "Le Tre Componenti Fondamentali",
+      "subtitle": "Ogni EGI è composto da tre elementi che lavorano in sinergia perfetta"
+    },
+    
+    "epp": {
+      "icon": "🌍",
+      "badge": "Environmental Protection Programs",
+      "title": "EPP - Programmi di Protezione Ambientale",
+      "shortTitle": "EPP",
+      "description": "Ogni EGI destina automaticamente una quota ai progetti ambientali verificati. Non è un'opzione, è parte integrante del DNA di ogni certificato.",
+      "features": [
+        "Contributo automatico ad ogni transazione",
+        "Progetti verificati e tracciabili",
+        "Impatto misurabile e certificato",
+        "Trasparenza totale su blockchain"
+      ],
+      "programs": {
+        "arf": {
+          "name": "ARF - Adotta e Rigenera le Foreste",
+          "description": "Programma di riforestazione e tutela del patrimonio boschivo italiano."
+        },
+        "apr": {
+          "name": "APR - Adotta Plastica e Ricicla",
+          "description": "Recupero e riciclo della plastica dagli oceani e dalle coste."
+        },
+        "bpe": {
+          "name": "BPE - Bee Protection & Education",
+          "description": "Protezione delle api e sensibilizzazione sull'importanza degli impollinatori."
+        }
+      },
+      "cta": "Scopri i progetti EPP"
+    },
+
+    "goods": {
+      "icon": "📦",
+      "badge": "Beni e Servizi",
+      "title": "GOODS - Il Valore Tangibile",
+      "shortTitle": "GOODS",
+      "description": "La componente GOODS rappresenta il valore concreto: può essere un'opera d'arte, un servizio, un diritto o qualsiasi bene con utilità reale.",
+      "features": [
+        "Opera d'arte digitale o fisica",
+        "Servizi e utilità concrete",
+        "Diritti e licenze verificabili",
+        "Beni collezionabili unici"
+      ],
+      "types": {
+        "art": {
+          "name": "Arte Digitale e Fisica",
+          "description": "Opere d'arte certificate con provenienza immutabile."
+        },
+        "services": {
+          "name": "Servizi e Accessi",
+          "description": "Accesso a servizi esclusivi, eventi, community."
+        },
+        "rights": {
+          "name": "Diritti e Licenze",
+          "description": "Licenze d'uso, diritti di riproduzione, royalty."
+        }
+      },
+      "cta": "Esplora le collezioni"
+    },
+
+    "creativity": {
+      "icon": "💡",
+      "badge": "Innovazione Creativa",
+      "title": "INVENT - L'Innovazione che Rende Unico",
+      "shortTitle": "INVENT",
+      "description": "La componente INVENT è ciò che rende ogni EGI veramente speciale: smart contract evoluti, utilità dinamiche e meccanismi di governance partecipativa.",
+      "features": [
+        "Smart contract personalizzabili",
+        "Utilità dinamiche nel tempo",
+        "Governance partecipativa",
+        "Evoluzione programmabile"
+      ],
+      "innovations": {
+        "smartContract": {
+          "name": "Smart Contract Evoluti",
+          "description": "Logica programmabile che si adatta e evolve."
+        },
+        "dynamicUtility": {
+          "name": "Utilità Dinamiche",
+          "description": "Funzionalità che cambiano e crescono nel tempo."
+        },
+        "governance": {
+          "name": "Governance Partecipativa",
+          "description": "I possessori partecipano alle decisioni dell'ecosistema."
+        }
+      },
+      "cta": "Scopri le innovazioni"
+    }
+  },
+
+  "functions": {
+    "title": "Come Funziona un EGI",
+    "subtitle": "Il processo che rende ogni EGI unico, verificabile e utile",
+    "ariaLabel": "Funzioni dell'EGI",
+    "schemaName": "Come funziona un EGI",
+    "schemaDescription": "Guida passo-passo al funzionamento di un EGI: dalla certificazione alla tracciabilità, dall'autenticità alla gestione della proprietà.",
+    "badge": "Funzionalità Core",
+    "groupLabel": "Funzionalità EGI espandibili",
+    
+    "intro": {
+      "part1": "Ogni EGI utilizza",
+      "part2": "per automatizzare processi che tradizionalmente richiedevano intermediari costosi e lenti."
+    },
+    
+    "expanded": "Sezione {{title}} espansa",
+    "collapsed": "Sezione {{title}} compressa",
+    
+    "hint": {
+      "clickToExpand": "Clicca su una funzione per espandere i dettagli",
+      "clickToCollapse": "Clicca di nuovo per comprimere"
+    },
+    
+    "items": {
+      "certification": {
+        "title": "Certificazione Digitale",
+        "description": "Ogni EGI viene creato con un certificato digitale crittografico che ne attesta l'autenticità e l'origine.",
+        "details": [
+          "Firma digitale del creator registrata su blockchain",
+          "Hash crittografico dell'asset originale",
+          "Timestamp immutabile di creazione",
+          "Metadati strutturati secondo standard internazionali"
+        ]
+      },
+      "traceability": {
+        "title": "Tracciabilità Completa",
+        "description": "Ogni movimento, transazione e modifica viene registrata permanentemente sulla blockchain.",
+        "details": [
+          "Storia completa di proprietà (provenance)",
+          "Log di tutte le transazioni",
+          "Tracciamento dei contributi EPP",
+          "Audit trail per compliance"
+        ]
+      },
+      "authenticity": {
+        "title": "Verifica Autenticità",
+        "description": "Chiunque può verificare in qualsiasi momento l'autenticità di un EGI attraverso il protocollo pubblico.",
+        "details": [
+          "Verifica pubblica e gratuita",
+          "Confronto hash crittografici",
+          "Validazione smart contract",
+          "API per integrazioni terze parti"
+        ]
+      },
+      "ownership": {
+        "title": "Gestione Proprietà",
+        "description": "Il sistema di ownership gestisce diritti, royalty e trasferimenti in modo automatico e trasparente.",
+        "details": [
+          "Royalty automatiche per i creator",
+          "Trasferimenti istantanei e sicuri",
+          "Proprietà frazionaria (tokenization)",
+          "Diritti di governance per i possessori"
+        ]
+      },
+      "provenance": {
+        "title": "Provenienza Certificata",
+        "description": "La storia completa dell'opera: dalla creazione ad oggi, ogni passaggio è documentato.",
+        "details": [
+          "Documentazione della creazione originale",
+          "Storia di tutti i proprietari",
+          "Esposizioni e pubblicazioni",
+          "Restauri e modifiche certificate"
+        ]
+      }
+    },
+
+    "legacyFeatures": {
+      "icon": "🔗",
+      "title": "Rebind - Il Legame Dinamico",
+      "description": "La funzione Rebind permette di collegare un EGI digitale a un bene fisico nel mondo reale, creando un ponte tra digitale e tangibile.",
+      "details": "Quando un'opera fisica viene venduta, l'EGI può essere 'rilegato' al nuovo proprietario, mantenendo l'intera storia di provenienza.",
+      "benefits": [
+        "Collegamento certificato tra digitale e fisico",
+        "Trasferimento di proprietà tracciabile",
+        "Storia di provenienza immutabile"
+      ]
+    },
+
+    "tokenization": {
+      "icon": "🪙",
+      "title": "Tokenization - Frazionamento Intelligente",
+      "description": "La tokenizzazione permette di suddividere la proprietà di un EGI in quote, democratizzando l'accesso all'arte e agli asset di valore.",
+      "details": "Un'opera da 100.000€ può diventare accessibile a molti attraverso token frazionari, mantenendo tutti i diritti e benefici proporzionali.",
+      "benefits": [
+        "Democratizzazione dell'accesso",
+        "Proprietà frazionaria verificata",
+        "Liquidità aumentata"
+      ]
+    },
+
+    "multirole": {
+      "icon": "👥",
+      "title": "Multirole - Ruoli Multipli",
+      "description": "Il sistema Multirole permette di definire diversi ruoli per ogni EGI: creator, co-creator, patron, collector, ciascuno con diritti specifici.",
+      "details": "Ogni ruolo ha permessi e royalty definiti nello smart contract, garantendo equità e trasparenza in ogni transazione.",
+      "benefits": [
+        "Ruoli definiti e verificabili",
+        "Royalty automatiche per ogni ruolo",
+        "Governance distribuita"
+      ]
+    },
+
+    "interface": {
+      "icon": "🔌",
+      "title": "Interface - Interoperabilità",
+      "description": "Gli EGI sono progettati per essere interoperabili con altri sistemi e piattaforme, grazie a standard aperti e API documentate.",
+      "details": "Puoi integrare gli EGI nel tuo sito, nella tua app o in qualsiasi sistema che supporti gli standard web3.",
+      "benefits": [
+        "Standard aperti e documentati",
+        "Integrazione facile",
+        "Compatibilità cross-platform"
+      ]
+    },
+
+    "signature": {
+      "icon": "✍️",
+      "title": "Signature - Firma Digitale",
+      "description": "Ogni EGI porta la firma digitale crittografica del creator, garantendo autenticità e attribuzione inconfutabile.",
+      "details": "La firma è registrata su blockchain al momento del minting e non può essere falsificata o rimossa.",
+      "benefits": [
+        "Autenticità garantita",
+        "Attribuzione inconfutabile",
+        "Protezione contro le frodi"
+      ]
+    }
+  },
+
+  "traitsUtilities": {
+    "title": "Traits e Utilità",
+    "subtitle": "Ogni EGI può includere caratteristiche e utilità personalizzate",
+
+    "traits": {
+      "title": "Traits - Caratteristiche",
+      "description": "I traits sono le caratteristiche uniche che definiscono ogni EGI: tecnica artistica, materiali, supporto, edizione.",
+      "examples": [
+        "Tecnica: Olio su tela, Acquerello, Digitale",
+        "Materiali: Pigmenti naturali, Inchiostro archival",
+        "Supporto: Tela di lino, Carta cotone, File digitale",
+        "Edizione: Unica, Limitata, Aperta"
+      ]
+    },
+
+    "utilities": {
+      "title": "Utilità - Benefici Concreti",
+      "description": "Le utilità sono i benefici concreti che ogni EGI offre al suo possessore.",
+      "examples": [
+        "Accesso a eventi esclusivi",
+        "Sconti su prodotti e servizi",
+        "Voto nelle decisioni della community",
+        "Contenuti esclusivi e anteprime"
+      ]
+    }
+  },
+
+  "advantages": {
+    "title": "Vantaggi per Ogni Stakeholder",
+    "subtitle": "Scopri come gli EGI creano valore per artisti, collezionisti, gallerie e istituzioni",
+    "ariaLabel": "Vantaggi dell'EGI per categoria",
+    "tablistLabel": "Seleziona categoria stakeholder",
+    "tabChanged": "Visualizzazione vantaggi per {{tab}}",
+    
+    "tabs": {
+      "artists": "Artisti",
+      "collectors": "Collezionisti", 
+      "galleries": "Gallerie",
+      "institutions": "Istituzioni"
+    },
+    
+    "artists": {
+      "title": "Vantaggi per gli Artisti",
+      "intro": "Gli EGI offrono ai creator strumenti potenti per proteggere, monetizzare e tracciare le proprie opere.",
+      "schemaName": "Vantaggi EGI per Artisti",
+      "schemaDescription": "Come gli EGI beneficiano artisti e creator: royalty perpetue, autenticazione, visibilità e controllo totale.",
+      "items": {
+        "royalties": {
+          "title": "Royalty Perpetue",
+          "description": "Guadagna automaticamente da ogni rivendita della tua opera, per sempre."
+        },
+        "authentication": {
+          "title": "Autenticazione Garantita",
+          "description": "La tua firma digitale crittografica protegge da falsificazioni."
+        },
+        "visibility": {
+          "title": "Visibilità Globale",
+          "description": "Accedi a un mercato internazionale di collezionisti verificati."
+        },
+        "control": {
+          "title": "Controllo Totale",
+          "description": "Decidi tu le regole: licenze, edizioni, trasferibilità."
+        }
+      }
+    },
+    
+    "collectors": {
+      "title": "Vantaggi per i Collezionisti",
+      "intro": "Investi con sicurezza: provenienza certificata, autenticità garantita e valore tracciabile.",
+      "schemaName": "Vantaggi EGI per Collezionisti",
+      "schemaDescription": "Come gli EGI beneficiano i collezionisti: provenienza, investimento sicuro, verifica e rivendita facile.",
+      "items": {
+        "provenance": {
+          "title": "Provenienza Certificata",
+          "description": "Storia completa e verificabile di ogni opera, dalla creazione ad oggi."
+        },
+        "investment": {
+          "title": "Investimento Sicuro",
+          "description": "Asset digitali con valore reale e tracciabile su blockchain."
+        },
+        "verification": {
+          "title": "Verifica Istantanea",
+          "description": "Controlla autenticità e proprietà in qualsiasi momento."
+        },
+        "resale": {
+          "title": "Rivendita Facile",
+          "description": "Trasferisci la proprietà in modo sicuro e istantaneo."
+        }
+      }
+    },
+    
+    "galleries": {
+      "title": "Vantaggi per le Gallerie",
+      "intro": "Modernizza la tua galleria con strumenti digitali per inventario, vendite e fiducia.",
+      "schemaName": "Vantaggi EGI per Gallerie",
+      "schemaDescription": "Come gli EGI beneficiano le gallerie: inventario digitale, fiducia dei clienti, presenza online e transazioni sicure.",
+      "items": {
+        "inventory": {
+          "title": "Inventario Digitale",
+          "description": "Gestisci il catalogo con certificati digitali per ogni opera."
+        },
+        "trust": {
+          "title": "Fiducia dei Clienti",
+          "description": "Offri garanzie di autenticità verificabili e trasparenti."
+        },
+        "digital-presence": {
+          "title": "Presenza Digitale",
+          "description": "Espandi il mercato oltre i confini fisici della galleria."
+        },
+        "transactions": {
+          "title": "Transazioni Sicure",
+          "description": "Vendite e trasferimenti automatizzati e tracciabili."
+        }
+      }
+    },
+    
+    "institutions": {
+      "title": "Vantaggi per le Istituzioni",
+      "intro": "Cataloga, preserva e rendi accessibile il patrimonio culturale con tecnologia d'avanguardia.",
+      "schemaName": "Vantaggi EGI per Istituzioni Culturali",
+      "schemaDescription": "Come gli EGI beneficiano musei e istituzioni: catalogazione digitale, preservazione, ricerca e trasparenza.",
+      "items": {
+        "cataloging": {
+          "title": "Catalogazione Avanzata",
+          "description": "Digitalizza le collezioni con metadati strutturati e ricercabili."
+        },
+        "preservation": {
+          "title": "Preservazione Digitale",
+          "description": "Conserva informazioni e provenienza per le generazioni future."
+        },
+        "research": {
+          "title": "Ricerca Facilitata",
+          "description": "Condividi dati con ricercatori e istituzioni partner."
+        },
+        "transparency": {
+          "title": "Trasparenza Pubblica",
+          "description": "Rendi accessibili al pubblico provenienza e storia delle opere."
+        }
+      }
+    },
+    
+    "cta": {
+      "text": "Pronto a scoprire come gli EGI possono trasformare il tuo settore?",
+      "button": "Parla con un Esperto"
+    },
+
+    "legacyItems": [
+      {
+        "icon": "🌱",
+        "title": "Impatto Ambientale Positivo",
+        "description": "Ogni EGI contribuisce automaticamente ai progetti di protezione ambientale."
+      },
+      {
+        "icon": "✅",
+        "title": "Autenticità Garantita",
+        "description": "Certificazione blockchain immutabile con firma digitale del creator."
+      },
+      {
+        "icon": "📊",
+        "title": "Trasparenza Totale",
+        "description": "Ogni transazione, royalty e contributo è tracciabile su blockchain."
+      },
+      {
+        "icon": "⚖️",
+        "title": "Compliance Normativa",
+        "description": "Progettato per rispettare MiCA, GDPR e normative internazionali."
+      },
+      {
+        "icon": "🔗",
+        "title": "Collegamento Reale",
+        "description": "Il Rebind collega certificati digitali a beni fisici nel mondo reale."
+      },
+      {
+        "icon": "🤝",
+        "title": "Equità per Tutti",
+        "description": "Sistema di royalty trasparente che premia creator e co-creator."
+      }
+    ]
+  },
+
+  "cta": {
+    "title": "Inizia il Tuo Viaggio nel Rinascimento Digitale",
+    "description": "Scopri come gli EGI possono trasformare il modo in cui crei, collezioni e contribuisci all'ambiente.",
+    "primary": "Esplora le Collezioni",
+    "secondary": "Diventa Creator",
+    "tertiary": "Contattaci"
+  },
+
+  "accessibility": {
+    "skipToContent": "Salta al contenuto principale",
+    "openMenu": "Apri menu navigazione",
+    "closeMenu": "Chiudi menu navigazione",
+    "expandSection": "Espandi sezione",
+    "collapseSection": "Comprimi sezione",
+    "glossaryTerm": "Clicca per vedere la definizione"
+  }
+}

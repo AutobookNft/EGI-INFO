@@ -1,0 +1,450 @@
+{
+  "meta": {
+    "title": "Programmi EPP - Protezione Ambientale - FlorenceEGI",
+    "description": "Scopri i Programmi di Protezione Ambientale (EPP): come ogni EGI contribuisce a progetti verificati di riforestazione, riciclo plastica e protezione delle api.",
+    "keywords": "EPP, ambiente, sostenibilità, riforestazione, riciclo plastica, api, blockchain verde, FlorenceEGI"
+  },
+
+  "hero": {
+    "badge": "Environmental Protection Programs",
+    "title": "Programmi di Protezione Ambientale",
+    "subtitle": "Il Cuore Verde di Ogni EGI",
+    "description": "Ogni EGI destina automaticamente una quota a progetti ambientali verificati. Non è marketing, è nel DNA di ogni certificato.",
+    "ariaLabel": "Intestazione EPP",
+    "stats": {
+      "trees": {
+        "value": "50.000+",
+        "label": "Alberi da Piantare",
+        "note": "Obiettivo Anno 1"
+      },
+      "plastic": {
+        "value": "25.000kg",
+        "label": "Plastica da Recuperare",
+        "note": "Obiettivo Anno 1"
+      },
+      "bees": {
+        "value": "100.000+",
+        "label": "Api da Proteggere",
+        "note": "Obiettivo Anno 1"
+      },
+      "impact": {
+        "value": "100%",
+        "label": "Tracciabile su Blockchain"
+      }
+    },
+    "projection_notice": "I dati mostrati sono obiettivi proiettati. I risultati reali saranno pubblicati al lancio della piattaforma.",
+    "cta": {
+      "primary": "Scopri i Programmi",
+      "secondary": "Vedi l'Impatto"
+    }
+  },
+
+  "intro": {
+    "title": "Impatto Ambientale Integrato",
+    "description": "Gli EPP (Environmental Protection Programs) sono il cuore verde di FlorenceEGI. Ogni transazione sulla piattaforma destina automaticamente una percentuale a progetti ambientali verificati e tracciabili.",
+    "principles": [
+      {
+        "icon": "🔄",
+        "title": "Automatico",
+        "description": "Il contributo avviene automaticamente, senza azioni aggiuntive."
+      },
+      {
+        "icon": "✅",
+        "title": "Verificato",
+        "description": "Solo progetti con impatto misurabile e verificabile."
+      },
+      {
+        "icon": "📊",
+        "title": "Tracciabile",
+        "description": "Ogni contributo è registrato su blockchain."
+      }
+    ]
+  },
+
+  "programs": {
+    "title": "I Tre Programmi Attivi",
+    "subtitle": "Progetti concreti con impatto misurabile",
+    
+    "statsLabels": {
+      "trees": "Alberi",
+      "plastic": "Kg Plastica",
+      "bees": "Api",
+      "area": "Ettari",
+      "co2": "CO₂ Assorbita",
+      "students": "Studenti"
+    },
+
+    "arf": {
+      "name": "ARF",
+      "icon": "🌲",
+      "badge": "Riforestazione",
+      "title": "ARF - Adotta e Rigenera le Foreste",
+      "fullName": "Adotta e Rigenera le Foreste",
+      "description": "Il programma ARF è dedicato alla rigenerazione del patrimonio boschivo italiano e alla tutela delle foreste esistenti.",
+      "impact": "10.000+ alberi piantati come obiettivo anno 1",
+      "mission": "Piantare alberi autoctoni, proteggere le foreste vetuste e creare corridoi ecologici per la biodiversità.",
+      "stats": {
+        "trees": "10.000+",
+        "area": "50 ha",
+        "co2": "500t"
+      },
+      
+      "activities": {
+        "title": "Attività Principali",
+        "items": [
+          {
+            "icon": "🌱",
+            "title": "Piantumazione",
+            "description": "Nuovi alberi autoctoni in aree degradate"
+          },
+          {
+            "icon": "🛡️",
+            "title": "Protezione",
+            "description": "Tutela delle foreste vetuste e monumentali"
+          },
+          {
+            "icon": "🦌",
+            "title": "Biodiversità",
+            "description": "Corridoi ecologici per la fauna selvatica"
+          },
+          {
+            "icon": "📚",
+            "title": "Educazione",
+            "description": "Programmi di sensibilizzazione ambientale"
+          }
+        ]
+      },
+
+      "impact": {
+        "title": "Obiettivi di Impatto (Proiezioni)",
+        "notice": "Questi sono obiettivi previsti. I risultati reali saranno pubblicati a progetto avviato.",
+        "metrics": [
+          {
+            "icon": "🌳",
+            "value": "10.000+",
+            "label": "Alberi da piantare (obiettivo anno 1)"
+          },
+          {
+            "icon": "🏞️",
+            "value": "50+",
+            "label": "Ettari da proteggere"
+          },
+          {
+            "icon": "🌍",
+            "value": "500+",
+            "label": "Tonnellate CO₂ previste"
+          }
+        ]
+      },
+
+      "partners": {
+        "title": "Partner",
+        "description": "Collaboriamo con associazioni forestali certificate e enti parco nazionali."
+      },
+
+      "cta": "Contribuisci alla Riforestazione"
+    },
+
+    "apr": {
+      "name": "APR",
+      "icon": "♻️",
+      "badge": "Riciclo Plastica",
+      "title": "APR - Adotta Plastica e Ricicla",
+      "fullName": "Adotta Plastica e Ricicla",
+      "description": "Il programma APR si concentra sul recupero della plastica dagli oceani, dalle spiagge e dalle aree urbane, trasformandola in nuove risorse.",
+      "impact": "5.000+ kg di plastica recuperata come obiettivo",
+      "mission": "Rimuovere la plastica dall'ambiente, promuovere l'economia circolare e sensibilizzare sul problema dell'inquinamento.",
+      "stats": {
+        "plastic": "5.000+",
+        "area": "20+",
+        "recycled": "80%"
+      },
+
+      "activities": {
+        "title": "Attività Principali",
+        "items": [
+          {
+            "icon": "🌊",
+            "title": "Pulizia Mari",
+            "description": "Recupero plastica da oceani e coste"
+          },
+          {
+            "icon": "🏙️",
+            "title": "Città Pulite",
+            "description": "Raccolta in aree urbane critiche"
+          },
+          {
+            "icon": "🔄",
+            "title": "Riciclo",
+            "description": "Trasformazione in nuovi materiali"
+          },
+          {
+            "icon": "🎓",
+            "title": "Formazione",
+            "description": "Educazione alla riduzione dei rifiuti"
+          }
+        ]
+      },
+
+      "impact": {
+        "title": "Obiettivi di Impatto (Proiezioni)",
+        "notice": "Questi sono obiettivi previsti. I risultati reali saranno pubblicati a progetto avviato.",
+        "metrics": [
+          {
+            "icon": "🗑️",
+            "value": "5.000+",
+            "label": "Kg plastica da recuperare (obiettivo)"
+          },
+          {
+            "icon": "🏖️",
+            "value": "20+",
+            "label": "Spiagge da monitorare"
+          },
+          {
+            "icon": "♻️",
+            "value": "80%",
+            "label": "Tasso di riciclo previsto"
+          }
+        ]
+      },
+
+      "partners": {
+        "title": "Partner",
+        "description": "Collaboriamo con ONG marine, cooperative di pescatori e impianti di riciclo certificati."
+      },
+
+      "cta": "Unisciti alla Lotta alla Plastica"
+    },
+
+    "bpe": {
+      "name": "BPE",
+      "icon": "🐝",
+      "badge": "Protezione Api",
+      "title": "BPE - Bee Protection & Education",
+      "fullName": "Bee Protection & Education",
+      "description": "Il programma BPE è dedicato alla protezione delle api e degli impollinatori, fondamentali per la biodiversità e l'agricoltura.",
+      "impact": "100+ arnie supportate, 1.000+ studenti coinvolti",
+      "mission": "Proteggere le api, creare habitat per gli impollinatori e sensibilizzare sull'importanza di questi insetti per l'ecosistema.",
+      "stats": {
+        "bees": "100+",
+        "area": "10 ha",
+        "students": "1.000+"
+      },
+
+      "activities": {
+        "title": "Attività Principali",
+        "items": [
+          {
+            "icon": "🏡",
+            "title": "Apicoltura",
+            "description": "Supporto ad apicoltura sostenibile"
+          },
+          {
+            "icon": "🌸",
+            "title": "Habitat",
+            "description": "Creazione di prati fioriti per api"
+          },
+          {
+            "icon": "🔬",
+            "title": "Ricerca",
+            "description": "Studio sulla salute delle colonie"
+          },
+          {
+            "icon": "👨‍🏫",
+            "title": "Didattica",
+            "description": "Programmi nelle scuole"
+          }
+        ]
+      },
+
+      "impact": {
+        "title": "Obiettivi di Impatto (Proiezioni)",
+        "notice": "Questi sono obiettivi previsti. I risultati reali saranno pubblicati a progetto avviato.",
+        "metrics": [
+          {
+            "icon": "🐝",
+            "value": "100+",
+            "label": "Arnie da supportare (obiettivo)"
+          },
+          {
+            "icon": "🌻",
+            "value": "10+",
+            "label": "Ettari di prati da creare"
+          },
+          {
+            "icon": "👦",
+            "value": "1.000+",
+            "label": "Studenti da coinvolgere"
+          }
+        ]
+      },
+
+      "partners": {
+        "title": "Partner",
+        "description": "Collaboriamo con apicoltori locali, università e associazioni ambientaliste."
+      },
+
+      "cta": "Proteggi le Api con Noi"
+    }
+  },
+
+  "howItWorks": {
+    "title": "Come Funziona il Sistema EPP",
+    "subtitle": "Trasparenza totale dal creator all'impatto",
+
+    "steps": [
+      {
+        "number": "1",
+        "title": "Collegamento",
+        "description": "Il creator collega ogni sua collection a un progetto EPP di sua scelta."
+      },
+      {
+        "number": "2",
+        "title": "Conto Dedicato",
+        "description": "Ogni EPP ha un proprio conto Stripe collegato, separato e tracciabile."
+      },
+      {
+        "number": "3",
+        "title": "Trasferimento Automatico",
+        "description": "Ad ogni transazione, la quota EPP viene inviata automaticamente al conto del progetto scelto."
+      },
+      {
+        "number": "4",
+        "title": "Trasparenza Pubblica",
+        "description": "Ogni conto EPP è tracciato e reso pubblico nella pagina dedicata al progetto."
+      },
+      {
+        "number": "5",
+        "title": "Evidenze Certificate",
+        "description": "Nella home page di ogni EPP troverai evidenze, resoconti e testimonianze, ognuna rappresentata e certificata da un proprio EGI."
+      }
+    ],
+
+    "percentages": {
+      "title": "Quote di Contributo agli EPP",
+      "items": [
+        {
+          "type": "Vendita Primaria",
+          "percentage": "20%",
+          "description": "Sulla prima vendita di ogni EGI"
+        },
+        {
+          "type": "Rivendita Secondaria",
+          "percentage": "1%",
+          "description": "Su ogni rivendita successiva"
+        }
+      ],
+      "note": "Le percentuali sono automaticamente dedotte e inviate al conto Stripe del progetto EPP collegato alla collection"
+    }
+  },
+
+  "transparency": {
+    "title": "Trasparenza Totale",
+    "subtitle": "Ogni centesimo è tracciabile",
+    "description": "Tutti i contributi agli EPP sono registrati su blockchain Algorand. Puoi verificare in qualsiasi momento quanto è stato raccolto e come è stato utilizzato.",
+    
+    "features": [
+      {
+        "icon": "🔍",
+        "title": "Verificabile",
+        "description": "Ogni transazione è visibile su blockchain"
+      },
+      {
+        "icon": "📊",
+        "title": "Report Periodici",
+        "description": "Pubblicazione trimestrale dei risultati"
+      },
+      {
+        "icon": "🏛️",
+        "title": "Audit Indipendenti",
+        "description": "Verifica da parte di terzi certificati"
+      }
+    ],
+
+    "cta": "Visualizza i Report"
+  },
+
+  "participation": {
+    "title": "Come Puoi Partecipare",
+    "subtitle": "Il tuo contributo fa la differenza",
+
+    "ways": [
+      {
+        "icon": "🛒",
+        "title": "Acquista EGI",
+        "description": "Ogni acquisto contribuisce automaticamente"
+      },
+      {
+        "icon": "🎨",
+        "title": "Crea EGI",
+        "description": "I creator contribuiscono al minting"
+      },
+      {
+        "icon": "📢",
+        "title": "Diffondi",
+        "description": "Parla degli EPP alla tua community"
+      },
+      {
+        "icon": "🤝",
+        "title": "Proponi Progetti",
+        "description": "Suggerisci nuovi progetti da supportare"
+      }
+    ]
+  },
+
+  "cta": {
+    "title": "Unisciti al Movimento",
+    "description": "Ogni EGI che acquisti o crei contribuisce a rendere il mondo un posto migliore.",
+    "primary": "Esplora le Collezioni",
+    "secondary": "Diventa Creator"
+  },
+
+  "accessibility": {
+    "programDetails": "Dettagli del programma",
+    "impactMetrics": "Metriche di impatto",
+    "activityList": "Lista delle attività",
+    "partnerInfo": "Informazioni sui partner"
+  },
+
+  "impact": {
+    "ariaLabel": "Impatto ambientale EPP",
+    "schemaName": "Metriche Impatto EPP",
+    "schemaDescription": "Dati aggregati sull'impatto ambientale dei programmi EPP: alberi piantati, plastica recuperata, api protette.",
+    "badge": "Impatto Verificato",
+    "title": "Il Nostro Impatto",
+    "subtitle": "Numeri reali, verificabili su blockchain",
+    
+    "metrics": {
+      "trees": {
+        "label": "Alberi Piantati",
+        "description": "Alberi autoctoni piantati attraverso il programma ARF"
+      },
+      "plastic": {
+        "label": "Kg Plastica Recuperata",
+        "description": "Plastica rimossa da oceani, spiagge e aree urbane"
+      },
+      "bees": {
+        "label": "Api Protette",
+        "description": "Api in arnie supportate dal programma BPE"
+      },
+      "co2": {
+        "label": "Tonnellate CO₂",
+        "description": "CO₂ assorbita grazie alla riforestazione"
+      },
+      "projects": {
+        "label": "Progetti Attivi",
+        "description": "Iniziative ambientali in corso"
+      },
+      "partners": {
+        "label": "Partner",
+        "description": "Organizzazioni e associazioni coinvolte"
+      }
+    },
+    
+    "verification": {
+      "label": "Verifica Blockchain",
+      "text": "Tutti i dati sono registrati su Algorand e verificabili pubblicamente.",
+      "link": "Verifica su Explorer"
+    }
+  }
+}

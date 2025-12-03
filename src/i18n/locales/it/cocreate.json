@@ -1,0 +1,286 @@
+{
+  "meta": {
+    "title": "Ecosistema Co-Creazione - FlorenceEGI",
+    "description": "Scopri l'ecosistema co-creativo di FlorenceEGI: Co-Creare opere d'arte, Co-Creatori permanenti e strumenti Trader Pro per il trading professionale.",
+    "keywords": "co-creazione, co-creatori, trader pro, ecosystem, blockchain art, EGI, trading professionale"
+  },
+
+  "hero": {
+    "badge": "L'Ecosistema Co-Creativo",
+    "title": "Dove Ogni Partecipante Diventa Protagonista",
+    "subtitle": "Arte digitale e innovazione sostenibile, insieme",
+    "description": "In FlorenceEGI non esistono semplici acquirenti. Ogni partecipante diventa co-creatore, co-protagonista della storia dell'opera.",
+    "badges": {
+      "cocreate": "Co-Creare",
+      "cocreator": "Co-Creatori",
+      "trader": "Trader Pro"
+    },
+    "cta": {
+      "primary": "Diventa Co-Creator",
+      "secondary": "Scopri di Più"
+    }
+  },
+
+  "navigation": {
+    "title": "Sezioni Ecosistema",
+    "cocreate": "Co-Creare",
+    "cocreator": "Co-Creatore",
+    "trader": "Trader Pro"
+  },
+
+  "cocreate": {
+    "title": "Il Concetto di Co-Creare",
+    "subtitle": "Partecipa attivamente alla nascita pubblica di un'opera d'arte",
+
+    "sharedCreation": {
+      "title": "L'Atto della Creazione Condivisa",
+      "content": "Co-creare in FlorenceEGI significa partecipare al momento più magico dell'arte digitale: il primo acquisto. Non si tratta semplicemente di una transazione commerciale, ma dell'atto fondativo che trasforma un'opera privata in un bene culturale pubblico.",
+      "highlight": "Il primo acquisto è l'atto che rende \"viva e pubblica\" l'opera d'arte"
+    },
+
+    "privateToPublic": {
+      "title": "Dal Privato al Pubblico",
+      "content": "Attraverso il minting e il primo acquisto, l'opera abbandona la dimensione privata dello studio dell'artista per entrare nella sfera pubblica della cultura condivisa. Il Co-creatore non acquisisce solo un'opera, ma diventa parte integrante della sua storia.",
+      "benefits": [
+        {
+          "icon": "🎭",
+          "title": "Partecipazione Attiva",
+          "description": "Non sei uno spettatore, sei protagonista del processo creativo"
+        },
+        {
+          "icon": "👁️",
+          "title": "Visibilità all'Artista",
+          "description": "Il tuo acquisto porta l'opera alla luce, dando visibilità al creator"
+        },
+        {
+          "icon": "🌱",
+          "title": "Sostegno EPP",
+          "description": "Contribuisci direttamente ai progetti ambientali"
+        }
+      ]
+    },
+
+    "uniqueOpportunity": {
+      "title": "L'Opportunità Unica",
+      "content": "Anche se l'artista ha materialmente creato l'opera, il primo acquisto è l'atto che la rende viva nella dimensione digitale e culturale globale. Chi co-crea non solo possiede un'opera d'arte unica, ma diventa custode della sua prima esistenza pubblica, partecipando così al miracolo della trasformazione artistica."
+    }
+  },
+
+  "cocreator": {
+    "title": "La Figura del Co-Creatore",
+    "subtitle": "Un legame permanente con l'opera e visibilità mondiale garantita",
+
+    "permanentBond": {
+      "icon": "🔗",
+      "title": "Legame Permanente",
+      "content": "Il Co-creatore rimane per sempre unito all'EGI, insieme al Creator originale. Questo legame indissolubile garantisce il riconoscimento perpetuo del suo ruolo fondativo.",
+      "details": "Anche dopo la rivendita, il nome del primo Co-creatore resta registrato nella storia dell'opera su blockchain."
+    },
+
+    "globalVisibility": {
+      "icon": "🌍",
+      "title": "Visibilità Mondiale",
+      "content": "Attraverso la registrazione e il profilo personalizzato, il Co-creatore ottiene massima visibilità in tutto il mondo e riconoscimento globale del suo contributo.",
+      "details": "Il tuo profilo di Co-creatore è visibile a chiunque visualizzi l'opera su FlorenceEGI."
+    },
+
+    "personalizedIdentity": {
+      "icon": "🎭",
+      "title": "Identità Personalizzata",
+      "content": "Libertà completa nella scelta dell'identità: nickname, nome d'arte, nome completo e immagine personale per massimo riconoscimento.",
+      "details": "Scegli come vuoi essere ricordato nella storia dell'opera."
+    },
+
+    "profile": {
+      "title": "Il Profilo del Co-Creatore",
+
+      "customization": {
+        "title": "Personalizzazione Completa",
+        "items": [
+          {
+            "icon": "✏️",
+            "title": "Nickname Personalizzato",
+            "description": "Scegli liberamente come vuoi essere identificato"
+          },
+          {
+            "icon": "👤",
+            "title": "Nome Reale o d'Arte",
+            "description": "Usa il tuo vero nome o un nome artistico"
+          },
+          {
+            "icon": "📷",
+            "title": "Immagine Profilo",
+            "description": "Carica la tua foto o un avatar nell'area personale"
+          }
+        ]
+      },
+
+      "exclusiveBenefits": {
+        "title": "Vantaggi Esclusivi",
+        "items": [
+          {
+            "icon": "♾️",
+            "title": "Riconoscimento Perpetuo",
+            "description": "Il tuo ruolo è registrato per sempre su blockchain"
+          },
+          {
+            "icon": "🏆",
+            "title": "Status Esclusivo",
+            "description": "Badge speciale di primo acquirente"
+          },
+          {
+            "icon": "🌐",
+            "title": "Visibilità Globale",
+            "description": "Profilo visibile nell'ecosistema FlorenceEGI"
+          }
+        ]
+      }
+    },
+
+    "cofounderMessage": "Il Co-creatore non è solo un acquirente: è il co-fondatore dell'esistenza pubblica dell'opera d'arte"
+  },
+
+  "trader": {
+    "title": "Trader Pro: Strategia Duplice",
+    "subtitle": "Strumenti professionali per trader e marketing rivoluzionario per creator",
+
+    "strategicVision": {
+      "title": "La Visione Strategica",
+
+      "forTraders": {
+        "icon": "📈",
+        "title": "Per i Trader Professionali",
+        "content": "Forniamo i massimi strumenti di trading a chi fa del trading la propria attività principale. EGI PT offre opportunità uniche per chi comprende il mercato dell'arte digitale."
+      },
+
+      "forCreators": {
+        "icon": "🎨",
+        "title": "Per i Creator",
+        "content": "Offriamo uno strumento di marketing incredibile che amplifica la visibilità e la portata delle opere attraverso gli \"emissari digitali\" EGI PT."
+      }
+    },
+
+    "egiPtSystem": {
+      "title": "Il Sistema EGI PT: Gli Emissari Digitali",
+      "description": "Gli EGI PT (Print Token) sono versioni limitate dell'EGI originale, progettate per il trading veloce e la diffusione virale dell'opera.",
+
+      "features": [
+        {
+          "icon": "5️⃣",
+          "title": "Massimo 5 EGI PT",
+          "description": "Per ogni EGI con bene fisico, si creano massimo 5 EGI PT, garantendo scarsità e valore."
+        },
+        {
+          "icon": "🔢",
+          "title": "Numerazione Unica",
+          "description": "Ogni EGI PT è reso unico da un numero di serie, pur rimanendo identico all'originale."
+        },
+        {
+          "icon": "📨",
+          "title": "Emissari Digitali",
+          "description": "Gli EGI PT sono messaggeri dell'EGI fisico nel mondo digitale globale."
+        }
+      ]
+    },
+
+    "traderBenefits": {
+      "title": "Vantaggi per i Trader Professionali",
+
+      "guaranteedRarity": {
+        "icon": "💎",
+        "title": "Rarità Garantita",
+        "content": "La limitazione a massimo 5 esemplari per ogni opera garantisce scarsità naturale e potenziale apprezzamento sul mercato.",
+        "highlight": "Scarsità = Valore. Mai più di 5 EGI PT per opera."
+      },
+
+      "realArt": {
+        "icon": "🖼️",
+        "title": "Arte Vera e Propria",
+        "content": "Possedere un EGI PT significa detenere una rappresentazione digitale di un'opera d'arte reale, con valore artistico intrinseco.",
+        "features": [
+          "Legame con opera fisica",
+          "Valore artistico reale",
+          "Collezionabilità garantita"
+        ]
+      }
+    },
+
+    "economicStructure": {
+      "title": "Struttura Economica Ottimizzata",
+      "description": "Commissioni ridotte al minimo per massimizzare i guadagni dei trader",
+
+      "fees": [
+        {
+          "icon": "🎨",
+          "title": "Zero Fee Creator",
+          "value": "0%",
+          "description": "Il Creator non trattiene commissioni sugli EGI PT, mantenendo il focus sul marketing gratuito."
+        },
+        {
+          "icon": "🏛️",
+          "title": "Zero Fee Piattaforma",
+          "value": "0%",
+          "description": "FlorenceEGI non trattiene commissioni sugli EGI PT, massimizzando i volumi di trading."
+        },
+        {
+          "icon": "🌱",
+          "title": "Solo EPP",
+          "value": "0.5%",
+          "description": "Unica commissione: 0.5% per progetti ambientali, garantendo impatto sostenibile minimo."
+        }
+      ],
+
+      "message": "Massima redditività per i trader + contributo ambientale responsabile"
+    },
+
+    "ecosystemImpact": {
+      "title": "L'Impatto sull'Intero Ecosistema",
+
+      "volumesVisibility": {
+        "icon": "📊",
+        "title": "Volumi e Visibilità",
+        "content": "Le transazioni rapide e numerose degli EGI PT generano volumi significativi che aumentano la visibilità dell'intera piattaforma."
+      },
+
+      "returnForAll": {
+        "icon": "🔄",
+        "title": "Ritorno per Tutti",
+        "content": "L'aumento di visibilità beneficia tutti i creator e reseller del mercato secondario, creando un circolo virtuoso."
+      },
+
+      "synergyMessage": "Una strategia che eleva l'intero ecosistema FlorenceEGI attraverso la sinergia tra arte e trading professionale"
+    }
+  },
+
+  "cta": {
+    "title": "Entra nell'Ecosistema",
+    "description": "Scegli il tuo ruolo e inizia a partecipare al Rinascimento Digitale.",
+    
+    "options": [
+      {
+        "icon": "🎨",
+        "title": "Diventa Creator",
+        "description": "Crea e vendi le tue opere",
+        "cta": "Inizia a Creare"
+      },
+      {
+        "icon": "🔗",
+        "title": "Diventa Co-Creator",
+        "description": "Partecipa alla nascita delle opere",
+        "cta": "Esplora le Collezioni"
+      },
+      {
+        "icon": "📈",
+        "title": "Diventa Trader Pro",
+        "description": "Fai trading con EGI PT",
+        "cta": "Scopri EGI PT"
+      }
+    ]
+  },
+
+  "accessibility": {
+    "cocreateSection": "Piattaforma Co-Creare per creazione collaborativa di opere d'arte",
+    "cocreatorSection": "Sistema Co-Creatore per gestione permanente di artisti nell'ecosistema",
+    "traderSection": "Strumenti Trader Pro per trading professionale di EGI"
+  }
+}

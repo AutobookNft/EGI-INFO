@@ -1,0 +1,69 @@
+{
+  "hero": {
+    "titleLine1": "Florence",
+    "titleLine2": "EGI",
+    "tagline": "Il Rinascimento Digitale inizia qui",
+    "mottoLine1": "Se Esiste,",
+    "mottoHighlight1": "EGIZZALO",
+    "mottoLine2": "Se lo EGIZZI,",
+    "mottoHighlight2": "Vale",
+    "description": "<strong>FlorenceEGI</strong> è la piattaforma dove chiunque può crearsi la propria attività digitale basata su blockchain e intelligenza artificiale.",
+    "descriptionLine2": "Senza competenze tecniche, senza costi di avvio, con guadagni che continuano nel tempo."
+  },
+  "wheel": {
+    "ariaLabel": "Menu principale FlorenceEGI",
+    "subtitle": "Scegli il tuo percorso",
+    "egi": "Cosa sono gli EGI",
+    "artists": "Per Artisti",
+    "epp": "Progetti EPP",
+    "entrepreneurs": "Per Imprese",
+    "collectors": "Per Collezionisti",
+    "explore": "Approfondimenti"
+  },
+  "cta": {
+    "startFree": "Inizia Gratis",
+    "learnMore": "Scopri di più",
+    "explore": "Esplora"
+  },
+  "trustBadges": {
+    "zeroCo2": "Carbon Negative",
+    "freeStart": "Gratis per iniziare",
+    "madeInItaly": "Made in Italy"
+  },
+  "navigation": {
+    "chooseYourPath": "Scegli il tuo",
+    "pathHighlight": "percorso",
+    "cards": {
+      "approfondimenti": {
+        "icon": "📚",
+        "title": "Approfondimenti",
+        "description": "Esplora ogni aspetto dell'ecosistema FlorenceEGI in dettaglio."
+      },
+      "artisti": {
+        "icon": "🎨",
+        "title": "Sei un Artista?",
+        "description": "Certifica, proteggi e valorizza le tue opere nel mondo digitale."
+      },
+      "imprenditori": {
+        "icon": "💼",
+        "title": "Sei un Imprenditore?",
+        "description": "Soluzioni blockchain per certificazioni, token e servizi aziendali."
+      },
+      "pa": {
+        "icon": "🏛️",
+        "title": "Pubblica Amministrazione",
+        "description": "Digitalizzazione patrimonio culturale e trasparenza amministrativa."
+      },
+      "collezionisti": {
+        "icon": "🖼️",
+        "title": "Sei un Collezionista?",
+        "description": "Acquista opere certificate e diventa custode del valore."
+      },
+      "sourceTruth": {
+        "icon": "📖",
+        "title": "Fonte di Verità",
+        "description": "Documentazione tecnica, glossario e architettura completa."
+      }
+    }
+  }
+}

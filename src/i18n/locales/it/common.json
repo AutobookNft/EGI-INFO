@@ -1,0 +1,30 @@
+{
+  "nav": {
+    "home": "Home",
+    "approfondimenti": "Approfondimenti",
+    "perArtisti": "Sei un Artista?",
+    "perImprenditori": "Sei un Imprenditore?",
+    "perPa": "Pubblica Amministrazione",
+    "perCollezionisti": "Sei un Collezionista?"
+  },
+  "header": {
+    "brand": "FlorenceEGI",
+    "tagline": "Il Rinascimento Digitale"
+  },
+  "footer": {
+    "copyright": "© 2025 FlorenceEGI. Tutti i diritti riservati.",
+    "privacy": "Privacy Policy",
+    "terms": "Termini di Servizio"
+  },
+  "buttons": {
+    "learnMore": "Scopri di più",
+    "getStarted": "Inizia ora",
+    "backToText": "Torna al testo",
+    "backToTop": "Torna su"
+  },
+  "language": {
+    "it": "Italiano",
+    "en": "English",
+    "switch": "Cambia lingua"
+  }
+}

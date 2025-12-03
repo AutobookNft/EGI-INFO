@@ -1,0 +1,724 @@
+{
+  "meta": {
+    "title": "FlorenceEGI - Se Esiste, EGIZZALO. Se lo EGIZZI, Vale.",
+    "description": "Trasforma qualsiasi opera, prodotto o progetto in un asset digitale certificato (EGI). Qualità artistica, liquidità e impatto ambientale in un click.",
+    "keywords": "FlorenceEGI, EGIZZALO, Asset Market Maker, NFT sostenibili, Algorand, Blockchain Italia, EGI, EPP, Co-creazione"
+  },
+  "hero": {
+    "platformName": "FlorenceEGI",
+    "motto": "Se Esiste, EGIZZALO. Se lo EGIZZI, Vale.",
+    "mottoHtml": "Se Esiste, <span class=\"highlight\">EGIZZALO</span>.<br>Se lo EGIZZI, <span class=\"highlight\">Vale</span>.",
+    "subheadline": "La prima piattaforma che trasforma qualsiasi cosa in asset tokenizzato, tracciabile e scambiabile. Semplice come un e-commerce, potente come una blockchain.",
+    "whatWeDo": "Siamo i primi al mondo ad aver fuso Blockchain e Intelligenza Artificiale in un sistema così semplice che chiunque può usarlo. Dietro c'è Algorand (la blockchain a zero emissioni CO₂ usata dalla SIAE per i diritti d'autore), NATAN AI che ti suggerisce prezzi e descrizioni analizzando il mercato reale, smart contract automatici per le royalty perpetue. Ma tu non vedi nulla di tutto questo: carichi un'opera come su Instagram, clicchi EGIZZA, e in 5 secondi hai un certificato blockchain riconosciuto dalla legge italiana come prova di paternità. Zero wallet crypto da configurare, zero seed phrase da scrivere, zero gas fee incomprensibili. È la complessità della tecnologia resa invisibile.",
+    "howSimple": "Ogni singolo asset che crei genera impatto ambientale reale, misurabile e certificato su blockchain. Non è un claim di marketing, è matematica: il 20% del valore di ogni transazione va automaticamente a progetti EPP (Environmental Protection Projects) verificati. Riforestazione, rimozione plastica dagli oceani, protezione della biodiversità. Ogni donazione è tracciata on-chain, ogni progetto ha un bilancio pubblico verificabile, ogni euro è rendicontato in modo trasparente. Non è greenwashing da bilancio di sostenibilità, è un sistema economico dove il profitto e la rigenerazione ambientale sono la stessa cosa. Più vendi, più il pianeta guarisce.",
+    "ctaPrimary": "Inizia a EGIZZARE",
+    "ctaSecondary": "Scopri Come Funziona"
+  },
+  "intro": {
+    "badge": "🎯 La Differenza",
+    "title": "Non Siamo un Marketplace NFT.",
+    "subtitle": "Siamo un Asset Market Maker.",
+    "description": "Permettiamo a chiunque di creare il proprio mercato. Più simile a Shopify che a OpenSea.",
+    "conceptTitle": "Il Concept",
+    "conceptDesc": "FlorenceEGI è l'infrastruttura che trasforma QUALSIASI COSA in un asset digitale certificato chiamato EGI (Eco Goods Invent).",
+    "list": [
+      "Arte fisica e digitale",
+      "Design e artigianato",
+      "Esperienze e servizi",
+      "Contenuti creativi",
+      "Documenti certificati",
+      "Progetti ambientali"
+    ],
+    "differenceTitle": "La Differenza Chiave",
+    "differenceOld": "Altri marketplace: LORO vendono le TUE opere.",
+    "differenceNew": "FlorenceEGI: TU crei il TUO Asset Market Maker.",
+    "simpleTitle": "Zero Tecnicismi",
+    "simpleDesc": "Niente wallet complessi, niente gas fee incomprensibili. Carica, Egizza, Vendi.",
+    "ui": {
+      "othersTitle": "Altri Marketplace",
+      "florenceTitle": "FlorenceEGI",
+      "zeroTechTitle": "Zero Tecnicismi",
+      "zeroTechSubtitle": "Non devi capire la blockchain per usarla"
+    },
+    "others": [
+      "Gas fee imprevedibili",
+      "Interfacce cripto-native complesse",
+      "Nessuna tutela legale",
+      "Royalty opzionali e aggirabili",
+      "Zero impatto ambientale positivo",
+      "Community speculativa"
+    ],
+    "florence": [
+      "Zero gas fee per il Creator",
+      "Esperienza semplice come un e-commerce",
+      "Compliance GDPR/MiCA integrata",
+      "Royalty 4.5% garantite per sempre",
+      "20% automatico a progetti ambientali",
+      "Community di valore"
+    ],
+    "steps": [
+      { "number": "1", "title": "Carica", "description": "Drag & drop delle tue opere" },
+      { "number": "2", "title": "Descrivi", "description": "L'AI ti aiuta con testi e SEO" },
+      { "number": "3", "title": "Vendi", "description": "Royalty automatiche per sempre" }
+    ]
+  },
+  "problems": {
+    "title": "Cosa Risolviamo Davvero",
+    "subtitle": "E Perché Ti Serve",
+    "ui": {
+      "badge": "⚠️ Problema",
+      "before": "PRIMA",
+      "after": "CON FLORENCEEGI",
+      "problemTitle": "Il Problema",
+      "solutionTitle": "La Soluzione FlorenceEGI"
+    },
+    "items": [
+      {
+        "id": "p1",
+        "title": "Commissioni Esorbitanti",
+        "old": "Fee 15-30%, zero controllo",
+        "new": "Fee 10% dinamica (fino a 5%), royalty 4.5% perpetue",
+        "detailProblem": "Carichi la tua opera su OpenSea o Rarible. Loro prendono il 15-30% su ogni vendita, decidono dove appari, cambiano le regole quando vogliono. Tu sei solo un numero nel loro algoritmo.",
+        "detailSolution": "Paghi il 10% (che scende fino al 5% con il volume) e ricevi royalty automatiche del 4.5% per sempre su ogni rivendita grazie agli smart contract. Non serve pregare l'algoritmo: sei tu a costruire il tuo mercato con il tuo Asset Market Maker.",
+        "oldValue": "15-30%",
+        "oldCaption": "di commissioni su ogni vendita",
+        "newValue": "10% → 5%",
+        "newCaption": "+ royalty 4.5% perpetue",
+        "highlights": [
+          { "icon": "💰", "title": "Fee Dinamica", "desc": "Dal 10% al 5% in base al volume" },
+          { "icon": "♾️", "title": "Royalty Perpetue", "desc": "4.5% su ogni rivendita, per sempre" },
+          { "icon": "🤖", "title": "Automatico", "desc": "Smart contract, zero intermediari" },
+          { "icon": "👑", "title": "Tu Decidi", "desc": "Il TUO mercato, le TUE regole" }
+        ]
+      },
+      {
+        "id": "p2",
+        "title": "Autenticità Dubbia",
+        "old": "Certificati cartacei falsificabili",
+        "new": "Certificato blockchain immutabile, QR verificabile",
+        "detailProblem": "Hai un quadro. Il gallerista ti dà un foglio timbrato che dice \"autentico\". Chiunque con una stampante può farne una copia.",
+        "detailSolution": "Ogni EGI ha un Certificato di Autenticità blockchain immutabile. QR code fisico sull'opera, scansioni, vedi tutta la storia.",
+        "oldCaption": "Certificato falsificabile",
+        "newCaption": "Certificato immutabile",
+        "oldValue": "📄",
+        "newValue": "⛓️",
+        "highlights": [
+          { "icon": "🔗", "title": "Blockchain", "desc": "Certificato immutabile e permanente" },
+          { "icon": "📱", "title": "QR Code", "desc": "Scansiona e verifica istantaneamente" },
+          { "icon": "📜", "title": "Storia Completa", "desc": "Ogni passaggio documentato" },
+          { "icon": "✅", "title": "Verifica Pubblica", "desc": "Chiunque può controllare" }
+        ]
+      },
+      {
+        "id": "p3",
+        "title": "Incubo Wallet",
+        "old": "Seed phrase, rischio perdita",
+        "new": "Wallet invisibile o export, paghi con carta",
+        "detailProblem": "Per comprare un NFT devi installare MetaMask, scrivere 12 parole misteriose su un foglio, pregare di non perderlo mai.",
+        "detailSolution": "Wallet? Non lo vedi nemmeno. Ti registri come su Amazon, paghi con carta o bonifico, finito.",
+        "oldCaption": "Passaggi complicati",
+        "newCaption": "Come Amazon",
+        "oldValue": "12",
+        "newValue": "0",
+        "highlights": [
+          { "icon": "🙈", "title": "Wallet Invisibile", "desc": "Non devi nemmeno sapere cos'è" },
+          { "icon": "💳", "title": "Paga con Carta", "desc": "Come qualsiasi acquisto online" },
+          { "icon": "🏦", "title": "Bonifico", "desc": "Usa il metodo che preferisci" },
+          { "icon": "📤", "title": "Export Opzionale", "desc": "Vuoi il wallet? Te lo esporti" }
+        ]
+      },
+      {
+        "id": "p4",
+        "title": "Speculazione Vuota",
+        "old": "Pump & dump, zero utilità",
+        "new": "Asset REALI, 20% impatto ambientale automatico",
+        "detailProblem": "Il 99% dei progetti NFT sono immagini di scimmie vendute a milioni, poi sparite nel nulla.",
+        "detailSolution": "Ogni EGI ha valore intrinseco reale. E il 20% del valore va automaticamente a EPP.",
+        "oldCaption": "progetti NFT senza valore",
+        "newCaption": "valore reale + impatto",
+        "oldValue": "99%",
+        "newValue": "20%",
+        "highlights": [
+          { "icon": "🎨", "title": "Asset Reali", "desc": "Opere fisiche, non JPEG di scimmie" },
+          { "icon": "🌱", "title": "EPP Automatico", "desc": "20% per impatto ambientale" },
+          { "icon": "💎", "title": "Valore Intrinseco", "desc": "Utilità e bellezza reale" },
+          { "icon": "🔄", "title": "Economia Circolare", "desc": "Valore che genera valore" }
+        ]
+      },
+      {
+        "id": "p5",
+        "title": "Furto Opere",
+        "old": "Provenance opaca",
+        "new": "Storia on-chain, tracciabilità totale",
+        "detailProblem": "La tua foto finisce su 50 siti diversi, qualcuno la vende come NFT, tu scopri tutto per caso dopo mesi.",
+        "detailSolution": "La blockchain registra ogni passaggio. Se qualcuno ti ruba l'opera? La prova è lì, per sempre.",
+        "oldCaption": "Nessuna tracciabilità",
+        "newCaption": "Prova immutabile",
+        "oldValue": "❓",
+        "newValue": "✓",
+        "highlights": [
+          { "icon": "📍", "title": "On-Chain", "desc": "Ogni passaggio registrato" },
+          { "icon": "🔍", "title": "Tracciabile", "desc": "Storia completa verificabile" },
+          { "icon": "⚖️", "title": "Prova Legale", "desc": "Documentazione per tribunali" },
+          { "icon": "🛡️", "title": "Protezione", "desc": "Difendi la tua proprietà intellettuale" }
+        ]
+      },
+      {
+        "id": "p6",
+        "title": "Royalty Fantasma",
+        "old": "Accordi verbali non rispettati",
+        "new": "Smart contract trustless, pagamenti istantanei",
+        "detailProblem": "Il gallerista promette: \"Ti do il 10% sulle rivendite future\". Poi l'opera viene rivenduta 3 volte, tu non vedi un euro.",
+        "detailSolution": "Smart contract automatici. L'opera viene rivenduta? Il 4.5% arriva istantaneamente nel tuo wallet.",
+        "oldCaption": "Accordi verbali ignorati",
+        "newCaption": "Pagamento automatico",
+        "oldValue": "0€",
+        "newValue": "4.5%",
+        "highlights": [
+          { "icon": "🤖", "title": "Automatico", "desc": "Smart contract, zero fiducia richiesta" },
+          { "icon": "⚡", "title": "Istantaneo", "desc": "Pagamento immediato ad ogni vendita" },
+          { "icon": "🔐", "title": "Trustless", "desc": "Non devi fidarti di nessuno" },
+          { "icon": "💰", "title": "4.5% Garantito", "desc": "Per sempre, su ogni rivendita" }
+        ]
+      },
+      {
+        "id": "p7",
+        "title": "Labirinto GDPR",
+        "old": "Dati venduti, privacy zero",
+        "new": "GDPR by design, export 1-click, oblio",
+        "detailProblem": "Banner cookie illeggibili, dati venduti a terzi, email spam infinite.",
+        "detailSolution": "GDPR by design fin dal primo giorno. Consenso granulare, export dati in 1 click, cancellazione immediata.",
+        "oldCaption": "Dati venduti a terzi",
+        "newCaption": "Tu controlli tutto",
+        "oldValue": "🕵️",
+        "newValue": "🔒",
+        "highlights": [
+          { "icon": "🛡️", "title": "GDPR by Design", "desc": "Privacy pensata dall'inizio" },
+          { "icon": "📤", "title": "Export 1-Click", "desc": "Scarica tutti i tuoi dati" },
+          { "icon": "🗑️", "title": "Diritto Oblio", "desc": "Cancellazione immediata" },
+          { "icon": "🎚️", "title": "Consenso Granulare", "desc": "Decidi tu cosa condividere" }
+        ]
+      },
+      {
+        "id": "p8",
+        "title": "Blocco Normativo",
+        "old": "Rischi legali, MiCA, KYC",
+        "new": "MiCA-safe, PSP autorizzati, zero rischi",
+        "detailProblem": "MiCA, AML, KYC: per vendere crypto serve una licenza CASP che costa milioni.",
+        "detailSolution": "Noi siamo MiCA-safe by design. Non custodiamo crypto, non facciamo exchange, lavoriamo solo con PSP autorizzati.",
+        "oldCaption": "Licenza CASP milionaria",
+        "newCaption": "Zero licenze richieste",
+        "highlights": [
+          { "icon": "🛡️", "title": "MiCA-Safe", "desc": "Conformità normativa garantita" },
+          { "icon": "💳", "title": "PSP Autorizzati", "desc": "Partner di pagamento certificati" },
+          { "icon": "🚫", "title": "No Custodia Crypto", "desc": "Non gestiamo i tuoi fondi" },
+          { "icon": "✅", "title": "Zero Rischi", "desc": "Operi in totale sicurezza legale" }
+        ]
+      },
+      {
+        "id": "p9",
+        "title": "Pagamenti Lenti",
+        "old": "Bonifici T+7, fee alte",
+        "new": "Settlement T+2, 4 metodi pagamento",
+        "detailProblem": "Vendi un'opera a un collezionista giapponese. Il bonifico impiega 7 giorni.",
+        "detailSolution": "4 metodi di pagamento (FIAT, crypto, Egili, misto). Settlement in 2 giorni massimi.",
+        "oldCaption": "giorni per ricevere i soldi",
+        "newCaption": "giorni al massimo",
+        "oldValue": "7+",
+        "newValue": "2",
+        "highlights": [
+          { "icon": "⚡", "title": "Settlement T+2", "desc": "Massimo 2 giorni per ricevere" },
+          { "icon": "💳", "title": "4 Metodi", "desc": "FIAT, crypto, Egili, misto" },
+          { "icon": "🌍", "title": "Globale", "desc": "Pagamenti internazionali semplici" },
+          { "icon": "📉", "title": "Fee Basse", "desc": "Costi di transazione minimi" }
+        ]
+      },
+      {
+        "id": "p10",
+        "title": "Valore Ignoto",
+        "old": "Prezzi a caso",
+        "new": "NATAN AI valuation e market analysis",
+        "detailProblem": "Devi prezzare il tuo quadro. Non hai dati di mercato, confronti, nessuna idea di cosa sia giusto.",
+        "detailSolution": "NATAN AI analizza il mercato in tempo reale. Ti suggerisce un prezzo equo basato su dati veri.",
+        "oldCaption": "Nessun dato di mercato",
+        "newCaption": "AI che analizza tutto",
+        "highlights": [
+          { "icon": "🤖", "title": "NATAN AI", "desc": "Intelligenza artificiale dedicata" },
+          { "icon": "📊", "title": "Analisi Real-time", "desc": "Dati di mercato aggiornati" },
+          { "icon": "💡", "title": "Suggerimenti", "desc": "Prezzi basati su comparabili" },
+          { "icon": "📈", "title": "Trend", "desc": "Identifica opportunità di mercato" }
+        ]
+      },
+      {
+        "id": "p11",
+        "title": "Sei un Numero",
+        "old": "Algoritmi opachi",
+        "new": "Mecenatismo certificato, community reale",
+        "detailProblem": "Carichi 100 opere, zero visibilità. L'algoritmo premia solo chi paga per la sponsorizzazione.",
+        "detailSolution": "Il mecenatismo è certificato. Community attiva, visibilità basata su merito.",
+        "oldCaption": "Visibilità solo a pagamento",
+        "newCaption": "Riconoscimento basato sul merito",
+        "highlights": [
+          { "icon": "🎖️", "title": "Mecenatismo", "desc": "Supporto certificato on-chain" },
+          { "icon": "👥", "title": "Community", "desc": "Rete attiva di creator e collector" },
+          { "icon": "⭐", "title": "Merito", "desc": "Visibilità basata sulla qualità" },
+          { "icon": "🤝", "title": "Relazioni", "desc": "Connessioni reali, non algoritmi" }
+        ]
+      },
+      {
+        "id": "p12",
+        "title": "Caos Fiscale",
+        "old": "Gestione manuale errori",
+        "new": "Fatturazione SDI auto, report commercialista",
+        "detailProblem": "Devi emettere fatture per ogni vendita, seguire normative diverse. Gli errori costano sanzioni.",
+        "detailSolution": "Fatturazione automatica SDI, export CSV/XML per commercialisti, report trimestrali pronti.",
+        "oldCaption": "Errori = sanzioni",
+        "newCaption": "Tutto automatico",
+        "highlights": [
+          { "icon": "📄", "title": "Fatturazione SDI", "desc": "Automatica su ogni vendita" },
+          { "icon": "📊", "title": "Report", "desc": "Export CSV/XML per commercialisti" },
+          { "icon": "🗓️", "title": "Trimestrale", "desc": "Report pronti ogni 3 mesi" },
+          { "icon": "🛡️", "title": "Zero Sanzioni", "desc": "Conformità fiscale garantita" }
+        ]
+      }
+    ]
+  },
+  "examples": {
+    "title": "Qualsiasi Cosa Esista, Può Diventare un EGI",
+    "subtitle": "Esplora le infinite possibilità",
+    "tabs": [
+      {
+        "id": "art",
+        "name": "Arte & Creatività",
+        "description": "Quadri fisici, sculture, murales georeferenziati.",
+        "items": [
+          { "title": "Quadro fisico", "desc": "EGI + certificato + royalty perpetua" },
+          { "title": "Fotografia", "desc": "Serie limitata tokenizzata" },
+          { "title": "Scultura", "desc": "Gemello digitale 3D + proprietà fisica" },
+          { "title": "Murales", "desc": "Opera georeferenziata + NFT" },
+          { "title": "Installazione", "desc": "Documentazione immersiva + accesso esclusivo" }
+        ]
+      },
+      {
+        "id": "music",
+        "name": "Musica & Show",
+        "description": "Canzoni, album, ticket concerti, backstage pass.",
+        "items": [
+          { "title": "Canzone", "desc": "Music NFT + split royalty con band" },
+          { "title": "Album", "desc": "Tracce vendibili separatamente" },
+          { "title": "Concerto", "desc": "Ticket + backstage access token" },
+          { "title": "Podcast", "desc": "Episodi premium tokenizzati" }
+        ]
+      },
+      {
+        "id": "books",
+        "name": "Libri & Content",
+        "description": "Libri, e-book firmati, articoli esclusivi.",
+        "items": [
+          { "title": "Libro", "desc": "Capitoli vendibili singolarmente" },
+          { "title": "E-book", "desc": "Edizioni limitate firmate" },
+          { "title": "Articolo", "desc": "Accesso esclusivo + archivio storico" },
+          { "title": "Ricetta segreta", "desc": "IP protetto + licenze uso" }
+        ]
+      },
+      {
+        "id": "eco",
+        "name": "Ambiente",
+        "description": "Alberi piantati, kg plastica rimossa, crediti green.",
+        "items": [
+          { "title": "Albero piantato", "desc": "Carbon credit certificato" },
+          { "title": "Pulizia oceano", "desc": "Kg plastica rimossa tokenizzati" },
+          { "title": "Restauro monumento", "desc": "Contributo storico certificato" },
+          { "title": "Energia rinnovabile", "desc": "kWh verdi scambiabili" }
+        ]
+      },
+      {
+        "id": "sport",
+        "name": "Sport & Exp",
+        "description": "Risultati maratone, percorsi GPS, memorabilia.",
+        "items": [
+          { "title": "Maratona", "desc": "Risultato certificato + sponsor split" },
+          { "title": "Gara ciclismo", "desc": "Percorso GPS + memorabilia" },
+          { "title": "Immersione subacquea", "desc": "Esperienza documentata + video 360°" }
+        ]
+      },
+      {
+        "id": "fashion",
+        "name": "Moda",
+        "description": "Scarpe artigianali, gioielli tracciati, abiti unici.",
+        "items": [
+          { "title": "Scarpa artigianale", "desc": "Prototipo unico + storia produzione" },
+          { "title": "Gioiello", "desc": "Certificato autenticità + tracciabilità gemme" },
+          { "title": "Abito sartoriale", "desc": "Design esclusivo + making-of" }
+        ]
+      },
+      {
+        "id": "culture",
+        "name": "Heritage",
+        "description": "Reperti museali, manoscritti, opere teatrali.",
+        "items": [
+          { "title": "Reperto storico", "desc": "Certificato provenienza + 3D scan" },
+          { "title": "Manoscritto", "desc": "Digitalizzazione HD + accesso ricerca" },
+          { "title": "Opera teatrale", "desc": "Replica streaming + royalty cast" }
+        ]
+      }
+    ]
+  },
+  "howItWorks": {
+    "title": "Il Flusso Completo",
+    "subtitle": "Da file a EGI tokenizzato",
+    "ui": {
+      "stepBadge": "Step {{n}} di {{total}}",
+      "recommended": "✅ CONSIGLIATO",
+      "noEpp": "❌ Senza EPP",
+      "withEpp": "Collection + EPP",
+      "withoutEpp": "Collection senza EPP",
+      "actionTitle": "Cosa fai in questo step:",
+      "whatHappens": "Cosa succede quando EGIZZI:",
+      "whatHappensMint": "Cosa succede quando il Co-Creator acquista:",
+      "egizzareDefinition": "EGIZZARE = importare nella piattaforma, registrare nel DB, preparare per la vendita",
+      "mintingDefinition": "MINTING = tokenizzazione su blockchain Algorand al momento dell'acquisto",
+      "step1Icon": "📁",
+      "step2Icon": "⚡",
+      "step3Icon": "🔗",
+      "step1Title": "Il contenitore per i tuoi EGI",
+      "step2Title": "Importa nella piattaforma",
+      "step3Title": "Quando il Co-Creator acquista",
+      "step1Subtitle": "Crea una Collection e collegala a un EPP per sostenere l'ambiente",
+      "step2Subtitle": "Upload, descrizione AI, CoA... tutto in pochi secondi",
+      "step3Subtitle": "L'EGI viene tokenizzato e i fondi distribuiti automaticamente",
+      "splitTitle": "Split Automatico su €1000",
+      "splitCreator": "Creator",
+      "splitEpp": "EPP (Ambiente)",
+      "splitPlatform": "Piattaforma",
+      "splitAssociation": "Associazione",
+      "royaltyNote": "Da quel momento: royalty 4.5% perpetue su ogni rivendita"
+    },
+    "highlights": {
+      "step1": [
+        { "icon": "📦", "text": "Collection = contenitore per raggruppare EGI simili" },
+        { "icon": "🌱", "text": "EPP = 20% automatico a progetti ambientali" },
+        { "icon": "💰", "text": "Senza EPP = abbonamento €4-19/mese (sconsigliato)" },
+        { "icon": "✨", "text": "Puoi avere più Collection con EPP diversi" }
+      ],
+      "step2": [
+        { "icon": "📤", "text": "Upload drag & drop di foto/video" },
+        { "icon": "🤖", "text": "Descrizioni generate da AI (opzionale)" },
+        { "icon": "📜", "text": "CoA (Certificate of Authenticity) automatico" },
+        { "icon": "⏱️", "text": "Tutto in meno di 5 secondi" }
+      ],
+      "step3": [
+        { "icon": "💳", "text": "Pagamento con carta, crypto o Egili" },
+        { "icon": "⛓️", "text": "Tokenizzazione istantanea su Algorand" },
+        { "icon": "🔄", "text": "Split automatico e trustless" },
+        { "icon": "♾️", "text": "Royalty perpetue su ogni rivendita" }
+      ]
+    },
+    "steps": [
+      {
+        "number": 1,
+        "title": "Crea Collection",
+        "items": [
+          "Crea una Collection (contenitore per i tuoi EGI)",
+          "Collega la Collection a un EPP (20% automatico a progetti ambientali)",
+          "Oppure: niente EPP = abbonamento €4-19/mese (in base a quanti EGI)",
+          "Conviene SEMPRE collegare a un EPP: guadagni di più e fai del bene"
+        ]
+      },
+      {
+        "number": 2,
+        "title": "Egizza",
+        "timing": "< 5 secondi",
+        "items": [
+          "Upload foto/video opera nella Collection (drag & drop)",
+          "EGIZZARE = importare nella piattaforma, registrare nel DB",
+          "Aggiungi accessori: CoA, Traits, Utility, descrizioni AI",
+          "L'EGI è listato e pronto, ma NON ancora tokenizzato"
+        ]
+      },
+      {
+        "number": 3,
+        "title": "Mint (Co-Creator)",
+        "items": [
+          "Un Co-Creator acquista l'EGI e paga",
+          "Il MINTING avviene in quel momento: tokenizzazione su Algorand",
+          "Split automatico: Creator 68% • EPP 20% • Piattaforma 10% • Associazione 2%",
+          "Da quel momento: royalty 4.5% perpetue su ogni rivendita"
+        ]
+      }
+    ],
+    "ctaStart": "Inizia Ora Gratis",
+    "ctaDemo": "Guarda Demo Live"
+  },
+  "ammk": {
+    "titleLine1": "Non un Marketplace.",
+    "titleLine2": "Un Generatore di Asset Marketplace.",
+    "subtitle": "FlorenceEGI è un Asset Market Maker (AMMk): una piattaforma che ti permette di creare il TUO asset marketplace personalizzato in cui QUALSIASI prodotto/servizio diventa un EGI.",
+    "usersTitle": "Chi può usare AMMk",
+    "users": [
+      { "title": "Artisti", "desc": "Galleria personale con royalty automatiche" },
+      { "title": "Musei", "desc": "Collezione digitale + merchandising tokenizzato" },
+      { "title": "Brand", "desc": "Prodotti limited edition certificati blockchain" },
+      { "title": "Onlus", "desc": "Progetti ambientali con donazioni tracciabili" },
+      { "title": "Università", "desc": "Ricerca scientifica + pubblicazioni tokenizzate" },
+      { "title": "Comuni", "desc": "Patrimonio culturale digitalizzato" },
+      { "title": "Agenzie", "desc": "Servizi creativi + IP licensing" },
+      { "title": "Studi legali/Notai", "desc": "Notarizzazione documenti via NATAN" }
+    ],
+    "enginesTitle": "5 Engine Integrati",
+    "engines": [
+      { "name": "NATAN Market Engine", "desc": "AI valuta mercato, suggerisce prezzi, identifica trend" },
+      { "name": "Asset Management", "desc": "Mint, transfer, royalty automatici" },
+      { "name": "Distribution Engine", "desc": "Split trustless multi-wallet (Creator/EPP/Platform)" },
+      { "name": "Co-Creation Engine", "desc": "Gestione collaborazioni multi-artista" },
+      { "name": "Compliance Engine", "desc": "GDPR/MiCA/Fiscale automatico" }
+    ],
+    "customizationTitle": "Personalizzazione Totale",
+    "customization": [
+      { "title": "Brand personalizzato", "desc": "Logo, colori, dominio custom" },
+      { "title": "Fee configurabili", "desc": "Default 10%, dinamiche fino a 5%" },
+      { "title": "Tenant isolato", "desc": "Dati separati, RBAC dedicato" },
+      { "title": "Workflow custom", "desc": "Approvazioni, moderazione, drops" }
+    ],
+    "ctaTitle": "Vuoi creare il tuo marketplace EGI?",
+    "ctaSubtitle": "Inizia oggi e trasforma qualsiasi asset in un'opportunità di valore.",
+    "ctaButton": "Richiedi Demo AMMk"
+  },
+  "technology": {
+    "titleLine1": "Stack Enterprise,",
+    "titleLine2": "Esperienza Consumer.",
+    "subtitle": "Tecnologia di livello enterprise nascosta dietro un'interfaccia semplice come un'app. Tu vedi semplicità, noi gestiamo la complessità.",
+    "userColumnTitle": "TU VEDI",
+    "userFeatures": [
+      { "title": "Interfaccia drag&drop", "desc": "Carica opere intuitivamente" },
+      { "title": "Dashboard mobile-responsive", "desc": "Gestisci da qualsiasi dispositivo" },
+      { "title": "Notifiche real-time", "desc": "Mai perdere una vendita" },
+      { "title": "Analytics comprensibili", "desc": "Dati senza complessità" }
+    ],
+    "systemColumnTitle": "SISTEMA FA",
+    "systemFeatures": [
+      { "title": "Blockchain Algorand", "desc": "1000 TPS, <5s finalità, €0.001/tx" },
+      { "title": "Smart contract TEAL", "desc": "Verificabili e sicuri" },
+      { "title": "ULM Audit Trail", "desc": "Log immutabile 10 anni" },
+      { "title": "AES-256 Encryption", "desc": "Chiavi wallet protette" },
+      { "title": "Multi-tenant SaaS", "desc": "Scalabile infinitamente" },
+      { "title": "NATAN AI", "desc": "RAG, Valuation, Activation" },
+      { "title": "Event Bus pub/sub", "desc": "Comunicazione asincrona" },
+      { "title": "Observability completa", "desc": "UEM/ULM/GDPR monitoring" }
+    ],
+    "performanceTitle": "PERFORMANCE GARANTITE",
+    "performance": [
+      { "label": "Minting", "value": "< 5s", "desc": "Certificazione istantanea" },
+      { "label": "Uptime SLA", "value": "99.9%", "desc": "Disponibilità garantita" },
+      { "label": "Sicurezza", "value": "SOC 2", "desc": "Type II compliant" },
+      { "label": "Utenti concurrent", "value": "100k+", "desc": "Scalabilità enterprise" }
+    ],
+    "ctaTitle": "Tecnologia invisibile, risultati visibili.",
+    "ctaSubtitle": "Non devi capire la blockchain. Devi solo EGIZZARE.",
+    "ctaButton": "Scopri la Documentazione Tecnica"
+  },
+  "payments": {
+    "title": "Inclusione Finanziaria Totale",
+    "levels": [
+      { "title": "Zero Crypto", "desc": "Carta/Bonifico, wallet invisibile." },
+      { "title": "Ho un Wallet", "desc": "Paga FIAT, ricevi su Pera/Defly." },
+      { "title": "Crypto Native", "desc": "USDC/ETH via PSP autorizzati." },
+      { "title": "Egili", "desc": "Token interno fedeltà (no gas fee)." }
+    ]
+  },
+  "compliance": {
+    "title": "Compliance Totale",
+    "subtitle": "Pensaci tu a creare, al resto pensiamo noi.",
+    "items": [
+      { "title": "GDPR by Design", "desc": "Consenso granulare, export 1-click, diritto oblio." },
+      { "title": "MiCA-Safe", "desc": "No custodia crypto, no exchange, solo asset unici." },
+      { "title": "Fiscalità Auto", "desc": "Fatturazione SDI, report commercialista, IVA auto." },
+      { "title": "Diritti d'Autore", "desc": "Tutela morale e patrimoniale, Diritto di Seguito." }
+    ]
+  },
+  "ecosystem": {
+    "title": "3 Ruoli, 1 Circolo Virtuoso",
+    "roles": [
+      { "name": "Creator", "desc": "Crea valore, guadagna royalty perpetue." },
+      { "name": "Co-Creatore", "desc": "Attiva l'opera, ottiene visibilità eterna." },
+      { "name": "Collector", "desc": "Custodisce valore, investe in sostenibilità." },
+      { "name": "EPP (20%)", "desc": "Riceve fondi automatici per rigenerazione." }
+    ]
+  },
+  "natan": {
+    "title": "NATAN AI",
+    "subtitle": "L'Intelligenza che espande il tuo talento.",
+    "features": [
+      "Suggerimento Prezzi",
+      "Descrizioni SEO",
+      "Analisi Trend",
+      "Matching Collezionisti"
+    ],
+    "ethics": "Etica & Trasparenza",
+    "ethicsDesc": "Nessuna black box, ogni suggerimento è spiegato."
+  },
+  "governance": {
+    "title": "Governance Duale",
+    "srl": {
+      "title": "SRL Operativa",
+      "desc": "Innovazione, scaling, business."
+    },
+    "aps": {
+      "title": "APS Valoriale",
+      "desc": "Custode della missione, potere di veto etico."
+    }
+  },
+  "pricing": {
+    "title": "Fee Dinamiche",
+    "subtitle": "Più vendi, meno paghi.",
+    "distribution": {
+      "title": "Distribuzione su €1000 vendita primaria",
+      "creator": { "label": "Creator", "value": "€680", "percent": "68%" },
+      "epp": { "label": "EPP", "value": "€200", "percent": "20%" },
+      "platform": { "label": "Platform", "value": "€100", "percent": "10%" },
+      "association": { "label": "Associazione", "value": "€20", "percent": "2%" }
+    },
+    "secondary": {
+      "title": "Distribuzione rivendita (secondaria)",
+      "seller": { "label": "Venditore", "percent": "93%" },
+      "royalty": { "label": "Royalty Creator", "percent": "4.5%" },
+      "epp": { "label": "EPP", "percent": "1%" },
+      "platform": { "label": "Platform", "percent": "1.5%" }
+    }
+  },
+  "cases": {
+    "title": "Obiettivi di Impatto",
+    "disclaimer": "Proiezioni Anno 1 - FlorenceEGI non è ancora lanciato",
+    "items": [
+      { "name": "Maria, Pittrice", "result": "+€4,500 in 3 mesi con royalty." },
+      { "name": "Museo Civico", "result": "200 reperti digitalizzati, €12k donazioni." },
+      { "name": "GreenThreads", "result": "Filiera moda certificata, -20% resi." }
+    ]
+  },
+  "roadmap": {
+    "title": "Il Futuro è in Sviluppo",
+    "items": [
+      "Q1 2026: Mobile App & AR",
+      "Q2 2026: Social Features",
+      "Q3 2026: AI Predictive",
+      "Q4 2026: Global Expansion"
+    ]
+  },
+  "faq": {
+    "title": "Domande Frequenti",
+    "items": [
+      { "q": "Devo capire la blockchain?", "a": "No, l'esperienza è identica a un e-commerce." },
+      { "q": "Quanto costa?", "a": "Minting gratis. Fee solo sul venduto." },
+      { "q": "Posso vendere opere fisiche?", "a": "Sì, con certificato digitale e QR code." },
+      { "q": "Royalty garantite?", "a": "Sì, smart contract trustless per sempre." }
+    ]
+  },
+  "ctaFinal": {
+    "title": "Il Rinascimento Digitale Inizia Qui",
+    "stats": "Obiettivi Anno 1: 1200+ Creator • €450k+ Donati • 100% Trasparenza",
+    "buttons": {
+      "creator": "Sono un Creator",
+      "collector": "Sono un Collector",
+      "company": "Sono un'Azienda"
+    }
+  },
+  "impact": {
+    "badge": "🌍 Impatto Reale",
+    "title": "Il 20% di Ogni Vendita Rigenera il Pianeta",
+    "subtitle": "Non è greenwashing. È matematica.",
+    "ui": {
+      "examplePrefix": "Esempio: vendi per €1000",
+      "exampleAmount": "€200",
+      "exampleSuffix": "vanno automaticamente a progetti ambientali verificati",
+      "trackingNote": "Ogni centesimo tracciabile su blockchain",
+      "projectsTitle": "Progetti EPP Attivi",
+      "greenwashingTitle": "❌ Cos'è il Greenwashing",
+      "ourApproachTitle": "✅ Il Nostro Approccio"
+    },
+    "projects": [
+      {
+        "icon": "🌳",
+        "title": "Riforestazione",
+        "description": "Piantumazione certificata in aree degradate",
+        "partner": "Partner: Treedom, 3Bee"
+      },
+      {
+        "icon": "🌊",
+        "title": "Pulizia Oceani",
+        "description": "Rimozione plastica dai mari",
+        "partner": "Partner: Ocean Cleanup, Plastic Bank"
+      },
+      {
+        "icon": "🦋",
+        "title": "Biodiversità",
+        "description": "Protezione specie a rischio",
+        "partner": "Partner: WWF Italia, Legambiente"
+      }
+    ],
+    "greenwashing": [
+      "\"Siamo green!\" senza prove concrete",
+      "Donazioni una tantum per marketing",
+      "Percentuali vaghe e non verificabili",
+      "Offset carbonico senza trasparenza"
+    ],
+    "ourApproach": [
+      "20% fisso, automatico, trustless",
+      "Ogni transazione tracciabile su blockchain",
+      "EPP scelti e verificati dall'APS",
+      "Report pubblico trimestrale",
+      "Zero possibilità di manipolazione"
+    ],
+    "highlights": [
+      { "icon": "🔒", "text": "Smart contract trustless = impossibile barare" },
+      { "icon": "📊", "text": "Dashboard pubblica con tutti i dati" },
+      { "icon": "🌍", "text": "EPP verificati dall'APS (Associazione)" },
+      { "icon": "📜", "text": "Report trimestrale pubblicato" }
+    ]
+  },
+  "motto": {
+    "text": "Se Esiste, EGIZZALO. Se lo EGIZZI, Vale.",
+    "badge": "💡 Il Nostro Motto",
+    "ui": {
+      "meaningTitle": "Cosa significa?",
+      "meaningSubtitle": "EGIZZARE = trasformare qualsiasi asset in un EGI tokenizzato"
+    },
+    "meanings": [
+      {
+        "icon": "🎨",
+        "title": "Opere d'arte",
+        "description": "Dipinti, sculture, fotografie, illustrazioni digitali"
+      },
+      {
+        "icon": "🎵",
+        "title": "Musica",
+        "description": "Brani, album, diritti di sincronizzazione"
+      },
+      {
+        "icon": "📚",
+        "title": "Contenuti",
+        "description": "Libri, corsi, ricette, brevetti"
+      },
+      {
+        "icon": "🏛️",
+        "title": "Patrimonio",
+        "description": "Reperti museali, beni culturali, archivi storici"
+      },
+      {
+        "icon": "👗",
+        "title": "Moda",
+        "description": "Capi limited edition, accessori certificati"
+      },
+      {
+        "icon": "🍷",
+        "title": "Food & Wine",
+        "description": "Produzioni DOC, lotti numerati, esperienze"
+      }
+    ],
+    "highlights": [
+      { "icon": "✨", "text": "Qualsiasi asset può diventare un EGI" },
+      { "icon": "🔗", "text": "Certificazione blockchain permanente" },
+      { "icon": "💰", "text": "Royalty automatiche su ogni rivendita" },
+      { "icon": "🌍", "text": "20% a progetti ambientali" }
+    ]
+  }
+}

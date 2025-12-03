@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "title": "Co-Creation Ecosystem - FlorenceEGI",
+    "description": "Discover FlorenceEGI's co-creative ecosystem: Co-Create artworks, permanent Co-Creators and Trader Pro tools for professional trading.",
+    "keywords": "co-creation, co-creators, trader pro, ecosystem, blockchain art, EGI, professional trading"
+  },
+
+  "hero": {
+    "badge": "The Co-Creative Ecosystem",
+    "title": "Where Every Participant Becomes a Protagonist",
+    "subtitle": "Digital art and sustainable innovation, together",
+    "description": "In FlorenceEGI there are no simple buyers. Every participant becomes a co-creator, co-protagonist in the artwork's story.",
+    "badges": {
+      "cocreate": "Co-Create",
+      "cocreator": "Co-Creators",
+      "trader": "Trader Pro"
+    },
+    "cta": {
+      "primary": "Become a Co-Creator",
+      "secondary": "Learn More"
+    }
+  },
+
+  "cocreate": {
+    "title": "The Concept of Co-Creating",
+    "subtitle": "Actively participate in the public birth of an artwork",
+
+    "sharedCreation": {
+      "title": "The Act of Shared Creation",
+      "content": "Co-creating in FlorenceEGI means participating in the most magical moment of digital art: the first purchase. It's not simply a commercial transaction, but the founding act that transforms a private work into a public cultural asset.",
+      "highlight": "The first purchase is the act that makes the artwork \"alive and public\""
+    },
+
+    "privateToPublic": {
+      "title": "From Private to Public",
+      "content": "Through minting and the first purchase, the work leaves the private dimension of the artist's studio to enter the public sphere of shared culture. The Co-creator doesn't just acquire an artwork, but becomes an integral part of its history."
+    }
+  },
+
+  "cocreator": {
+    "title": "The Co-Creator Figure",
+    "subtitle": "A permanent bond with the artwork and guaranteed worldwide visibility",
+
+    "permanentBond": {
+      "title": "Permanent Bond",
+      "content": "The Co-creator remains forever united with the EGI, together with the original Creator. This indissoluble bond guarantees perpetual recognition of their founding role."
+    },
+
+    "globalVisibility": {
+      "title": "Worldwide Visibility",
+      "content": "Through registration and personalized profile, the Co-creator gains maximum visibility worldwide and global recognition of their contribution."
+    },
+
+    "cofounderMessage": "The Co-creator is not just a buyer: they are the co-founder of the artwork's public existence"
+  },
+
+  "trader": {
+    "title": "Trader Pro: Dual Strategy",
+    "subtitle": "Professional tools for traders and revolutionary marketing for creators",
+
+    "egiPtSystem": {
+      "title": "The EGI PT System: Digital Emissaries",
+      "description": "EGI PT (Print Token) are limited versions of the original EGI, designed for fast trading and viral spread of the artwork.",
+
+      "features": [
+        {
+          "title": "Maximum 5 EGI PT",
+          "description": "For each EGI with physical asset, maximum 5 EGI PT are created, ensuring scarcity and value."
+        },
+        {
+          "title": "Unique Numbering",
+          "description": "Each EGI PT is made unique by a serial number, while remaining identical to the original."
+        },
+        {
+          "title": "Digital Emissaries",
+          "description": "EGI PTs are messengers of the physical EGI in the global digital world."
+        }
+      ]
+    },
+
+    "economicStructure": {
+      "title": "Optimized Economic Structure",
+      "fees": [
+        {
+          "title": "Zero Creator Fee",
+          "value": "0%",
+          "description": "The Creator doesn't retain commissions on EGI PT, keeping the focus on free marketing."
+        },
+        {
+          "title": "Zero Platform Fee",
+          "value": "0%",
+          "description": "FlorenceEGI doesn't retain commissions on EGI PT, maximizing trading volumes."
+        },
+        {
+          "title": "EPP Only",
+          "value": "0.5%",
+          "description": "Only commission: 0.5% for environmental projects, ensuring minimum sustainable impact."
+        }
+      ]
+    }
+  },
+
+  "cta": {
+    "title": "Enter the Ecosystem",
+    "description": "Choose your role and start participating in the Digital Renaissance.",
+    
+    "options": [
+      {
+        "title": "Become a Creator",
+        "description": "Create and sell your works",
+        "cta": "Start Creating"
+      },
+      {
+        "title": "Become a Co-Creator",
+        "description": "Participate in the birth of artworks",
+        "cta": "Explore Collections"
+      },
+      {
+        "title": "Become a Trader Pro",
+        "description": "Trade with EGI PT",
+        "cta": "Discover EGI PT"
+      }
+    ]
+  }
+}

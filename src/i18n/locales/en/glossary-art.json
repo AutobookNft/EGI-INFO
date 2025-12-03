@@ -1,0 +1,407 @@
+{
+  "meta": {
+    "title": "Art Vocabulary",
+    "description": "Complete glossary of artistic techniques, materials, and supports for Certificate of Authenticity",
+    "categories": {
+      "technique": "Technique",
+      "materials": "Materials",
+      "support": "Support"
+    }
+  },
+  "techniques": {
+    "painting": {
+      "_label": "Painting",
+      "oil": {
+        "term": "Oil Painting",
+        "description": "Painting technique using pigments mixed with drying oil, typically linseed oil, characterized by long drying times and complex blending possibilities"
+      },
+      "acrylic": {
+        "term": "Acrylic Painting",
+        "description": "Modern painting technique using pigments dispersed in acrylic emulsion, characterized by quick drying and versatility on various surfaces"
+      },
+      "watercolor": {
+        "term": "Watercolor",
+        "description": "Water-based painting technique using transparent diluted pigments, characterized by transparency effects and wet-on-wet technique"
+      },
+      "tempera": {
+        "term": "Tempera",
+        "description": "Ancient painting technique using pigments bound with egg yolk emulsion, characterized by quick drying and brilliant opaque colors"
+      },
+      "gouache": {
+        "term": "Gouache",
+        "description": "Opaque painting technique similar to watercolor but with added white, characterized by full coverage and dense velvety colors"
+      },
+      "encaustic": {
+        "term": "Encaustic",
+        "description": "Ancient painting technique using pigments mixed with heated beeswax, characterized by glossy surfaces and great durability"
+      },
+      "fresco": {
+        "term": "Fresco",
+        "description": "Mural painting technique applying pigments on fresh lime plaster, allowing carbonation and permanent color integration"
+      }
+    },
+    "drawing": {
+      "_label": "Drawing",
+      "graphite": {
+        "term": "Graphite Drawing",
+        "description": "Drawing technique using graphite leads of varying hardness, characterized by precise tonal gradations and detailed shading"
+      },
+      "charcoal": {
+        "term": "Charcoal Drawing",
+        "description": "Drawing technique using vegetable charcoal sticks, characterized by strong contrasts and ability to quickly cover large surfaces"
+      },
+      "ink": {
+        "term": "Ink Drawing",
+        "description": "Drawing technique using liquid inks applied with pen or brush, characterized by precise lines and tonal washes"
+      },
+      "coloredPencil": {
+        "term": "Colored Pencils",
+        "description": "Drawing technique using pencils with wax or oil-based colored leads, characterized by saturated colors and chromatic layering"
+      },
+      "pastel": {
+        "term": "Pastel",
+        "description": "Drawing technique using sticks of pure pigment bound with gum arabic, characterized by intense colors and velvety texture"
+      }
+    },
+    "contemporary": {
+      "_label": "Contemporary",
+      "sprayPainting": {
+        "term": "Spray Painting",
+        "description": "Urban painting technique using spray cans for rapid color application, characterized by airbrush-like gradients and stencils"
+      },
+      "mixedMedia": {
+        "term": "Mixed Media",
+        "description": "Artistic approach combining various techniques and materials in a single work, characterized by experimentation and new expressions"
+      },
+      "collage": {
+        "term": "Collage",
+        "description": "Artistic technique assembling various materials (paper, photographs, fabrics) on a support, creating compositions through layering and juxtaposition"
+      },
+      "assemblage": {
+        "term": "Assemblage",
+        "description": "Three-dimensional sculptural technique combining found objects and diverse materials, creating new forms through assemblage of pre-existing elements"
+      }
+    },
+    "printmaking": {
+      "_label": "Printmaking",
+      "etching": {
+        "term": "Etching",
+        "description": "Intaglio technique incising metal plate with nitric acid through a design traced on protective varnish, creating grooves that hold ink"
+      },
+      "engraving": {
+        "term": "Engraving",
+        "description": "Direct intaglio technique incising metal plate with burin, creating precise grooves through metal removal with cutting tools"
+      },
+      "drypoint": {
+        "term": "Drypoint",
+        "description": "Intaglio technique directly incising metal plate with steel point, characterized by soft lines and burrs creating velvety effects"
+      },
+      "mezzotint": {
+        "term": "Mezzotint",
+        "description": "Intaglio technique creating tones through uniform plate granulation with rocker, allowing continuous tonal gradations from black to white"
+      },
+      "aquatint": {
+        "term": "Aquatint",
+        "description": "Intaglio technique creating tones through etching granulated resin on plate, allowing painterly and atmospheric effects similar to watercolor"
+      },
+      "lithography": {
+        "term": "Lithography",
+        "description": "Planographic printing technique on limestone using incompatibility between grease and water, allowing soft painterly prints"
+      },
+      "screenprint": {
+        "term": "Screen Printing",
+        "description": "Stencil printing technique passing ink through fine mesh fabric, characterized by uniform colors and high edition possibilities"
+      },
+      "woodcut": {
+        "term": "Woodcut",
+        "description": "Relief printing technique carving wood along the grain, removing non-printing areas and leaving design in relief for inking"
+      },
+      "linocut": {
+        "term": "Linocut",
+        "description": "Relief printing technique carving linoleum instead of wood, characterized by easier carving and more fluid lines"
+      },
+      "monotype": {
+        "term": "Monotype",
+        "description": "Printing technique producing single impression by painting directly on plate and transferring image to paper, combining painting and printing"
+      }
+    },
+    "sculpture": {
+      "_label": "Sculpture",
+      "carving": {
+        "term": "Carving",
+        "description": "Subtractive sculptural technique removing material from solid block (stone, wood) to reveal form, characterized by precision and irreversibility"
+      },
+      "modeling": {
+        "term": "Modeling",
+        "description": "Additive sculptural technique building form by adding and shaping plastic material like clay or wax, characterized by flexibility and correctability"
+      },
+      "casting": {
+        "term": "Casting",
+        "description": "Sculptural technique reproducing forms through pouring molten material (bronze, aluminum) into molds, allowing multiple high-quality reproductions"
+      },
+      "lostWax": {
+        "term": "Lost Wax",
+        "description": "Ancient casting technique using wax model eliminated during process, allowing creation of complex forms and refined details in metal"
+      },
+      "welding": {
+        "term": "Welding",
+        "description": "Modern sculptural technique joining metal elements through local fusion, characterized by industrial constructive and expressive possibilities"
+      },
+      "print3d": {
+        "term": "3D Printing",
+        "description": "Digital sculptural technique building three-dimensional forms layer by layer from digital files, characterized by geometric precision and complex forms"
+      }
+    },
+    "photography": {
+      "_label": "Photography",
+      "gelatinSilver": {
+        "term": "Gelatin Silver Print",
+        "description": "Analog photographic process using paper sensitized with gelatin and silver salts emulsion, characterized by wide tonal range and archivability"
+      },
+      "albumen": {
+        "term": "Albumen Print",
+        "description": "Historical 19th century photographic process using egg albumen to bind silver salts, characterized by glossy surface and refined details"
+      },
+      "cyanotype": {
+        "term": "Cyanotype",
+        "description": "Alternative photographic process using iron salts to create images with characteristic Prussian blue color, developed through sun exposure"
+      },
+      "platinum": {
+        "term": "Platinum Print",
+        "description": "Noble photographic process using platinum salts to create images of exceptional stability and tonal range, characterized by secular durability"
+      },
+      "chromogenic": {
+        "term": "Chromogenic Print",
+        "description": "Color photographic process forming image through organic dyes during development, used for modern color prints"
+      },
+      "inkjet": {
+        "term": "Inkjet Print",
+        "description": "Digital printing process depositing microscopic ink drops on paper, characterized by high resolution and precise color control"
+      }
+    },
+    "digital": {
+      "_label": "Digital Art",
+      "digitalPrint": {
+        "term": "Digital Print",
+        "description": "Computerized printing process transferring digital images to physical supports through professional high-resolution printers"
+      },
+      "generative": {
+        "term": "Generative Art",
+        "description": "Artistic practice using algorithms and autonomous systems to generate works, characterized by use of computer code as creative tool"
+      },
+      "render3d": {
+        "term": "3D Rendering",
+        "description": "Digital process generating two-dimensional images from computerized three-dimensional models, using lighting, materials, and perspective calculations"
+      },
+      "videoSingleChannel": {
+        "term": "Single-Channel Video",
+        "description": "Artistic video format using single video stream played on monitor or projection, basic form of contemporary video art"
+      },
+      "installationInteractive": {
+        "term": "Interactive Installation",
+        "description": "Artwork responding to audience interaction through sensors, digital technologies, or physical mechanisms, creating participatory experiences"
+      },
+      "arVr": {
+        "term": "Augmented/Virtual Reality",
+        "description": "Immersive technologies overlaying digital elements on real world (AR) or creating completely virtual environments (VR) for interactive artistic experiences"
+      }
+    },
+    "textile": {
+      "_label": "Textile",
+      "weaving": {
+        "term": "Weaving",
+        "description": "Technique interlacing warp and weft threads to create fabrics, using mechanical or manual looms for artistic and functional structures"
+      },
+      "embroidery": {
+        "term": "Embroidery",
+        "description": "Decorative technique applying colored threads on base fabric through specific stitches, creating ornamental and three-dimensional pictorial motifs"
+      },
+      "tapestry": {
+        "term": "Tapestry",
+        "description": "Artistic weaving technique creating figurative images through interlacing colored threads, traditionally executed on high-warp loom"
+      },
+      "felting": {
+        "term": "Felting",
+        "description": "Technique compacting animal fibers (wool) through moisture, heat, and pressure, creating resilient and versatile non-woven fabric"
+      },
+      "batik": {
+        "term": "Batik",
+        "description": "Resist-dyeing technique using hot wax to protect parts of fabric from dye, creating patterns through successive immersions"
+      },
+      "shibori": {
+        "term": "Shibori",
+        "description": "Japanese resist-dyeing technique using ties, folds, and compressions to create patterns through selective color resistance"
+      },
+      "knitting": {
+        "term": "Knitting",
+        "description": "Textile construction technique interlacing yarn loops through knitting needles, creating elastic fabrics and three-dimensional structures"
+      },
+      "crochet": {
+        "term": "Crochet",
+        "description": "Textile construction technique using single hook to create structures through concatenated yarn loops, allowing irregular shapes"
+      }
+    },
+    "ceramic": {
+      "_label": "Ceramics",
+      "wheelThrown": {
+        "term": "Wheel Throwing",
+        "description": "Ceramic technique shaping clay on rotating wheel, characterized by symmetrical forms and uniform walls through centering and lifting"
+      },
+      "handbuilt": {
+        "term": "Handbuilding",
+        "description": "Ceramic technique building forms without wheel using coils, slabs, or direct modeling, allowing asymmetrical and expressive forms"
+      },
+      "slipCast": {
+        "term": "Slip Casting",
+        "description": "Industrial ceramic technique pouring liquid clay into porous plaster molds, allowing identical reproductions and complex hollow forms"
+      },
+      "raku": {
+        "term": "Raku",
+        "description": "Japanese ceramic technique extracting incandescent work from kiln and reducing in combustible materials, creating unique chromatic effects"
+      }
+    },
+    "glass": {
+      "_label": "Glass",
+      "blown": {
+        "term": "Blown Glass",
+        "description": "Glassmaking technique shaping molten glass through air insufflation, using blowpipe to create hollow and organic forms"
+      },
+      "kilnformed": {
+        "term": "Kiln-Formed Glass",
+        "description": "Glassmaking technique shaping glass through controlled kiln heating, allowing fusions, slumping, and mold forming"
+      },
+      "lampworking": {
+        "term": "Lampworking",
+        "description": "Glassmaking technique shaping glass rods through torch flame, characterized by precision and miniaturistic detail possibilities"
+      },
+      "stained": {
+        "term": "Stained Glass",
+        "description": "Architectural glassmaking technique assembling colored glass with lead joints, creating figurative compositions for natural lighting"
+      }
+    },
+    "jewelry": {
+      "_label": "Jewelry",
+      "fabrication": {
+        "term": "Jewelry Fabrication",
+        "description": "Complete jewelry creation process including design, metalworking, setting, and finishing for artisanal or industrial production"
+      },
+      "forging": {
+        "term": "Forging",
+        "description": "Metalworking technique modifying forms through plastic deformation with hammers, characterized by structural consolidation and surface textures"
+      },
+      "filigree": {
+        "term": "Filigree",
+        "description": "Ornamental technique interweaving thin metal wires to create openwork patterns, characterized by lightness and decorative complexity"
+      },
+      "settingBezel": {
+        "term": "Bezel Setting",
+        "description": "Setting technique completely surrounding gem with metal, characterized by maximum protection and clean lines"
+      },
+      "settingProng": {
+        "term": "Prong Setting",
+        "description": "Setting technique holding gem with small metal claws, maximizing light penetration into stone"
+      },
+      "enamelCloisonne": {
+        "term": "Cloisonné Enamel",
+        "description": "Enameling technique using metal wires to create compartments filled with colored enamels, typical of Byzantine and Oriental art"
+      }
+    }
+  },
+  "materials": {
+    "paints": {
+      "_label": "Paints",
+      "oil": {
+        "term": "Oil Paints",
+        "description": "Pigments dispersed in drying oil (linseed, poppy, walnut), characterized by slow drying, high chromatic saturation, and complex blending possibilities"
+      },
+      "acrylic": {
+        "term": "Acrylic Paints",
+        "description": "Pigments dispersed in acrylic polymer emulsion, characterized by quick drying, water resistance once dry, and application versatility"
+      },
+      "watercolor": {
+        "term": "Watercolors",
+        "description": "Finely ground pigments bound with gum arabic, characterized by transparency, water solubility, and chromatic layering effects"
+      }
+    },
+    "metals": {
+      "_label": "Metals",
+      "bronze": {
+        "term": "Bronze",
+        "description": "Copper and tin alloy (88%-12%), characterized by durability, corrosion resistance, and natural blue-green patina over time"
+      },
+      "gold": {
+        "term": "Gold",
+        "description": "Noble metal characterized by inalterability, extreme malleability, and purity measured in carats (24kt = pure gold), used in jewelry and sacred art"
+      },
+      "silver": {
+        "term": "Sterling Silver",
+        "description": "Silver alloy at 92.5% with copper, international jewelry standard, characterized by greater hardness than pure silver and optimal workability"
+      }
+    },
+    "gems": {
+      "_label": "Gems",
+      "diamond": {
+        "term": "Diamond",
+        "description": "Pure carbon crystal, the hardest natural substance (hardness 10 Mohs), characterized by exceptional dispersion and incomparable brilliance"
+      },
+      "ruby": {
+        "term": "Ruby",
+        "description": "Red variety of corundum, characterized by intense red color from chromium, 9 Mohs hardness, and use in high-end jewelry"
+      },
+      "sapphire": {
+        "term": "Sapphire",
+        "description": "Non-red variety of corundum, characterized by various colors (classic blue), 9 Mohs hardness, and gemological prestige"
+      },
+      "emerald": {
+        "term": "Emerald",
+        "description": "Green variety of beryl, characterized by intense color from chromium or vanadium, traditionally associated with royalty and wisdom"
+      }
+    }
+  },
+  "supports": {
+    "canvas": {
+      "_label": "Canvas",
+      "cotton": {
+        "term": "Cotton Canvas",
+        "description": "Cotton fiber textile support prepared with primer, characterized by uniform weave, moderate elasticity, and standard use for oil and acrylic painting"
+      },
+      "linen": {
+        "term": "Linen Canvas",
+        "description": "Premium linen fiber textile support, characterized by superior resistance, excellent dimensional stability, and fine surface for conservation works"
+      }
+    },
+    "panels": {
+      "_label": "Panels",
+      "wood": {
+        "term": "Wood Panel",
+        "description": "Rigid support in solid or multi-layer wood prepared, characterized by dimensional stability, uniform surface, and classical painting tradition"
+      },
+      "mdf": {
+        "term": "MDF Panel",
+        "description": "Medium Density Fiberboard, economical support characterized by perfectly smooth surface, no grain, and easy preparation"
+      }
+    },
+    "papers": {
+      "_label": "Papers",
+      "watercolor": {
+        "term": "Watercolor Paper",
+        "description": "Paper support specific for water techniques, characterized by controlled absorption, moisture resistance, and appropriate texture for watercolor"
+      },
+      "drawing": {
+        "term": "Drawing Paper",
+        "description": "Universal paper support for drawing, characterized by smooth or slightly textured surface, medium weight, and versatility for various dry techniques"
+      }
+    }
+  },
+  "ui": {
+    "searchPlaceholder": "Search technique, material, or support...",
+    "noResults": "No terms found",
+    "showMore": "Show more",
+    "closeModal": "Close",
+    "category": "Category",
+    "relatedTerms": "Related terms",
+    "allTechniques": "All techniques",
+    "allMaterials": "All materials",
+    "allSupports": "All supports"
+  }
+}

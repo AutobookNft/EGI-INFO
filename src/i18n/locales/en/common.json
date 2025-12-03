@@ -1,0 +1,30 @@
+{
+  "nav": {
+    "home": "Home",
+    "approfondimenti": "Deep Dive",
+    "perArtisti": "Are you an Artist?",
+    "perImprenditori": "Are you an Entrepreneur?",
+    "perPa": "Public Administration",
+    "perCollezionisti": "Are you a Collector?"
+  },
+  "header": {
+    "brand": "FlorenceEGI",
+    "tagline": "The Digital Renaissance"
+  },
+  "footer": {
+    "copyright": "© 2025 FlorenceEGI. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  },
+  "buttons": {
+    "learnMore": "Learn More",
+    "getStarted": "Get Started",
+    "backToText": "Back to text",
+    "backToTop": "Back to top"
+  },
+  "language": {
+    "it": "Italiano",
+    "en": "English",
+    "switch": "Switch language"
+  }
+}

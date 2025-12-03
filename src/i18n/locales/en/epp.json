@@ -1,0 +1,82 @@
+{
+  "meta": {
+    "title": "EPP Programs - Environmental Protection - FlorenceEGI",
+    "description": "Discover Environmental Protection Programs (EPP): how every EGI contributes to verified reforestation, plastic recycling and bee protection projects.",
+    "keywords": "EPP, environment, sustainability, reforestation, plastic recycling, bees, green blockchain, FlorenceEGI"
+  },
+
+  "hero": {
+    "badge": "Environmental Protection Programs",
+    "title": "Environmental Protection Programs",
+    "subtitle": "The Green Heart of Every EGI",
+    "description": "Each EGI automatically allocates a share to verified environmental projects. It's not marketing, it's in every certificate's DNA.",
+    "cta": {
+      "primary": "Discover Programs",
+      "secondary": "How It Works"
+    }
+  },
+
+  "programs": {
+    "title": "The Three Active Programs",
+    "subtitle": "Concrete projects with measurable impact",
+
+    "arf": {
+      "icon": "🌲",
+      "badge": "Reforestation",
+      "title": "ARF - Adopt and Regenerate Forests",
+      "description": "The ARF program is dedicated to regenerating Italian forest heritage and protecting existing forests.",
+      "cta": "Contribute to Reforestation"
+    },
+
+    "apr": {
+      "icon": "♻️",
+      "badge": "Plastic Recycling",
+      "title": "APR - Adopt Plastic and Recycle",
+      "description": "The APR program focuses on recovering plastic from oceans, beaches and urban areas, transforming it into new resources.",
+      "cta": "Join the Fight Against Plastic"
+    },
+
+    "bpe": {
+      "icon": "🐝",
+      "badge": "Bee Protection",
+      "title": "BPE - Bee Protection & Education",
+      "description": "The BPE program is dedicated to protecting bees and pollinators, fundamental for biodiversity and agriculture.",
+      "cta": "Protect Bees With Us"
+    }
+  },
+
+  "howItWorks": {
+    "title": "How Contribution Works",
+    "subtitle": "From your purchase to real impact",
+
+    "steps": [
+      {
+        "number": "1",
+        "title": "Transaction",
+        "description": "Every time you buy, sell or trade an EGI, a percentage is automatically allocated to EPP."
+      },
+      {
+        "number": "2",
+        "title": "Collection",
+        "description": "Funds are collected in a dedicated pool managed transparently."
+      },
+      {
+        "number": "3",
+        "title": "Distribution",
+        "description": "Periodically funds are distributed to projects based on priorities and impact."
+      },
+      {
+        "number": "4",
+        "title": "Verification",
+        "description": "Results are verified and published on blockchain for total transparency."
+      }
+    ]
+  },
+
+  "cta": {
+    "title": "Join the Movement",
+    "description": "Every EGI you buy or create contributes to making the world a better place.",
+    "primary": "Explore Collections",
+    "secondary": "Become a Creator"
+  }
+}

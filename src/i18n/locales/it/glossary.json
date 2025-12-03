@@ -1,0 +1,635 @@
+{
+  "title": "Glossario FlorenceEGI",
+  "backToText": "Torna al testo",
+  "searchPlaceholder": "Cerca termine...",
+  "noResults": "Nessun termine trovato",
+  "categories": {
+    "core": "Concetti Fondamentali",
+    "blockchain": "Blockchain & Tecnologia",
+    "legal": "Diritti & Compliance",
+    "roles": "Ruoli & Attori",
+    "finance": "Pagamenti & Finanza",
+    "ai": "Intelligenza Artificiale",
+    "governance": "Governance & Struttura",
+    "technical": "Termini Tecnici",
+    "art": "Arte & Certificazione",
+    "gdpr": "Privacy & GDPR"
+  },
+  "terms": {
+    "egi": {
+      "term": "EGI (Eco Goods Invent)",
+      "definition": "Il certificato digitale che unisce valore estetico, tracciatura blockchain immutabile e contributo ambientale tramite EPP. Ogni EGI è unico, verificabile on-chain e legato a un asset fisico o digitale.",
+      "category": "core"
+    },
+    "epp": {
+      "term": "EPP (Environmental Protection Projects)",
+      "definition": "Progetti ambientali verificati integrati nativamente. Ogni transazione alloca automaticamente una quota a questi progetti per compensazione carbonica o riforestazione.",
+      "category": "core"
+    },
+    "ammk": {
+      "term": "AMMk (Asset Market Maker)",
+      "definition": "Termine coniato da FlorenceEGI per descrivere piattaforme che trasformano opere o contenuti in EGI (asset digitali) e ne governano l'intero ciclo di valore. FlorenceEGI è il primo AMMk al mondo.",
+      "category": "core"
+    },
+    "florenceegi": {
+      "term": "FlorenceEGI",
+      "definition": "Piattaforma di certificazione digitale che unisce arte, tecnologia blockchain e sostenibilità ambientale. Consente di certificare autenticità, tracciare proprietà e valorizzare qualsiasi bene.",
+      "category": "core"
+    },
+    "coa": {
+      "term": "CoA (Certificate of Authenticity)",
+      "definition": "Certificato di autenticità verificato e immutabile collegato a ogni EGI. Include provenienza, tecnica, materiali, condizione e storia dell'opera.",
+      "category": "core"
+    },
+    "egizzare": {
+      "term": "Egizzare",
+      "definition": "L'atto di trasformare un bene fisico o digitale in un EGI certificato sulla blockchain. Il motto: 'Se esiste EGIZZALO, se lo Egizzi VALE'.",
+      "category": "core"
+    },
+    "motto": {
+      "term": "Il Motto",
+      "definition": "'Se esiste EGIZZALO, se lo Egizzi VALE' - La filosofia centrale di FlorenceEGI che esprime la democratizzazione della certificazione digitale.",
+      "category": "core"
+    },
+    "algorand": {
+      "term": "Algorand",
+      "definition": "Blockchain sostenibile e carbon-negative basata su Proof-of-Stake. Utilizzata da FlorenceEGI per la sua efficienza energetica e velocità transazionale.",
+      "category": "blockchain"
+    },
+    "blockchain": {
+      "term": "Blockchain",
+      "definition": "Registro digitale distribuito, immutabile e trasparente che garantisce l'autenticità degli EGI. Ogni transazione è verificabile pubblicamente.",
+      "category": "blockchain"
+    },
+    "nft": {
+      "term": "NFT (Non-Fungible Token)",
+      "definition": "Token non fungibile che rappresenta un asset unico sulla blockchain. Gli EGI sono NFT su Algorand ma con valenza legale e documentale.",
+      "category": "blockchain"
+    },
+    "asa": {
+      "term": "ASA (Algorand Standard Asset)",
+      "definition": "Standard per la creazione di token su Algorand. Gli EGI vengono mintati come ASA con metadati completi e verificabili.",
+      "category": "blockchain"
+    },
+    "minting": {
+      "term": "Minting",
+      "definition": "L'atto di creare un nuovo EGI sulla blockchain, registrandolo per la prima volta. Processo irreversibile che genera l'asset digitale certificato.",
+      "category": "blockchain"
+    },
+    "smart-contract": {
+      "term": "Smart Contract",
+      "definition": "Contratto intelligente auto-eseguibile sulla blockchain. Gestisce automaticamente royalty, distribuzione pagamenti e trasferimenti di proprietà.",
+      "category": "blockchain"
+    },
+    "hash": {
+      "term": "Hash crittografico",
+      "definition": "Sequenza unica generata da algoritmo che garantisce l'integrità di file o documenti. L'impronta digitale che identifica univocamente ogni EGI.",
+      "category": "blockchain"
+    },
+    "ipfs": {
+      "term": "IPFS",
+      "definition": "InterPlanetary File System - sistema di storage decentralizzato dove vengono archiviati i metadati e le immagini degli EGI in modo permanente.",
+      "category": "blockchain"
+    },
+    "proof-of-stake": {
+      "term": "Proof-of-Stake",
+      "definition": "Meccanismo di consenso blockchain usato da Algorand, molto più efficiente e sostenibile rispetto al Proof-of-Work di Bitcoin.",
+      "category": "blockchain"
+    },
+    "carbon-negative": {
+      "term": "Carbon-Negative",
+      "definition": "Tecnologia che assorbe più CO2 di quanta ne produca. Algorand è carbon-negative, rendendo FlorenceEGI sostenibile per definizione.",
+      "category": "blockchain"
+    },
+    "wallet": {
+      "term": "Wallet",
+      "definition": "Portafoglio digitale che contiene i tuoi EGI e token. Può essere custodial (gestito dalla piattaforma) o non-custodial (controllo completo).",
+      "category": "blockchain"
+    },
+    "wallet-algorand": {
+      "term": "Wallet Algorand",
+      "definition": "Portafoglio digitale sulla blockchain Algorand. Contiene i tuoi certificati EGI (NFT unici) e permette transazioni on-chain.",
+      "category": "blockchain"
+    },
+    "seed-phrase": {
+      "term": "Seed Phrase",
+      "definition": "Sequenza di 25 parole che permette il recupero dell'accesso al wallet. MAI condividerla con nessuno, neanche con il supporto.",
+      "category": "blockchain"
+    },
+    "non-custodial": {
+      "term": "Wallet Non-Custodial",
+      "definition": "Wallet dove solo tu possiedi le chiavi private. La piattaforma non può accedere ai tuoi asset. Massima sicurezza, massima responsabilità.",
+      "category": "blockchain"
+    },
+    "transaction-id": {
+      "term": "Transaction ID (TxID)",
+      "definition": "Identificatore unico di ogni transazione sulla blockchain. Permette di verificare pubblicamente qualsiasi operazione su explorer.",
+      "category": "blockchain"
+    },
+    "explorer": {
+      "term": "Block Explorer",
+      "definition": "Strumento per visualizzare e verificare transazioni sulla blockchain. Per Algorand: Pera Explorer, AlgoExplorer.",
+      "category": "blockchain"
+    },
+    "on-chain": {
+      "term": "On-Chain",
+      "definition": "Dati registrati direttamente sulla blockchain, immutabili e verificabili pubblicamente. Gli EGI sono on-chain.",
+      "category": "blockchain"
+    },
+    "off-chain": {
+      "term": "Off-Chain",
+      "definition": "Dati conservati fuori dalla blockchain (es. database tradizionali). FlorenceEGI combina on-chain e off-chain per efficienza.",
+      "category": "blockchain"
+    },
+    "creator": {
+      "term": "Creator (Artista/Autore)",
+      "definition": "L'autore originale dell'opera. Riceve i proventi della vendita primaria e royalty automatiche sulle rivendite (4,5% + eventuale Diritto di Seguito). Conserva sempre Diritti Morali e Patrimoniali.",
+      "category": "roles"
+    },
+    "co-creatore": {
+      "term": "Co-Creator",
+      "definition": "Chi contribuisce alla creazione di un'opera attraverso il minting. Diventa parte indelebile dell'identità dell'EGI, registrato permanentemente nei metadati.",
+      "category": "roles"
+    },
+    "collector": {
+      "term": "Collector",
+      "definition": "Il custode del valore che preserva l'opera, acquisendo e conservando EGI. Può essere privato, istituzionale o aziendale.",
+      "category": "roles"
+    },
+    "mecenate": {
+      "term": "Mecenate (Patron)",
+      "definition": "Chi supporta un artista o una collezione, diventando attivatore di valore culturale con un profilo verificato. Evoluzione moderna del patronato artistico.",
+      "category": "roles"
+    },
+    "curatore": {
+      "term": "Curatore",
+      "definition": "Professionista che seleziona e valorizza opere. FlorenceEGI abilita una carriera da curatore digitale con strumenti specifici.",
+      "category": "roles"
+    },
+    "admin": {
+      "term": "Admin",
+      "definition": "Ruolo con permessi di gestione all'interno di FlorenceEGI. Può essere globale (piattaforma) o locale (collezione specifica).",
+      "category": "roles"
+    },
+    "diritti-morali": {
+      "term": "Diritti Morali",
+      "definition": "Diritti inalienabili e perpetui (L. 633/1941 Art. 20): paternità (riconoscimento autore) e integrità (no modifiche). Il Creator li conserva SEMPRE.",
+      "category": "legal"
+    },
+    "diritti-patrimoniali": {
+      "term": "Diritti Patrimoniali",
+      "definition": "Diritti economici (L. 633/1941 Art. 12-19): riproduzione, comunicazione pubblica, distribuzione. Il Proprietario dell'opera NON acquisisce il copyright.",
+      "category": "legal"
+    },
+    "diritto-seguito": {
+      "term": "Diritto di Seguito (Droit de Suite)",
+      "definition": "Diritto legale (L. 633/1941 Art. 19bis) del Creator: 4%-0,25% su rivendite ≥€3.000 tramite professionisti. Gestito da SIAE. Cumulativo con royalty piattaforma.",
+      "category": "legal"
+    },
+    "royalty-piattaforma": {
+      "term": "Royalty Piattaforma",
+      "definition": "Percentuale (4,5%) garantita al Creator su ogni rivendita, anche sotto €3.000. Automatica via smart contract, separata dal Diritto di Seguito legale.",
+      "category": "legal"
+    },
+    "copyright": {
+      "term": "Copyright",
+      "definition": "Diritto d'autore che protegge l'opera creativa. L'acquirente di un EGI NON acquisisce automaticamente i diritti di riproduzione o modifica.",
+      "category": "legal"
+    },
+    "gdpr": {
+      "term": "GDPR",
+      "definition": "Regolamento Generale sulla Protezione dei Dati europeo. FlorenceEGI è GDPR-by-design tramite ULM, AuditLogService e ConsentService.",
+      "category": "gdpr"
+    },
+    "mica": {
+      "term": "MiCA (Markets in Crypto-Assets)",
+      "definition": "Regolamento europeo sui mercati dei crypto-asset. FlorenceEGI è MiCA-safe perché non gestisce fondi crypto per conto terzi.",
+      "category": "legal"
+    },
+    "mica-safe": {
+      "term": "MiCA-safe",
+      "definition": "Conforme al regolamento MiCA. FlorenceEGI paga solo in FIAT tramite PSP autorizzati, eliminando rischi normativi crypto.",
+      "category": "legal"
+    },
+    "casp": {
+      "term": "CASP",
+      "definition": "Crypto-Asset Service Provider. Entità che offre servizi di scambio, custodia o trasferimento criptovalute. FlorenceEGI NON è un CASP.",
+      "category": "legal"
+    },
+    "psp": {
+      "term": "PSP (Payment Service Provider)",
+      "definition": "Fornitore di servizi di pagamento autorizzato (es. Stripe, Adyen). Gestisce i pagamenti FIAT garantendo compliance normativa.",
+      "category": "finance"
+    },
+    "consenso": {
+      "term": "Consenso",
+      "definition": "Autorizzazione esplicita dell'utente per il trattamento dei dati personali. Richiesto per GDPR e gestito dal ConsentService.",
+      "category": "gdpr"
+    },
+    "dati-personali": {
+      "term": "Dati Personali",
+      "definition": "Qualsiasi informazione che identifica o rende identificabile una persona. FlorenceEGI protegge questi dati secondo GDPR.",
+      "category": "gdpr"
+    },
+    "diritto-oblio": {
+      "term": "Diritto all'Oblio",
+      "definition": "Diritto GDPR di richiedere la cancellazione dei propri dati personali. Gestito tramite Centro Privacy di FlorenceEGI.",
+      "category": "gdpr"
+    },
+    "portabilita-dati": {
+      "term": "Portabilità Dati",
+      "definition": "Diritto GDPR di ricevere i propri dati in formato strutturato. FlorenceEGI offre export completo in formato standard.",
+      "category": "gdpr"
+    },
+    "egili": {
+      "term": "Egili",
+      "definition": "Token utility di FlorenceEGI. Si usano per sbloccare feature premium, pagare servizi AI e accedere a funzionalità avanzate.",
+      "category": "finance"
+    },
+    "equilibrium": {
+      "term": "Equilibrium",
+      "definition": "Token che alimenta il sistema di reward, ranking e interazioni etiche. Gli Egili sono micro-unità di Equilibrium.",
+      "category": "finance"
+    },
+    "fee-dinamiche": {
+      "term": "Fee Dinamiche",
+      "definition": "Sistema di fee che diminuisce con la crescita della community, creando un'economia rigenerativa e premiante.",
+      "category": "finance"
+    },
+    "fee-minting": {
+      "term": "Fee di Minting",
+      "definition": "Costo per creare un EGI. Include fee piattaforma, costi blockchain e quota EPP. Trasparente e prevedibile.",
+      "category": "finance"
+    },
+    "distribuzione-pagamenti": {
+      "term": "Distribuzione Pagamenti",
+      "definition": "Sistema automatico che ripartisce i pagamenti tra Creator, Co-Creator, EPP e piattaforma secondo smart contract.",
+      "category": "finance"
+    },
+    "stripe": {
+      "term": "Stripe",
+      "definition": "Piattaforma di pagamenti utilizzata per transazioni FIAT sicure. Gestisce carte di credito e bonifici.",
+      "category": "finance"
+    },
+    "paypal": {
+      "term": "PayPal",
+      "definition": "Servizio di pagamento online alternativo a carte di credito. Disponibile per acquisti su FlorenceEGI.",
+      "category": "finance"
+    },
+    "fatturazione": {
+      "term": "Fatturazione",
+      "definition": "Sistema di fatturazione elettronica conforme alla normativa italiana. Fatture aggregate mensili per Creator.",
+      "category": "finance"
+    },
+    "natan": {
+      "term": "NATAN (Neural Assistant)",
+      "definition": "Assistente AI di FlorenceEGI dedicato ad assistenza documentale, notarizzazione, servizi RAG e automazioni AI. Alimenta il NATAN Market Engine (Valuation + Activation).",
+      "category": "ai"
+    },
+    "natan-market-engine": {
+      "term": "NATAN Market Engine",
+      "definition": "Sistema AI che combina Valuation Engine (analisi valore) e Activation Engine (campagne, suggerimenti, notifiche) per dinamizzare il mercato.",
+      "category": "ai"
+    },
+    "art-advisor": {
+      "term": "Art Advisor AI",
+      "definition": "Modulo AI che fornisce suggerimenti su descrizioni, pricing, keywords SEO e strategie di valorizzazione dell'opera.",
+      "category": "ai"
+    },
+    "ai-credits": {
+      "term": "AI Credits",
+      "definition": "Crediti consumati per utilizzare servizi AI avanzati come generazione descrizioni, analisi opere, suggerimenti pricing.",
+      "category": "ai"
+    },
+    "rag": {
+      "term": "RAG (Retrieval-Augmented Generation)",
+      "definition": "Tecnologia AI che combina ricerca documenti e generazione testo. NATAN usa RAG per risposte contestuali accurate.",
+      "category": "ai"
+    },
+    "governance-duale": {
+      "term": "Governance Duale",
+      "definition": "Struttura basata su FlorenceEGI SRL (motore operativo) e Associazione Frangette APS (guardiano dei valori). Equilibrio tra profitto e missione.",
+      "category": "governance"
+    },
+    "florenceegi-core": {
+      "term": "FlorenceEGI Core (SaaS)",
+      "definition": "Nodo centrale dell'ecosistema: onboarding, autenticazione, billing, ULM/UEM, audit, registro tenant e policy condivise.",
+      "category": "governance"
+    },
+    "tenant-specializzato": {
+      "term": "Tenant Specializzato",
+      "definition": "Istanza verticale connessa al core con servizi dedicati: es. Natan (AI, notarizzazione, RAG) e FlorenceArtEGI (arte e marketplace).",
+      "category": "governance"
+    },
+    "frangette-aps": {
+      "term": "Frangette APS",
+      "definition": "Associazione di Promozione Sociale che tutela i valori etici di FlorenceEGI. Guardiana della missione culturale e ambientale.",
+      "category": "governance"
+    },
+    "rbac": {
+      "term": "RBAC (Role-Based Access Control)",
+      "definition": "Sistema di controllo accessi basato su ruoli. FlorenceEGI ha ruoli globali (account) e locali (collezione: Owner, Admin, Editor, Viewer).",
+      "category": "technical"
+    },
+    "ulm": {
+      "term": "ULM (UltraLogManager)",
+      "definition": "Sistema di logging eventi per garantire auditabilità completa e conformità GDPR. Traccia ogni azione sulla piattaforma.",
+      "category": "technical"
+    },
+    "auditlogservice": {
+      "term": "AuditLogService",
+      "definition": "Servizio per la creazione di trail di audit verificabili. Ogni operazione lascia traccia immutabile.",
+      "category": "technical"
+    },
+    "consentservice": {
+      "term": "ConsentService",
+      "definition": "Servizio per la gestione e versionamento dei consensi utente secondo GDPR. Traccia ogni modifica.",
+      "category": "technical"
+    },
+    "audit-trail": {
+      "term": "Audit Trail",
+      "definition": "Registro cronologico completo e immutabile di tutte le operazioni per verifica e tracciabilità.",
+      "category": "technical"
+    },
+    "event-bus": {
+      "term": "Event Bus",
+      "definition": "Sistema che riceve trigger on-chain e off-chain e attiva azioni NATAN: campagne, notifiche, suggerimenti prezzo.",
+      "category": "technical"
+    },
+    "envelope-encryption": {
+      "term": "Envelope Encryption (DEK+KEK)",
+      "definition": "Sistema di crittografia a doppio strato. Una chiave (DEK) cifra i dati, una seconda (KEK) cifra la prima. AWS KMS gestisce la KEK.",
+      "category": "technical"
+    },
+    "qr-nfc": {
+      "term": "QR/NFC",
+      "definition": "Tecnologie unidirezionali che collegano l'asset fisico al certificato digitale per verifica pubblica immediata.",
+      "category": "technical"
+    },
+    "api": {
+      "term": "API",
+      "definition": "Application Programming Interface - interfaccia per integrare FlorenceEGI con sistemi esterni.",
+      "category": "technical"
+    },
+    "webhook": {
+      "term": "Webhook",
+      "definition": "Callback HTTP che notifica eventi in tempo reale. Usato per integrazioni e automazioni.",
+      "category": "technical"
+    },
+    "seo-oriented": {
+      "term": "SEO-Oriented",
+      "definition": "Ottimizzato per motori di ricerca. NATAN suggerisce descrizioni SEO-oriented per massimizzare visibilità.",
+      "category": "technical"
+    },
+    "drops": {
+      "term": "Drops (Trimestrali)",
+      "definition": "Eventi trimestrali che selezionano opere eccellenti e culminano in una Serata Memorabile, concentrando attenzione, incentivi e liquidità.",
+      "category": "art"
+    },
+    "serata-memorabile": {
+      "term": "Serata Memorabile",
+      "definition": "Evento finale di ogni Drop trimestrale. Celebra i Creator e mette in mostra le opere più significative con esposizione, liquidità e premi.",
+      "category": "art"
+    },
+    "collezione": {
+      "term": "Collezione",
+      "definition": "Raggruppamento di EGI sotto un tema o autore. Ogni collezione ha gestione autonoma con ruoli specifici (Owner, Admin, Editor, Viewer).",
+      "category": "art"
+    },
+    "traits": {
+      "term": "Traits (Attributi)",
+      "definition": "Caratteristiche specifiche di un EGI: materiali, tecnica, dimensioni, stile. Bloccati su IPFS dopo il minting.",
+      "category": "art"
+    },
+    "tecnica": {
+      "term": "Tecnica",
+      "definition": "Metodo utilizzato per creare l'opera: pittura a olio, acquerello, scultura, fotografia, ecc. Registrata nei metadati.",
+      "category": "art"
+    },
+    "materiali": {
+      "term": "Materiali",
+      "definition": "Componenti fisici dell'opera: tela, bronzo, marmo, carta, ecc. Documentati nel CoA per autenticità.",
+      "category": "art"
+    },
+    "supporto": {
+      "term": "Supporto",
+      "definition": "Base su cui è realizzata l'opera: tela di lino, tavola di legno, carta cotone, ecc.",
+      "category": "art"
+    },
+    "provenienza": {
+      "term": "Provenienza",
+      "definition": "Storia della proprietà dell'opera dal creatore all'attuale possessore. Tracciata on-chain.",
+      "category": "art"
+    },
+    "condizione": {
+      "term": "Condizione",
+      "definition": "Stato di conservazione dell'opera: eccellente, buona, discreta, da restaurare. Documentata nel CoA.",
+      "category": "art"
+    },
+    "edizione": {
+      "term": "Edizione",
+      "definition": "Numero di esemplari autorizzati: unico (1/1), edizione limitata (es. 1/100). Registrato nei metadati.",
+      "category": "art"
+    },
+    "firma": {
+      "term": "Firma",
+      "definition": "Autografo dell'artista sull'opera. La posizione e tipologia sono documentate nel CoA.",
+      "category": "art"
+    },
+    "oracode": {
+      "term": "Oracode System",
+      "definition": "Paradigma che fonde ingegneria e simbolismo. La grammatica della verità tecnologica di FlorenceEGI.",
+      "category": "core"
+    },
+    "reservation": {
+      "term": "Prenotazione",
+      "definition": "Sistema che permette di prenotare un EGI prima del minting. L'offerta vincente procede all'acquisto.",
+      "category": "finance"
+    },
+    "offerta": {
+      "term": "Offerta",
+      "definition": "Proposta economica per l'acquisto di un EGI. Può essere accettata, rifiutata o superata da altre offerte.",
+      "category": "finance"
+    },
+    "resale": {
+      "term": "Rivendita (Secondary Sale)",
+      "definition": "Vendita di un EGI già mintato. Il Creator riceve royalty automatiche su ogni passaggio di proprietà.",
+      "category": "finance"
+    },
+    "primary-sale": {
+      "term": "Vendita Primaria",
+      "definition": "Prima vendita dell'EGI dopo il minting. Il Creator riceve l'importo completo meno fee piattaforma.",
+      "category": "finance"
+    },
+    "valuation": {
+      "term": "Valuation",
+      "definition": "Processo di stima del valore di un'opera. NATAN offre suggerimenti basati su AI e dati di mercato.",
+      "category": "ai"
+    },
+    "metadati": {
+      "term": "Metadati",
+      "definition": "Dati strutturati che descrivono l'EGI: titolo, descrizione, tecnica, materiali, dimensioni, autore. Archiviati su IPFS.",
+      "category": "technical"
+    },
+    "arc3": {
+      "term": "ARC-3",
+      "definition": "Standard Algorand per metadati NFT. FlorenceEGI utilizza ARC-3 per compatibilità e verificabilità.",
+      "category": "blockchain"
+    },
+    "arc69": {
+      "term": "ARC-69",
+      "definition": "Standard Algorand per metadati on-chain. Alternativa leggera ad ARC-3.",
+      "category": "blockchain"
+    },
+    "opt-in": {
+      "term": "Opt-In",
+      "definition": "Operazione Algorand che abilita un wallet a ricevere un asset specifico. Necessaria prima di ricevere EGI.",
+      "category": "blockchain"
+    },
+    "clawback": {
+      "term": "Clawback",
+      "definition": "Capacità di recuperare asset. Disabilitata sugli EGI per garantire vera proprietà decentralizzata.",
+      "category": "blockchain"
+    },
+    "freeze": {
+      "term": "Freeze",
+      "definition": "Capacità di bloccare trasferimenti. Disabilitata sugli EGI per garantire liquidità e libertà.",
+      "category": "blockchain"
+    },
+    "utility": {
+      "term": "Utility",
+      "definition": "Valore funzionale aggiuntivo dell'EGI oltre al certificato: accessi esclusivi, sconti, esperienze.",
+      "category": "core"
+    },
+    "riscatto-wallet": {
+      "term": "Riscatto Wallet",
+      "definition": "Processo per assumere il controllo completo del proprio wallet Algorand. Dopo il riscatto, solo tu possiedi la seed phrase.",
+      "category": "blockchain"
+    },
+    "treasury": {
+      "term": "Treasury",
+      "definition": "Wallet della piattaforma che gestisce temporaneamente gli EGI in custodia prima del trasferimento al wallet dell'acquirente.",
+      "category": "finance"
+    },
+    "pa-heritage": {
+      "term": "PA Heritage",
+      "definition": "Modulo per Pubbliche Amministrazioni per certificare e valorizzare patrimonio culturale pubblico.",
+      "category": "governance"
+    },
+    "pa-acts": {
+      "term": "PA Acts",
+      "definition": "Sistema per certificare atti amministrativi su blockchain per trasparenza e anti-corruzione.",
+      "category": "governance"
+    },
+    "onboarding": {
+      "term": "Onboarding",
+      "definition": "Processo guidato per nuovi Creator. Include verifica identità, configurazione profilo e tutorial piattaforma.",
+      "category": "technical"
+    },
+    "kyc": {
+      "term": "KYC (Know Your Customer)",
+      "definition": "Verifica identità richiesta per Creator e operazioni sopra determinate soglie. Garanzia di compliance.",
+      "category": "legal"
+    },
+    "aml": {
+      "term": "AML (Anti-Money Laundering)",
+      "definition": "Normativa antiriciclaggio. FlorenceEGI implementa controlli AML per transazioni significative.",
+      "category": "legal"
+    },
+    "termini-servizio": {
+      "term": "Termini di Servizio",
+      "definition": "Condizioni contrattuali per l'utilizzo della piattaforma. Accettazione obbligatoria alla registrazione.",
+      "category": "legal"
+    },
+    "privacy-policy": {
+      "term": "Privacy Policy",
+      "definition": "Informativa su come vengono trattati i dati personali. Conforme a GDPR e normativa italiana.",
+      "category": "gdpr"
+    },
+    "cookie-policy": {
+      "term": "Cookie Policy",
+      "definition": "Informativa sull'uso dei cookie. FlorenceEGI usa solo cookie tecnici e analytics con consenso.",
+      "category": "gdpr"
+    },
+    "collaborazione": {
+      "term": "Collaborazione",
+      "definition": "Modalità di creazione condivisa tra più artisti o con collezionisti. I ruoli sono registrati nei metadati.",
+      "category": "art"
+    },
+    "like": {
+      "term": "Like",
+      "definition": "Interazione sociale che esprime apprezzamento per un EGI o Creator. Contribuisce al ranking.",
+      "category": "core"
+    },
+    "ranking": {
+      "term": "Ranking",
+      "definition": "Sistema di classificazione basato su qualità, engagement e comportamento etico. Alimentato da Equilibrium.",
+      "category": "governance"
+    },
+    "notifica": {
+      "term": "Notifica",
+      "definition": "Avviso in-app o email per eventi rilevanti: offerte, vendite, aggiornamenti, scadenze.",
+      "category": "technical"
+    },
+    "statement": {
+      "term": "Statement",
+      "definition": "Rendiconto economico per Creator con dettaglio vendite, royalty e fee. Disponibile mensilmente.",
+      "category": "finance"
+    },
+    "biografia": {
+      "term": "Biografia",
+      "definition": "Profilo artistico del Creator con curriculum, esposizioni, riconoscimenti. Registrata on-chain.",
+      "category": "art"
+    },
+    "galleria": {
+      "term": "Galleria",
+      "definition": "Sezione profilo che mostra tutti gli EGI creati o posseduti. Vetrina digitale dell'artista.",
+      "category": "art"
+    },
+    "certificato-pdf": {
+      "term": "Certificato PDF",
+      "definition": "Versione scaricabile del CoA in formato PDF con QR code per verifica blockchain.",
+      "category": "art"
+    },
+    "verifica-pubblica": {
+      "term": "Verifica Pubblica",
+      "definition": "Chiunque può verificare l'autenticità di un EGI senza account, tramite QR code o link diretto.",
+      "category": "core"
+    },
+    "marketplace": {
+      "term": "Marketplace",
+      "definition": "Sezione della piattaforma dove EGI possono essere scambiati, venduti o acquistati.",
+      "category": "core"
+    },
+    "gas-fee": {
+      "term": "Gas Fee",
+      "definition": "Costo per le transazioni blockchain. Su Algorand sono minime (frazioni di centesimo) e incluse nelle fee.",
+      "category": "blockchain"
+    },
+    "mainnet": {
+      "term": "Mainnet",
+      "definition": "Rete blockchain principale dove le transazioni hanno valore reale. FlorenceEGI opera su Algorand Mainnet.",
+      "category": "blockchain"
+    },
+    "testnet": {
+      "term": "Testnet",
+      "definition": "Rete blockchain di test per sviluppo e prove. Le transazioni non hanno valore reale.",
+      "category": "blockchain"
+    },
+    "immutabilita": {
+      "term": "Immutabilità",
+      "definition": "Caratteristica della blockchain per cui i dati registrati non possono essere modificati o cancellati.",
+      "category": "blockchain"
+    },
+    "decentralizzazione": {
+      "term": "Decentralizzazione",
+      "definition": "Assenza di un'autorità centrale. La blockchain distribuisce il controllo su molti nodi indipendenti.",
+      "category": "blockchain"
+    },
+    "trasparenza": {
+      "term": "Trasparenza",
+      "definition": "Tutte le transazioni blockchain sono pubbliche e verificabili. Base della fiducia nel sistema.",
+      "category": "blockchain"
+    }
+  }
+}

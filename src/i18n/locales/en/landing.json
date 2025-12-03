@@ -1,0 +1,69 @@
+{
+  "hero": {
+    "titleLine1": "Florence",
+    "titleLine2": "EGI",
+    "tagline": "The Digital Renaissance starts here",
+    "mottoLine1": "If It Exists,",
+    "mottoHighlight1": "EGIZE IT",
+    "mottoLine2": "If You EGIZE It,",
+    "mottoHighlight2": "It's Worth",
+    "description": "<strong>FlorenceEGI</strong> is the platform where anyone can create their own digital business based on blockchain and artificial intelligence.",
+    "descriptionLine2": "No technical skills, no startup costs, with earnings that continue over time."
+  },
+  "wheel": {
+    "ariaLabel": "FlorenceEGI main menu",
+    "subtitle": "Choose your path",
+    "egi": "What are EGIs",
+    "artists": "For Artists",
+    "epp": "EPP Projects",
+    "entrepreneurs": "For Business",
+    "collectors": "For Collectors",
+    "explore": "Deep Dive"
+  },
+  "cta": {
+    "startFree": "Start Free",
+    "learnMore": "Learn More",
+    "explore": "Explore"
+  },
+  "trustBadges": {
+    "zeroCo2": "Carbon Negative",
+    "freeStart": "Free to start",
+    "madeInItaly": "Made in Italy"
+  },
+  "navigation": {
+    "chooseYourPath": "Choose your",
+    "pathHighlight": "path",
+    "cards": {
+      "approfondimenti": {
+        "icon": "📚",
+        "title": "Deep Dive",
+        "description": "Explore every aspect of the FlorenceEGI ecosystem in detail."
+      },
+      "artisti": {
+        "icon": "🎨",
+        "title": "Are you an Artist?",
+        "description": "Certify, protect and enhance your works in the digital world."
+      },
+      "imprenditori": {
+        "icon": "💼",
+        "title": "Are you an Entrepreneur?",
+        "description": "Blockchain solutions for certifications, tokens and business services."
+      },
+      "pa": {
+        "icon": "🏛️",
+        "title": "Public Administration",
+        "description": "Cultural heritage digitization and administrative transparency."
+      },
+      "collezionisti": {
+        "icon": "🖼️",
+        "title": "Are you a Collector?",
+        "description": "Purchase certified works and become a guardian of value."
+      },
+      "sourceTruth": {
+        "icon": "📖",
+        "title": "Source of Truth",
+        "description": "Technical documentation, glossary and complete architecture."
+      }
+    }
+  }
+}
