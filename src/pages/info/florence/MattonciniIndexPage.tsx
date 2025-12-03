@@ -186,6 +186,13 @@ const MattonciniIndexPage: React.FC = () => {
       <div className="mattoncini-index__layout">
         {/* Sidebar */}
         <aside className="mattoncini-index__sidebar">
+          {/* Home Link */}
+          <div className="mattoncini-index__home">
+            <Link to="/" className="mattoncini-index__home-link">
+              🏠 Home
+            </Link>
+          </div>
+
           {/* Search */}
           <div className="mattoncini-index__search">
             <input
@@ -342,6 +349,29 @@ const MattonciniIndexPage: React.FC = () => {
 
         .mattoncini-index__search {
           margin-bottom: 1.5rem;
+        }
+
+        .mattoncini-index__home {
+          margin-bottom: 1.5rem;
+        }
+
+        .mattoncini-index__home-link {
+          display: block;
+          width: 100%;
+          padding: 0.75rem 1rem;
+          background: rgba(212, 175, 55, 0.15);
+          border: 1px solid rgba(212, 175, 55, 0.3);
+          border-radius: 8px;
+          color: #d4af37;
+          text-decoration: none;
+          font-weight: 600;
+          text-align: center;
+          transition: all 0.2s;
+        }
+
+        .mattoncini-index__home-link:hover {
+          background: rgba(212, 175, 55, 0.25);
+          border-color: rgba(212, 175, 55, 0.5);
         }
 
         .mattoncini-index__search-input {
