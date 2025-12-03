@@ -1,302 +1,226 @@
-# EGI-INFO - FlorenceEGI Informative Pages (React SPA)
+# EGI-INFO - FlorenceEGI Informative Platform
 
-> **Per Copilot**: Questo documento contiene TUTTO il contesto necessario per sviluppare questo progetto.
-> Leggi attentamente prima di iniziare qualsiasi task.
-
----
-
-## 🎯 MISSION
-
-Convertire tutte le pagine informative Laravel Blade di FlorenceEGI in una **Single Page Application React** moderna, performante e manutenibile.
-
-### Perché questo progetto?
-
-Il progetto EGI principale (Laravel) contiene 16 pagine informative scritte in Blade PHP con:
-- ❌ Duplicazione massiva di codice (ogni pagina ha 500-1500 righe)
-- ❌ CSS inline e Tailwind CDN mescolati
-- ❌ Nessuna componentizzazione
-- ❌ Traduzioni sparse con `__()` Laravel
-- ❌ SEO/meta tags duplicati ovunque
-- ❌ Difficile manutenzione
-
-### Obiettivo
-
-✅ React + TypeScript SPA con:
-- Componenti riutilizzabili
-- Sistema di routing (React Router)
-- Gestione stato centralizzata (Context API)
-- CSS modulare (CSS Modules o styled-components)
-- i18n per multilingua
-- SEO con React Helmet
-- Build ottimizzato (Vite)
+> **Single Page Application React** per le pagine informative del progetto FlorenceEGI
 
 ---
 
-## 📁 PAGINE DA CONVERTIRE
+## 🎯 OVERVIEW
 
-### Cartella `resources/views/info/` (13 pagine)
+**EGI-INFO** è il sito informativo/educational di FlorenceEGI, il primo Asset Market Maker sostenibile su blockchain Algorand.
 
-| File Blade | Descrizione | Priorità |
-|------------|-------------|----------|
-| `florenceegi-v4-wheel.blade.php` | Landing principale con WheelMenu | 🔴 ALTA |
-| `florenceegi-v4.blade.php` | Landing V4 alternativa | 🔴 ALTA |
-| `florenceegi-light.blade.php` | Versione light | 🟡 MEDIA |
-| `florenceegi.blade.php` | Legacy | 🟢 BASSA |
-| `florence-egi.blade.php` | Redirect/alias | 🟢 BASSA |
-| `co-create-ecosystem.blade.php` | Co-Creatori, Trader Pro | 🔴 ALTA |
-| `epp-info.blade.php` | Environment Protection Programs | 🔴 ALTA |
-| `egi-info.blade.php` | Info generale EGI | 🟡 MEDIA |
-| `white-paper-finanziario.blade.php` | White Paper interattivo con Chart.js | 🔴 ALTA |
-| `why-cant-buy-egis.blade.php` | FAQ acquisto | 🟡 MEDIA |
-| `disclaimer.blade.php` | Disclaimer staging | 🟢 BASSA |
-| `under-construction.blade.php` | Pagina costruzione | 🟢 BASSA |
-| `florenceegi_source_truth.blade.php` | Documentazione interna | 🟢 BASSA |
+### Stack Tecnologico
 
-### Cartella `resources/views/archetypes/` (3 pagine)
-
-| File Blade | Descrizione | Priorità |
-|------------|-------------|----------|
-| `collector.blade.php` | Archetipo Collezionista | 🔴 ALTA |
-| `pa-entity.blade.php` | PA con N.A.T.A.N. AI | 🔴 ALTA |
-| `patron-standalone.blade.php` | Archetipo Patron | 🔴 ALTA |
+| Tecnologia | Versione | Note |
+|------------|----------|------|
+| **React** | 19.2.0 | Cutting edge |
+| **TypeScript** | 5.9.3 | Type safety |
+| **Vite** | 7.2.4 | Fast build |
+| **TailwindCSS** | 4.1.17 | Modern styling |
+| **react-router-dom** | 7.9.6 | Routing |
+| **i18next** | 25.7.0 | Internazionalizzazione |
 
 ---
 
-## 🏗️ ARCHITETTURA PROGETTO
+## 📊 STATISTICHE PROGETTO
+
+| Metrica | Valore |
+|---------|--------|
+| **Lines of Code** | 26,574+ |
+| **File Totali** | 173+ |
+| **Componenti React** | 80+ |
+| **Pagine** | 59+ |
+| **Routes** | 60+ |
+| **Mattoncini FlorenceEGI** | 43 |
+| **Termini Glossario** | 503 |
+| **Lingue** | 2 (IT, EN) |
+
+---
+
+## 🏗️ ARCHITETTURA
 
 ```
-EGI-INFO/
-├── src/
-│   ├── components/
-│   │   ├── common/           # Button, Card, Badge, Modal, etc.
-│   │   ├── navigation/       # Navbar, WheelMenu, Sidebar, Footer
-│   │   └── sections/         # Sezioni riutilizzabili tra pagine
-│   │
-│   ├── pages/
-│   │   ├── florenceegi/      # Landing pages principali
-│   │   │   ├── FlorenceEGIWheel.tsx    # Con WheelMenu
-│   │   │   ├── FlorenceEGIV4.tsx
-│   │   │   └── FlorenceEGILight.tsx
-│   │   │
-│   │   ├── info/             # Pagine informative
-│   │   │   ├── CoCreateEcosystem.tsx
-│   │   │   ├── EPPInfo.tsx
-│   │   │   ├── WhitePaper.tsx
-│   │   │   ├── WhyCantBuy.tsx
-│   │   │   └── Disclaimer.tsx
-│   │   │
-│   │   └── archetypes/       # Archetipi utente
-│   │       ├── Collector.tsx
-│   │       ├── PAEntity.tsx
-│   │       └── Patron.tsx
-│   │
-│   ├── layouts/
-│   │   ├── MainLayout.tsx    # Layout con navbar standard
-│   │   ├── LandingLayout.tsx # Layout full-screen per landing
-│   │   └── ArchetypeLayout.tsx
-│   │
-│   ├── context/
-│   │   ├── AudioContext.tsx
-│   │   ├── AnimationContext.tsx
-│   │   ├── ThemeContext.tsx
-│   │   └── LanguageContext.tsx
-│   │
-│   ├── hooks/
-│   │   ├── useScrollSpy.ts
-│   │   ├── useLocalStorage.ts
-│   │   ├── useMediaQuery.ts
-│   │   └── useIntersection.ts
-│   │
-│   ├── styles/
-│   │   ├── base.css          # Reset, variabili CSS
-│   │   ├── themes/           # Dark/Light themes
-│   │   └── animations.css    # Animazioni globali
-│   │
-│   ├── utils/
-│   │   ├── seo.ts            # Helper per meta tags
-│   │   └── analytics.ts
-│   │
-│   ├── i18n/                 # Traduzioni
-│   │   ├── it.json
-│   │   ├── en.json
-│   │   └── index.ts
-│   │
-│   ├── App.tsx
-│   ├── Router.tsx
-│   └── main.tsx
+src/
+├── components/
+│   ├── common/              # GlossaryTerm, SEO, Button, etc.
+│   ├── mattoncini/          # 🧱 43 Mattoncini Florence
+│   │   └── florence/
+│   ├── navigation/          # WheelMenu, Sidebar
+│   ├── sections/            # Sezioni riutilizzabili
+│   └── topics/              # EGI, EPP, Florence, CoCreate
 │
-├── public/
-│   ├── audio/                # Brani musicali
-│   └── images/
+├── pages/
+│   ├── info/                # Pagine informative
+│   │   └── florence/        # 43 pagine test mattoncini
+│   └── archetypes/          # Artist, Collector, Entrepreneur, PA
 │
-├── docs/                     # Documentazione
-│   └── HANDOFF/              # File di riferimento da EGI
+├── layouts/
+│   ├── LandingLayout.tsx    # Layout con WheelMenu
+│   └── InfoPageLayout.tsx   # Layout info pages
 │
-├── package.json
-├── vite.config.ts
-├── tsconfig.json
-└── README.md
+├── i18n/
+│   └── locales/
+│       ├── it/              # 10 namespace JSON
+│       └── en/              # 10 namespace JSON
+│
+├── styles/
+│   ├── globals.css          # Golden Ratio Design System
+│   └── components/          # Component styles
+│
+├── utils/
+│   └── seo/                 # SEO React 19 compatible
+│
+├── context/                 # GlossaryContext, ThemeContext
+└── router/                  # Route definitions
 ```
+
+---
+
+## 🧱 SISTEMA MATTONCINI
+
+Il progetto implementa un **sistema modulare** di 43 "mattoncini" - componenti React autonomi che possono essere composti per creare pagine.
+
+### Categorie Mattoncini
+
+| Categoria | Mattoncini | ID |
+|-----------|------------|-----|
+| **Hero & Intro** | Motto, WhatWeDo, Impact, Intro | #1-4 |
+| **12 Problemi** | Problem1-12 (before/after) | #5-16 |
+| **7 Esempi Settore** | Art, Music, Books, Eco, Sport, Fashion, Heritage | #17-23 |
+| **Come Funziona** | HowItWorks 1-3 | #24-26 |
+| **AMMk Platform** | Users, Engines, Custom | #27-29 |
+| **Technology** | User, System, Performance | #30-32 |
+| **Core Info** | Payments, Compliance, Ecosystem, NATAN, Governance | #33-37 |
+| **Pricing** | Primary, Secondary | #38-39 |
+| **Closing** | Cases, Roadmap, FAQ, CTAFinal | #40-43 |
+
+### Dashboard Mattoncini
+Visita `/info/florence` per la dashboard completa con navigazione e status.
 
 ---
 
 ## 🎨 DESIGN SYSTEM
 
-### Colori Brand (da rispettare)
+### Golden Ratio Scale (φ = 1.618)
 
 ```css
-:root {
-  /* Colori Primari FlorenceEGI */
-  --gold: #d4af37;
-  --gold-light: #f4d03f;
-  --oro-fiorentino: #D4A574;
-  
-  /* Sfondo */
-  --bg-dark: #0a0a0f;
-  --bg-section: #0d0d12;
-  --bg-card: rgba(20, 20, 30, 0.8);
-  
-  /* Testo */
-  --text-primary: rgba(255, 255, 255, 0.95);
-  --text-secondary: rgba(255, 255, 255, 0.7);
-  --text-muted: rgba(255, 255, 255, 0.5);
-  
-  /* Accenti per Archetipi */
-  --verde-rinascita: #2D5016;
-  --blu-algoritmo: #1B365D;
-  --rosso-urgenza: #C13120;
-  --arancio-energia: #E67E22;
-  --viola-innovazione: #8E44AD;
-  
-  /* EPP Colors */
-  --forest-green: #1B5E20;
-  --ocean-blue: #0277BD;
-  --bee-amber: #FF8F00;
-}
+--space-xs: 0.618rem;    /* 9.89px */
+--space-sm: 1rem;        /* 16px */
+--space-md: 1.618rem;    /* 25.89px */
+--space-lg: 2.618rem;    /* 41.89px */
+--space-xl: 4.236rem;    /* 67.78px */
+```
+
+### Colori Brand
+
+```css
+--color-gold: #D4AF37;
+--color-dark: #0A0A0F;
+--color-verde-rinascimento: #2E8B57;
+--color-blu-medici: #1E3A5F;
 ```
 
 ### Tipografia
 
 ```css
-/* Font Families */
---font-heading: 'Playfair Display', serif;    /* Titoli eleganti */
---font-body: 'Source Sans Pro', sans-serif;   /* Corpo testo */
---font-institutional: 'Inter', sans-serif;    /* PA/Istituzionale */
-```
-
-### Breakpoints
-
-```css
-/* Mobile First */
---bp-sm: 640px;
---bp-md: 768px;   /* Breakpoint principale mobile/desktop */
---bp-lg: 1024px;
---bp-xl: 1280px;
+--font-serif: 'Playfair Display', serif;  /* Titoli */
+--font-sans: 'Inter', sans-serif;         /* Corpo */
 ```
 
 ---
 
-## 🧩 COMPONENTI GIÀ SVILUPPATI (da docs/HANDOFF/)
+## 🌍 INTERNAZIONALIZZAZIONE
 
-### WheelMenu
-Menu circolare con navigazione a ruota. Già completo in `docs/EGI-INFO-HANDOFF/02-WheelMenu.tsx`.
+### Namespace i18n
 
-**Features:**
-- Animazione spin su hover
-- Fallback lista su mobile (< 768px)
-- localStorage per sezioni visitate
-- Keyboard navigation (Tab, Enter, Arrow keys)
-- ARIA accessibility
-- Proprietà `emphasized` per evidenziare item
+| Namespace | Descrizione |
+|-----------|-------------|
+| `common` | UI elements, navigation |
+| `florence` | Contenuti FlorenceEGI |
+| `egi` | Informazioni EGI token |
+| `epp` | Environment Protection Programs |
+| `glossary` | 503 termini tecnici |
+| `audiences` | Archetipi utente |
 
-### 10 Sezioni V4
-Tutte le sezioni della landing FlorenceEGI V4 sono in `docs/EGI-INFO-HANDOFF/06-13`.
+### GlossaryTerm Component
 
-| Sezione | ID | Descrizione |
-|---------|------|-------------|
-| HeroV4 | hero | Hero con titolo e CTA |
-| OriginStoryV4 | originstory | "5 anni, 5 riscritture, 5%" |
-| EgizzareV4 | egizzare | Concetto di Egizzare |
-| WhatIsEGIV4 | whatisegi | Cos'è un EGI |
-| TransparencyV4 | transparency | Trasparenza blockchain |
-| BlockchainSimpleV4 | blockchain | Spiegazione semplice |
-| ProblemsV4 | problems | Problemi che risolve |
-| InvoicesV4 | invoices | Sistema fatture |
-| WhoCanUseV4 | whocause | Target utenti |
-| CTAFinalV4 | cta | Call to action finale |
+```tsx
+import GlossaryTerm from '@/components/common/GlossaryTerm';
 
-### Audio System
-Sistema audio completo con brani royalty-free da Internet Archive.
-Vedi `docs/EGI-INFO-HANDOFF/14-15`.
+// Uso nel testo
+<p>
+  Ogni <GlossaryTerm termId="egi">EGI</GlossaryTerm> include 
+  royalty perpetue via <GlossaryTerm termId="smart-contract">smart contract</GlossaryTerm>.
+</p>
+```
 
 ---
 
-## 📋 WORKFLOW DI CONVERSIONE
+## ♿ ACCESSIBILITÀ (WCAG 2.1)
 
-### Per ogni pagina Blade:
-
-1. **Analisi**
-   - Identificare sezioni logiche
-   - Estrarre testi (per i18n)
-   - Catalogare stili CSS
-   - Identificare componenti riutilizzabili
-
-2. **Creazione Componenti**
-   - Creare componenti React per ogni sezione
-   - CSS Module o file CSS dedicato
-   - Props tipizzate con TypeScript
-   - Export dal barrel file `index.ts`
-
-3. **Assemblaggio Pagina**
-   - Creare page component
-   - Importare layout appropriato
-   - Comporre con sezioni
-   - Aggiungere SEO (React Helmet)
-
-4. **Test & Polish**
-   - Test responsive
-   - Test accessibilità
-   - Ottimizzare performance
-   - Verificare traduzioni
+- ✅ 328+ attributi ARIA
+- ✅ Focus styles per navigazione tastiera
+- ✅ Skip link per screen reader
+- ✅ Contrasto colori verificato
+- ✅ TabIndex per elementi interattivi
 
 ---
 
-## 🚀 SETUP PROGETTO
+## 🔍 SEO
+
+Sistema SEO compatibile con React 19 (senza react-helmet):
+
+- ✅ `document.title` dinamico
+- ✅ Open Graph tags
+- ✅ Twitter Cards
+- ✅ Schema.org JSON-LD
+- ✅ Meta description/keywords
+
+---
+
+## 🚀 SETUP
 
 ```bash
 # Installazione
-cd /home/fabio/EGI-INFO
-npm create vite@latest . -- --template react-ts
-npm install react-router-dom react-helmet-async i18next react-i18next
+npm install
 
 # Sviluppo
 npm run dev
 
-# Build
+# Build produzione
 npm run build
+
+# Preview build
+npm run preview
 ```
 
-### Dependencies Necessarie
+---
 
-```json
-{
-  "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-router-dom": "^6.x",
-    "react-helmet-async": "^2.x",
-    "i18next": "^23.x",
-    "react-i18next": "^14.x"
-  },
-  "devDependencies": {
-    "@types/react": "^18.2.0",
-    "@types/react-dom": "^18.2.0",
-    "@vitejs/plugin-react": "^4.2.0",
-    "typescript": "^5.x",
-    "vite": "^5.x"
-  }
-}
-```
+## 📁 ROUTES PRINCIPALI
+
+| Route | Descrizione |
+|-------|-------------|
+| `/` | Home con WheelMenu |
+| `/info` | Hub approfondimenti |
+| `/info/egi` | Cos'è un EGI |
+| `/info/epp` | Environment Protection Programs |
+| `/info/platform` | FlorenceEGI Platform |
+| `/info/florence` | Dashboard 43 Mattoncini |
+| `/archetypes/artist` | Per Artisti |
+| `/archetypes/entrepreneur` | Per Imprenditori |
+| `/archetypes/collector` | Per Collezionisti |
+| `/archetypes/public-admin` | Per PA |
+
+---
+
+## 📋 DOCUMENTAZIONE
+
+| Documento | Path |
+|-----------|------|
+| Architettura | `docs/ARCHITECTURE.md` |
+| Standard Mattoncini | `docs/MATTONCINI-STANDARD.md` |
+| Checklist Mattoncini | `docs/MATTONCINI-CHECKLIST.md` |
+| Guida SEO | `docs/SEO-IMPLEMENTATION-GUIDE.md` |
+| TODO | `docs/TODO.md` |
 
 ---
 
@@ -306,7 +230,6 @@ npm run build
 
 **Platform**: Laravel Forge
 
-**Deploy Script**:
 ```bash
 cd /home/forge/egi-info.13.48.57.194.sslip.io
 git pull origin main
@@ -314,104 +237,28 @@ npm install
 npm run build
 ```
 
-**Nginx**: Puntare a `dist/` con fallback a `index.html` per SPA routing.
-
----
-
-## ⚡ PRIORITÀ IMMEDIATE
-
-1. **Setup base progetto** (Vite + React + TypeScript + Router)
-2. **Importare componenti da HANDOFF** (WheelMenu, sezioni V4)
-3. **Creare FlorenceEGIWheel.tsx** come prima pagina funzionante
-4. **Implementare routing base**
-5. **Convertire pagine alta priorità** (Co-Create, EPP, White Paper, Archetypes)
-
----
-
-## 📚 RIFERIMENTI
-
-- **Handoff completo**: `docs/EGI-INFO-HANDOFF/` (copiare da EGI principale)
-- **Pagine Blade originali**: `/home/fabio/EGI/resources/views/info/` e `archetypes/`
-- **Traduzioni Laravel**: `/home/fabio/EGI/lang/` (it, en, es, pt, fr, de)
-
----
-
-## 🔧 NOTE PER COPILOT
-
-### Quando converti una pagina Blade:
-
-1. **NON copiare** CSS inline o Tailwind classes direttamente
-2. **Estrai** i pattern CSS in variabili/classi riutilizzabili
-3. **Identifica** componenti comuni (Card, Button, Section, etc.)
-4. **Separa** contenuti da presentazione
-5. **Usa** TypeScript strict mode
-6. **Documenta** ogni componente con JSDoc
-
-### Pattern da seguire:
-
-```tsx
-// ✅ CORRETTO
-interface SectionProps {
-  title: string;
-  children: React.ReactNode;
-  variant?: 'default' | 'highlight';
-}
-
-export function Section({ title, children, variant = 'default' }: SectionProps) {
-  return (
-    <section className={`section section--${variant}`}>
-      <h2 className="section__title">{title}</h2>
-      <div className="section__content">{children}</div>
-    </section>
-  );
-}
-
-// ❌ EVITARE
-export function Section(props: any) {
-  return <section style={{...inline styles...}}>{props.children}</section>
-}
-```
-
-### Struttura file CSS:
-
-```css
-/* ComponentName.css */
-
-/* Block */
-.component-name { }
-
-/* Element */
-.component-name__title { }
-.component-name__content { }
-
-/* Modifier */
-.component-name--highlight { }
-.component-name--dark { }
-
-/* State */
-.component-name.is-active { }
-.component-name.is-loading { }
-```
-
 ---
 
 ## 📊 STATO PROGETTO
 
-| Task | Status |
-|------|--------|
-| Setup cartella | ✅ Completato |
-| README | ✅ Completato |
-| Vite + React | ⏳ Da fare |
-| Import HANDOFF | ⏳ Da fare |
-| FlorenceEGI Wheel | ⏳ Da fare |
-| Routing | ⏳ Da fare |
-| Co-Create | ⏳ Da fare |
-| EPP | ⏳ Da fare |
-| White Paper | ⏳ Da fare |
-| Archetypes | ⏳ Da fare |
-| i18n | ⏳ Da fare |
-| Deploy | ⏳ Da fare |
+| Area | Status | Completamento |
+|------|--------|---------------|
+| Setup Base | ✅ | 100% |
+| WheelMenu | ✅ | 100% |
+| 43 Mattoncini | ✅ | 100% |
+| i18n IT/EN | ✅ | 100% |
+| Glossario | ✅ | 100% |
+| SEO | ✅ | 100% |
+| Accessibilità | ✅ | 90% |
+| Testing | ⏳ | 0% |
+| Pagine Aggregazione | ⏳ | In progress |
 
 ---
 
-**Ultimo aggiornamento**: 1 Dicembre 2025
+## 📝 LICENZA
+
+Proprietario: FlorenceEGI / Autobook NFT
+
+---
+
+**Ultimo aggiornamento**: 3 Dicembre 2025
