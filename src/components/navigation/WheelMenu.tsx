@@ -31,7 +31,7 @@ const WheelMenu: React.FC<WheelMenuProps> = ({ onClose }) => {
   const [isMobile, setIsMobile] = useState(false);
   const [isAnimating, setIsAnimating] = useState(true);
 
-  // Menu items - 6 voci per golden ratio layout
+  // Menu items - 7 voci per golden ratio layout
   // Path corretti per le route definite nel router
   const items: WheelMenuItem[] = [
     { id: 'egi', labelKey: 'wheel.egi', icon: '📜', path: '/info/egi' },
@@ -39,6 +39,7 @@ const WheelMenu: React.FC<WheelMenuProps> = ({ onClose }) => {
     { id: 'epp', labelKey: 'wheel.epp', icon: '🌱', path: '/info/epp' },
     { id: 'entrepreneurs', labelKey: 'wheel.entrepreneurs', icon: '💼', path: '/archetypes/entrepreneur' },
     { id: 'collectors', labelKey: 'wheel.collectors', icon: '🖼️', path: '/archetypes/collector' },
+    { id: 'mattoncini', labelKey: 'wheel.mattoncini', icon: '🧱', path: '/info/florence' },
     { id: 'explore', labelKey: 'wheel.explore', icon: '🔍', path: '/info' },
   ];
 
