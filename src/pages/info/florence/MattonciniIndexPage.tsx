@@ -93,6 +93,15 @@ const MATTONCINI: Mattoncino[] = [
   { id: 41, name: 'Roadmap', slug: 'roadmap', category: 'Closing', status: 'ready', jsonKey: 'roadmap.items' },
   { id: 42, name: 'FAQ', slug: 'faq', category: 'Closing', status: 'ready', jsonKey: 'faq.items' },
   { id: 43, name: 'CTA Finale', slug: 'cta-final', category: 'Closing', status: 'ready', jsonKey: 'ctaFinal' },
+  
+  // PAGAMENTI DETTAGLIO (44-50)
+  { id: 44, name: 'Filosofia Inclusione', slug: 'payment-philosophy', category: 'Pagamenti Dettaglio', status: 'ready', jsonKey: 'paymentPhilosophy' },
+  { id: 45, name: 'Ruolo Piattaforma', slug: 'payment-platform-role', category: 'Pagamenti Dettaglio', status: 'ready', jsonKey: 'paymentPlatformRole' },
+  { id: 46, name: 'Livello 1: Zero Crypto', slug: 'payment-level-1', category: 'Pagamenti Dettaglio', status: 'ready', jsonKey: 'paymentLevel1' },
+  { id: 47, name: 'Livello 2: Ho un Wallet', slug: 'payment-level-2', category: 'Pagamenti Dettaglio', status: 'ready', jsonKey: 'paymentLevel2' },
+  { id: 48, name: 'Livello 3: Accetto Crypto', slug: 'payment-level-3', category: 'Pagamenti Dettaglio', status: 'ready', jsonKey: 'paymentLevel3' },
+  { id: 49, name: 'Livello 4: EGILI Token', slug: 'payment-level-4', category: 'Pagamenti Dettaglio', status: 'ready', jsonKey: 'paymentLevel4' },
+  { id: 50, name: 'Riscatto Wallet', slug: 'wallet-redemption', category: 'Pagamenti Dettaglio', status: 'ready', jsonKey: 'walletRedemption' },
 ];
 
 // ============================================================================
@@ -108,6 +117,7 @@ const CATEGORIES = [
   'AMMk Platform',
   'Technology',
   'Core Info',
+  'Pagamenti Dettaglio',
   'Pricing',
   'Closing',
 ];

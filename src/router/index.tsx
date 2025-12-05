@@ -64,6 +64,13 @@ import AMMkCustomPage from '../pages/info/florence/AMMkCustomPage';
 import TechUserPage from '../pages/info/florence/TechUserPage';
 import TechSystemPage from '../pages/info/florence/TechSystemPage';
 import TechPerformancePage from '../pages/info/florence/TechPerformancePage';
+import PaymentPhilosophyPage from '../pages/info/florence/PaymentPhilosophyPage';
+import PaymentPlatformRolePage from '../pages/info/florence/PaymentPlatformRolePage';
+import PaymentLevel1Page from '../pages/info/florence/PaymentLevel1Page';
+import PaymentLevel2Page from '../pages/info/florence/PaymentLevel2Page';
+import PaymentLevel3Page from '../pages/info/florence/PaymentLevel3Page';
+import PaymentLevel4Page from '../pages/info/florence/PaymentLevel4Page';
+import WalletRedemptionPage from '../pages/info/florence/WalletRedemptionPage';
 
 // Pages - Audience (Per tipo di utente)
 import ArtistPage from '../pages/archetypes/ArtistPage';
@@ -318,6 +325,34 @@ const routes: RouteObject[] = [
       {
         path: 'florence/tech-performance',
         element: <TechPerformancePage />,
+      },
+      {
+        path: 'florence/payment-philosophy',
+        element: <PaymentPhilosophyPage />,
+      },
+      {
+        path: 'florence/payment-platform-role',
+        element: <PaymentPlatformRolePage />,
+      },
+      {
+        path: 'florence/payment-level-1',
+        element: <PaymentLevel1Page />,
+      },
+      {
+        path: 'florence/payment-level-2',
+        element: <PaymentLevel2Page />,
+      },
+      {
+        path: 'florence/payment-level-3',
+        element: <PaymentLevel3Page />,
+      },
+      {
+        path: 'florence/payment-level-4',
+        element: <PaymentLevel4Page />,
+      },
+      {
+        path: 'florence/wallet-redemption',
+        element: <WalletRedemptionPage />,
       },
     ],
   },
