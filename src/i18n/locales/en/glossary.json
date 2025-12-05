@@ -21,6 +21,81 @@
       "definition": "The digital certificate that combines aesthetic value, immutable blockchain traceability, and environmental contribution through EPP. Each EGI is unique, verifiable on-chain, and linked to a physical or digital asset.",
       "category": "core"
     },
+    "fiat": {
+      "term": "FIAT",
+      "definition": "Traditional legal tender currency issued by a state (euro, dollar, etc.). FlorenceEGI operates primarily in FIAT to ensure regulatory compliance.",
+      "category": "finance"
+    },
+    "mint": {
+      "term": "Mint",
+      "definition": "The operation of creating a new digital asset on the blockchain. When you 'mint' an EGI, it is registered for the first time on the Algorand network.",
+      "category": "blockchain"
+    },
+    "transfer": {
+      "term": "Transfer",
+      "definition": "Operation to transfer a digital asset from one wallet to another on the blockchain. Every transfer is tracked and publicly verifiable.",
+      "category": "blockchain"
+    },
+    "anchor-hash": {
+      "term": "Anchor Hash",
+      "definition": "Cryptographic hash that anchors EGI data to the blockchain, ensuring integrity and immutability of certified information.",
+      "category": "blockchain"
+    },
+    "payout": {
+      "term": "Payout",
+      "definition": "Transfer of funds from PSP to merchant or creator after a sale. Payout occurs in FIAT to the indicated bank account.",
+      "category": "finance"
+    },
+    "royalties": {
+      "term": "Royalties",
+      "definition": "Percentage fees due to the creator on each resale of the work. On FlorenceEGI they are automatic (4.5%) and managed via smart contract.",
+      "category": "finance"
+    },
+    "stablecoin": {
+      "term": "Stablecoin",
+      "definition": "Cryptocurrency whose value is pegged to a FIAT currency (e.g., USDC, USDT). FlorenceEGI can only accept them through MiCA-authorized partner PSPs.",
+      "category": "finance"
+    },
+    "custodial": {
+      "term": "Custodial",
+      "definition": "Mode in which the platform manages the wallet's private keys on behalf of the user. Simpler but with less direct control.",
+      "category": "blockchain"
+    },
+    "algo": {
+      "term": "ALGO",
+      "definition": "The native cryptocurrency of the Algorand blockchain. Used to pay transaction fees and as minimum balance requirement for wallets.",
+      "category": "blockchain"
+    },
+    "partner-autorizzato": {
+      "term": "Authorized Partner",
+      "definition": "External provider with CASP/EMI license that can handle cryptocurrency payments on behalf of merchants, keeping FlorenceEGI MiCA-safe.",
+      "category": "finance"
+    },
+    "settlement": {
+      "term": "Settlement",
+      "definition": "The final settlement process of a financial transaction. The moment when funds are actually transferred between parties.",
+      "category": "finance"
+    },
+    "emi": {
+      "term": "EMI (Electronic Money Institution)",
+      "definition": "Authorized Electronic Money Institution to issue and manage electronic money. EMI partners can manage MiCA-compliant stablecoins.",
+      "category": "finance"
+    },
+    "opt-out": {
+      "term": "Opt-Out",
+      "definition": "Algorand operation that removes an asset from the wallet, freeing up the minimum locked balance (0.1 ALGO per asset).",
+      "category": "blockchain"
+    },
+    "mnemonic": {
+      "term": "Mnemonic (Seed Phrase)",
+      "definition": "Sequence of 25 words representing the wallet's private key. Allows complete access recovery. Never share it.",
+      "category": "blockchain"
+    },
+    "dashboard": {
+      "term": "Dashboard",
+      "definition": "Personal control panel where users manage their EGIs, view statistics, initiate operations, and monitor transactions.",
+      "category": "technical"
+    },
     "epp": {
       "term": "EPP (Environmental Protection Projects)",
       "definition": "Verified environmental projects natively integrated. Each transaction automatically allocates a portion to these projects for carbon offsetting or reforestation.",

@@ -21,6 +21,81 @@
       "definition": "Il certificato digitale che unisce valore estetico, tracciatura blockchain immutabile e contributo ambientale tramite EPP. Ogni EGI è unico, verificabile on-chain e legato a un asset fisico o digitale.",
       "category": "core"
     },
+    "fiat": {
+      "term": "FIAT",
+      "definition": "Valuta tradizionale a corso legale emessa da uno Stato (euro, dollaro, etc.). FlorenceEGI opera principalmente in FIAT per garantire compliance normativa.",
+      "category": "finance"
+    },
+    "mint": {
+      "term": "Mint",
+      "definition": "L'operazione di creazione di un nuovo asset digitale sulla blockchain. Quando si 'minta' un EGI, questo viene registrato per la prima volta sulla rete Algorand.",
+      "category": "blockchain"
+    },
+    "transfer": {
+      "term": "Transfer",
+      "definition": "Operazione di trasferimento di un asset digitale da un wallet a un altro sulla blockchain. Ogni transfer è tracciato e verificabile pubblicamente.",
+      "category": "blockchain"
+    },
+    "anchor-hash": {
+      "term": "Anchor Hash",
+      "definition": "Hash crittografico che ancora i dati dell'EGI alla blockchain, garantendo l'integrità e l'immutabilità delle informazioni certificate.",
+      "category": "blockchain"
+    },
+    "payout": {
+      "term": "Payout",
+      "definition": "Trasferimento dei fondi dal PSP al merchant o creator dopo una vendita. Il payout avviene in FIAT sul conto bancario indicato.",
+      "category": "finance"
+    },
+    "royalties": {
+      "term": "Royalties",
+      "definition": "Compensi percentuali spettanti al creator su ogni rivendita dell'opera. Su FlorenceEGI sono automatiche (4,5%) e gestite via smart contract.",
+      "category": "finance"
+    },
+    "stablecoin": {
+      "term": "Stablecoin",
+      "definition": "Criptovaluta il cui valore è ancorato a una valuta FIAT (es. USDC, USDT). FlorenceEGI può accettarle solo tramite PSP partner autorizzati MiCA.",
+      "category": "finance"
+    },
+    "custodial": {
+      "term": "Custodial",
+      "definition": "Modalità in cui la piattaforma gestisce le chiavi private del wallet per conto dell'utente. Più semplice ma con meno controllo diretto.",
+      "category": "blockchain"
+    },
+    "algo": {
+      "term": "ALGO",
+      "definition": "La criptovaluta nativa della blockchain Algorand. Usata per pagare le fee di transazione e come requisito minimo di bilancio per i wallet.",
+      "category": "blockchain"
+    },
+    "partner-autorizzato": {
+      "term": "Partner Autorizzato",
+      "definition": "Fornitore esterno con licenza CASP/EMI che può gestire pagamenti in criptovaluta per conto dei merchant, mantenendo FlorenceEGI MiCA-safe.",
+      "category": "finance"
+    },
+    "settlement": {
+      "term": "Settlement",
+      "definition": "Processo di regolamento finale di una transazione finanziaria. Il momento in cui i fondi vengono effettivamente trasferiti tra le parti.",
+      "category": "finance"
+    },
+    "emi": {
+      "term": "EMI (Electronic Money Institution)",
+      "definition": "Istituto di Moneta Elettronica autorizzato a emettere e gestire moneta elettronica. I partner EMI possono gestire stablecoin conformi MiCA.",
+      "category": "finance"
+    },
+    "opt-out": {
+      "term": "Opt-Out",
+      "definition": "Operazione Algorand che rimuove un asset dal wallet, liberando il bilancio minimo bloccato (0,1 ALGO per asset).",
+      "category": "blockchain"
+    },
+    "mnemonic": {
+      "term": "Mnemonic (Seed Phrase)",
+      "definition": "Sequenza di 25 parole che rappresenta la chiave privata del wallet. Permette il recupero completo dell'accesso. Mai condividerla.",
+      "category": "blockchain"
+    },
+    "dashboard": {
+      "term": "Dashboard",
+      "definition": "Pannello di controllo personale dove l'utente gestisce i propri EGI, visualizza statistiche, avvia operazioni e monitora le transazioni.",
+      "category": "technical"
+    },
     "epp": {
       "term": "EPP (Environmental Protection Projects)",
       "definition": "Progetti ambientali verificati integrati nativamente. Ogni transazione alloca automaticamente una quota a questi progetti per compensazione carbonica o riforestazione.",
