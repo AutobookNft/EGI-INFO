@@ -10,6 +10,7 @@
 
 import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
+import { GlossaryTerm } from '../../common/GlossaryTerm';
 
 // ============================================
 // CONSTANTS (Design Tokens)
@@ -86,9 +87,7 @@ const WalletRedemption: React.FC = () => {
             maxWidth: '800px',
             margin: '0 auto',
           }}>
-            {t('walletRedemption.subtitle', 
-              "L'utente che desidera ottenere la piena proprietà dei propri EGI può richiedere il riscatto del wallet. Questa operazione trasferisce gli ASA (Algorand Standard Asset) dal wallet custodiale della piattaforma al wallet personale dell'utente, consegnandogli contestualmente la frase segreta (seed phrase)."
-            )}
+            L'utente che desidera ottenere la piena proprietà dei propri <GlossaryTerm termId="egi">EGI</GlossaryTerm> può richiedere il riscatto del <GlossaryTerm termId="wallet">wallet</GlossaryTerm>. Questa operazione trasferisce gli <GlossaryTerm termId="asa">ASA</GlossaryTerm> (Algorand Standard Asset) dal <GlossaryTerm termId="wallet">wallet</GlossaryTerm> <GlossaryTerm termId="custodial">custodiale</GlossaryTerm> della piattaforma al <GlossaryTerm termId="wallet">wallet</GlossaryTerm> personale dell'utente, consegnandogli contestualmente la frase segreta (<GlossaryTerm termId="mnemonic">seed phrase</GlossaryTerm>).
           </p>
         </header>
 
@@ -149,13 +148,11 @@ const WalletRedemption: React.FC = () => {
                 {t('walletRedemption.whyPaymentTitle', 'Perché è richiesto un pagamento?')}
               </h3>
               <p style={{ color: COLORS.textPrimary, lineHeight: 1.7, marginBottom: '20px' }}>
-                {t('walletRedemption.whyPaymentDesc', 
-                  `La blockchain Algorand richiede che ogni wallet che intende ricevere un ASA effettui preventivamente 
-                  un'operazione chiamata opt-in. Questa operazione blocca temporaneamente 0,1 ALGO per ogni ASA che il wallet 
-                  intende detenere. Tale importo non viene speso ma resta vincolato come requisito di bilancio minimo imposto 
-                  dal protocollo Algorand, e viene liberato qualora l'utente decida in futuro di rimuovere l'ASA dal proprio 
-                  wallet (operazione di opt-out).`
-                )}
+                La <GlossaryTerm termId="blockchain">blockchain</GlossaryTerm> Algorand richiede che ogni <GlossaryTerm termId="wallet">wallet</GlossaryTerm> che intende ricevere un <GlossaryTerm termId="asa">ASA</GlossaryTerm> effettui preventivamente 
+                un'operazione chiamata <GlossaryTerm termId="opt-in">opt-in</GlossaryTerm>. Questa operazione blocca temporaneamente 0,1 <GlossaryTerm termId="algo">ALGO</GlossaryTerm> per ogni <GlossaryTerm termId="asa">ASA</GlossaryTerm> che il <GlossaryTerm termId="wallet">wallet</GlossaryTerm> 
+                intende detenere. Tale importo non viene speso ma resta vincolato come requisito di bilancio minimo imposto 
+                dal protocollo Algorand, e viene liberato qualora l'utente decida in futuro di rimuovere l'<GlossaryTerm termId="asa">ASA</GlossaryTerm> dal proprio 
+                <GlossaryTerm termId="wallet">wallet</GlossaryTerm> (operazione di <GlossaryTerm termId="opt-out">opt-out</GlossaryTerm>).
               </p>
 
               {/* FORMULA COSTO */}
@@ -172,7 +169,7 @@ const WalletRedemption: React.FC = () => {
                   🧮 {t('walletRedemption.formulaTitle', 'Formula di calcolo del costo')}
                 </h4>
                 <p style={{ color: COLORS.textPrimary, fontSize: '0.95rem', marginBottom: '12px' }}>
-                  {t('walletRedemption.formulaIntro', 'Il costo totale del riscatto è determinato dalla seguente formula:')}
+                  Il costo totale del riscatto è determinato dalla seguente formula:
                 </p>
                 <div
                   style={{
@@ -186,14 +183,12 @@ const WalletRedemption: React.FC = () => {
                     marginBottom: '16px',
                   }}
                 >
-                  <strong>Costo = (N × 0,1 ALGO) + 0,1 ALGO + fee di rete</strong>
+                  <strong>Costo = (N × 0,1 <GlossaryTerm termId="algo">ALGO</GlossaryTerm>) + 0,1 <GlossaryTerm termId="algo">ALGO</GlossaryTerm> + fee di rete</strong>
                 </div>
                 <p style={{ color: COLORS.textPrimary, fontSize: '0.9rem', lineHeight: 1.6, margin: 0 }}>
-                  {t('walletRedemption.formulaExplanation', 
-                    `Dove N è il numero di EGI posseduti dall'utente. Il secondo addendo (0,1 ALGO) rappresenta il bilancio 
-                    minimo richiesto per mantenere attivo l'account Algorand, mentre le fee di rete coprono le transazioni 
-                    di opt-in e trasferimento (circa 0,001 ALGO ciascuna).`
-                  )}
+                  Dove N è il numero di <GlossaryTerm termId="egi">EGI</GlossaryTerm> posseduti dall'utente. Il secondo addendo (0,1 <GlossaryTerm termId="algo">ALGO</GlossaryTerm>) rappresenta il bilancio 
+                  minimo richiesto per mantenere attivo l'account Algorand, mentre le fee di rete coprono le transazioni 
+                  di <GlossaryTerm termId="opt-in">opt-in</GlossaryTerm> e <GlossaryTerm termId="transfer">trasferimento</GlossaryTerm> (circa 0,001 <GlossaryTerm termId="algo">ALGO</GlossaryTerm> ciascuna).
                 </p>
               </div>
 
@@ -202,30 +197,28 @@ const WalletRedemption: React.FC = () => {
                 {t('walletRedemption.exampleTitle', 'Esempio pratico')}
               </h3>
               <p style={{ color: COLORS.textPrimary, lineHeight: 1.7, marginBottom: '16px' }}>
-                {t('walletRedemption.exampleIntro', 'Un utente che possiede 50 EGI dovrà sostenere un costo di circa:')}
+                Un utente che possiede 50 <GlossaryTerm termId="egi">EGI</GlossaryTerm> dovrà sostenere un costo di circa:
               </p>
               <ul style={{ listStyle: 'none', padding: 0, margin: '0 0 20px 0' }}>
                 <li style={{ display: 'flex', gap: '10px', color: COLORS.textPrimary, lineHeight: 1.6, marginBottom: '8px' }}>
                   <span style={{ color: COLORS.gold }} aria-hidden="true">•</span>
-                  {t('walletRedemption.exampleLine1', '50 × 0,1 ALGO = 5 ALGO (per gli opt-in)')}
+                  50 × 0,1 <GlossaryTerm termId="algo">ALGO</GlossaryTerm> = 5 <GlossaryTerm termId="algo">ALGO</GlossaryTerm> (per gli <GlossaryTerm termId="opt-in">opt-in</GlossaryTerm>)
                 </li>
                 <li style={{ display: 'flex', gap: '10px', color: COLORS.textPrimary, lineHeight: 1.6, marginBottom: '8px' }}>
                   <span style={{ color: COLORS.gold }} aria-hidden="true">•</span>
-                  {t('walletRedemption.exampleLine2', '0,1 ALGO (bilancio minimo account)')}
+                  0,1 <GlossaryTerm termId="algo">ALGO</GlossaryTerm> (bilancio minimo account)
                 </li>
                 <li style={{ display: 'flex', gap: '10px', color: COLORS.textPrimary, lineHeight: 1.6, marginBottom: '8px' }}>
                   <span style={{ color: COLORS.gold }} aria-hidden="true">•</span>
-                  {t('walletRedemption.exampleLine3', '~0,1 ALGO (fee di rete per ~100 transazioni)')}
+                  ~0,1 <GlossaryTerm termId="algo">ALGO</GlossaryTerm> (fee di rete per ~100 transazioni)
                 </li>
                 <li style={{ display: 'flex', gap: '10px', color: COLORS.textPrimary, lineHeight: 1.6, fontWeight: 600 }}>
                   <span style={{ color: COLORS.gold }} aria-hidden="true">→</span>
-                  {t('walletRedemption.exampleTotal', 'Totale: ~5,2 ALGO')}
+                  Totale: ~5,2 <GlossaryTerm termId="algo">ALGO</GlossaryTerm>
                 </li>
               </ul>
               <p style={{ color: COLORS.textSecondary, fontSize: '0.9rem', lineHeight: 1.6, marginBottom: '28px' }}>
-                {t('walletRedemption.exampleNote', 
-                  "Al cambio corrente (dicembre 2025: 1 ALGO ≈ 0,12 €), questo equivale a circa 0,62 €. L'importo viene addebitato in EGILI al tasso di conversione vigente al momento della richiesta."
-                )}
+                Al cambio corrente (dicembre 2025: 1 <GlossaryTerm termId="algo">ALGO</GlossaryTerm> ≈ 0,12 €), questo equivale a circa 0,62 €. L'importo viene addebitato in <GlossaryTerm termId="egili">EGILI</GlossaryTerm> al tasso di conversione vigente al momento della richiesta.
               </p>
 
               {/* FLUSSO OPERATIVO */}
@@ -233,49 +226,230 @@ const WalletRedemption: React.FC = () => {
                 {t('walletRedemption.flowTitle', 'Flusso operativo del riscatto')}
               </h3>
               <ol style={{ listStyle: 'none', padding: 0, margin: '0 0 28px 0' }}>
-                {[
-                  { step: 'Richiesta', desc: "L'utente avvia la procedura di riscatto dalla propria dashboard e visualizza il costo calcolato." },
-                  { step: 'Pagamento', desc: "L'importo in EGILI viene scalato dal saldo dell'utente." },
-                  { step: 'Funding', desc: "La piattaforma trasferisce gli ALGO necessari dal Treasury al wallet dell'utente." },
-                  { step: 'Opt-in automatico', desc: "Il sistema esegue automaticamente l'opt-in per ogni ASA di proprietà dell'utente, firmando le transazioni con la chiave privata ancora in custodia." },
-                  { step: 'Trasferimento ASA', desc: "Gli EGI vengono trasferiti dal Treasury al wallet personale dell'utente." },
-                  { step: 'Consegna seed phrase', desc: "L'utente visualizza la propria frase segreta (25 parole) e conferma di averla salvata in modo sicuro." },
-                  { step: 'Cancellazione', desc: 'La frase segreta cifrata viene eliminata definitivamente dal database di FlorenceEGI.' },
-                ].map((item, idx) => (
-                  <li
-                    key={idx}
+                <li
+                  style={{
+                    display: 'flex',
+                    gap: '16px',
+                    marginBottom: '16px',
+                    alignItems: 'flex-start',
+                  }}
+                >
+                  <span
                     style={{
+                      background: COLORS.goldLight,
+                      color: COLORS.gold,
+                      width: '32px',
+                      height: '32px',
+                      borderRadius: '50%',
                       display: 'flex',
-                      gap: '16px',
-                      marginBottom: '16px',
-                      alignItems: 'flex-start',
+                      alignItems: 'center',
+                      justifyContent: 'center',
+                      fontSize: '0.9rem',
+                      fontWeight: 700,
+                      flexShrink: 0,
                     }}
                   >
-                    <span
-                      style={{
-                        background: COLORS.goldLight,
-                        color: COLORS.gold,
-                        width: '32px',
-                        height: '32px',
-                        borderRadius: '50%',
-                        display: 'flex',
-                        alignItems: 'center',
-                        justifyContent: 'center',
-                        fontSize: '0.9rem',
-                        fontWeight: 700,
-                        flexShrink: 0,
-                      }}
-                    >
-                      {idx + 1}
+                    1
+                  </span>
+                  <div>
+                    <strong style={{ color: COLORS.white }}>Richiesta:</strong>{' '}
+                    <span style={{ color: COLORS.textPrimary, lineHeight: 1.6 }}>
+                      L'utente avvia la procedura di riscatto dalla propria <GlossaryTerm termId="dashboard">dashboard</GlossaryTerm> e visualizza il costo calcolato.
                     </span>
-                    <div>
-                      <strong style={{ color: COLORS.white }}>{t(`walletRedemption.step${idx + 1}Title`, item.step)}:</strong>{' '}
-                      <span style={{ color: COLORS.textPrimary, lineHeight: 1.6 }}>
-                        {t(`walletRedemption.step${idx + 1}Desc`, item.desc)}
-                      </span>
-                    </div>
-                  </li>
-                ))}
+                  </div>
+                </li>
+                <li
+                  style={{
+                    display: 'flex',
+                    gap: '16px',
+                    marginBottom: '16px',
+                    alignItems: 'flex-start',
+                  }}
+                >
+                  <span
+                    style={{
+                      background: COLORS.goldLight,
+                      color: COLORS.gold,
+                      width: '32px',
+                      height: '32px',
+                      borderRadius: '50%',
+                      display: 'flex',
+                      alignItems: 'center',
+                      justifyContent: 'center',
+                      fontSize: '0.9rem',
+                      fontWeight: 700,
+                      flexShrink: 0,
+                    }}
+                  >
+                    2
+                  </span>
+                  <div>
+                    <strong style={{ color: COLORS.white }}>Pagamento:</strong>{' '}
+                    <span style={{ color: COLORS.textPrimary, lineHeight: 1.6 }}>
+                      L'importo in <GlossaryTerm termId="egili">EGILI</GlossaryTerm> viene scalato dal saldo dell'utente.
+                    </span>
+                  </div>
+                </li>
+                <li
+                  style={{
+                    display: 'flex',
+                    gap: '16px',
+                    marginBottom: '16px',
+                    alignItems: 'flex-start',
+                  }}
+                >
+                  <span
+                    style={{
+                      background: COLORS.goldLight,
+                      color: COLORS.gold,
+                      width: '32px',
+                      height: '32px',
+                      borderRadius: '50%',
+                      display: 'flex',
+                      alignItems: 'center',
+                      justifyContent: 'center',
+                      fontSize: '0.9rem',
+                      fontWeight: 700,
+                      flexShrink: 0,
+                    }}
+                  >
+                    3
+                  </span>
+                  <div>
+                    <strong style={{ color: COLORS.white }}>Funding:</strong>{' '}
+                    <span style={{ color: COLORS.textPrimary, lineHeight: 1.6 }}>
+                      La piattaforma trasferisce gli <GlossaryTerm termId="algo">ALGO</GlossaryTerm> necessari dal <GlossaryTerm termId="treasury">Treasury</GlossaryTerm> al <GlossaryTerm termId="wallet">wallet</GlossaryTerm> dell'utente.
+                    </span>
+                  </div>
+                </li>
+                <li
+                  style={{
+                    display: 'flex',
+                    gap: '16px',
+                    marginBottom: '16px',
+                    alignItems: 'flex-start',
+                  }}
+                >
+                  <span
+                    style={{
+                      background: COLORS.goldLight,
+                      color: COLORS.gold,
+                      width: '32px',
+                      height: '32px',
+                      borderRadius: '50%',
+                      display: 'flex',
+                      alignItems: 'center',
+                      justifyContent: 'center',
+                      fontSize: '0.9rem',
+                      fontWeight: 700,
+                      flexShrink: 0,
+                    }}
+                  >
+                    4
+                  </span>
+                  <div>
+                    <strong style={{ color: COLORS.white }}><GlossaryTerm termId="opt-in">Opt-in</GlossaryTerm> automatico:</strong>{' '}
+                    <span style={{ color: COLORS.textPrimary, lineHeight: 1.6 }}>
+                      Il sistema esegue automaticamente l'<GlossaryTerm termId="opt-in">opt-in</GlossaryTerm> per ogni <GlossaryTerm termId="asa">ASA</GlossaryTerm> di proprietà dell'utente, firmando le transazioni con la chiave privata ancora in custodia.
+                    </span>
+                  </div>
+                </li>
+                <li
+                  style={{
+                    display: 'flex',
+                    gap: '16px',
+                    marginBottom: '16px',
+                    alignItems: 'flex-start',
+                  }}
+                >
+                  <span
+                    style={{
+                      background: COLORS.goldLight,
+                      color: COLORS.gold,
+                      width: '32px',
+                      height: '32px',
+                      borderRadius: '50%',
+                      display: 'flex',
+                      alignItems: 'center',
+                      justifyContent: 'center',
+                      fontSize: '0.9rem',
+                      fontWeight: 700,
+                      flexShrink: 0,
+                    }}
+                  >
+                    5
+                  </span>
+                  <div>
+                    <strong style={{ color: COLORS.white }}>Trasferimento <GlossaryTerm termId="asa">ASA</GlossaryTerm>:</strong>{' '}
+                    <span style={{ color: COLORS.textPrimary, lineHeight: 1.6 }}>
+                      Gli <GlossaryTerm termId="egi">EGI</GlossaryTerm> vengono trasferiti dal <GlossaryTerm termId="treasury">Treasury</GlossaryTerm> al <GlossaryTerm termId="wallet">wallet</GlossaryTerm> personale dell'utente.
+                    </span>
+                  </div>
+                </li>
+                <li
+                  style={{
+                    display: 'flex',
+                    gap: '16px',
+                    marginBottom: '16px',
+                    alignItems: 'flex-start',
+                  }}
+                >
+                  <span
+                    style={{
+                      background: COLORS.goldLight,
+                      color: COLORS.gold,
+                      width: '32px',
+                      height: '32px',
+                      borderRadius: '50%',
+                      display: 'flex',
+                      alignItems: 'center',
+                      justifyContent: 'center',
+                      fontSize: '0.9rem',
+                      fontWeight: 700,
+                      flexShrink: 0,
+                    }}
+                  >
+                    6
+                  </span>
+                  <div>
+                    <strong style={{ color: COLORS.white }}>Consegna <GlossaryTerm termId="mnemonic">seed phrase</GlossaryTerm>:</strong>{' '}
+                    <span style={{ color: COLORS.textPrimary, lineHeight: 1.6 }}>
+                      L'utente visualizza la propria frase segreta (25 parole) e conferma di averla salvata in modo sicuro.
+                    </span>
+                  </div>
+                </li>
+                <li
+                  style={{
+                    display: 'flex',
+                    gap: '16px',
+                    marginBottom: '16px',
+                    alignItems: 'flex-start',
+                  }}
+                >
+                  <span
+                    style={{
+                      background: COLORS.goldLight,
+                      color: COLORS.gold,
+                      width: '32px',
+                      height: '32px',
+                      borderRadius: '50%',
+                      display: 'flex',
+                      alignItems: 'center',
+                      justifyContent: 'center',
+                      fontSize: '0.9rem',
+                      fontWeight: 700,
+                      flexShrink: 0,
+                    }}
+                  >
+                    7
+                  </span>
+                  <div>
+                    <strong style={{ color: COLORS.white }}>Cancellazione:</strong>{' '}
+                    <span style={{ color: COLORS.textPrimary, lineHeight: 1.6 }}>
+                      La frase segreta cifrata viene eliminata definitivamente dal database di FlorenceEGI (conforme <GlossaryTerm termId="gdpr">GDPR</GlossaryTerm>).
+                    </span>
+                  </div>
+                </li>
               </ol>
 
               {/* POLITICA ZERO-PROFITTO */}
@@ -292,12 +466,10 @@ const WalletRedemption: React.FC = () => {
                   💎 {t('walletRedemption.zeroProfitTitle', 'Politica Zero-Profitto')}
                 </h4>
                 <p style={{ color: COLORS.textPrimary, fontSize: '0.9rem', lineHeight: 1.6, margin: 0 }}>
-                  {t('walletRedemption.zeroProfitDesc', 
-                    `FlorenceEGI non applica alcun margine o commissione sull'operazione di riscatto. 
-                    Il costo addebitato all'utente copre esclusivamente le spese imposte dalla blockchain Algorand 
-                    (requisiti di bilancio minimo e fee di transazione). Questa politica è coerente con la missione 
-                    della piattaforma di facilitare l'accesso alla certificazione digitale senza barriere economiche aggiuntive.`
-                  )}
+                  FlorenceEGI non applica alcun margine o commissione sull'operazione di riscatto. 
+                  Il costo addebitato all'utente copre esclusivamente le spese imposte dalla <GlossaryTerm termId="blockchain">blockchain</GlossaryTerm> Algorand 
+                  (requisiti di bilancio minimo e fee di transazione). Questa politica è coerente con la missione 
+                  della piattaforma di facilitare l'accesso alla certificazione digitale senza barriere economiche aggiuntive.
                 </p>
               </div>
 
@@ -314,13 +486,11 @@ const WalletRedemption: React.FC = () => {
                   ✅ {t('walletRedemption.afterRedemptionTitle', 'Dopo il riscatto')}
                 </h4>
                 <p style={{ color: COLORS.textPrimary, fontSize: '0.9rem', lineHeight: 1.6, margin: 0 }}>
-                  {t('walletRedemption.afterRedemptionDesc', 
-                    `Una volta completato il riscatto, il wallet diventa completamente non-custodial. 
-                    L'utente è l'unico detentore delle chiavi private e può gestire i propri EGI tramite qualsiasi client 
-                    Algorand compatibile (Pera Wallet, Defly, etc.). FlorenceEGI non ha più alcun controllo né visibilità 
-                    sugli asset trasferiti, se non per quanto riguarda la registrazione storica delle transazioni sulla 
-                    blockchain pubblica.`
-                  )}
+                  Una volta completato il riscatto, il <GlossaryTerm termId="wallet">wallet</GlossaryTerm> diventa completamente <GlossaryTerm termId="non-custodial">non-custodial</GlossaryTerm>. 
+                  L'utente è l'unico detentore delle chiavi private e può gestire i propri <GlossaryTerm termId="egi">EGI</GlossaryTerm> tramite qualsiasi client 
+                  Algorand compatibile (Pera Wallet, Defly, etc.). FlorenceEGI non ha più alcun controllo né visibilità 
+                  sugli asset trasferiti, se non per quanto riguarda la registrazione storica delle transazioni sulla 
+                  <GlossaryTerm termId="blockchain">blockchain</GlossaryTerm> pubblica.
                 </p>
               </div>
             </div>

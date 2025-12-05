@@ -10,6 +10,7 @@
 
 import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
+import { GlossaryTerm } from '../../common/GlossaryTerm';
 
 // ============================================
 // CONSTANTS (Design Tokens)
@@ -82,7 +83,7 @@ const PaymentLevel2: React.FC = () => {
             maxWidth: '700px',
             margin: '0 auto',
           }}>
-            {t('paymentLevel2.subtitle', 'Gli utenti più esperti possono usare il proprio wallet per ricevere il certificato, senza imporre la cripto come pagamento.')}
+            Gli utenti più esperti possono usare il proprio <GlossaryTerm termId="wallet">wallet</GlossaryTerm> per ricevere il certificato, senza imporre la cripto come pagamento.
           </p>
         </header>
 
@@ -123,11 +124,11 @@ const PaymentLevel2: React.FC = () => {
               <ul style={{ listStyle: 'none', padding: 0, margin: 0 }}>
                 <li style={{ marginBottom: '12px', display: 'flex', gap: '10px', color: COLORS.textPrimary, lineHeight: 1.6 }}>
                   <span style={{ color: COLORS.emerald }} aria-hidden="true">•</span>
-                  {t('paymentLevel2.client1', 'Paga sempre in FIAT.')}
+                  Paga sempre in <GlossaryTerm termId="fiat">FIAT</GlossaryTerm>.
                 </li>
                 <li style={{ display: 'flex', gap: '10px', color: COLORS.textPrimary, lineHeight: 1.6 }}>
                   <span style={{ color: COLORS.emerald }} aria-hidden="true">•</span>
-                  {t('paymentLevel2.client2', "Sceglie dove ricevere l'EGI: nel wallet personale (non-custodial) o in uno custodial della piattaforma.")}
+                  Sceglie dove ricevere l'<GlossaryTerm termId="egi">EGI</GlossaryTerm>: nel <GlossaryTerm termId="wallet">wallet</GlossaryTerm> personale (<GlossaryTerm termId="non-custodial">non-custodial</GlossaryTerm>) o in uno <GlossaryTerm termId="custodial">custodial</GlossaryTerm> della piattaforma.
                 </li>
               </ul>
             </div>
@@ -152,11 +153,11 @@ const PaymentLevel2: React.FC = () => {
               <ul style={{ listStyle: 'none', padding: 0, margin: 0 }}>
                 <li style={{ marginBottom: '12px', display: 'flex', gap: '10px', color: COLORS.textPrimary, lineHeight: 1.6 }}>
                   <span style={{ color: COLORS.emerald }} aria-hidden="true">•</span>
-                  {t('paymentLevel2.merchant1', 'Incassa sempre in FIAT.')}
+                  Incassa sempre in <GlossaryTerm termId="fiat">FIAT</GlossaryTerm>.
                 </li>
                 <li style={{ display: 'flex', gap: '10px', color: COLORS.textPrimary, lineHeight: 1.6 }}>
                   <span style={{ color: COLORS.emerald }} aria-hidden="true">•</span>
-                  {t('paymentLevel2.merchant2', "L'EGI viene trasferito con tracciabilità on-chain.")}
+                  L'<GlossaryTerm termId="egi">EGI</GlossaryTerm> viene trasferito con tracciabilità <GlossaryTerm termId="on-chain">on-chain</GlossaryTerm>.
                 </li>
               </ul>
             </div>
@@ -217,35 +218,94 @@ const PaymentLevel2: React.FC = () => {
               }}
             >
               <p style={{ color: COLORS.textPrimary, lineHeight: 1.7, marginTop: '20px' }}>
-                {t('paymentLevel2.nonCustodialIntro', 
-                  "Quando l'utente decide di utilizzare un proprio wallet Algorand, la gestione passa in modalità non-custodial."
-                )}
+                Quando l'utente decide di utilizzare un proprio <GlossaryTerm termId="wallet">wallet</GlossaryTerm> Algorand, la gestione passa in modalità <GlossaryTerm termId="non-custodial">non-custodial</GlossaryTerm>.
               </p>
               
               <ul style={{ listStyle: 'none', padding: 0, margin: '20px 0' }}>
-                {[
-                  "L'utente esporta la frase segreta dal wallet generato in precedenza, la importa in Pera Wallet (o altro client compatibile) e richiede la cancellazione definitiva dal database FlorenceEGI.",
-                  'Da quel momento FlorenceEGI non detiene più alcuna chiave privata né può accedere ai suoi asset.',
-                  "Durante un nuovo acquisto in valuta FIAT, l'utente inserisce l'indirizzo del proprio wallet.",
-                  "Il mint dell'EGI (ASA supply = 1) viene eseguito direttamente con sender = wallet dell'utente, senza alcuna transazione di trasferimento successiva.",
-                  'FlorenceEGI paga le micro-fee di rete come fee-payer tecnico.',
-                  'Nessun fondo in criptovaluta transita tra le parti; il pagamento rimane interamente in FIAT tramite PSP.',
-                  "Il wallet appartiene e resta sotto il controllo esclusivo dell'utente.",
-                ].map((item, idx) => (
-                  <li
-                    key={idx}
-                    style={{
-                      display: 'flex',
-                      gap: '10px',
-                      color: COLORS.textPrimary,
-                      lineHeight: 1.6,
-                      marginBottom: '10px',
-                    }}
-                  >
-                    <span style={{ color: COLORS.green }} aria-hidden="true">•</span>
-                    {t(`paymentLevel2.nonCustodialItem${idx + 1}`, item)}
-                  </li>
-                ))}
+                <li
+                  style={{
+                    display: 'flex',
+                    gap: '10px',
+                    color: COLORS.textPrimary,
+                    lineHeight: 1.6,
+                    marginBottom: '10px',
+                  }}
+                >
+                  <span style={{ color: COLORS.green }} aria-hidden="true">•</span>
+                  L'utente esporta la frase segreta (<GlossaryTerm termId="mnemonic">mnemonic</GlossaryTerm>) dal <GlossaryTerm termId="wallet">wallet</GlossaryTerm> generato in precedenza, la importa in Pera Wallet (o altro client compatibile) e richiede la cancellazione definitiva dal database FlorenceEGI.
+                </li>
+                <li
+                  style={{
+                    display: 'flex',
+                    gap: '10px',
+                    color: COLORS.textPrimary,
+                    lineHeight: 1.6,
+                    marginBottom: '10px',
+                  }}
+                >
+                  <span style={{ color: COLORS.green }} aria-hidden="true">•</span>
+                  Da quel momento FlorenceEGI non detiene più alcuna chiave privata né può accedere ai suoi asset.
+                </li>
+                <li
+                  style={{
+                    display: 'flex',
+                    gap: '10px',
+                    color: COLORS.textPrimary,
+                    lineHeight: 1.6,
+                    marginBottom: '10px',
+                  }}
+                >
+                  <span style={{ color: COLORS.green }} aria-hidden="true">•</span>
+                  Durante un nuovo acquisto in valuta <GlossaryTerm termId="fiat">FIAT</GlossaryTerm>, l'utente inserisce l'indirizzo del proprio <GlossaryTerm termId="wallet">wallet</GlossaryTerm>.
+                </li>
+                <li
+                  style={{
+                    display: 'flex',
+                    gap: '10px',
+                    color: COLORS.textPrimary,
+                    lineHeight: 1.6,
+                    marginBottom: '10px',
+                  }}
+                >
+                  <span style={{ color: COLORS.green }} aria-hidden="true">•</span>
+                  Il <GlossaryTerm termId="mint">mint</GlossaryTerm> dell'<GlossaryTerm termId="egi">EGI</GlossaryTerm> (<GlossaryTerm termId="asa">ASA</GlossaryTerm> supply = 1) viene eseguito direttamente con sender = <GlossaryTerm termId="wallet">wallet</GlossaryTerm> dell'utente, senza alcuna transazione di trasferimento successiva.
+                </li>
+                <li
+                  style={{
+                    display: 'flex',
+                    gap: '10px',
+                    color: COLORS.textPrimary,
+                    lineHeight: 1.6,
+                    marginBottom: '10px',
+                  }}
+                >
+                  <span style={{ color: COLORS.green }} aria-hidden="true">•</span>
+                  FlorenceEGI paga le micro-fee di rete come fee-payer tecnico.
+                </li>
+                <li
+                  style={{
+                    display: 'flex',
+                    gap: '10px',
+                    color: COLORS.textPrimary,
+                    lineHeight: 1.6,
+                    marginBottom: '10px',
+                  }}
+                >
+                  <span style={{ color: COLORS.green }} aria-hidden="true">•</span>
+                  Nessun fondo in criptovaluta transita tra le parti; il pagamento rimane interamente in <GlossaryTerm termId="fiat">FIAT</GlossaryTerm> tramite <GlossaryTerm termId="psp">PSP</GlossaryTerm>.
+                </li>
+                <li
+                  style={{
+                    display: 'flex',
+                    gap: '10px',
+                    color: COLORS.textPrimary,
+                    lineHeight: 1.6,
+                    marginBottom: '10px',
+                  }}
+                >
+                  <span style={{ color: COLORS.green }} aria-hidden="true">•</span>
+                  Il <GlossaryTerm termId="wallet">wallet</GlossaryTerm> appartiene e resta sotto il controllo esclusivo dell'utente.
+                </li>
               </ul>
               
               {/* COMPLIANCE BOX */}
@@ -262,11 +322,9 @@ const PaymentLevel2: React.FC = () => {
                   🛡️ {t('paymentLevel2.complianceTitle', 'Conformità Normativa MiCA-safe')}
                 </h4>
                 <p style={{ color: COLORS.textPrimary, fontSize: '0.9rem', lineHeight: 1.6, margin: 0 }}>
-                  {t('paymentLevel2.complianceDesc', 
-                    `FlorenceEGI non svolge funzioni di custodia, intermediazione o scambio di asset digitali. 
-                    Questa modalità è pienamente fuori dal perimetro MiCA, trattandosi di semplice emissione di NFT unici 
-                    verso un wallet di proprietà dell'utente, con pagamento in valuta tradizionale.`
-                  )}
+                  FlorenceEGI non svolge funzioni di <GlossaryTerm termId="custodial">custodia</GlossaryTerm>, intermediazione o scambio di asset digitali. 
+                  Questa modalità è pienamente fuori dal perimetro <GlossaryTerm termId="mica">MiCA</GlossaryTerm> (<GlossaryTerm termId="mica-safe">MiCA-safe</GlossaryTerm>), trattandosi di semplice emissione di NFT unici 
+                  verso un <GlossaryTerm termId="wallet">wallet</GlossaryTerm> di proprietà dell'utente, con pagamento in valuta tradizionale.
                 </p>
               </div>
             </div>

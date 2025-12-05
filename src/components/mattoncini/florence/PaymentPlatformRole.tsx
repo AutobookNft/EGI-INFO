@@ -10,6 +10,7 @@
 
 import React from 'react';
 import { useTranslation } from 'react-i18next';
+import { GlossaryTerm } from '../../common/GlossaryTerm';
 
 // ============================================
 // CONSTANTS (Design Tokens)
@@ -28,27 +29,20 @@ const COLORS = {
 } as const;
 
 // ============================================
-// DATA
-// ============================================
-const WHAT_WE_DO = [
-  { key: 'incassaFiat', text: 'Incassa FIAT tramite PSP.' },
-  { key: 'emetteEgi', text: 'Emette e trasferisce EGI.' },
-  { key: 'scriveHash', text: 'Scrive anchor hash.' },
-  { key: 'gestisceQr', text: 'Gestisce QR e verifica pubblica.' },
-  { key: 'calcolaRoyalties', text: 'Calcola royalties per il PSP.' },
-];
-
-const WHAT_WE_DONT = [
-  { key: 'noCustodia', text: 'Custodire criptovalute per terzi.' },
-  { key: 'noExchange', text: 'Fare da exchange crypto/fiat.' },
-  { key: 'noProcessCrypto', text: 'Processare pagamenti crypto.' },
-];
-
-// ============================================
 // COMPONENT
 // ============================================
 const PaymentPlatformRole: React.FC = () => {
   const { t } = useTranslation('florence');
+
+  const listItemStyle = (isLast: boolean): React.CSSProperties => ({
+    display: 'flex',
+    alignItems: 'flex-start',
+    gap: '12px',
+    marginBottom: isLast ? 0 : '12px',
+    color: COLORS.textPrimary,
+    fontSize: '1rem',
+    lineHeight: 1.5,
+  });
 
   return (
     <section
@@ -126,39 +120,29 @@ const PaymentPlatformRole: React.FC = () => {
             </h2>
             
             <ul
-              style={{
-                listStyle: 'none',
-                padding: 0,
-                margin: 0,
-              }}
+              style={{ listStyle: 'none', padding: 0, margin: 0 }}
               aria-label={t('paymentPlatformRole.doesAriaLabel', 'Lista funzionalità della piattaforma')}
             >
-              {WHAT_WE_DO.map((item, idx) => (
-                <li
-                  key={item.key}
-                  style={{
-                    display: 'flex',
-                    alignItems: 'flex-start',
-                    gap: '12px',
-                    marginBottom: idx < WHAT_WE_DO.length - 1 ? '12px' : 0,
-                    color: COLORS.textPrimary,
-                    fontSize: '1rem',
-                    lineHeight: 1.5,
-                  }}
-                >
-                  <span
-                    style={{
-                      color: COLORS.green,
-                      fontWeight: 600,
-                      flexShrink: 0,
-                    }}
-                    aria-hidden="true"
-                  >
-                    •
-                  </span>
-                  {t(`paymentPlatformRole.does.${item.key}`, item.text)}
-                </li>
-              ))}
+              <li style={listItemStyle(false)}>
+                <span style={{ color: COLORS.green, fontWeight: 600, flexShrink: 0 }} aria-hidden="true">•</span>
+                Incassa <GlossaryTerm termId="fiat">FIAT</GlossaryTerm> tramite <GlossaryTerm termId="psp">PSP</GlossaryTerm>.
+              </li>
+              <li style={listItemStyle(false)}>
+                <span style={{ color: COLORS.green, fontWeight: 600, flexShrink: 0 }} aria-hidden="true">•</span>
+                Emette e trasferisce <GlossaryTerm termId="egi">EGI</GlossaryTerm>.
+              </li>
+              <li style={listItemStyle(false)}>
+                <span style={{ color: COLORS.green, fontWeight: 600, flexShrink: 0 }} aria-hidden="true">•</span>
+                Scrive <GlossaryTerm termId="anchor-hash">anchor hash</GlossaryTerm>.
+              </li>
+              <li style={listItemStyle(false)}>
+                <span style={{ color: COLORS.green, fontWeight: 600, flexShrink: 0 }} aria-hidden="true">•</span>
+                Gestisce QR e verifica pubblica.
+              </li>
+              <li style={listItemStyle(true)}>
+                <span style={{ color: COLORS.green, fontWeight: 600, flexShrink: 0 }} aria-hidden="true">•</span>
+                Calcola <GlossaryTerm termId="royalties">royalties</GlossaryTerm> per il <GlossaryTerm termId="psp">PSP</GlossaryTerm>.
+              </li>
             </ul>
           </div>
 
@@ -187,39 +171,21 @@ const PaymentPlatformRole: React.FC = () => {
             </h2>
             
             <ul
-              style={{
-                listStyle: 'none',
-                padding: 0,
-                margin: 0,
-              }}
+              style={{ listStyle: 'none', padding: 0, margin: 0 }}
               aria-label={t('paymentPlatformRole.doesNotAriaLabel', 'Lista limitazioni della piattaforma')}
             >
-              {WHAT_WE_DONT.map((item, idx) => (
-                <li
-                  key={item.key}
-                  style={{
-                    display: 'flex',
-                    alignItems: 'flex-start',
-                    gap: '12px',
-                    marginBottom: idx < WHAT_WE_DONT.length - 1 ? '12px' : 0,
-                    color: COLORS.textPrimary,
-                    fontSize: '1rem',
-                    lineHeight: 1.5,
-                  }}
-                >
-                  <span
-                    style={{
-                      color: COLORS.red,
-                      fontWeight: 600,
-                      flexShrink: 0,
-                    }}
-                    aria-hidden="true"
-                  >
-                    •
-                  </span>
-                  {t(`paymentPlatformRole.doesNot.${item.key}`, item.text)}
-                </li>
-              ))}
+              <li style={listItemStyle(false)}>
+                <span style={{ color: COLORS.red, fontWeight: 600, flexShrink: 0 }} aria-hidden="true">•</span>
+                Custodire criptovalute per terzi.
+              </li>
+              <li style={listItemStyle(false)}>
+                <span style={{ color: COLORS.red, fontWeight: 600, flexShrink: 0 }} aria-hidden="true">•</span>
+                Fare da exchange crypto/<GlossaryTerm termId="fiat">fiat</GlossaryTerm>.
+              </li>
+              <li style={listItemStyle(true)}>
+                <span style={{ color: COLORS.red, fontWeight: 600, flexShrink: 0 }} aria-hidden="true">•</span>
+                Processare pagamenti crypto.
+              </li>
             </ul>
           </div>
         </div>
@@ -244,12 +210,10 @@ const PaymentPlatformRole: React.FC = () => {
             }}
           >
             <span style={{ color: COLORS.gold, fontWeight: 600 }}>
-              🛡️ {t('paymentPlatformRole.micaNote.title', 'MiCA-safe by design')}:
+              🛡️ <GlossaryTerm termId="mica-safe">MiCA-safe</GlossaryTerm> by design:
             </span>{' '}
-            {t('paymentPlatformRole.micaNote.description', 
-              `FlorenceEGI non è un exchange, non custodisce crypto per terzi e non processa pagamenti in criptovaluta. 
-              Opera completamente fuori dal perimetro del Regolamento MiCA.`
-            )}
+            FlorenceEGI non è un exchange, non custodisce crypto per terzi e non processa pagamenti in criptovaluta. 
+            Opera completamente fuori dal perimetro del Regolamento <GlossaryTerm termId="mica">MiCA</GlossaryTerm>.
           </p>
         </div>
 

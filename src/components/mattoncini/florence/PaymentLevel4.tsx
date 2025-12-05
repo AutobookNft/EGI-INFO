@@ -10,6 +10,7 @@
 
 import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
+import { GlossaryTerm } from '../../common/GlossaryTerm';
 
 // ============================================
 // CONSTANTS (Design Tokens)
@@ -85,7 +86,7 @@ const PaymentLevel4: React.FC = () => {
             maxWidth: '750px',
             margin: '0 auto',
           }}>
-            {t('paymentLevel4.subtitle', "Un sistema di ricompensa interno che premia l'attività meritevole sulla piattaforma. I Creator possono accettare EGILI come forma di pagamento per i propri EGI.")}
+            Un sistema di ricompensa interno che premia l'attività meritevole sulla piattaforma. I Creator possono accettare <GlossaryTerm termId="egili">EGILI</GlossaryTerm> come forma di pagamento per i propri <GlossaryTerm termId="egi">EGI</GlossaryTerm>.
           </p>
         </header>
 
@@ -126,19 +127,19 @@ const PaymentLevel4: React.FC = () => {
               <ul style={{ listStyle: 'none', padding: 0, margin: 0 }}>
                 <li style={{ marginBottom: '12px', display: 'flex', gap: '10px', color: COLORS.textPrimary, lineHeight: 1.6 }}>
                   <span style={{ color: COLORS.emerald }} aria-hidden="true">•</span>
-                  {t('paymentLevel4.buyer1', 'Accumula EGILI attraverso attività meritevoli (vendite, referral, partecipazione community).')}
+                  Accumula <GlossaryTerm termId="egili">EGILI</GlossaryTerm> attraverso attività meritevoli (vendite, referral, partecipazione community).
                 </li>
                 <li style={{ marginBottom: '12px', display: 'flex', gap: '10px', color: COLORS.textPrimary, lineHeight: 1.6 }}>
                   <span style={{ color: COLORS.emerald }} aria-hidden="true">•</span>
-                  {t('paymentLevel4.buyer2', 'Al checkout vede l\'opzione "Paga con EGILI" (solo se abilitata dal Creator).')}
+                  Al checkout vede l'opzione "Paga con <GlossaryTerm termId="egili">EGILI</GlossaryTerm>" (solo se abilitata dal Creator).
                 </li>
                 <li style={{ marginBottom: '12px', display: 'flex', gap: '10px', color: COLORS.textPrimary, lineHeight: 1.6 }}>
                   <span style={{ color: COLORS.emerald }} aria-hidden="true">•</span>
-                  {t('paymentLevel4.buyer3', "Il sistema verifica il saldo: se sufficiente, l'opzione è disponibile.")}
+                  Il sistema verifica il saldo: se sufficiente, l'opzione è disponibile.
                 </li>
                 <li style={{ display: 'flex', gap: '10px', color: COLORS.textPrimary, lineHeight: 1.6 }}>
                   <span style={{ color: COLORS.emerald }} aria-hidden="true">•</span>
-                  {t('paymentLevel4.buyer4', 'Gli EGILI vengono bruciati (rimossi definitivamente dalla circolazione).')}
+                  Gli <GlossaryTerm termId="egili">EGILI</GlossaryTerm> vengono bruciati (rimossi definitivamente dalla circolazione).
                 </li>
               </ul>
             </div>
@@ -163,15 +164,15 @@ const PaymentLevel4: React.FC = () => {
               <ul style={{ listStyle: 'none', padding: 0, margin: 0 }}>
                 <li style={{ marginBottom: '12px', display: 'flex', gap: '10px', color: COLORS.textPrimary, lineHeight: 1.6 }}>
                   <span style={{ color: COLORS.emerald }} aria-hidden="true">•</span>
-                  {t('paymentLevel4.creator1', 'Abilita l\'opzione "Accetta pagamento EGILI" nel pannello di configurazione dell\'EGI.')}
+                  Abilita l'opzione "Accetta pagamento <GlossaryTerm termId="egili">EGILI</GlossaryTerm>" nel pannello di configurazione dell'<GlossaryTerm termId="egi">EGI</GlossaryTerm>.
                 </li>
                 <li style={{ marginBottom: '12px', display: 'flex', gap: '10px', color: COLORS.textPrimary, lineHeight: 1.6 }}>
                   <span style={{ color: COLORS.emerald }} aria-hidden="true">•</span>
-                  {t('paymentLevel4.creator2', 'Riceve un regalo in EGILI Gift dalla piattaforma, equivalente agli EGILI bruciati al Buyer.')}
+                  Riceve un regalo in <GlossaryTerm termId="egili">EGILI</GlossaryTerm> Gift dalla piattaforma, equivalente agli <GlossaryTerm termId="egili">EGILI</GlossaryTerm> bruciati al Buyer.
                 </li>
                 <li style={{ display: 'flex', gap: '10px', color: COLORS.textPrimary, lineHeight: 1.6 }}>
                   <span style={{ color: COLORS.emerald }} aria-hidden="true">•</span>
-                  {t('paymentLevel4.creator3', 'Gli EGILI Gift ricevuti sono spendibili sulla piattaforma per servizi e funzionalità.')}
+                  Gli <GlossaryTerm termId="egili">EGILI</GlossaryTerm> Gift ricevuti sono spendibili sulla piattaforma per servizi e funzionalità.
                 </li>
               </ul>
             </div>
@@ -236,35 +237,79 @@ const PaymentLevel4: React.FC = () => {
                 {t('paymentLevel4.whatIsEgiliTitle', "Cos'è EGILI?")}
               </h4>
               <p style={{ color: COLORS.textPrimary, lineHeight: 1.7, marginBottom: '16px' }}>
-                {t('paymentLevel4.whatIsEgiliDesc', 
-                  'EGILI è il token utility interno di FlorenceEGI con caratteristiche distintive:'
-                )}
+                <GlossaryTerm termId="egili">EGILI</GlossaryTerm> è il token utility interno di FlorenceEGI con caratteristiche distintive:
               </p>
               <ul style={{ listStyle: 'none', padding: 0, margin: '0 0 24px 0' }}>
-                {[
-                  { key: 'nonTrasferibile', text: 'Non trasferibile: Non può essere scambiato tra utenti.' },
-                  { key: 'nonQuotato', text: 'Non quotato: Nessuna quotazione su exchange esterni.' },
-                  { key: 'accountBound', text: 'Account-bound: Legato all\'account utente, non a un wallet crypto.' },
-                  { key: 'meritBased', text: 'Merit-based: Si guadagna attraverso attività meritevoli, non si compra direttamente.' },
-                  { key: 'tassoConversione', text: 'Tasso di conversione: 1 EGILO = €0,01 (valore percepito interno).' },
-                ].map((item, idx) => (
-                  <li
-                    key={item.key}
-                    style={{
-                      display: 'flex',
-                      gap: '10px',
-                      color: COLORS.textPrimary,
-                      lineHeight: 1.6,
-                      marginBottom: '8px',
-                    }}
-                  >
-                    <span style={{ color: COLORS.gold }} aria-hidden="true">•</span>
-                    <span>
-                      <strong>{t(`paymentLevel4.egiliFeature${idx + 1}Label`, item.text.split(':')[0])}:</strong>{' '}
-                      {t(`paymentLevel4.egiliFeature${idx + 1}Desc`, item.text.split(':').slice(1).join(':').trim())}
-                    </span>
-                  </li>
-                ))}
+                <li
+                  style={{
+                    display: 'flex',
+                    gap: '10px',
+                    color: COLORS.textPrimary,
+                    lineHeight: 1.6,
+                    marginBottom: '8px',
+                  }}
+                >
+                  <span style={{ color: COLORS.gold }} aria-hidden="true">•</span>
+                  <span>
+                    <strong>Non trasferibile:</strong> Non può essere scambiato tra utenti.
+                  </span>
+                </li>
+                <li
+                  style={{
+                    display: 'flex',
+                    gap: '10px',
+                    color: COLORS.textPrimary,
+                    lineHeight: 1.6,
+                    marginBottom: '8px',
+                  }}
+                >
+                  <span style={{ color: COLORS.gold }} aria-hidden="true">•</span>
+                  <span>
+                    <strong>Non quotato:</strong> Nessuna quotazione su exchange esterni.
+                  </span>
+                </li>
+                <li
+                  style={{
+                    display: 'flex',
+                    gap: '10px',
+                    color: COLORS.textPrimary,
+                    lineHeight: 1.6,
+                    marginBottom: '8px',
+                  }}
+                >
+                  <span style={{ color: COLORS.gold }} aria-hidden="true">•</span>
+                  <span>
+                    <strong>Account-bound:</strong> Legato all'account utente, non a un <GlossaryTerm termId="wallet">wallet</GlossaryTerm> crypto.
+                  </span>
+                </li>
+                <li
+                  style={{
+                    display: 'flex',
+                    gap: '10px',
+                    color: COLORS.textPrimary,
+                    lineHeight: 1.6,
+                    marginBottom: '8px',
+                  }}
+                >
+                  <span style={{ color: COLORS.gold }} aria-hidden="true">•</span>
+                  <span>
+                    <strong>Merit-based:</strong> Si guadagna attraverso attività meritevoli, non si compra direttamente.
+                  </span>
+                </li>
+                <li
+                  style={{
+                    display: 'flex',
+                    gap: '10px',
+                    color: COLORS.textPrimary,
+                    lineHeight: 1.6,
+                    marginBottom: '8px',
+                  }}
+                >
+                  <span style={{ color: COLORS.gold }} aria-hidden="true">•</span>
+                  <span>
+                    <strong>Tasso di conversione:</strong> 1 EGILO = €0,01 (valore percepito interno).
+                  </span>
+                </li>
               </ul>
 
               {/* COME SI GUADAGNANO */}
@@ -272,27 +317,66 @@ const PaymentLevel4: React.FC = () => {
                 {t('paymentLevel4.howToEarnTitle', 'Come si Guadagnano EGILI?')}
               </h4>
               <ul style={{ listStyle: 'none', padding: 0, margin: '0 0 24px 0' }}>
-                {[
-                  'Volume vendite: Il Creator guadagna EGILI proporzionali alle vendite generate.',
-                  'Referral verificati: Bonus per nuovi utenti portati che completano il KYC.',
-                  'Donazioni EPP volontarie: Bonus aggiuntivo per donazioni oltre il 20% standard.',
-                  'Partecipazione community: Eventi, feedback costruttivi, contributi.',
-                  'Fondo distribuzione: 1% delle fee piattaforma → Pool EGILI distribuito secondo merito.',
-                ].map((item, idx) => (
-                  <li
-                    key={idx}
-                    style={{
-                      display: 'flex',
-                      gap: '10px',
-                      color: COLORS.textPrimary,
-                      lineHeight: 1.6,
-                      marginBottom: '8px',
-                    }}
-                  >
-                    <span style={{ color: COLORS.gold }} aria-hidden="true">•</span>
-                    {t(`paymentLevel4.earnMethod${idx + 1}`, item)}
-                  </li>
-                ))}
+                <li
+                  style={{
+                    display: 'flex',
+                    gap: '10px',
+                    color: COLORS.textPrimary,
+                    lineHeight: 1.6,
+                    marginBottom: '8px',
+                  }}
+                >
+                  <span style={{ color: COLORS.gold }} aria-hidden="true">•</span>
+                  Volume vendite: Il Creator guadagna <GlossaryTerm termId="egili">EGILI</GlossaryTerm> proporzionali alle vendite generate.
+                </li>
+                <li
+                  style={{
+                    display: 'flex',
+                    gap: '10px',
+                    color: COLORS.textPrimary,
+                    lineHeight: 1.6,
+                    marginBottom: '8px',
+                  }}
+                >
+                  <span style={{ color: COLORS.gold }} aria-hidden="true">•</span>
+                  Referral verificati: Bonus per nuovi utenti portati che completano il KYC.
+                </li>
+                <li
+                  style={{
+                    display: 'flex',
+                    gap: '10px',
+                    color: COLORS.textPrimary,
+                    lineHeight: 1.6,
+                    marginBottom: '8px',
+                  }}
+                >
+                  <span style={{ color: COLORS.gold }} aria-hidden="true">•</span>
+                  Donazioni EPP volontarie: Bonus aggiuntivo per donazioni oltre il 20% standard.
+                </li>
+                <li
+                  style={{
+                    display: 'flex',
+                    gap: '10px',
+                    color: COLORS.textPrimary,
+                    lineHeight: 1.6,
+                    marginBottom: '8px',
+                  }}
+                >
+                  <span style={{ color: COLORS.gold }} aria-hidden="true">•</span>
+                  Partecipazione community: Eventi, feedback costruttivi, contributi.
+                </li>
+                <li
+                  style={{
+                    display: 'flex',
+                    gap: '10px',
+                    color: COLORS.textPrimary,
+                    lineHeight: 1.6,
+                    marginBottom: '8px',
+                  }}
+                >
+                  <span style={{ color: COLORS.gold }} aria-hidden="true">•</span>
+                  Fondo distribuzione: 1% delle fee piattaforma → Pool <GlossaryTerm termId="egili">EGILI</GlossaryTerm> distribuito secondo merito.
+                </li>
               </ul>
 
               {/* MECCANISMO DI PAGAMENTO */}
@@ -300,48 +384,149 @@ const PaymentLevel4: React.FC = () => {
                 {t('paymentLevel4.mechanismTitle', 'Il Meccanismo di Pagamento')}
               </h4>
               <p style={{ color: COLORS.textPrimary, lineHeight: 1.7, marginBottom: '16px' }}>
-                {t('paymentLevel4.mechanismDesc', 
-                  'Quando un Buyer paga con EGILI, non avviene alcun trasferimento diretto dal Buyer al Creator. Il flusso è gestito internamente dalla piattaforma:'
-                )}
+                Quando un Buyer paga con <GlossaryTerm termId="egili">EGILI</GlossaryTerm>, non avviene alcun trasferimento diretto dal Buyer al Creator. Il flusso è gestito internamente dalla piattaforma:
               </p>
               <ol style={{ listStyle: 'none', padding: 0, margin: '0 0 24px 0', counterReset: 'step' }}>
-                {[
-                  'Verifica saldo: Il sistema controlla che il Buyer abbia EGILI sufficienti (es. EGI a €25 richiede 2.500 EGILI).',
-                  'Bruciatura (Burn): Gli EGILI del Buyer vengono rimossi definitivamente dalla circolazione (meccanismo deflazionario).',
-                  'Regalo al Creator: La piattaforma regala EGILI Gift al Creator in quantità equivalente a quelli bruciati.',
-                  "Mint EGI: L'EGI viene mintato e trasferito al Buyer normalmente.",
-                  'Tracciabilità: Ogni transazione è registrata con audit trail completo.',
-                ].map((item, idx) => (
-                  <li
-                    key={idx}
+                <li
+                  style={{
+                    display: 'flex',
+                    gap: '12px',
+                    color: COLORS.textPrimary,
+                    lineHeight: 1.6,
+                    marginBottom: '10px',
+                  }}
+                >
+                  <span
                     style={{
+                      background: COLORS.goldLight,
+                      color: COLORS.gold,
+                      width: '24px',
+                      height: '24px',
+                      borderRadius: '50%',
                       display: 'flex',
-                      gap: '12px',
-                      color: COLORS.textPrimary,
-                      lineHeight: 1.6,
-                      marginBottom: '10px',
+                      alignItems: 'center',
+                      justifyContent: 'center',
+                      fontSize: '0.8rem',
+                      fontWeight: 700,
+                      flexShrink: 0,
                     }}
                   >
-                    <span
-                      style={{
-                        background: COLORS.goldLight,
-                        color: COLORS.gold,
-                        width: '24px',
-                        height: '24px',
-                        borderRadius: '50%',
-                        display: 'flex',
-                        alignItems: 'center',
-                        justifyContent: 'center',
-                        fontSize: '0.8rem',
-                        fontWeight: 700,
-                        flexShrink: 0,
-                      }}
-                    >
-                      {idx + 1}
-                    </span>
-                    {t(`paymentLevel4.step${idx + 1}`, item)}
-                  </li>
-                ))}
+                    1
+                  </span>
+                  Verifica saldo: Il sistema controlla che il Buyer abbia <GlossaryTerm termId="egili">EGILI</GlossaryTerm> sufficienti (es. <GlossaryTerm termId="egi">EGI</GlossaryTerm> a €25 richiede 2.500 <GlossaryTerm termId="egili">EGILI</GlossaryTerm>).
+                </li>
+                <li
+                  style={{
+                    display: 'flex',
+                    gap: '12px',
+                    color: COLORS.textPrimary,
+                    lineHeight: 1.6,
+                    marginBottom: '10px',
+                  }}
+                >
+                  <span
+                    style={{
+                      background: COLORS.goldLight,
+                      color: COLORS.gold,
+                      width: '24px',
+                      height: '24px',
+                      borderRadius: '50%',
+                      display: 'flex',
+                      alignItems: 'center',
+                      justifyContent: 'center',
+                      fontSize: '0.8rem',
+                      fontWeight: 700,
+                      flexShrink: 0,
+                    }}
+                  >
+                    2
+                  </span>
+                  Bruciatura (Burn): Gli <GlossaryTerm termId="egili">EGILI</GlossaryTerm> del Buyer vengono rimossi definitivamente dalla circolazione (meccanismo deflazionario).
+                </li>
+                <li
+                  style={{
+                    display: 'flex',
+                    gap: '12px',
+                    color: COLORS.textPrimary,
+                    lineHeight: 1.6,
+                    marginBottom: '10px',
+                  }}
+                >
+                  <span
+                    style={{
+                      background: COLORS.goldLight,
+                      color: COLORS.gold,
+                      width: '24px',
+                      height: '24px',
+                      borderRadius: '50%',
+                      display: 'flex',
+                      alignItems: 'center',
+                      justifyContent: 'center',
+                      fontSize: '0.8rem',
+                      fontWeight: 700,
+                      flexShrink: 0,
+                    }}
+                  >
+                    3
+                  </span>
+                  Regalo al Creator: La piattaforma regala <GlossaryTerm termId="egili">EGILI</GlossaryTerm> Gift al Creator in quantità equivalente a quelli bruciati.
+                </li>
+                <li
+                  style={{
+                    display: 'flex',
+                    gap: '12px',
+                    color: COLORS.textPrimary,
+                    lineHeight: 1.6,
+                    marginBottom: '10px',
+                  }}
+                >
+                  <span
+                    style={{
+                      background: COLORS.goldLight,
+                      color: COLORS.gold,
+                      width: '24px',
+                      height: '24px',
+                      borderRadius: '50%',
+                      display: 'flex',
+                      alignItems: 'center',
+                      justifyContent: 'center',
+                      fontSize: '0.8rem',
+                      fontWeight: 700,
+                      flexShrink: 0,
+                    }}
+                  >
+                    4
+                  </span>
+                  <GlossaryTerm termId="mint">Mint</GlossaryTerm> <GlossaryTerm termId="egi">EGI</GlossaryTerm>: L'<GlossaryTerm termId="egi">EGI</GlossaryTerm> viene mintato e trasferito al Buyer normalmente.
+                </li>
+                <li
+                  style={{
+                    display: 'flex',
+                    gap: '12px',
+                    color: COLORS.textPrimary,
+                    lineHeight: 1.6,
+                    marginBottom: '10px',
+                  }}
+                >
+                  <span
+                    style={{
+                      background: COLORS.goldLight,
+                      color: COLORS.gold,
+                      width: '24px',
+                      height: '24px',
+                      borderRadius: '50%',
+                      display: 'flex',
+                      alignItems: 'center',
+                      justifyContent: 'center',
+                      fontSize: '0.8rem',
+                      fontWeight: 700,
+                      flexShrink: 0,
+                    }}
+                  >
+                    5
+                  </span>
+                  Tracciabilità: Ogni transazione è registrata con audit trail completo.
+                </li>
               </ol>
 
               {/* ESEMPIO PRATICO */}
@@ -358,21 +543,20 @@ const PaymentLevel4: React.FC = () => {
                   📌 {t('paymentLevel4.exampleTitle', 'Esempio Pratico')}
                 </h5>
                 <p style={{ color: COLORS.textPrimary, fontSize: '0.9rem', lineHeight: 1.6, marginBottom: '12px' }}>
-                  <strong>{t('paymentLevel4.exampleScenario', 'Scenario')}:</strong>{' '}
-                  {t('paymentLevel4.exampleScenarioDesc', 'Un EGI è in vendita a €25,00. Il Buyer ha 5.000 EGILI nel proprio saldo.')}
+                  <strong>Scenario:</strong> Un <GlossaryTerm termId="egi">EGI</GlossaryTerm> è in vendita a €25,00. Il Buyer ha 5.000 <GlossaryTerm termId="egili">EGILI</GlossaryTerm> nel proprio saldo.
                 </p>
                 <ul style={{ listStyle: 'none', padding: 0, margin: 0 }}>
                   <li style={{ color: COLORS.textPrimary, fontSize: '0.9rem', marginBottom: '4px' }}>
-                    • {t('paymentLevel4.exampleLine1', 'EGILI richiesti: 2.500 (€25,00 ÷ €0,01)')}
+                    • <GlossaryTerm termId="egili">EGILI</GlossaryTerm> richiesti: 2.500 (€25,00 ÷ €0,01)
                   </li>
                   <li style={{ color: COLORS.textPrimary, fontSize: '0.9rem', marginBottom: '4px' }}>
-                    • {t('paymentLevel4.exampleLine2', 'Saldo Buyer prima: 5.000 EGILI')}
+                    • Saldo Buyer prima: 5.000 <GlossaryTerm termId="egili">EGILI</GlossaryTerm>
                   </li>
                   <li style={{ color: COLORS.textPrimary, fontSize: '0.9rem', marginBottom: '4px' }}>
-                    • {t('paymentLevel4.exampleLine3', 'Dopo acquisto: 5.000 - 2.500 = 2.500 EGILI rimanenti')}
+                    • Dopo acquisto: 5.000 - 2.500 = 2.500 <GlossaryTerm termId="egili">EGILI</GlossaryTerm> rimanenti
                   </li>
                   <li style={{ color: COLORS.textPrimary, fontSize: '0.9rem' }}>
-                    • {t('paymentLevel4.exampleLine4', 'Creator riceve: 2.500 EGILI Gift dalla piattaforma')}
+                    • Creator riceve: 2.500 <GlossaryTerm termId="egili">EGILI</GlossaryTerm> Gift dalla piattaforma
                   </li>
                 </ul>
               </div>
@@ -392,16 +576,16 @@ const PaymentLevel4: React.FC = () => {
                   <thead>
                     <tr style={{ background: 'rgba(255, 255, 255, 0.05)' }}>
                       <th style={{ padding: '12px', textAlign: 'left', color: COLORS.gold, borderBottom: `1px solid ${COLORS.cardBorder}` }}>
-                        {t('paymentLevel4.tableType', 'Tipo')}
+                        Tipo
                       </th>
                       <th style={{ padding: '12px', textAlign: 'left', color: COLORS.gold, borderBottom: `1px solid ${COLORS.cardBorder}` }}>
-                        {t('paymentLevel4.tableAcquisition', 'Acquisizione')}
+                        Acquisizione
                       </th>
                       <th style={{ padding: '12px', textAlign: 'left', color: COLORS.gold, borderBottom: `1px solid ${COLORS.cardBorder}` }}>
-                        {t('paymentLevel4.tableExpiry', 'Scadenza')}
+                        Scadenza
                       </th>
                       <th style={{ padding: '12px', textAlign: 'left', color: COLORS.gold, borderBottom: `1px solid ${COLORS.cardBorder}` }}>
-                        {t('paymentLevel4.tablePriority', 'Priorità Consumo')}
+                        Priorità Consumo
                       </th>
                     </tr>
                   </thead>
@@ -409,34 +593,32 @@ const PaymentLevel4: React.FC = () => {
                     <tr>
                       <td style={{ padding: '12px', color: COLORS.textPrimary, borderBottom: `1px solid ${COLORS.cardBorder}`, fontWeight: 600 }}>Gift</td>
                       <td style={{ padding: '12px', color: COLORS.textPrimary, borderBottom: `1px solid ${COLORS.cardBorder}` }}>
-                        {t('paymentLevel4.giftAcquisition', 'Donati dalla piattaforma')}
+                        Donati dalla piattaforma
                       </td>
                       <td style={{ padding: '12px', color: COLORS.textPrimary, borderBottom: `1px solid ${COLORS.cardBorder}` }}>
-                        ⏰ {t('paymentLevel4.giftExpiry', 'N giorni')}
+                        ⏰ N giorni
                       </td>
                       <td style={{ padding: '12px', color: COLORS.textPrimary, borderBottom: `1px solid ${COLORS.cardBorder}` }}>
-                        🔴 {t('paymentLevel4.giftPriority', 'Prima (scadenza più vicina)')}
+                        🔴 Prima (scadenza più vicina)
                       </td>
                     </tr>
                     <tr>
                       <td style={{ padding: '12px', color: COLORS.textPrimary, fontWeight: 600 }}>Lifetime</td>
                       <td style={{ padding: '12px', color: COLORS.textPrimary }}>
-                        {t('paymentLevel4.lifetimeAcquisition', "Acquistati dall'utente")}
+                        Acquistati dall'utente
                       </td>
                       <td style={{ padding: '12px', color: COLORS.textPrimary }}>
-                        ♾️ {t('paymentLevel4.lifetimeExpiry', 'Mai')}
+                        ♾️ Mai
                       </td>
                       <td style={{ padding: '12px', color: COLORS.textPrimary }}>
-                        🟢 {t('paymentLevel4.lifetimePriority', 'Dopo')}
+                        🟢 Dopo
                       </td>
                     </tr>
                   </tbody>
                 </table>
               </div>
               <p style={{ color: COLORS.textSecondary, fontSize: '0.85rem', lineHeight: 1.6, marginBottom: '24px' }}>
-                {t('paymentLevel4.typesNote', 
-                  'Quando si spendono EGILI, il sistema consuma prima i Gift (ordinati per data di scadenza, quelli in scadenza prima), poi i Lifetime (che non scadono mai). Questo garantisce che gli EGILI con scadenza vengano utilizzati prima di perderli.'
-                )}
+                Quando si spendono <GlossaryTerm termId="egili">EGILI</GlossaryTerm>, il sistema consuma prima i Gift (ordinati per data di scadenza, quelli in scadenza prima), poi i Lifetime (che non scadono mai). Questo garantisce che gli <GlossaryTerm termId="egili">EGILI</GlossaryTerm> con scadenza vengano utilizzati prima di perderli.
               </p>
 
               {/* LIMITAZIONI */}
@@ -444,25 +626,42 @@ const PaymentLevel4: React.FC = () => {
                 {t('paymentLevel4.limitationsTitle', 'Limitazioni')}
               </h4>
               <ul style={{ listStyle: 'none', padding: 0, margin: '0 0 24px 0' }}>
-                {[
-                  "Opt-in Creator: Il Creator deve abilitare esplicitamente l'opzione per ogni EGI.",
-                  'Irreversibile: Gli EGILI spesi sono bruciati definitivamente (no refund).',
-                  'Non cumulabile: Non si può pagare "metà EGILI + metà FIAT" — è tutto o niente.',
-                ].map((item, idx) => (
-                  <li
-                    key={idx}
-                    style={{
-                      display: 'flex',
-                      gap: '10px',
-                      color: COLORS.textPrimary,
-                      lineHeight: 1.6,
-                      marginBottom: '8px',
-                    }}
-                  >
-                    <span style={{ color: '#ef4444' }} aria-hidden="true">⚠</span>
-                    {t(`paymentLevel4.limitation${idx + 1}`, item)}
-                  </li>
-                ))}
+                <li
+                  style={{
+                    display: 'flex',
+                    gap: '10px',
+                    color: COLORS.textPrimary,
+                    lineHeight: 1.6,
+                    marginBottom: '8px',
+                  }}
+                >
+                  <span style={{ color: '#ef4444' }} aria-hidden="true">⚠</span>
+                  <GlossaryTerm termId="opt-in">Opt-in</GlossaryTerm> Creator: Il Creator deve abilitare esplicitamente l'opzione per ogni <GlossaryTerm termId="egi">EGI</GlossaryTerm>.
+                </li>
+                <li
+                  style={{
+                    display: 'flex',
+                    gap: '10px',
+                    color: COLORS.textPrimary,
+                    lineHeight: 1.6,
+                    marginBottom: '8px',
+                  }}
+                >
+                  <span style={{ color: '#ef4444' }} aria-hidden="true">⚠</span>
+                  Irreversibile: Gli <GlossaryTerm termId="egili">EGILI</GlossaryTerm> spesi sono bruciati definitivamente (no refund).
+                </li>
+                <li
+                  style={{
+                    display: 'flex',
+                    gap: '10px',
+                    color: COLORS.textPrimary,
+                    lineHeight: 1.6,
+                    marginBottom: '8px',
+                  }}
+                >
+                  <span style={{ color: '#ef4444' }} aria-hidden="true">⚠</span>
+                  Non cumulabile: Non si può pagare "metà <GlossaryTerm termId="egili">EGILI</GlossaryTerm> + metà <GlossaryTerm termId="fiat">FIAT</GlossaryTerm>" — è tutto o niente.
+                </li>
               </ul>
 
               {/* COMPLIANCE BOX */}
@@ -478,12 +677,10 @@ const PaymentLevel4: React.FC = () => {
                   🛡️ {t('paymentLevel4.complianceTitle', 'Conformità Normativa MiCA-safe')}
                 </h4>
                 <p style={{ color: COLORS.textPrimary, fontSize: '0.9rem', lineHeight: 1.6, margin: 0 }}>
-                  {t('paymentLevel4.complianceDesc', 
-                    `Gli EGILI NON sono crypto-asset ai sensi del Regolamento MiCA perché: non sono trasferibili, 
-                    non sono convertibili in denaro, hanno utilizzo esclusivo interno alla piattaforma. 
-                    Sono classificati come punti fedeltà, analoghi ai programmi loyalty tradizionali. 
-                    FlorenceEGI opera pertanto fuori dal perimetro MiCA per questa funzionalità, senza necessità di licenza CASP/EMI.`
-                  )}
+                  Gli <GlossaryTerm termId="egili">EGILI</GlossaryTerm> NON sono crypto-asset ai sensi del Regolamento <GlossaryTerm termId="mica">MiCA</GlossaryTerm> perché: non sono trasferibili, 
+                  non sono convertibili in denaro, hanno utilizzo esclusivo interno alla piattaforma. 
+                  Sono classificati come punti fedeltà, analoghi ai programmi loyalty tradizionali. 
+                  FlorenceEGI opera pertanto fuori dal perimetro <GlossaryTerm termId="mica">MiCA</GlossaryTerm> (<GlossaryTerm termId="mica-safe">MiCA-safe</GlossaryTerm>) per questa funzionalità, senza necessità di licenza <GlossaryTerm termId="casp">CASP</GlossaryTerm>/<GlossaryTerm termId="emi">EMI</GlossaryTerm>.
                 </p>
               </div>
             </div>

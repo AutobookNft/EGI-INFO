@@ -10,6 +10,7 @@
 
 import React from 'react';
 import { useTranslation } from 'react-i18next';
+import { GlossaryTerm } from '../../common/GlossaryTerm';
 
 // ============================================
 // CONSTANTS (Design Tokens)
@@ -92,12 +93,13 @@ const PaymentPhilosophy: React.FC = () => {
               margin: 0,
             }}
           >
-            {t('paymentPhilosophy.description', 
-              `Il nostro sistema è progettato per tutti. Chi non conosce il mondo crypto usa la moneta 
-              FIAT e i metodi di pagamento tradizionali. Chi possiede un wallet può ricevere il certificato 
-              digitale EGI direttamente lì. Chi vuole accettare pagamenti in criptovalute può farlo tramite 
-              partner esterni autorizzati, senza imporre alcuna complessità agli altri utenti.`
-            )}
+            Il nostro sistema è progettato per tutti. Chi non conosce il mondo crypto usa la moneta{' '}
+            <GlossaryTerm termId="fiat">FIAT</GlossaryTerm> e i metodi di pagamento tradizionali. 
+            Chi possiede un <GlossaryTerm termId="wallet">wallet</GlossaryTerm> può ricevere il certificato 
+            digitale <GlossaryTerm termId="egi">EGI</GlossaryTerm> direttamente lì. 
+            Chi vuole accettare pagamenti in criptovalute può farlo tramite{' '}
+            <GlossaryTerm termId="partner-autorizzato">partner esterni autorizzati</GlossaryTerm>, 
+            senza imporre alcuna complessità agli altri utenti.
           </p>
         </div>
 

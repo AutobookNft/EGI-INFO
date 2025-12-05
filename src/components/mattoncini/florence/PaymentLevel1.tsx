@@ -10,6 +10,7 @@
 
 import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
+import { GlossaryTerm } from '../../common/GlossaryTerm';
 
 // ============================================
 // CONSTANTS (Design Tokens)
@@ -123,15 +124,15 @@ const PaymentLevel1: React.FC = () => {
               <ul style={{ listStyle: 'none', padding: 0, margin: 0 }}>
                 <li style={{ marginBottom: '12px', display: 'flex', gap: '10px', color: COLORS.textPrimary, lineHeight: 1.6 }}>
                   <span style={{ color: COLORS.emerald }} aria-hidden="true">•</span>
-                  {t('paymentLevel1.client1', 'Paga in euro (FIAT) su pagina sicura del PSP.')}
+                  Paga in euro (<GlossaryTerm termId="fiat">FIAT</GlossaryTerm>) su pagina sicura del <GlossaryTerm termId="psp">PSP</GlossaryTerm>.
                 </li>
                 <li style={{ marginBottom: '12px', display: 'flex', gap: '10px', color: COLORS.textPrimary, lineHeight: 1.6 }}>
                   <span style={{ color: COLORS.emerald }} aria-hidden="true">•</span>
-                  {t('paymentLevel1.client2', "Riceve l'EGI: la piattaforma esegue mint e transfer e salva l'anchor hash.")}
+                  Riceve l'<GlossaryTerm termId="egi">EGI</GlossaryTerm>: la piattaforma esegue <GlossaryTerm termId="mint">mint</GlossaryTerm> e <GlossaryTerm termId="transfer">transfer</GlossaryTerm> e salva l'<GlossaryTerm termId="anchor-hash">anchor hash</GlossaryTerm>.
                 </li>
                 <li style={{ display: 'flex', gap: '10px', color: COLORS.textPrimary, lineHeight: 1.6 }}>
                   <span style={{ color: COLORS.emerald }} aria-hidden="true">•</span>
-                  {t('paymentLevel1.client3', 'Verifica pubblica con QR.')}
+                  Verifica pubblica con QR.
                 </li>
               </ul>
             </div>
@@ -156,15 +157,15 @@ const PaymentLevel1: React.FC = () => {
               <ul style={{ listStyle: 'none', padding: 0, margin: 0 }}>
                 <li style={{ marginBottom: '12px', display: 'flex', gap: '10px', color: COLORS.textPrimary, lineHeight: 1.6 }}>
                   <span style={{ color: COLORS.emerald }} aria-hidden="true">•</span>
-                  {t('paymentLevel1.merchant1', 'Riceve denaro in FIAT dal PSP (payout).')}
+                  Riceve denaro in <GlossaryTerm termId="fiat">FIAT</GlossaryTerm> dal <GlossaryTerm termId="psp">PSP</GlossaryTerm> (<GlossaryTerm termId="payout">payout</GlossaryTerm>).
                 </li>
                 <li style={{ marginBottom: '12px', display: 'flex', gap: '10px', color: COLORS.textPrimary, lineHeight: 1.6 }}>
                   <span style={{ color: COLORS.emerald }} aria-hidden="true">•</span>
-                  {t('paymentLevel1.merchant2', "Vede l'EGI emesso e i report.")}
+                  Vede l'<GlossaryTerm termId="egi">EGI</GlossaryTerm> emesso e i report.
                 </li>
                 <li style={{ display: 'flex', gap: '10px', color: COLORS.textPrimary, lineHeight: 1.6 }}>
                   <span style={{ color: COLORS.emerald }} aria-hidden="true">•</span>
-                  {t('paymentLevel1.merchant3', 'Royalties e ripartizioni sono gestite dal PSP (off-chain).')}
+                  <GlossaryTerm termId="royalties">Royalties</GlossaryTerm> e ripartizioni sono gestite dal <GlossaryTerm termId="psp">PSP</GlossaryTerm> (<GlossaryTerm termId="off-chain">off-chain</GlossaryTerm>).
                 </li>
               </ul>
             </div>
@@ -225,34 +226,82 @@ const PaymentLevel1: React.FC = () => {
               }}
             >
               <p style={{ color: COLORS.textPrimary, lineHeight: 1.7, marginTop: '20px' }}>
-                {t('paymentLevel1.walletAutoIntro', 
-                  'Per gli utenti che acquistano in valuta FIAT e non possiedono competenze blockchain, FlorenceEGI genera automaticamente un wallet dedicato su Algorand.'
-                )}
+                Per gli utenti che acquistano in valuta <GlossaryTerm termId="fiat">FIAT</GlossaryTerm> e non possiedono competenze <GlossaryTerm termId="blockchain">blockchain</GlossaryTerm>, FlorenceEGI genera automaticamente un <GlossaryTerm termId="wallet">wallet</GlossaryTerm> dedicato su Algorand.
               </p>
               
               <ul style={{ listStyle: 'none', padding: 0, margin: '20px 0' }}>
-                {[
-                  'Il wallet è creato al momento della registrazione o del primo acquisto.',
-                  'Contiene esclusivamente NFT unici (EGI), senza alcun token fungibile o criptovaluta.',
-                  'Le chiavi private sono cifrate con algoritmo AES-256 a livello server e archiviate in modo sicuro nel database conforme GDPR.',
-                  "L'utente può in qualunque momento accedere alla propria area personale, scaricare la frase segreta per importarla in Pera Wallet o in altro client compatibile e richiederne la cancellazione definitiva dai sistemi FlorenceEGI.",
-                  "Finché non effettua questa operazione, il wallet rimane invisibile e inattivo per l'utente.",
-                  'Il wallet non è utilizzabile per detenere o trasferire ALGO, stablecoin o altri asset di valore monetario.',
-                ].map((item, idx) => (
-                  <li
-                    key={idx}
-                    style={{
-                      display: 'flex',
-                      gap: '10px',
-                      color: COLORS.textPrimary,
-                      lineHeight: 1.6,
-                      marginBottom: '10px',
-                    }}
-                  >
-                    <span style={{ color: COLORS.blue }} aria-hidden="true">•</span>
-                    {t(`paymentLevel1.walletAutoItem${idx + 1}`, item)}
-                  </li>
-                ))}
+                <li
+                  style={{
+                    display: 'flex',
+                    gap: '10px',
+                    color: COLORS.textPrimary,
+                    lineHeight: 1.6,
+                    marginBottom: '10px',
+                  }}
+                >
+                  <span style={{ color: COLORS.blue }} aria-hidden="true">•</span>
+                  Il <GlossaryTerm termId="wallet">wallet</GlossaryTerm> è creato al momento della registrazione o del primo acquisto.
+                </li>
+                <li
+                  style={{
+                    display: 'flex',
+                    gap: '10px',
+                    color: COLORS.textPrimary,
+                    lineHeight: 1.6,
+                    marginBottom: '10px',
+                  }}
+                >
+                  <span style={{ color: COLORS.blue }} aria-hidden="true">•</span>
+                  Contiene esclusivamente NFT unici (<GlossaryTerm termId="egi">EGI</GlossaryTerm>), senza alcun token fungibile o criptovaluta.
+                </li>
+                <li
+                  style={{
+                    display: 'flex',
+                    gap: '10px',
+                    color: COLORS.textPrimary,
+                    lineHeight: 1.6,
+                    marginBottom: '10px',
+                  }}
+                >
+                  <span style={{ color: COLORS.blue }} aria-hidden="true">•</span>
+                  Le chiavi private sono cifrate con algoritmo AES-256 a livello server e archiviate in modo sicuro nel database conforme <GlossaryTerm termId="gdpr">GDPR</GlossaryTerm>.
+                </li>
+                <li
+                  style={{
+                    display: 'flex',
+                    gap: '10px',
+                    color: COLORS.textPrimary,
+                    lineHeight: 1.6,
+                    marginBottom: '10px',
+                  }}
+                >
+                  <span style={{ color: COLORS.blue }} aria-hidden="true">•</span>
+                  L'utente può in qualunque momento accedere alla propria area personale, scaricare la frase segreta per importarla in Pera Wallet o in altro client compatibile e richiederne la cancellazione definitiva dai sistemi FlorenceEGI.
+                </li>
+                <li
+                  style={{
+                    display: 'flex',
+                    gap: '10px',
+                    color: COLORS.textPrimary,
+                    lineHeight: 1.6,
+                    marginBottom: '10px',
+                  }}
+                >
+                  <span style={{ color: COLORS.blue }} aria-hidden="true">•</span>
+                  Finché non effettua questa operazione, il <GlossaryTerm termId="wallet">wallet</GlossaryTerm> rimane invisibile e inattivo per l'utente.
+                </li>
+                <li
+                  style={{
+                    display: 'flex',
+                    gap: '10px',
+                    color: COLORS.textPrimary,
+                    lineHeight: 1.6,
+                    marginBottom: '10px',
+                  }}
+                >
+                  <span style={{ color: COLORS.blue }} aria-hidden="true">•</span>
+                  Il <GlossaryTerm termId="wallet">wallet</GlossaryTerm> non è utilizzabile per detenere o trasferire <GlossaryTerm termId="algo">ALGO</GlossaryTerm>, <GlossaryTerm termId="stablecoin">stablecoin</GlossaryTerm> o altri asset di valore monetario.
+                </li>
               </ul>
               
               {/* COMPLIANCE BOX */}
@@ -269,13 +318,11 @@ const PaymentLevel1: React.FC = () => {
                   🛡️ {t('paymentLevel1.complianceTitle', 'Conformità Normativa MiCA-safe')}
                 </h4>
                 <p style={{ color: COLORS.textPrimary, fontSize: '0.9rem', lineHeight: 1.6, margin: 0 }}>
-                  {t('paymentLevel1.complianceDesc', 
-                    `FlorenceEGI non esegue operazioni di cambio, non custodisce fondi, né intermedia transazioni tra utenti. 
-                    Questa gestione costituisce custodia tecnica limitata di asset digitali non finanziari e non configura 
-                    attività di CASP (Crypto-Asset Service Provider) ai sensi del Regolamento MiCA. La piattaforma opera quindi 
-                    fuori dal perimetro MiCA, soggetta esclusivamente agli obblighi di sicurezza informatica e protezione dei 
-                    dati personali previsti dal GDPR.`
-                  )}
+                  FlorenceEGI non esegue operazioni di cambio, non custodisce fondi, né intermedia transazioni tra utenti. 
+                  Questa gestione costituisce <GlossaryTerm termId="custodial">custodia</GlossaryTerm> tecnica limitata di asset digitali non finanziari e non configura 
+                  attività di <GlossaryTerm termId="casp">CASP</GlossaryTerm> (Crypto-Asset Service Provider) ai sensi del Regolamento <GlossaryTerm termId="mica">MiCA</GlossaryTerm>. La piattaforma opera quindi 
+                  fuori dal perimetro <GlossaryTerm termId="mica">MiCA</GlossaryTerm> (<GlossaryTerm termId="mica-safe">MiCA-safe</GlossaryTerm>), soggetta esclusivamente agli obblighi di sicurezza informatica e protezione dei 
+                  dati personali previsti dal <GlossaryTerm termId="gdpr">GDPR</GlossaryTerm>.
                 </p>
               </div>
             </div>

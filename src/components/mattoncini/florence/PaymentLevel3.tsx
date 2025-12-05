@@ -10,6 +10,7 @@
 
 import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
+import { GlossaryTerm } from '../../common/GlossaryTerm';
 
 // ============================================
 // CONSTANTS (Design Tokens)
@@ -82,7 +83,7 @@ const PaymentLevel3: React.FC = () => {
             maxWidth: '700px',
             margin: '0 auto',
           }}>
-            {t('paymentLevel3.subtitle', 'Questo livello è facoltativo e gestito da partner esterni per mantenere la piattaforma MiCA-safe.')}
+            Questo livello è facoltativo e gestito da partner esterni per mantenere la piattaforma <GlossaryTerm termId="mica-safe">MiCA-safe</GlossaryTerm>.
           </p>
         </header>
 
@@ -123,15 +124,15 @@ const PaymentLevel3: React.FC = () => {
               <ul style={{ listStyle: 'none', padding: 0, margin: 0 }}>
                 <li style={{ marginBottom: '12px', display: 'flex', gap: '10px', color: COLORS.textPrimary, lineHeight: 1.6 }}>
                   <span style={{ color: COLORS.emerald }} aria-hidden="true">•</span>
-                  {t('paymentLevel3.merchant1', 'Si affida a un Partner autorizzato (CASP/EMI).')}
+                  Si affida a un <GlossaryTerm termId="partner-autorizzato">Partner autorizzato</GlossaryTerm> (<GlossaryTerm termId="casp">CASP</GlossaryTerm>/<GlossaryTerm termId="emi">EMI</GlossaryTerm>).
                 </li>
                 <li style={{ marginBottom: '12px', display: 'flex', gap: '10px', color: COLORS.textPrimary, lineHeight: 1.6 }}>
                   <span style={{ color: COLORS.emerald }} aria-hidden="true">•</span>
-                  {t('paymentLevel3.merchant2', 'I clienti pagano sul checkout del Partner.')}
+                  I clienti pagano sul checkout del Partner.
                 </li>
                 <li style={{ display: 'flex', gap: '10px', color: COLORS.textPrimary, lineHeight: 1.6 }}>
                   <span style={{ color: COLORS.emerald }} aria-hidden="true">•</span>
-                  {t('paymentLevel3.merchant3', 'Il settlement è gestito dal Partner.')}
+                  Il <GlossaryTerm termId="settlement">settlement</GlossaryTerm> è gestito dal Partner.
                 </li>
               </ul>
             </div>
@@ -156,11 +157,11 @@ const PaymentLevel3: React.FC = () => {
               <ul style={{ listStyle: 'none', padding: 0, margin: 0 }}>
                 <li style={{ marginBottom: '12px', display: 'flex', gap: '10px', color: COLORS.textPrimary, lineHeight: 1.6 }}>
                   <span style={{ color: COLORS.emerald }} aria-hidden="true">•</span>
-                  {t('paymentLevel3.client1', 'Paga in crypto sul checkout del Partner.')}
+                  Paga in crypto sul checkout del Partner.
                 </li>
                 <li style={{ display: 'flex', gap: '10px', color: COLORS.textPrimary, lineHeight: 1.6 }}>
                   <span style={{ color: COLORS.emerald }} aria-hidden="true">•</span>
-                  {t('paymentLevel3.client2', "Riceve l'EGI come sempre.")}
+                  Riceve l'<GlossaryTerm termId="egi">EGI</GlossaryTerm> come sempre.
                 </li>
               </ul>
             </div>
@@ -221,34 +222,82 @@ const PaymentLevel3: React.FC = () => {
               }}
             >
               <p style={{ color: COLORS.textPrimary, lineHeight: 1.7, marginTop: '20px' }}>
-                {t('paymentLevel3.stablecoinIntro', 
-                  "L'utente esperto che possiede un wallet Algorand può effettuare acquisti utilizzando stablecoin al posto della valuta FIAT."
-                )}
+                L'utente esperto che possiede un <GlossaryTerm termId="wallet">wallet</GlossaryTerm> Algorand può effettuare acquisti utilizzando <GlossaryTerm termId="stablecoin">stablecoin</GlossaryTerm> al posto della valuta <GlossaryTerm termId="fiat">FIAT</GlossaryTerm>.
               </p>
               
               <ul style={{ listStyle: 'none', padding: 0, margin: '20px 0' }}>
-                {[
-                  "L'utente mantiene il controllo esclusivo del proprio wallet (non-custodial).",
-                  'Nel form di acquisto seleziona "Pagamento in stablecoin" e inserisce l\'indirizzo del wallet.',
-                  "Il mint dell'EGI (ASA univoco) avviene con sender = wallet dell'utente.",
-                  "Il pagamento è eseguito direttamente wallet-to-wallet tra l'utente e un Payment Service Provider (PSP) partner della piattaforma, scelto e sottoscritto dall'utente tramite accordo privato.",
-                  'FlorenceEGI non gestisce conversioni FIAT↔crypto, non detiene fondi, non partecipa alla transazione in stablecoin e non custodisce chiavi private.',
-                  'Le stablecoin accettate devono essere emesse da soggetti conformi MiCA e riconosciuti dalla piattaforma come PSP autorizzati.',
-                ].map((item, idx) => (
-                  <li
-                    key={idx}
-                    style={{
-                      display: 'flex',
-                      gap: '10px',
-                      color: COLORS.textPrimary,
-                      lineHeight: 1.6,
-                      marginBottom: '10px',
-                    }}
-                  >
-                    <span style={{ color: COLORS.purple }} aria-hidden="true">•</span>
-                    {t(`paymentLevel3.stablecoinItem${idx + 1}`, item)}
-                  </li>
-                ))}
+                <li
+                  style={{
+                    display: 'flex',
+                    gap: '10px',
+                    color: COLORS.textPrimary,
+                    lineHeight: 1.6,
+                    marginBottom: '10px',
+                  }}
+                >
+                  <span style={{ color: COLORS.purple }} aria-hidden="true">•</span>
+                  L'utente mantiene il controllo esclusivo del proprio <GlossaryTerm termId="wallet">wallet</GlossaryTerm> (<GlossaryTerm termId="non-custodial">non-custodial</GlossaryTerm>).
+                </li>
+                <li
+                  style={{
+                    display: 'flex',
+                    gap: '10px',
+                    color: COLORS.textPrimary,
+                    lineHeight: 1.6,
+                    marginBottom: '10px',
+                  }}
+                >
+                  <span style={{ color: COLORS.purple }} aria-hidden="true">•</span>
+                  Nel form di acquisto seleziona "Pagamento in <GlossaryTerm termId="stablecoin">stablecoin</GlossaryTerm>" e inserisce l'indirizzo del <GlossaryTerm termId="wallet">wallet</GlossaryTerm>.
+                </li>
+                <li
+                  style={{
+                    display: 'flex',
+                    gap: '10px',
+                    color: COLORS.textPrimary,
+                    lineHeight: 1.6,
+                    marginBottom: '10px',
+                  }}
+                >
+                  <span style={{ color: COLORS.purple }} aria-hidden="true">•</span>
+                  Il <GlossaryTerm termId="mint">mint</GlossaryTerm> dell'<GlossaryTerm termId="egi">EGI</GlossaryTerm> (<GlossaryTerm termId="asa">ASA</GlossaryTerm> univoco) avviene con sender = <GlossaryTerm termId="wallet">wallet</GlossaryTerm> dell'utente.
+                </li>
+                <li
+                  style={{
+                    display: 'flex',
+                    gap: '10px',
+                    color: COLORS.textPrimary,
+                    lineHeight: 1.6,
+                    marginBottom: '10px',
+                  }}
+                >
+                  <span style={{ color: COLORS.purple }} aria-hidden="true">•</span>
+                  Il pagamento è eseguito direttamente <GlossaryTerm termId="wallet">wallet</GlossaryTerm>-to-<GlossaryTerm termId="wallet">wallet</GlossaryTerm> tra l'utente e un <GlossaryTerm termId="psp">Payment Service Provider (PSP)</GlossaryTerm> partner della piattaforma, scelto e sottoscritto dall'utente tramite accordo privato.
+                </li>
+                <li
+                  style={{
+                    display: 'flex',
+                    gap: '10px',
+                    color: COLORS.textPrimary,
+                    lineHeight: 1.6,
+                    marginBottom: '10px',
+                  }}
+                >
+                  <span style={{ color: COLORS.purple }} aria-hidden="true">•</span>
+                  FlorenceEGI non gestisce conversioni <GlossaryTerm termId="fiat">FIAT</GlossaryTerm>↔crypto, non detiene fondi, non partecipa alla transazione in <GlossaryTerm termId="stablecoin">stablecoin</GlossaryTerm> e non custodisce chiavi private.
+                </li>
+                <li
+                  style={{
+                    display: 'flex',
+                    gap: '10px',
+                    color: COLORS.textPrimary,
+                    lineHeight: 1.6,
+                    marginBottom: '10px',
+                  }}
+                >
+                  <span style={{ color: COLORS.purple }} aria-hidden="true">•</span>
+                  Le <GlossaryTerm termId="stablecoin">stablecoin</GlossaryTerm> accettate devono essere emesse da soggetti conformi <GlossaryTerm termId="mica">MiCA</GlossaryTerm> e riconosciuti dalla piattaforma come <GlossaryTerm termId="psp">PSP</GlossaryTerm> autorizzati.
+                </li>
               </ul>
               
               {/* COMPLIANCE BOX */}
@@ -265,12 +314,10 @@ const PaymentLevel3: React.FC = () => {
                   🛡️ {t('paymentLevel3.complianceTitle', 'Conformità Normativa MiCA-safe')}
                 </h4>
                 <p style={{ color: COLORS.textPrimary, fontSize: '0.9rem', lineHeight: 1.6, margin: 0 }}>
-                  {t('paymentLevel3.complianceDesc', 
-                    `In questa modalità FlorenceEGI opera unicamente come infrastruttura di registrazione su blockchain, 
-                    senza alcun ruolo finanziario o di intermediazione. La gestione rientra pienamente fuori dal perimetro MiCA, 
-                    poiché i pagamenti crypto sono gestiti esclusivamente da PSP partner conformi (CASP/EMI), 
-                    con cui l'utente ha un rapporto contrattuale diretto.`
-                  )}
+                  In questa modalità FlorenceEGI opera unicamente come infrastruttura di registrazione su <GlossaryTerm termId="blockchain">blockchain</GlossaryTerm>, 
+                  senza alcun ruolo finanziario o di intermediazione. La gestione rientra pienamente fuori dal perimetro <GlossaryTerm termId="mica">MiCA</GlossaryTerm> (<GlossaryTerm termId="mica-safe">MiCA-safe</GlossaryTerm>), 
+                  poiché i pagamenti crypto sono gestiti esclusivamente da <GlossaryTerm termId="psp">PSP</GlossaryTerm> partner conformi (<GlossaryTerm termId="casp">CASP</GlossaryTerm>/<GlossaryTerm termId="emi">EMI</GlossaryTerm>), 
+                  con cui l'utente ha un rapporto contrattuale diretto.
                 </p>
               </div>
             </div>
