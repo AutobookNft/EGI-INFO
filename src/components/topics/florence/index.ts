@@ -11,6 +11,9 @@
 export { default as FlorenceHero } from './FlorenceHero';
 export { default as FlorenceIntro } from './FlorenceIntro';
 
+// Fondamenti & Visione
+export { default as FlorenceFondamenti } from './FlorenceFondamenti';
+
 // Problems & Solutions
 export { default as FlorenceProblems } from './FlorenceProblems';
 

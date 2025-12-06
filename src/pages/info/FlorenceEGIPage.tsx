@@ -1,7 +1,8 @@
 import React from 'react';
 import { 
   FlorenceHero, 
-  FlorenceIntro, 
+  FlorenceIntro,
+  FlorenceFondamenti,
   FlorenceProblems,
   FlorenceExamples,
   FlorenceAmmk,
@@ -26,6 +27,9 @@ const FlorenceEGIPage: React.FC = () => {
       
       {/* Introduzione concept */}
       <FlorenceIntro />
+      
+      {/* Fondamenti filosofici e Visione */}
+      <FlorenceFondamenti />
       
       {/* 12 Problemi Before/After */}
       <FlorenceProblems />
