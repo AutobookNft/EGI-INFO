@@ -720,5 +720,211 @@
       { "icon": "💰", "text": "Royalty automatiche su ogni rivendita" },
       { "icon": "🌍", "text": "20% a progetti ambientali" }
     ]
+  },
+  "premessa": {
+    "badge": "📖 Fondamenti",
+    "title": "Premessa",
+    "subtitle": "Il contesto che ha dato origine a FlorenceEGI: un'epoca di connessione senza autenticità.",
+    "quote": "Viviamo in un'epoca in cui tutto è connesso, ma poco è autentico. L'arte si è smaterializzata, la fiducia si è dispersa, la visibilità è diventata moneta fragile.",
+    "intro": "In questo contesto nasce FlorenceEGI, un sistema che restituisce verità, riconoscimento e valore reale al mondo digitale.",
+    "notIs": {
+      "title": "Cosa NON È",
+      "text": "Non è un marketplace tradizionale, ma un protocollo di equilibrio tra materiale e immateriale, arte e tecnologia, individuo e collettività."
+    },
+    "is": {
+      "title": "Cosa È",
+      "text": "Il luogo dove un'opera diventa vera perché qualcuno la crea, la riconosce e la completa tramite EGI su blockchain."
+    },
+    "problem": {
+      "title": "Il Problema del Digitale",
+      "items": [
+        "Visibilità effimera e algoritmica",
+        "Assenza di memoria permanente",
+        "Fiducia dispersa tra intermediari",
+        "Valore economico scollegato dal merito"
+      ]
+    },
+    "solution": {
+      "title": "La Risposta di FlorenceEGI",
+      "items": [
+        "Certificazione immutabile su blockchain",
+        "Co-creazione permanente e tracciabile",
+        "Royalty automatiche e trasparenti",
+        "Impatto ambientale positivo misurabile"
+      ]
+    }
+  },
+  "principioFondo": {
+    "badge": "✨ Fondamenti",
+    "title": "Il Principio di Fondo",
+    "subtitle": "La visione fondamentale: l'arte non è completa fino all'incontro con il destinatario.",
+    "quote": "Non basta creare. Occorre che qualcuno accolga.",
+    "intro": "L'artista genera la forma, ma è l'incontro con il mecenate che attiva la sua piena esistenza.",
+    "transformTitle": "La Trasformazione in EGI",
+    "transformDesc": "L'opera diventa EGI – Eco Goods Invent, unendo:",
+    "pillars": [
+      {
+        "icon": "🎨",
+        "title": "Valore Estetico",
+        "description": "Bellezza e significato culturale dell'opera"
+      },
+      {
+        "icon": "⛓️",
+        "title": "Traccia Digitale",
+        "description": "Immutabile su Algorand"
+      },
+      {
+        "icon": "🌱",
+        "title": "Contributo Ambientale",
+        "description": "Tramite EPP verificati"
+      }
+    ],
+    "philosophy": {
+      "title": "Il Fondamento Filosofico",
+      "intro": "FlorenceEGI si ispira al concetto aristotelico delle quattro cause:",
+      "causes": [
+        { "name": "Causa Materiale", "desc": "Il supporto fisico/digitale" },
+        { "name": "Causa Formale", "desc": "L'idea dell'artista" },
+        { "name": "Causa Efficiente", "desc": "Il Co-Creatore che attiva", "highlight": true },
+        { "name": "Causa Finale", "desc": "L'impatto nel mondo" }
+      ]
+    },
+    "insight": "L'opera non è mai 'finita' nell'isolamento del creatore."
+  },
+  "cocreazione": {
+    "badge": "👥 Fondamenti",
+    "title": "Il Principio di Co-Creazione",
+    "subtitle": "Guarigione digitale attraverso visibilità permanente e riconoscimento.",
+    "need": {
+      "title": "Il Bisogno Universale",
+      "text": "Analisi su oltre 1000 fonti evidenzia: la forma di disagio più diffusa sul web è il bisogno di essere visibili e riconosciuti."
+    },
+    "intro": "La rete concede visibilità effimera, ma non memoria. FlorenceEGI trasforma questa fragilità in struttura di guarigione digitale.",
+    "rolesTitle": "I Tre Ruoli",
+    "roles": [
+      {
+        "icon": "🎨",
+        "title": "Artista (Creator)",
+        "description": "La sorgente creativa dell'opera. Genera la forma, l'idea, il contenuto originale.",
+        "color": "emerald"
+      },
+      {
+        "icon": "✨",
+        "title": "Co-Creatore",
+        "description": "La causa efficiente che rende reale l'opera tramite minting. Finanzia e legittima l'esistenza dell'EGI.",
+        "color": "blue"
+      },
+      {
+        "icon": "💎",
+        "title": "Collector",
+        "description": "Il custode del valore che la tramanda. Preserva e valorizza l'EGI nel tempo.",
+        "color": "purple"
+      }
+    ],
+    "flowTitle": "Flusso di Co-Creazione",
+    "flow": [
+      { "icon": "🎨", "label": "Creator", "desc": "Crea l'opera" },
+      { "icon": "✨", "label": "Co-Creator", "desc": "Attiva il minting" },
+      { "icon": "⛓️", "label": "EGI on-chain", "desc": "Certificato immutabile" },
+      { "icon": "💎", "label": "Collector", "desc": "Custodisce il valore" }
+    ]
+  },
+  "visione": {
+    "badge": "🚀 Visione",
+    "title": "Visione Futura",
+    "subtitle": "Il futuro di FlorenceEGI e il suo impatto sul mondo dell'arte.",
+    "statement": "Un mondo dove ogni artista può vivere della propria arte, ogni collezionista può essere mecenate, e ogni transazione rigenera il pianeta.",
+    "roadmapTitle": "Roadmap di Sviluppo",
+    "phases": [
+      {
+        "status": "LIVE",
+        "title": "Fase 1: Fondamenta",
+        "color": "green",
+        "items": [
+          "Piattaforma core multi-tenant",
+          "Integrazione Algorand completa",
+          "Sistema EGI con CoA",
+          "NATAN Market & Distribution Engine"
+        ]
+      },
+      {
+        "status": "IN CORSO",
+        "title": "Fase 2: Espansione",
+        "color": "blue",
+        "items": [
+          "Marketplace pubblico",
+          "Oracode V2 con modelli avanzati",
+          "Partnership gallerie internazionali",
+          "Mobile app (iOS/Android)"
+        ]
+      },
+      {
+        "status": "2025",
+        "title": "Fase 3: Scaling",
+        "color": "purple",
+        "items": [
+          "Espansione europea (Francia, Germania, Spagna)",
+          "API aperte per integrazioni terze",
+          "EPP Dashboard pubblica con KPI ambientali",
+          "Certificazioni ISO 27001 / SOC 2"
+        ]
+      },
+      {
+        "status": "2026+",
+        "title": "Fase 4: Consolidamento",
+        "color": "amber",
+        "items": [
+          "Espansione globale",
+          "Tokenomics avanzata",
+          "DAO per governance community",
+          "Impact bond ambientali legati a EPP"
+        ]
+      }
+    ]
+  },
+  "unicum": {
+    "badge": "🎭 Visione",
+    "title": "Unicum",
+    "subtitle": "Perché ogni EGI è unico e irripetibile.",
+    "definition": "Dal latino: \"unico, singolare, irripetibile\"",
+    "intro": "Ogni EGI non è una copia, non è una riproduzione: è un evento creativo irripetibile, certificato e notarizzato nel suo momento di nascita.",
+    "whatMakesTitle": "Cosa Rende un EGI un Unicum",
+    "factors": [
+      {
+        "icon": "🧬",
+        "title": "DNA Creativo",
+        "description": "Ogni opera nasce da un processo Oracode unico: prompt, iterazioni, scelte dell'artista sono irripetibili.",
+        "color": "blue"
+      },
+      {
+        "icon": "⏰",
+        "title": "Timestamp Immutabile",
+        "description": "Il momento di minting è certificato su Algorand: data, ora, blocco sono parte dell'identità.",
+        "color": "purple"
+      },
+      {
+        "icon": "📜",
+        "title": "CoA Unico",
+        "description": "Il Certificate of Authenticity contiene hash dell'opera, storia, firme digitali uniche.",
+        "color": "emerald"
+      },
+      {
+        "icon": "🔗",
+        "title": "Provenance Chain",
+        "description": "Ogni passaggio di proprietà è registrato: la storia dell'opera è parte della sua unicità.",
+        "color": "amber"
+      }
+    ],
+    "comparisonTitle": "Unicum vs Copia Digitale",
+    "comparison": {
+      "headers": ["Caratteristica", "Copia Digitale", "EGI Unicum"],
+      "rows": [
+        ["Replicabilità", "Infinita", "Impossibile"],
+        ["Provenienza", "Non verificabile", "On-chain completa"],
+        ["Valore legale", "Nessuno", "Prova di paternità"],
+        ["Trasferibilità", "Copia & incolla", "Transazione certificata"],
+        ["Impatto ambientale", "Zero", "20% EPP automatico"]
+      ]
+    }
   }
 }

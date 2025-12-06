@@ -70,3 +70,21 @@ export { default as Cases } from './Cases';
 export { default as Roadmap } from './Roadmap';
 export { default as FAQ } from './FAQ';
 export { default as CTAFinal } from './CTAFinal';
+
+// Mattoncini Payment System
+export { PaymentPhilosophy } from './PaymentPhilosophy';
+export { PaymentPlatformRole } from './PaymentPlatformRole';
+export { PaymentLevel1 } from './PaymentLevel1';
+export { PaymentLevel2 } from './PaymentLevel2';
+export { PaymentLevel3 } from './PaymentLevel3';
+export { PaymentLevel4 } from './PaymentLevel4';
+export { WalletRedemption } from './WalletRedemption';
+
+// Mattoncini Fondamenti
+export { Premessa } from './Premessa';
+export { PrincipioFondo } from './PrincipioFondo';
+export { Cocreazione } from './Cocreazione';
+
+// Mattoncini Visione
+export { Visione } from './Visione';
+export { Unicum } from './Unicum';
