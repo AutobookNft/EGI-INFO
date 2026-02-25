@@ -120,8 +120,12 @@ const FlorenceEGIPage: React.FC = () => {
     <article style={{ color: '#fff', fontFamily: "'Inter', sans-serif" }}>
       {/* SEO */}
       <SeoHead
-        title={t('how.page_title')}
-        description={t('how.hero.subtitle')}
+        meta={{
+          title: t('how.page_title'),
+          description: t('how.hero.subtitle'),
+          url: '/info/platform',
+          type: 'article',
+        }}
       />
 
       {/* ── HERO ───────────────────────────────────────────────────── */}
