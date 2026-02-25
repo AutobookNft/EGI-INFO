@@ -26,6 +26,8 @@ interface Mattoncino {
   category: string;
   status: MattoninoStatus;
   jsonKey: string;
+  /** Pagine in cui il mattoncino è assemblato */
+  usedIn: string[];
 }
 
 // ============================================================================
@@ -34,74 +36,83 @@ interface Mattoncino {
 
 const MATTONCINI: Mattoncino[] = [
   // HERO & INTRO (1-4)
-  { id: 1, name: 'Il Motto', slug: 'motto', category: 'Hero & Intro', status: 'ready', jsonKey: 'hero.motto' },
-  { id: 2, name: "Cos'è FlorenceEGI", slug: 'what-we-do', category: 'Hero & Intro', status: 'ready', jsonKey: 'hero.whatWeDo' },
-  { id: 3, name: 'Impatto Ambientale', slug: 'impact', category: 'Hero & Intro', status: 'ready', jsonKey: 'hero.howSimple' },
-  { id: 4, name: 'Non Siamo un Marketplace', slug: 'intro', category: 'Hero & Intro', status: 'ready', jsonKey: 'intro' },
-  
+  { id: 1, name: 'Il Motto', slug: 'motto', category: 'Hero & Intro', status: 'ready', jsonKey: 'hero.motto', usedIn: ['platform', 'artist', 'collector', 'entrepreneur'] },
+  { id: 2, name: "Cos'è FlorenceEGI", slug: 'what-we-do', category: 'Hero & Intro', status: 'ready', jsonKey: 'hero.whatWeDo', usedIn: ['platform'] },
+  { id: 3, name: 'Impatto Ambientale', slug: 'impact', category: 'Hero & Intro', status: 'ready', jsonKey: 'hero.howSimple', usedIn: ['platform', 'entrepreneur', 'public-admin'] },
+  { id: 4, name: 'Non Siamo un Marketplace', slug: 'intro', category: 'Hero & Intro', status: 'ready', jsonKey: 'intro', usedIn: ['platform', 'collector'] },
+
   // PROBLEMI (5-16)
-  { id: 5, name: 'Problema 1: Commissioni', slug: 'problem-1', category: 'I 12 Problemi', status: 'ready', jsonKey: 'problems.items[0]' },
-  { id: 6, name: 'Problema 2: Autenticità', slug: 'problem-2', category: 'I 12 Problemi', status: 'ready', jsonKey: 'problems.items[1]' },
-  { id: 7, name: 'Problema 3: Wallet', slug: 'problem-3', category: 'I 12 Problemi', status: 'ready', jsonKey: 'problems.items[2]' },
-  { id: 8, name: 'Problema 4: Speculazione', slug: 'problem-4', category: 'I 12 Problemi', status: 'ready', jsonKey: 'problems.items[3]' },
-  { id: 9, name: 'Problema 5: Furto', slug: 'problem-5', category: 'I 12 Problemi', status: 'ready', jsonKey: 'problems.items[4]' },
-  { id: 10, name: 'Problema 6: Royalty', slug: 'problem-6', category: 'I 12 Problemi', status: 'ready', jsonKey: 'problems.items[5]' },
-  { id: 11, name: 'Problema 7: GDPR', slug: 'problem-7', category: 'I 12 Problemi', status: 'ready', jsonKey: 'problems.items[6]' },
-  { id: 12, name: 'Problema 8: MiCA', slug: 'problem-8', category: 'I 12 Problemi', status: 'ready', jsonKey: 'problems.items[7]' },
-  { id: 13, name: 'Problema 9: Pagamenti', slug: 'problem-9', category: 'I 12 Problemi', status: 'ready', jsonKey: 'problems.items[8]' },
-  { id: 14, name: 'Problema 10: Pricing', slug: 'problem-10', category: 'I 12 Problemi', status: 'ready', jsonKey: 'problems.items[9]' },
-  { id: 15, name: 'Problema 11: Visibilità', slug: 'problem-11', category: 'I 12 Problemi', status: 'ready', jsonKey: 'problems.items[10]' },
-  { id: 16, name: 'Problema 12: Fiscale', slug: 'problem-12', category: 'I 12 Problemi', status: 'ready', jsonKey: 'problems.items[11]' },
-  
+  { id: 5, name: 'Problema 1: Commissioni', slug: 'problem-1', category: 'I 12 Problemi', status: 'ready', jsonKey: 'problems.items[0]', usedIn: ['platform', 'artist'] },
+  { id: 6, name: 'Problema 2: Autenticità', slug: 'problem-2', category: 'I 12 Problemi', status: 'ready', jsonKey: 'problems.items[1]', usedIn: ['platform', 'artist', 'collector'] },
+  { id: 7, name: 'Problema 3: Wallet', slug: 'problem-3', category: 'I 12 Problemi', status: 'ready', jsonKey: 'problems.items[2]', usedIn: ['platform'] },
+  { id: 8, name: 'Problema 4: Speculazione', slug: 'problem-4', category: 'I 12 Problemi', status: 'ready', jsonKey: 'problems.items[3]', usedIn: ['platform', 'collector'] },
+  { id: 9, name: 'Problema 5: Furto', slug: 'problem-5', category: 'I 12 Problemi', status: 'ready', jsonKey: 'problems.items[4]', usedIn: ['platform', 'artist'] },
+  { id: 10, name: 'Problema 6: Royalty', slug: 'problem-6', category: 'I 12 Problemi', status: 'ready', jsonKey: 'problems.items[5]', usedIn: ['platform', 'artist'] },
+  { id: 11, name: 'Problema 7: GDPR', slug: 'problem-7', category: 'I 12 Problemi', status: 'ready', jsonKey: 'problems.items[6]', usedIn: ['platform', 'public-admin'] },
+  { id: 12, name: 'Problema 8: MiCA', slug: 'problem-8', category: 'I 12 Problemi', status: 'ready', jsonKey: 'problems.items[7]', usedIn: ['platform', 'entrepreneur'] },
+  { id: 13, name: 'Problema 9: Pagamenti', slug: 'problem-9', category: 'I 12 Problemi', status: 'ready', jsonKey: 'problems.items[8]', usedIn: ['platform'] },
+  { id: 14, name: 'Problema 10: Pricing', slug: 'problem-10', category: 'I 12 Problemi', status: 'ready', jsonKey: 'problems.items[9]', usedIn: ['platform', 'collector'] },
+  { id: 15, name: 'Problema 11: Visibilità', slug: 'problem-11', category: 'I 12 Problemi', status: 'ready', jsonKey: 'problems.items[10]', usedIn: ['platform', 'artist'] },
+  { id: 16, name: 'Problema 12: Fiscale', slug: 'problem-12', category: 'I 12 Problemi', status: 'ready', jsonKey: 'problems.items[11]', usedIn: ['platform', 'entrepreneur'] },
+
   // ESEMPI (17-23)
-  { id: 17, name: 'Esempi: Arte', slug: 'examples-art', category: 'Esempi per Settore', status: 'ready', jsonKey: 'examples.tabs[0]' },
-  { id: 18, name: 'Esempi: Musica', slug: 'examples-music', category: 'Esempi per Settore', status: 'ready', jsonKey: 'examples.tabs[1]' },
-  { id: 19, name: 'Esempi: Libri', slug: 'examples-books', category: 'Esempi per Settore', status: 'ready', jsonKey: 'examples.tabs[2]' },
-  { id: 20, name: 'Esempi: Ambiente', slug: 'examples-eco', category: 'Esempi per Settore', status: 'ready', jsonKey: 'examples.tabs[3]' },
-  { id: 21, name: 'Esempi: Sport', slug: 'examples-sport', category: 'Esempi per Settore', status: 'ready', jsonKey: 'examples.tabs[4]' },
-  { id: 22, name: 'Esempi: Moda', slug: 'examples-fashion', category: 'Esempi per Settore', status: 'ready', jsonKey: 'examples.tabs[5]' },
-  { id: 23, name: 'Esempi: Heritage', slug: 'examples-heritage', category: 'Esempi per Settore', status: 'ready', jsonKey: 'examples.tabs[6]' },
-  
-  // HOW IT WORKS (24-26)
-  { id: 24, name: 'Come Funziona: Step 1', slug: 'how-1', category: 'Come Funziona', status: 'ready', jsonKey: 'howItWorks.steps[0]' },
-  { id: 25, name: 'Come Funziona: Step 2', slug: 'how-2', category: 'Come Funziona', status: 'ready', jsonKey: 'howItWorks.steps[1]' },
-  { id: 26, name: 'Come Funziona: Step 3', slug: 'how-3', category: 'Come Funziona', status: 'ready', jsonKey: 'howItWorks.steps[2]' },
-  
+  { id: 17, name: 'Esempi: Arte', slug: 'examples-art', category: 'Esempi per Settore', status: 'ready', jsonKey: 'examples.tabs[0]', usedIn: ['platform', 'artist', 'collector'] },
+  { id: 18, name: 'Esempi: Musica', slug: 'examples-music', category: 'Esempi per Settore', status: 'ready', jsonKey: 'examples.tabs[1]', usedIn: ['platform', 'artist'] },
+  { id: 19, name: 'Esempi: Libri', slug: 'examples-books', category: 'Esempi per Settore', status: 'ready', jsonKey: 'examples.tabs[2]', usedIn: ['platform', 'artist'] },
+  { id: 20, name: 'Esempi: Ambiente', slug: 'examples-eco', category: 'Esempi per Settore', status: 'ready', jsonKey: 'examples.tabs[3]', usedIn: ['platform', 'entrepreneur', 'public-admin'] },
+  { id: 21, name: 'Esempi: Sport', slug: 'examples-sport', category: 'Esempi per Settore', status: 'ready', jsonKey: 'examples.tabs[4]', usedIn: ['platform', 'entrepreneur'] },
+  { id: 22, name: 'Esempi: Moda', slug: 'examples-fashion', category: 'Esempi per Settore', status: 'ready', jsonKey: 'examples.tabs[5]', usedIn: ['platform', 'artist'] },
+  { id: 23, name: 'Esempi: Heritage', slug: 'examples-heritage', category: 'Esempi per Settore', status: 'ready', jsonKey: 'examples.tabs[6]', usedIn: ['platform', 'collector', 'public-admin'] },
+
+  // HOW IT WORKS CLASSIC (24-26)
+  { id: 24, name: 'Come Funziona: Step 1', slug: 'how-1', category: 'Come Funziona', status: 'ready', jsonKey: 'howItWorks.steps[0]', usedIn: ['platform'] },
+  { id: 25, name: 'Come Funziona: Step 2', slug: 'how-2', category: 'Come Funziona', status: 'ready', jsonKey: 'howItWorks.steps[1]', usedIn: ['platform'] },
+  { id: 26, name: 'Come Funziona: Step 3', slug: 'how-3', category: 'Come Funziona', status: 'ready', jsonKey: 'howItWorks.steps[2]', usedIn: ['platform'] },
+
   // AMMK (27-29)
-  { id: 27, name: 'AMMk: Chi lo Usa', slug: 'ammk-users', category: 'AMMk Platform', status: 'ready', jsonKey: 'ammk.users' },
-  { id: 28, name: 'AMMk: 5 Engine', slug: 'ammk-engines', category: 'AMMk Platform', status: 'ready', jsonKey: 'ammk.engines' },
-  { id: 29, name: 'AMMk: Personalizzazione', slug: 'ammk-custom', category: 'AMMk Platform', status: 'ready', jsonKey: 'ammk.customization' },
-  
+  { id: 27, name: 'AMMk: Chi lo Usa', slug: 'ammk-users', category: 'AMMk Platform', status: 'ready', jsonKey: 'ammk.users', usedIn: ['platform', 'entrepreneur', 'artist'] },
+  { id: 28, name: 'AMMk: 5 Engine', slug: 'ammk-engines', category: 'AMMk Platform', status: 'ready', jsonKey: 'ammk.engines', usedIn: ['platform'] },
+  { id: 29, name: 'AMMk: Personalizzazione', slug: 'ammk-custom', category: 'AMMk Platform', status: 'ready', jsonKey: 'ammk.customization', usedIn: ['platform', 'entrepreneur'] },
+
   // TECHNOLOGY (30-32)
-  { id: 30, name: 'Tech: Cosa Vedi Tu', slug: 'tech-user', category: 'Technology', status: 'ready', jsonKey: 'technology.userFeatures' },
-  { id: 31, name: 'Tech: Cosa Fa il Sistema', slug: 'tech-system', category: 'Technology', status: 'ready', jsonKey: 'technology.systemFeatures' },
-  { id: 32, name: 'Tech: Performance', slug: 'tech-performance', category: 'Technology', status: 'ready', jsonKey: 'technology.performance' },
-  
+  { id: 30, name: 'Tech: Cosa Vedi Tu', slug: 'tech-user', category: 'Technology', status: 'ready', jsonKey: 'technology.userFeatures', usedIn: ['platform', 'artist', 'collector'] },
+  { id: 31, name: 'Tech: Cosa Fa il Sistema', slug: 'tech-system', category: 'Technology', status: 'ready', jsonKey: 'technology.systemFeatures', usedIn: ['platform', 'entrepreneur'] },
+  { id: 32, name: 'Tech: Performance', slug: 'tech-performance', category: 'Technology', status: 'ready', jsonKey: 'technology.performance', usedIn: ['platform', 'public-admin'] },
+
   // CORE INFO (33-37)
-  { id: 33, name: '4 Livelli Pagamento', slug: 'payments', category: 'Core Info', status: 'ready', jsonKey: 'payments.levels' },
-  { id: 34, name: 'Compliance 4 Pilastri', slug: 'compliance', category: 'Core Info', status: 'ready', jsonKey: 'compliance.items' },
-  { id: 35, name: '4 Ruoli Ecosystem', slug: 'ecosystem', category: 'Core Info', status: 'ready', jsonKey: 'ecosystem.roles' },
-  { id: 36, name: 'NATAN AI', slug: 'natan', category: 'Core Info', status: 'ready', jsonKey: 'natan' },
-  { id: 37, name: 'Governance Duale', slug: 'governance', category: 'Core Info', status: 'ready', jsonKey: 'governance' },
-  
+  { id: 33, name: '4 Livelli Pagamento', slug: 'payments', category: 'Core Info', status: 'ready', jsonKey: 'payments.levels', usedIn: ['platform', 'artist', 'collector', 'entrepreneur'] },
+  { id: 34, name: 'Compliance 4 Pilastri', slug: 'compliance', category: 'Core Info', status: 'ready', jsonKey: 'compliance.items', usedIn: ['platform', 'entrepreneur', 'public-admin'] },
+  { id: 35, name: '4 Ruoli Ecosystem', slug: 'ecosystem', category: 'Core Info', status: 'ready', jsonKey: 'ecosystem.roles', usedIn: ['platform', 'entrepreneur'] },
+  { id: 36, name: 'NATAN AI', slug: 'natan', category: 'Core Info', status: 'ready', jsonKey: 'natan', usedIn: ['platform', 'public-admin'] },
+  { id: 37, name: 'Governance Duale', slug: 'governance', category: 'Core Info', status: 'ready', jsonKey: 'governance', usedIn: ['platform', 'entrepreneur', 'public-admin'] },
+
   // PRICING (38-39)
-  { id: 38, name: 'Fee: Mercato Primario', slug: 'pricing-primary', category: 'Pricing', status: 'ready', jsonKey: 'pricing.distribution' },
-  { id: 39, name: 'Fee: Mercato Secondario', slug: 'pricing-secondary', category: 'Pricing', status: 'ready', jsonKey: 'pricing.secondary' },
-  
+  { id: 38, name: 'Fee: Mercato Primario', slug: 'pricing-primary', category: 'Pricing', status: 'ready', jsonKey: 'pricing.distribution', usedIn: ['platform', 'artist', 'collector'] },
+  { id: 39, name: 'Fee: Mercato Secondario', slug: 'pricing-secondary', category: 'Pricing', status: 'ready', jsonKey: 'pricing.secondary', usedIn: ['platform', 'collector'] },
+
   // CLOSING (40-43)
-  { id: 40, name: 'Case Studies', slug: 'cases', category: 'Closing', status: 'ready', jsonKey: 'cases.items' },
-  { id: 41, name: 'Roadmap', slug: 'roadmap', category: 'Closing', status: 'ready', jsonKey: 'roadmap.items' },
-  { id: 42, name: 'FAQ', slug: 'faq', category: 'Closing', status: 'ready', jsonKey: 'faq.items' },
-  { id: 43, name: 'CTA Finale', slug: 'cta-final', category: 'Closing', status: 'ready', jsonKey: 'ctaFinal' },
-  
+  { id: 40, name: 'Case Studies', slug: 'cases', category: 'Closing', status: 'ready', jsonKey: 'cases.items', usedIn: ['platform'] },
+  { id: 41, name: 'Roadmap', slug: 'roadmap', category: 'Closing', status: 'ready', jsonKey: 'roadmap.items', usedIn: ['platform'] },
+  { id: 42, name: 'FAQ', slug: 'faq', category: 'Closing', status: 'ready', jsonKey: 'faq.items', usedIn: ['platform', 'artist', 'collector', 'entrepreneur', 'public-admin'] },
+  { id: 43, name: 'CTA Finale', slug: 'cta-final', category: 'Closing', status: 'ready', jsonKey: 'ctaFinal', usedIn: ['platform', 'artist', 'collector', 'entrepreneur', 'public-admin'] },
+
   // PAGAMENTI DETTAGLIO (44-50)
-  { id: 44, name: 'Filosofia Inclusione', slug: 'payment-philosophy', category: 'Pagamenti Dettaglio', status: 'ready', jsonKey: 'paymentPhilosophy' },
-  { id: 45, name: 'Ruolo Piattaforma', slug: 'payment-platform-role', category: 'Pagamenti Dettaglio', status: 'ready', jsonKey: 'paymentPlatformRole' },
-  { id: 46, name: 'Livello 1: Zero Crypto', slug: 'payment-level-1', category: 'Pagamenti Dettaglio', status: 'ready', jsonKey: 'paymentLevel1' },
-  { id: 47, name: 'Livello 2: Ho un Wallet', slug: 'payment-level-2', category: 'Pagamenti Dettaglio', status: 'ready', jsonKey: 'paymentLevel2' },
-  { id: 48, name: 'Livello 3: Accetto Crypto', slug: 'payment-level-3', category: 'Pagamenti Dettaglio', status: 'ready', jsonKey: 'paymentLevel3' },
-  { id: 49, name: 'Livello 4: EGILI Token', slug: 'payment-level-4', category: 'Pagamenti Dettaglio', status: 'ready', jsonKey: 'paymentLevel4' },
-  { id: 50, name: 'Riscatto Wallet', slug: 'wallet-redemption', category: 'Pagamenti Dettaglio', status: 'ready', jsonKey: 'walletRedemption' },
+  { id: 44, name: 'Filosofia Inclusione', slug: 'payment-philosophy', category: 'Pagamenti Dettaglio', status: 'ready', jsonKey: 'paymentPhilosophy', usedIn: ['platform'] },
+  { id: 45, name: 'Ruolo Piattaforma', slug: 'payment-platform-role', category: 'Pagamenti Dettaglio', status: 'ready', jsonKey: 'paymentPlatformRole', usedIn: ['platform'] },
+  { id: 46, name: 'Livello 1: Zero Crypto', slug: 'payment-level-1', category: 'Pagamenti Dettaglio', status: 'ready', jsonKey: 'paymentLevel1', usedIn: ['platform', 'artist', 'collector'] },
+  { id: 47, name: 'Livello 2: Ho un Wallet', slug: 'payment-level-2', category: 'Pagamenti Dettaglio', status: 'ready', jsonKey: 'paymentLevel2', usedIn: ['platform', 'collector', 'entrepreneur'] },
+  { id: 48, name: 'Livello 3: Accetto Crypto', slug: 'payment-level-3', category: 'Pagamenti Dettaglio', status: 'ready', jsonKey: 'paymentLevel3', usedIn: ['platform', 'entrepreneur'] },
+  { id: 49, name: 'Livello 4: EGILI Token', slug: 'payment-level-4', category: 'Pagamenti Dettaglio', status: 'ready', jsonKey: 'paymentLevel4', usedIn: ['platform'] },
+  { id: 50, name: 'Riscatto Wallet', slug: 'wallet-redemption', category: 'Pagamenti Dettaglio', status: 'ready', jsonKey: 'walletRedemption', usedIn: ['platform', 'artist'] },
+
+  // HOW PROTOCOL — Protocollo EGI (51-57)
+  { id: 51, name: 'How: Hero', slug: 'how-hero', category: 'Protocollo EGI', status: 'ready', jsonKey: 'how.hero', usedIn: ['platform'] },
+  { id: 52, name: 'How: Il Protocollo', slug: 'how-protocol', category: 'Protocollo EGI', status: 'ready', jsonKey: 'how.protocol', usedIn: ['platform'] },
+  { id: 53, name: 'ManipulatorCard ⭐', slug: 'how-manipulator', category: 'Protocollo EGI', status: 'ready', jsonKey: 'how.art|natan|pt', usedIn: ['platform', 'artist', 'collector', 'public-admin', 'entrepreneur'] },
+  { id: 54, name: 'How: Manipolatori', slug: 'how-manipulators', category: 'Protocollo EGI', status: 'ready', jsonKey: 'how.manipulators', usedIn: ['platform'] },
+  { id: 55, name: 'How: Filo Rosso', slug: 'how-thread', category: 'Protocollo EGI', status: 'ready', jsonKey: 'how.thread', usedIn: ['platform', 'artist', 'collector', 'public-admin', 'entrepreneur'] },
+  { id: 56, name: 'How: Futuri', slug: 'how-future', category: 'Protocollo EGI', status: 'ready', jsonKey: 'how.future', usedIn: ['platform'] },
+  { id: 57, name: 'How: CTA', slug: 'how-cta', category: 'Protocollo EGI', status: 'ready', jsonKey: 'how.cta', usedIn: ['platform', 'artist', 'collector', 'public-admin', 'entrepreneur'] },
 ];
 
 // ============================================================================
@@ -120,7 +131,25 @@ const CATEGORIES = [
   'Pagamenti Dettaglio',
   'Pricing',
   'Closing',
+  'Protocollo EGI',
 ];
+
+/** Colore per ogni pagina-tag */
+const TAG_COLORS: Record<string, { bg: string; text: string }> = {
+  'platform': { bg: 'rgba(212,175,55,0.20)', text: '#d4af37' },
+  'artist': { bg: 'rgba(167,139,250,0.20)', text: '#a78bfa' },
+  'collector': { bg: 'rgba(96,165,250,0.20)', text: '#60a5fa' },
+  'entrepreneur': { bg: 'rgba(74,222,128,0.20)', text: '#4ade80' },
+  'public-admin': { bg: 'rgba(251,146,60,0.20)', text: '#fb923c' },
+};
+
+const TAG_LABELS: Record<string, string> = {
+  'platform': '#platform',
+  'artist': '#artist',
+  'collector': '#collector',
+  'entrepreneur': '#entrepreneur',
+  'public-admin': '#PA',
+};
 
 // ============================================================================
 // COMPONENT
@@ -142,7 +171,7 @@ const MattonciniIndexPage: React.FC = () => {
   const filteredMattoncini = useMemo(() => {
     return MATTONCINI.filter(m => {
       const matchCategory = activeCategory === 'Tutti' || m.category === activeCategory;
-      const matchSearch = searchQuery === '' || 
+      const matchSearch = searchQuery === '' ||
         m.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
         m.slug.includes(searchQuery.toLowerCase());
       return matchCategory && matchSearch;
@@ -169,7 +198,7 @@ const MattonciniIndexPage: React.FC = () => {
             Dashboard navigazione • {stats.total} componenti totali
           </p>
         </div>
-        
+
         {/* Progress Stats */}
         <div className="mattoncini-index__stats">
           <div className="mattoncini-index__stat mattoncini-index__stat--ready">
@@ -226,8 +255,8 @@ const MattonciniIndexPage: React.FC = () => {
                   >
                     {cat}
                     <span className="mattoncini-index__category-count">
-                      {cat === 'Tutti' 
-                        ? MATTONCINI.length 
+                      {cat === 'Tutti'
+                        ? MATTONCINI.length
                         : MATTONCINI.filter(m => m.category === cat).length}
                     </span>
                   </button>
@@ -576,6 +605,22 @@ const MattonciniIndexPage: React.FC = () => {
           font-size: 0.75rem;
           color: #666;
           font-family: monospace;
+          margin-bottom: 0.5rem;
+        }
+
+        .mattoncino-card__tags {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 0.35rem;
+          margin-bottom: 0.75rem;
+        }
+
+        .mattoncino-card__tag {
+          font-size: 0.68rem;
+          font-weight: 600;
+          padding: 0.15rem 0.5rem;
+          border-radius: 9999px;
+          letter-spacing: 0.02em;
         }
 
         .mattoncino-card__link {
@@ -638,7 +683,7 @@ interface MattoninoCardProps {
 }
 
 const MattoninoCard: React.FC<MattoninoCardProps> = ({ mattoncino }) => {
-  const { id, name, slug, status, jsonKey } = mattoncino;
+  const { id, name, slug, status, jsonKey, usedIn } = mattoncino;
   const isClickable = status === 'ready' || status === 'partial';
   const route = `/info/florence/${slug}`;
 
@@ -656,10 +701,26 @@ const MattoninoCard: React.FC<MattoninoCardProps> = ({ mattoncino }) => {
           {statusLabel}
         </span>
       </div>
-      
+
       <h4 className="mattoncino-card__name">{name}</h4>
       <div className="mattoncino-card__meta">{jsonKey}</div>
-      
+
+      {/* Tag pagine */}
+      <div className="mattoncino-card__tags">
+        {usedIn.map(page => {
+          const color = TAG_COLORS[page] ?? { bg: 'rgba(255,255,255,0.1)', text: '#aaa' };
+          return (
+            <span
+              key={page}
+              className="mattoncino-card__tag"
+              style={{ background: color.bg, color: color.text }}
+            >
+              {TAG_LABELS[page] ?? `#${page}`}
+            </span>
+          );
+        })}
+      </div>
+
       {isClickable ? (
         <Link to={route} className="mattoncino-card__link">
           Apri →
