@@ -892,7 +892,7 @@
     "systemFeatures": [
       {
         "title": "Blockchain Algorand",
-        "desc": "1000 TPS, <5s finalità, €0.001/tx"
+        "desc": "1000+ TPS, finalità 4.5 secondi, Proof-of-Stake pura"
       },
       {
         "title": "Smart contract TEAL",
@@ -927,13 +927,13 @@
     "performance": [
       {
         "label": "Minting",
-        "value": "< 5s",
-        "desc": "Certificazione istantanea"
+        "value": "4.5s",
+        "desc": "Finalità Algorand certificata"
       },
       {
-        "label": "Uptime SLA",
-        "value": "99.9%",
-        "desc": "Disponibilità garantita"
+        "label": "Disponibilità",
+        "value": "Alta",
+        "desc": "Architettura distribuita multi-tenant"
       },
       {
         "label": "Sicurezza",
@@ -954,20 +954,24 @@
     "title": "Inclusione Finanziaria Totale",
     "levels": [
       {
-        "title": "Zero Crypto",
-        "desc": "Carta/Bonifico, wallet invisibile."
+        "title": "Nessun Wallet (FIAT)",
+        "desc": "Acquisto in euro come un normale e-commerce. Zero competenze blockchain. Wallet auto-generato, EGI disponibile nel profilo.",
+        "target": "Neofiti e tradizionalisti"
       },
       {
-        "title": "Ho un Wallet",
-        "desc": "Paga FIAT, ricevi su Pera/Defly."
+        "title": "Ho un Wallet, Pago in FIAT",
+        "desc": "Pago in euro, ricevo l'EGI direttamente nel mio wallet Algorand (Pera, Defly). Controllo totale sull'asset.",
+        "target": "Crypto-curious"
       },
       {
-        "title": "Crypto Native",
-        "desc": "USDC/ETH via PSP autorizzati."
+        "title": "Accetto Crypto (PSP Partner)",
+        "desc": "Pagamento in crypto (USDCa, EURC, USDT) tramite PSP partner autorizzato (CASP/EMI). FlorenceEGI non tocca mai i fondi crypto.",
+        "target": "Crypto-native"
       },
       {
-        "title": "Egili",
-        "desc": "Token interno fedeltà (no gas fee)."
+        "title": "Pagamento con Egili",
+        "desc": "Utilizzo degli Egili guadagnati (1 Egilo = €0,01 valore percepito interno). Non trasferibili, non quotati, MiCA-safe come punti fedeltà.",
+        "target": "Utenti attivi dell'ecosistema"
       }
     ]
   },
@@ -977,19 +981,19 @@
     "items": [
       {
         "title": "GDPR by Design",
-        "desc": "Consenso granulare, export 1-click, diritto oblio."
+        "desc": "ConsentService con versioning, diritti utente Art. 15-20: accesso, portabilità, oblio. Dati off-chain cancellabili, dati on-chain pseudonimizzati."
       },
       {
         "title": "MiCA-Safe",
-        "desc": "No custodia crypto, no exchange, solo asset unici."
+        "desc": "Nessuna custodia crypto per terzi, nessun exchange, nessuna intermediazione finanziaria. Solo emissione EGI (NFT unici) fuori dal perimetro MiCA."
       },
       {
-        "title": "Fiscalità Auto",
-        "desc": "Fatturazione SDI, report commercialista, IVA auto."
+        "title": "Fiscalità Automatica",
+        "desc": "Fatturazione SDI automatica, export CSV/XML per commercialisti, conservazione digitale 10 anni per documenti fiscali."
       },
       {
-        "title": "Diritti d'Autore",
-        "desc": "Tutela morale e patrimoniale, Diritto di Seguito."
+        "title": "Blockchain Legale",
+        "desc": "Registrazione blockchain produce effetti analoghi a validazione temporale elettronica ex eIDAS (art. 8-ter DL 135/2018). SIAE usa Algorand per gestione diritti d'autore."
       }
     ]
   },
@@ -1030,12 +1034,13 @@
     "title": "Governance Duale",
     "srl": {
       "title": "SRL Operativa",
-      "desc": "Innovazione, scaling, business."
+      "desc": "Sviluppo tecnologico, partnership, marketing, crescita scalabile, gestione operativa quotidiana."
     },
     "aps": {
       "title": "APS Valoriale",
-      "desc": "Custode della missione, potere di veto etico."
-    }
+      "desc": "Vigila sui principi fondativi, tutela il 20% EPP (obbligo statutario), veto su decisioni contrarie ai valori. 1% fee piattaforma → pool Egili per community."
+    },
+    "subtitle": "Due entità complementari che garantiscono equilibrio tra impresa e missione: FlorenceEGI SRL (operativa) e Associazione Frangette APS (custode dei valori). L'APS ha potere di veto sulle decisioni contrarie alla missione."
   },
   "pricing": {
     "title": "Fee Dinamiche",
