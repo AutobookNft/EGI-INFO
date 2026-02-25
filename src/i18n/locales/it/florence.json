@@ -1002,25 +1002,25 @@
     "roles": [
       {
         "name": "Creator",
-        "desc": "Crea valore, guadagna royalty perpetue."
+        "desc": "Crea le opere. Conserva sempre i diritti morali e patrimoniali (copyright). Riceve royalty automatiche del 4.5% su ogni rivendita tramite smart contract."
       },
       {
         "name": "Co-Creatore",
-        "desc": "Attiva l'opera, ottiene visibilità eterna."
+        "desc": "Attiva l'opera attraverso il minting. La sua firma rimane visibile per sempre nella catena di proprietà blockchain, anche dopo rivendite successive."
       },
       {
         "name": "Collector",
-        "desc": "Custodisce valore, investe in sostenibilità."
+        "desc": "Custodisce il valore: acquisisce possesso fisico/digitale, diritto di godimento privato e di rivendita. Non acquisisce il copyright né diritti di riproduzione."
       },
       {
-        "name": "EPP (20%)",
-        "desc": "Riceve fondi automatici per rigenerazione."
+        "name": "EPP",
+        "desc": "Environmental Protection Project: riceve automaticamente il 20% su ogni transazione (profilo Contributor). Progetti verificati: riforestazione, ocean cleanup, biodiversità."
       }
     ]
   },
   "natan": {
     "title": "NATAN AI",
-    "subtitle": "L'Intelligenza che espande il tuo talento.",
+    "subtitle": "N.A.T.A.N. è un assistente cognitivo, non un automa. Non sostituisce l'artista: amplifica la sua capacità analitica e suggerisce strategie basate su dati reali.",
     "features": [
       "Suggerimento Prezzi",
       "Descrizioni SEO",
@@ -1028,7 +1028,7 @@
       "Matching Collezionisti"
     ],
     "ethics": "Etica & Trasparenza",
-    "ethicsDesc": "Nessuna black box, ogni suggerimento è spiegato."
+    "ethicsDesc": "Conforme al paradigma Oracode OS3.0: ogni suggerimento è basato su metriche reali e ogni decisione algoritmica è interrogabile. GDPR integrato: ConsentService, ULM logging, AuditLogService. Diritti utente: accesso, rettifica, cancellazione, portabilità."
   },
   "governance": {
     "title": "Governance Duale",
@@ -1066,7 +1066,8 @@
         "label": "Associazione",
         "value": "€20",
         "percent": "2%"
-      }
+      },
+      "note": "Profilo CONTRIBUTOR (Creator & Company etiche). Profilo NORMAL (solo Company): Owner 90%, EPP 0%, Piattaforma 10%, Frangette 0%."
     },
     "secondary": {
       "title": "Distribuzione rivendita (secondaria)",
@@ -1085,7 +1086,8 @@
       "platform": {
         "label": "Platform",
         "percent": "1.5%"
-      }
+      },
+      "note": "Profilo CONTRIBUTOR: Creator 4.5%, Natan 0.8%, Frangette 0.2%, EPP 1.5% — Totale 7.0%. Venditore incassa 93.0%. Profilo NORMAL: Creator 6.0%, Natan 1.0% — Totale 7.0%."
     }
   },
   "cases": {
@@ -1094,11 +1096,11 @@
     "items": [
       {
         "name": "Maria, Pittrice",
-        "result": "+€4,500 in 3 mesi con royalty."
+        "result": "Royalty automatiche garantite da smart contract su ogni rivendita. (04_Gestione §Rebind)"
       },
       {
         "name": "Museo Civico",
-        "result": "200 reperti digitalizzati, €12k donazioni."
+        "result": "Royalty automatiche garantite da smart contract su ogni rivendita. (04_Gestione §Rebind)"
       },
       {
         "name": "GreenThreads",
