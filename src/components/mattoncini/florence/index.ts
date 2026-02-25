@@ -88,3 +88,12 @@ export { Cocreazione } from './Cocreazione';
 // Mattoncini Visione
 export { Visione } from './Visione';
 export { Unicum } from './Unicum';
+
+// Mattoncini How It Works (Protocollo EGI)
+export { HowHero } from './HowHero';
+export { HowProtocol } from './HowProtocol';
+export { ManipulatorCard, type ManipulatorCardProps } from './ManipulatorCard';
+export { HowManipulators } from './HowManipulators';
+export { HowThread } from './HowThread';
+export { HowFuture } from './HowFuture';
+export { HowCTA } from './HowCTA';
