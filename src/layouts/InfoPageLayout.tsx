@@ -34,6 +34,13 @@ const InfoPageLayout: React.FC = () => {
     { path: '/info/source-truth', label: t('nav.sourceTruth', 'Documentazione'), icon: '📖' },
   ];
 
+  const audienceItems = [
+    { path: '/archetypes/artist', label: t('nav.artist', 'Per Artisti'), icon: '🎨' },
+    { path: '/archetypes/entrepreneur', label: t('nav.entrepreneur', 'Per Imprenditori'), icon: '💼' },
+    { path: '/archetypes/collector', label: t('nav.collector', 'Per Collezionisti'), icon: '🖼️' },
+    { path: '/archetypes/public-admin', label: t('nav.publicAdmin', 'Pubblica Amministrazione'), icon: '🏛️' },
+  ];
+
   return (
     <GlossaryProvider>
       <div className="info-layout">
@@ -83,6 +90,25 @@ const InfoPageLayout: React.FC = () => {
                   key={item.path}
                   to={item.path}
                   end={item.exact}
+                  onClick={() => setSidebarOpen(false)}
+                  className={({ isActive }) =>
+                    `info-nav__item ${isActive ? 'info-nav__item--active' : ''}`
+                  }
+                >
+                  <span className="info-nav__icon">{item.icon}</span>
+                  <span className="info-nav__label">{item.label}</span>
+                </NavLink>
+              ))}
+
+              {/* Separatore sezione audience */}
+              <div className="info-nav__separator">
+                <span className="info-nav__separator-label">Per chi è?</span>
+              </div>
+
+              {audienceItems.map((item) => (
+                <NavLink
+                  key={item.path}
+                  to={item.path}
                   onClick={() => setSidebarOpen(false)}
                   className={({ isActive }) =>
                     `info-nav__item ${isActive ? 'info-nav__item--active' : ''}`
@@ -252,6 +278,20 @@ const InfoPageLayout: React.FC = () => {
 
           .info-nav__label {
             flex: 1;
+          }
+
+          .info-nav__separator {
+            margin: 12px 16px 8px;
+            padding-top: 12px;
+            border-top: 1px solid rgba(255, 255, 255, 0.07);
+          }
+
+          .info-nav__separator-label {
+            font-size: 0.72rem;
+            font-weight: 600;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            color: rgba(255, 255, 255, 0.3);
           }
 
           /* Content */

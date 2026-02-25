@@ -357,43 +357,25 @@ const routes: RouteObject[] = [
     ],
   },
 
-  // === ARCHETYPES - Pagine per tipo di utente ===
+  // === ARCHETYPES - Pagine per tipo di utente (con sidebar InfoPageLayout) ===
   {
-    path: '/archetypes/artist',
-    element: <LandingLayout variant="audience" />,
+    path: '/archetypes',
+    element: <InfoPageLayout />,
     children: [
       {
-        index: true,
+        path: 'artist',
         element: <ArtistPage />,
       },
-    ],
-  },
-  {
-    path: '/archetypes/entrepreneur',
-    element: <LandingLayout variant="audience" />,
-    children: [
       {
-        index: true,
+        path: 'entrepreneur',
         element: <EntrepreneurPage />,
       },
-    ],
-  },
-  {
-    path: '/archetypes/public-admin',
-    element: <LandingLayout variant="audience" />,
-    children: [
       {
-        index: true,
+        path: 'public-admin',
         element: <PublicAdminPage />,
       },
-    ],
-  },
-  {
-    path: '/archetypes/collector',
-    element: <LandingLayout variant="audience" />,
-    children: [
       {
-        index: true,
+        path: 'collector',
         element: <CollectorPage />,
       },
     ],
