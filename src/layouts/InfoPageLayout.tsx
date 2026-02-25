@@ -24,7 +24,7 @@ const InfoPageLayout: React.FC = () => {
   const [sidebarOpen, setSidebarOpen] = React.useState(false);
 
   const menuItems = [
-    { path: '/info', label: t('nav.home', 'Home'), icon: '🏠', exact: true },
+    { path: '/', label: t('nav.home', 'Home'), icon: '🏠', exact: true },
     { path: '/info/egi', label: t('nav.egi', 'Cosa sono gli EGI'), icon: '📜' },
     { path: '/info/epp', label: t('nav.epp', 'Progetti EPP'), icon: '🌱' },
     { path: '/info/platform', label: t('nav.platform', 'La Piattaforma'), icon: '🏛️' },
@@ -84,7 +84,7 @@ const InfoPageLayout: React.FC = () => {
                   to={item.path}
                   end={item.exact}
                   onClick={() => setSidebarOpen(false)}
-                  className={({ isActive }) => 
+                  className={({ isActive }) =>
                     `info-nav__item ${isActive ? 'info-nav__item--active' : ''}`
                   }
                 >
@@ -97,8 +97,8 @@ const InfoPageLayout: React.FC = () => {
 
           {/* Overlay mobile */}
           {sidebarOpen && (
-            <div 
-              className="info-overlay" 
+            <div
+              className="info-overlay"
               onClick={() => setSidebarOpen(false)}
               aria-hidden="true"
             />
