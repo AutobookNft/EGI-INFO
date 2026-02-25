@@ -61,9 +61,21 @@
       "Community di valore"
     ],
     "steps": [
-      { "number": "1", "title": "Carica", "description": "Drag & drop delle tue opere" },
-      { "number": "2", "title": "Descrivi", "description": "L'AI ti aiuta con testi e SEO" },
-      { "number": "3", "title": "Vendi", "description": "Royalty automatiche per sempre" }
+      {
+        "number": "1",
+        "title": "Carica",
+        "description": "Drag & drop delle tue opere"
+      },
+      {
+        "number": "2",
+        "title": "Descrivi",
+        "description": "L'AI ti aiuta con testi e SEO"
+      },
+      {
+        "number": "3",
+        "title": "Vendi",
+        "description": "Royalty automatiche per sempre"
+      }
     ]
   },
   "problems": {
@@ -89,10 +101,26 @@
         "newValue": "10% → 5%",
         "newCaption": "+ royalty 4.5% perpetue",
         "highlights": [
-          { "icon": "💰", "title": "Fee Dinamica", "desc": "Dal 10% al 5% in base al volume" },
-          { "icon": "♾️", "title": "Royalty Perpetue", "desc": "4.5% su ogni rivendita, per sempre" },
-          { "icon": "🤖", "title": "Automatico", "desc": "Smart contract, zero intermediari" },
-          { "icon": "👑", "title": "Tu Decidi", "desc": "Il TUO mercato, le TUE regole" }
+          {
+            "icon": "💰",
+            "title": "Fee Dinamica",
+            "desc": "Dal 10% al 5% in base al volume"
+          },
+          {
+            "icon": "♾️",
+            "title": "Royalty Perpetue",
+            "desc": "4.5% su ogni rivendita, per sempre"
+          },
+          {
+            "icon": "🤖",
+            "title": "Automatico",
+            "desc": "Smart contract, zero intermediari"
+          },
+          {
+            "icon": "👑",
+            "title": "Tu Decidi",
+            "desc": "Il TUO mercato, le TUE regole"
+          }
         ]
       },
       {
@@ -107,10 +135,26 @@
         "oldValue": "📄",
         "newValue": "⛓️",
         "highlights": [
-          { "icon": "🔗", "title": "Blockchain", "desc": "Certificato immutabile e permanente" },
-          { "icon": "📱", "title": "QR Code", "desc": "Scansiona e verifica istantaneamente" },
-          { "icon": "📜", "title": "Storia Completa", "desc": "Ogni passaggio documentato" },
-          { "icon": "✅", "title": "Verifica Pubblica", "desc": "Chiunque può controllare" }
+          {
+            "icon": "🔗",
+            "title": "Blockchain",
+            "desc": "Certificato immutabile e permanente"
+          },
+          {
+            "icon": "📱",
+            "title": "QR Code",
+            "desc": "Scansiona e verifica istantaneamente"
+          },
+          {
+            "icon": "📜",
+            "title": "Storia Completa",
+            "desc": "Ogni passaggio documentato"
+          },
+          {
+            "icon": "✅",
+            "title": "Verifica Pubblica",
+            "desc": "Chiunque può controllare"
+          }
         ]
       },
       {
@@ -125,10 +169,26 @@
         "oldValue": "12",
         "newValue": "0",
         "highlights": [
-          { "icon": "🙈", "title": "Wallet Invisibile", "desc": "Non devi nemmeno sapere cos'è" },
-          { "icon": "💳", "title": "Paga con Carta", "desc": "Come qualsiasi acquisto online" },
-          { "icon": "🏦", "title": "Bonifico", "desc": "Usa il metodo che preferisci" },
-          { "icon": "📤", "title": "Export Opzionale", "desc": "Vuoi il wallet? Te lo esporti" }
+          {
+            "icon": "🙈",
+            "title": "Wallet Invisibile",
+            "desc": "Non devi nemmeno sapere cos'è"
+          },
+          {
+            "icon": "💳",
+            "title": "Paga con Carta",
+            "desc": "Come qualsiasi acquisto online"
+          },
+          {
+            "icon": "🏦",
+            "title": "Bonifico",
+            "desc": "Usa il metodo che preferisci"
+          },
+          {
+            "icon": "📤",
+            "title": "Export Opzionale",
+            "desc": "Vuoi il wallet? Te lo esporti"
+          }
         ]
       },
       {
@@ -143,10 +203,26 @@
         "oldValue": "99%",
         "newValue": "20%",
         "highlights": [
-          { "icon": "🎨", "title": "Asset Reali", "desc": "Opere fisiche, non JPEG di scimmie" },
-          { "icon": "🌱", "title": "EPP Automatico", "desc": "20% per impatto ambientale" },
-          { "icon": "💎", "title": "Valore Intrinseco", "desc": "Utilità e bellezza reale" },
-          { "icon": "🔄", "title": "Economia Circolare", "desc": "Valore che genera valore" }
+          {
+            "icon": "🎨",
+            "title": "Asset Reali",
+            "desc": "Opere fisiche, non JPEG di scimmie"
+          },
+          {
+            "icon": "🌱",
+            "title": "EPP Automatico",
+            "desc": "20% per impatto ambientale"
+          },
+          {
+            "icon": "💎",
+            "title": "Valore Intrinseco",
+            "desc": "Utilità e bellezza reale"
+          },
+          {
+            "icon": "🔄",
+            "title": "Economia Circolare",
+            "desc": "Valore che genera valore"
+          }
         ]
       },
       {
@@ -161,10 +237,26 @@
         "oldValue": "❓",
         "newValue": "✓",
         "highlights": [
-          { "icon": "📍", "title": "On-Chain", "desc": "Ogni passaggio registrato" },
-          { "icon": "🔍", "title": "Tracciabile", "desc": "Storia completa verificabile" },
-          { "icon": "⚖️", "title": "Prova Legale", "desc": "Documentazione per tribunali" },
-          { "icon": "🛡️", "title": "Protezione", "desc": "Difendi la tua proprietà intellettuale" }
+          {
+            "icon": "📍",
+            "title": "On-Chain",
+            "desc": "Ogni passaggio registrato"
+          },
+          {
+            "icon": "🔍",
+            "title": "Tracciabile",
+            "desc": "Storia completa verificabile"
+          },
+          {
+            "icon": "⚖️",
+            "title": "Prova Legale",
+            "desc": "Documentazione per tribunali"
+          },
+          {
+            "icon": "🛡️",
+            "title": "Protezione",
+            "desc": "Difendi la tua proprietà intellettuale"
+          }
         ]
       },
       {
@@ -179,10 +271,26 @@
         "oldValue": "0€",
         "newValue": "4.5%",
         "highlights": [
-          { "icon": "🤖", "title": "Automatico", "desc": "Smart contract, zero fiducia richiesta" },
-          { "icon": "⚡", "title": "Istantaneo", "desc": "Pagamento immediato ad ogni vendita" },
-          { "icon": "🔐", "title": "Trustless", "desc": "Non devi fidarti di nessuno" },
-          { "icon": "💰", "title": "4.5% Garantito", "desc": "Per sempre, su ogni rivendita" }
+          {
+            "icon": "🤖",
+            "title": "Automatico",
+            "desc": "Smart contract, zero fiducia richiesta"
+          },
+          {
+            "icon": "⚡",
+            "title": "Istantaneo",
+            "desc": "Pagamento immediato ad ogni vendita"
+          },
+          {
+            "icon": "🔐",
+            "title": "Trustless",
+            "desc": "Non devi fidarti di nessuno"
+          },
+          {
+            "icon": "💰",
+            "title": "4.5% Garantito",
+            "desc": "Per sempre, su ogni rivendita"
+          }
         ]
       },
       {
@@ -197,10 +305,26 @@
         "oldValue": "🕵️",
         "newValue": "🔒",
         "highlights": [
-          { "icon": "🛡️", "title": "GDPR by Design", "desc": "Privacy pensata dall'inizio" },
-          { "icon": "📤", "title": "Export 1-Click", "desc": "Scarica tutti i tuoi dati" },
-          { "icon": "🗑️", "title": "Diritto Oblio", "desc": "Cancellazione immediata" },
-          { "icon": "🎚️", "title": "Consenso Granulare", "desc": "Decidi tu cosa condividere" }
+          {
+            "icon": "🛡️",
+            "title": "GDPR by Design",
+            "desc": "Privacy pensata dall'inizio"
+          },
+          {
+            "icon": "📤",
+            "title": "Export 1-Click",
+            "desc": "Scarica tutti i tuoi dati"
+          },
+          {
+            "icon": "🗑️",
+            "title": "Diritto Oblio",
+            "desc": "Cancellazione immediata"
+          },
+          {
+            "icon": "🎚️",
+            "title": "Consenso Granulare",
+            "desc": "Decidi tu cosa condividere"
+          }
         ]
       },
       {
@@ -213,10 +337,26 @@
         "oldCaption": "Licenza CASP milionaria",
         "newCaption": "Zero licenze richieste",
         "highlights": [
-          { "icon": "🛡️", "title": "MiCA-Safe", "desc": "Conformità normativa garantita" },
-          { "icon": "💳", "title": "PSP Autorizzati", "desc": "Partner di pagamento certificati" },
-          { "icon": "🚫", "title": "No Custodia Crypto", "desc": "Non gestiamo i tuoi fondi" },
-          { "icon": "✅", "title": "Zero Rischi", "desc": "Operi in totale sicurezza legale" }
+          {
+            "icon": "🛡️",
+            "title": "MiCA-Safe",
+            "desc": "Conformità normativa garantita"
+          },
+          {
+            "icon": "💳",
+            "title": "PSP Autorizzati",
+            "desc": "Partner di pagamento certificati"
+          },
+          {
+            "icon": "🚫",
+            "title": "No Custodia Crypto",
+            "desc": "Non gestiamo i tuoi fondi"
+          },
+          {
+            "icon": "✅",
+            "title": "Zero Rischi",
+            "desc": "Operi in totale sicurezza legale"
+          }
         ]
       },
       {
@@ -231,10 +371,26 @@
         "oldValue": "7+",
         "newValue": "2",
         "highlights": [
-          { "icon": "⚡", "title": "Settlement T+2", "desc": "Massimo 2 giorni per ricevere" },
-          { "icon": "💳", "title": "4 Metodi", "desc": "FIAT, crypto, Egili, misto" },
-          { "icon": "🌍", "title": "Globale", "desc": "Pagamenti internazionali semplici" },
-          { "icon": "📉", "title": "Fee Basse", "desc": "Costi di transazione minimi" }
+          {
+            "icon": "⚡",
+            "title": "Settlement T+2",
+            "desc": "Massimo 2 giorni per ricevere"
+          },
+          {
+            "icon": "💳",
+            "title": "4 Metodi",
+            "desc": "FIAT, crypto, Egili, misto"
+          },
+          {
+            "icon": "🌍",
+            "title": "Globale",
+            "desc": "Pagamenti internazionali semplici"
+          },
+          {
+            "icon": "📉",
+            "title": "Fee Basse",
+            "desc": "Costi di transazione minimi"
+          }
         ]
       },
       {
@@ -247,10 +403,26 @@
         "oldCaption": "Nessun dato di mercato",
         "newCaption": "AI che analizza tutto",
         "highlights": [
-          { "icon": "🤖", "title": "NATAN AI", "desc": "Intelligenza artificiale dedicata" },
-          { "icon": "📊", "title": "Analisi Real-time", "desc": "Dati di mercato aggiornati" },
-          { "icon": "💡", "title": "Suggerimenti", "desc": "Prezzi basati su comparabili" },
-          { "icon": "📈", "title": "Trend", "desc": "Identifica opportunità di mercato" }
+          {
+            "icon": "🤖",
+            "title": "NATAN AI",
+            "desc": "Intelligenza artificiale dedicata"
+          },
+          {
+            "icon": "📊",
+            "title": "Analisi Real-time",
+            "desc": "Dati di mercato aggiornati"
+          },
+          {
+            "icon": "💡",
+            "title": "Suggerimenti",
+            "desc": "Prezzi basati su comparabili"
+          },
+          {
+            "icon": "📈",
+            "title": "Trend",
+            "desc": "Identifica opportunità di mercato"
+          }
         ]
       },
       {
@@ -263,10 +435,26 @@
         "oldCaption": "Visibilità solo a pagamento",
         "newCaption": "Riconoscimento basato sul merito",
         "highlights": [
-          { "icon": "🎖️", "title": "Mecenatismo", "desc": "Supporto certificato on-chain" },
-          { "icon": "👥", "title": "Community", "desc": "Rete attiva di creator e collector" },
-          { "icon": "⭐", "title": "Merito", "desc": "Visibilità basata sulla qualità" },
-          { "icon": "🤝", "title": "Relazioni", "desc": "Connessioni reali, non algoritmi" }
+          {
+            "icon": "🎖️",
+            "title": "Mecenatismo",
+            "desc": "Supporto certificato on-chain"
+          },
+          {
+            "icon": "👥",
+            "title": "Community",
+            "desc": "Rete attiva di creator e collector"
+          },
+          {
+            "icon": "⭐",
+            "title": "Merito",
+            "desc": "Visibilità basata sulla qualità"
+          },
+          {
+            "icon": "🤝",
+            "title": "Relazioni",
+            "desc": "Connessioni reali, non algoritmi"
+          }
         ]
       },
       {
@@ -279,10 +467,26 @@
         "oldCaption": "Errori = sanzioni",
         "newCaption": "Tutto automatico",
         "highlights": [
-          { "icon": "📄", "title": "Fatturazione SDI", "desc": "Automatica su ogni vendita" },
-          { "icon": "📊", "title": "Report", "desc": "Export CSV/XML per commercialisti" },
-          { "icon": "🗓️", "title": "Trimestrale", "desc": "Report pronti ogni 3 mesi" },
-          { "icon": "🛡️", "title": "Zero Sanzioni", "desc": "Conformità fiscale garantita" }
+          {
+            "icon": "📄",
+            "title": "Fatturazione SDI",
+            "desc": "Automatica su ogni vendita"
+          },
+          {
+            "icon": "📊",
+            "title": "Report",
+            "desc": "Export CSV/XML per commercialisti"
+          },
+          {
+            "icon": "🗓️",
+            "title": "Trimestrale",
+            "desc": "Report pronti ogni 3 mesi"
+          },
+          {
+            "icon": "🛡️",
+            "title": "Zero Sanzioni",
+            "desc": "Conformità fiscale garantita"
+          }
         ]
       }
     ]
@@ -296,11 +500,26 @@
         "name": "Arte & Creatività",
         "description": "Quadri fisici, sculture, murales georeferenziati.",
         "items": [
-          { "title": "Quadro fisico", "desc": "EGI + certificato + royalty perpetua" },
-          { "title": "Fotografia", "desc": "Serie limitata tokenizzata" },
-          { "title": "Scultura", "desc": "Gemello digitale 3D + proprietà fisica" },
-          { "title": "Murales", "desc": "Opera georeferenziata + NFT" },
-          { "title": "Installazione", "desc": "Documentazione immersiva + accesso esclusivo" }
+          {
+            "title": "Quadro fisico",
+            "desc": "EGI + certificato + royalty perpetua"
+          },
+          {
+            "title": "Fotografia",
+            "desc": "Serie limitata tokenizzata"
+          },
+          {
+            "title": "Scultura",
+            "desc": "Gemello digitale 3D + proprietà fisica"
+          },
+          {
+            "title": "Murales",
+            "desc": "Opera georeferenziata + NFT"
+          },
+          {
+            "title": "Installazione",
+            "desc": "Documentazione immersiva + accesso esclusivo"
+          }
         ]
       },
       {
@@ -308,10 +527,22 @@
         "name": "Musica & Show",
         "description": "Canzoni, album, ticket concerti, backstage pass.",
         "items": [
-          { "title": "Canzone", "desc": "Music NFT + split royalty con band" },
-          { "title": "Album", "desc": "Tracce vendibili separatamente" },
-          { "title": "Concerto", "desc": "Ticket + backstage access token" },
-          { "title": "Podcast", "desc": "Episodi premium tokenizzati" }
+          {
+            "title": "Canzone",
+            "desc": "Music NFT + split royalty con band"
+          },
+          {
+            "title": "Album",
+            "desc": "Tracce vendibili separatamente"
+          },
+          {
+            "title": "Concerto",
+            "desc": "Ticket + backstage access token"
+          },
+          {
+            "title": "Podcast",
+            "desc": "Episodi premium tokenizzati"
+          }
         ]
       },
       {
@@ -319,10 +550,22 @@
         "name": "Libri & Content",
         "description": "Libri, e-book firmati, articoli esclusivi.",
         "items": [
-          { "title": "Libro", "desc": "Capitoli vendibili singolarmente" },
-          { "title": "E-book", "desc": "Edizioni limitate firmate" },
-          { "title": "Articolo", "desc": "Accesso esclusivo + archivio storico" },
-          { "title": "Ricetta segreta", "desc": "IP protetto + licenze uso" }
+          {
+            "title": "Libro",
+            "desc": "Capitoli vendibili singolarmente"
+          },
+          {
+            "title": "E-book",
+            "desc": "Edizioni limitate firmate"
+          },
+          {
+            "title": "Articolo",
+            "desc": "Accesso esclusivo + archivio storico"
+          },
+          {
+            "title": "Ricetta segreta",
+            "desc": "IP protetto + licenze uso"
+          }
         ]
       },
       {
@@ -330,10 +573,22 @@
         "name": "Ambiente",
         "description": "Alberi piantati, kg plastica rimossa, crediti green.",
         "items": [
-          { "title": "Albero piantato", "desc": "Carbon credit certificato" },
-          { "title": "Pulizia oceano", "desc": "Kg plastica rimossa tokenizzati" },
-          { "title": "Restauro monumento", "desc": "Contributo storico certificato" },
-          { "title": "Energia rinnovabile", "desc": "kWh verdi scambiabili" }
+          {
+            "title": "Albero piantato",
+            "desc": "Carbon credit certificato"
+          },
+          {
+            "title": "Pulizia oceano",
+            "desc": "Kg plastica rimossa tokenizzati"
+          },
+          {
+            "title": "Restauro monumento",
+            "desc": "Contributo storico certificato"
+          },
+          {
+            "title": "Energia rinnovabile",
+            "desc": "kWh verdi scambiabili"
+          }
         ]
       },
       {
@@ -341,9 +596,18 @@
         "name": "Sport & Exp",
         "description": "Risultati maratone, percorsi GPS, memorabilia.",
         "items": [
-          { "title": "Maratona", "desc": "Risultato certificato + sponsor split" },
-          { "title": "Gara ciclismo", "desc": "Percorso GPS + memorabilia" },
-          { "title": "Immersione subacquea", "desc": "Esperienza documentata + video 360°" }
+          {
+            "title": "Maratona",
+            "desc": "Risultato certificato + sponsor split"
+          },
+          {
+            "title": "Gara ciclismo",
+            "desc": "Percorso GPS + memorabilia"
+          },
+          {
+            "title": "Immersione subacquea",
+            "desc": "Esperienza documentata + video 360°"
+          }
         ]
       },
       {
@@ -351,9 +615,18 @@
         "name": "Moda",
         "description": "Scarpe artigianali, gioielli tracciati, abiti unici.",
         "items": [
-          { "title": "Scarpa artigianale", "desc": "Prototipo unico + storia produzione" },
-          { "title": "Gioiello", "desc": "Certificato autenticità + tracciabilità gemme" },
-          { "title": "Abito sartoriale", "desc": "Design esclusivo + making-of" }
+          {
+            "title": "Scarpa artigianale",
+            "desc": "Prototipo unico + storia produzione"
+          },
+          {
+            "title": "Gioiello",
+            "desc": "Certificato autenticità + tracciabilità gemme"
+          },
+          {
+            "title": "Abito sartoriale",
+            "desc": "Design esclusivo + making-of"
+          }
         ]
       },
       {
@@ -361,9 +634,18 @@
         "name": "Heritage",
         "description": "Reperti museali, manoscritti, opere teatrali.",
         "items": [
-          { "title": "Reperto storico", "desc": "Certificato provenienza + 3D scan" },
-          { "title": "Manoscritto", "desc": "Digitalizzazione HD + accesso ricerca" },
-          { "title": "Opera teatrale", "desc": "Replica streaming + royalty cast" }
+          {
+            "title": "Reperto storico",
+            "desc": "Certificato provenienza + 3D scan"
+          },
+          {
+            "title": "Manoscritto",
+            "desc": "Digitalizzazione HD + accesso ricerca"
+          },
+          {
+            "title": "Opera teatrale",
+            "desc": "Replica streaming + royalty cast"
+          }
         ]
       }
     ]
@@ -400,22 +682,58 @@
     },
     "highlights": {
       "step1": [
-        { "icon": "📦", "text": "Collection = contenitore per raggruppare EGI simili" },
-        { "icon": "🌱", "text": "EPP = 20% automatico a progetti ambientali" },
-        { "icon": "💰", "text": "Senza EPP = abbonamento €4-19/mese (sconsigliato)" },
-        { "icon": "✨", "text": "Puoi avere più Collection con EPP diversi" }
+        {
+          "icon": "📦",
+          "text": "Collection = contenitore per raggruppare EGI simili"
+        },
+        {
+          "icon": "🌱",
+          "text": "EPP = 20% automatico a progetti ambientali"
+        },
+        {
+          "icon": "💰",
+          "text": "Senza EPP = abbonamento €4-19/mese (sconsigliato)"
+        },
+        {
+          "icon": "✨",
+          "text": "Puoi avere più Collection con EPP diversi"
+        }
       ],
       "step2": [
-        { "icon": "📤", "text": "Upload drag & drop di foto/video" },
-        { "icon": "🤖", "text": "Descrizioni generate da AI (opzionale)" },
-        { "icon": "📜", "text": "CoA (Certificate of Authenticity) automatico" },
-        { "icon": "⏱️", "text": "Tutto in meno di 5 secondi" }
+        {
+          "icon": "📤",
+          "text": "Upload drag & drop di foto/video"
+        },
+        {
+          "icon": "🤖",
+          "text": "Descrizioni generate da AI (opzionale)"
+        },
+        {
+          "icon": "📜",
+          "text": "CoA (Certificate of Authenticity) automatico"
+        },
+        {
+          "icon": "⏱️",
+          "text": "Tutto in meno di 5 secondi"
+        }
       ],
       "step3": [
-        { "icon": "💳", "text": "Pagamento con carta, crypto o Egili" },
-        { "icon": "⛓️", "text": "Tokenizzazione istantanea su Algorand" },
-        { "icon": "🔄", "text": "Split automatico e trustless" },
-        { "icon": "♾️", "text": "Royalty perpetue su ogni rivendita" }
+        {
+          "icon": "💳",
+          "text": "Pagamento con carta, crypto o Egili"
+        },
+        {
+          "icon": "⛓️",
+          "text": "Tokenizzazione istantanea su Algorand"
+        },
+        {
+          "icon": "🔄",
+          "text": "Split automatico e trustless"
+        },
+        {
+          "icon": "♾️",
+          "text": "Royalty perpetue su ogni rivendita"
+        }
       ]
     },
     "steps": [
@@ -460,29 +778,80 @@
     "subtitle": "FlorenceEGI è un Asset Market Maker (AMMk): una piattaforma che ti permette di creare il TUO asset marketplace personalizzato in cui QUALSIASI prodotto/servizio diventa un EGI.",
     "usersTitle": "Chi può usare AMMk",
     "users": [
-      { "title": "Artisti", "desc": "Galleria personale con royalty automatiche" },
-      { "title": "Musei", "desc": "Collezione digitale + merchandising tokenizzato" },
-      { "title": "Brand", "desc": "Prodotti limited edition certificati blockchain" },
-      { "title": "Onlus", "desc": "Progetti ambientali con donazioni tracciabili" },
-      { "title": "Università", "desc": "Ricerca scientifica + pubblicazioni tokenizzate" },
-      { "title": "Comuni", "desc": "Patrimonio culturale digitalizzato" },
-      { "title": "Agenzie", "desc": "Servizi creativi + IP licensing" },
-      { "title": "Studi legali/Notai", "desc": "Notarizzazione documenti via NATAN" }
+      {
+        "title": "Artisti",
+        "desc": "Galleria personale con royalty automatiche"
+      },
+      {
+        "title": "Musei",
+        "desc": "Collezione digitale + merchandising tokenizzato"
+      },
+      {
+        "title": "Brand",
+        "desc": "Prodotti limited edition certificati blockchain"
+      },
+      {
+        "title": "Onlus",
+        "desc": "Progetti ambientali con donazioni tracciabili"
+      },
+      {
+        "title": "Università",
+        "desc": "Ricerca scientifica + pubblicazioni tokenizzate"
+      },
+      {
+        "title": "Comuni",
+        "desc": "Patrimonio culturale digitalizzato"
+      },
+      {
+        "title": "Agenzie",
+        "desc": "Servizi creativi + IP licensing"
+      },
+      {
+        "title": "Studi legali/Notai",
+        "desc": "Notarizzazione documenti via NATAN"
+      }
     ],
     "enginesTitle": "5 Engine Integrati",
     "engines": [
-      { "name": "NATAN Market Engine", "desc": "AI valuta mercato, suggerisce prezzi, identifica trend" },
-      { "name": "Asset Management", "desc": "Mint, transfer, royalty automatici" },
-      { "name": "Distribution Engine", "desc": "Split trustless multi-wallet (Creator/EPP/Platform)" },
-      { "name": "Co-Creation Engine", "desc": "Gestione collaborazioni multi-artista" },
-      { "name": "Compliance Engine", "desc": "GDPR/MiCA/Fiscale automatico" }
+      {
+        "name": "NATAN Market Engine",
+        "desc": "AI valuta mercato, suggerisce prezzi, identifica trend"
+      },
+      {
+        "name": "Asset Management",
+        "desc": "Mint, transfer, royalty automatici"
+      },
+      {
+        "name": "Distribution Engine",
+        "desc": "Split trustless multi-wallet (Creator/EPP/Platform)"
+      },
+      {
+        "name": "Co-Creation Engine",
+        "desc": "Gestione collaborazioni multi-artista"
+      },
+      {
+        "name": "Compliance Engine",
+        "desc": "GDPR/MiCA/Fiscale automatico"
+      }
     ],
     "customizationTitle": "Personalizzazione Totale",
     "customization": [
-      { "title": "Brand personalizzato", "desc": "Logo, colori, dominio custom" },
-      { "title": "Fee configurabili", "desc": "Default 10%, dinamiche fino a 5%" },
-      { "title": "Tenant isolato", "desc": "Dati separati, RBAC dedicato" },
-      { "title": "Workflow custom", "desc": "Approvazioni, moderazione, drops" }
+      {
+        "title": "Brand personalizzato",
+        "desc": "Logo, colori, dominio custom"
+      },
+      {
+        "title": "Fee configurabili",
+        "desc": "Default 10%, dinamiche fino a 5%"
+      },
+      {
+        "title": "Tenant isolato",
+        "desc": "Dati separati, RBAC dedicato"
+      },
+      {
+        "title": "Workflow custom",
+        "desc": "Approvazioni, moderazione, drops"
+      }
     ],
     "ctaTitle": "Vuoi creare il tuo marketplace EGI?",
     "ctaSubtitle": "Inizia oggi e trasforma qualsiasi asset in un'opportunità di valore.",
@@ -494,28 +863,80 @@
     "subtitle": "Tecnologia di livello enterprise nascosta dietro un'interfaccia semplice come un'app. Tu vedi semplicità, noi gestiamo la complessità.",
     "userColumnTitle": "TU VEDI",
     "userFeatures": [
-      { "title": "Interfaccia drag&drop", "desc": "Carica opere intuitivamente" },
-      { "title": "Dashboard mobile-responsive", "desc": "Gestisci da qualsiasi dispositivo" },
-      { "title": "Notifiche real-time", "desc": "Mai perdere una vendita" },
-      { "title": "Analytics comprensibili", "desc": "Dati senza complessità" }
+      {
+        "title": "Interfaccia drag&drop",
+        "desc": "Carica opere intuitivamente"
+      },
+      {
+        "title": "Dashboard mobile-responsive",
+        "desc": "Gestisci da qualsiasi dispositivo"
+      },
+      {
+        "title": "Notifiche real-time",
+        "desc": "Mai perdere una vendita"
+      },
+      {
+        "title": "Analytics comprensibili",
+        "desc": "Dati senza complessità"
+      }
     ],
     "systemColumnTitle": "SISTEMA FA",
     "systemFeatures": [
-      { "title": "Blockchain Algorand", "desc": "1000 TPS, <5s finalità, €0.001/tx" },
-      { "title": "Smart contract TEAL", "desc": "Verificabili e sicuri" },
-      { "title": "ULM Audit Trail", "desc": "Log immutabile 10 anni" },
-      { "title": "AES-256 Encryption", "desc": "Chiavi wallet protette" },
-      { "title": "Multi-tenant SaaS", "desc": "Scalabile infinitamente" },
-      { "title": "NATAN AI", "desc": "RAG, Valuation, Activation" },
-      { "title": "Event Bus pub/sub", "desc": "Comunicazione asincrona" },
-      { "title": "Observability completa", "desc": "UEM/ULM/GDPR monitoring" }
+      {
+        "title": "Blockchain Algorand",
+        "desc": "1000 TPS, <5s finalità, €0.001/tx"
+      },
+      {
+        "title": "Smart contract TEAL",
+        "desc": "Verificabili e sicuri"
+      },
+      {
+        "title": "ULM Audit Trail",
+        "desc": "Log immutabile 10 anni"
+      },
+      {
+        "title": "AES-256 Encryption",
+        "desc": "Chiavi wallet protette"
+      },
+      {
+        "title": "Multi-tenant SaaS",
+        "desc": "Scalabile infinitamente"
+      },
+      {
+        "title": "NATAN AI",
+        "desc": "RAG, Valuation, Activation"
+      },
+      {
+        "title": "Event Bus pub/sub",
+        "desc": "Comunicazione asincrona"
+      },
+      {
+        "title": "Observability completa",
+        "desc": "UEM/ULM/GDPR monitoring"
+      }
     ],
     "performanceTitle": "PERFORMANCE GARANTITE",
     "performance": [
-      { "label": "Minting", "value": "< 5s", "desc": "Certificazione istantanea" },
-      { "label": "Uptime SLA", "value": "99.9%", "desc": "Disponibilità garantita" },
-      { "label": "Sicurezza", "value": "SOC 2", "desc": "Type II compliant" },
-      { "label": "Utenti concurrent", "value": "100k+", "desc": "Scalabilità enterprise" }
+      {
+        "label": "Minting",
+        "value": "< 5s",
+        "desc": "Certificazione istantanea"
+      },
+      {
+        "label": "Uptime SLA",
+        "value": "99.9%",
+        "desc": "Disponibilità garantita"
+      },
+      {
+        "label": "Sicurezza",
+        "value": "SOC 2",
+        "desc": "Type II compliant"
+      },
+      {
+        "label": "Utenti concurrent",
+        "value": "100k+",
+        "desc": "Scalabilità enterprise"
+      }
     ],
     "ctaTitle": "Tecnologia invisibile, risultati visibili.",
     "ctaSubtitle": "Non devi capire la blockchain. Devi solo EGIZZARE.",
@@ -524,29 +945,65 @@
   "payments": {
     "title": "Inclusione Finanziaria Totale",
     "levels": [
-      { "title": "Zero Crypto", "desc": "Carta/Bonifico, wallet invisibile." },
-      { "title": "Ho un Wallet", "desc": "Paga FIAT, ricevi su Pera/Defly." },
-      { "title": "Crypto Native", "desc": "USDC/ETH via PSP autorizzati." },
-      { "title": "Egili", "desc": "Token interno fedeltà (no gas fee)." }
+      {
+        "title": "Zero Crypto",
+        "desc": "Carta/Bonifico, wallet invisibile."
+      },
+      {
+        "title": "Ho un Wallet",
+        "desc": "Paga FIAT, ricevi su Pera/Defly."
+      },
+      {
+        "title": "Crypto Native",
+        "desc": "USDC/ETH via PSP autorizzati."
+      },
+      {
+        "title": "Egili",
+        "desc": "Token interno fedeltà (no gas fee)."
+      }
     ]
   },
   "compliance": {
     "title": "Compliance Totale",
     "subtitle": "Pensaci tu a creare, al resto pensiamo noi.",
     "items": [
-      { "title": "GDPR by Design", "desc": "Consenso granulare, export 1-click, diritto oblio." },
-      { "title": "MiCA-Safe", "desc": "No custodia crypto, no exchange, solo asset unici." },
-      { "title": "Fiscalità Auto", "desc": "Fatturazione SDI, report commercialista, IVA auto." },
-      { "title": "Diritti d'Autore", "desc": "Tutela morale e patrimoniale, Diritto di Seguito." }
+      {
+        "title": "GDPR by Design",
+        "desc": "Consenso granulare, export 1-click, diritto oblio."
+      },
+      {
+        "title": "MiCA-Safe",
+        "desc": "No custodia crypto, no exchange, solo asset unici."
+      },
+      {
+        "title": "Fiscalità Auto",
+        "desc": "Fatturazione SDI, report commercialista, IVA auto."
+      },
+      {
+        "title": "Diritti d'Autore",
+        "desc": "Tutela morale e patrimoniale, Diritto di Seguito."
+      }
     ]
   },
   "ecosystem": {
     "title": "3 Ruoli, 1 Circolo Virtuoso",
     "roles": [
-      { "name": "Creator", "desc": "Crea valore, guadagna royalty perpetue." },
-      { "name": "Co-Creatore", "desc": "Attiva l'opera, ottiene visibilità eterna." },
-      { "name": "Collector", "desc": "Custodisce valore, investe in sostenibilità." },
-      { "name": "EPP (20%)", "desc": "Riceve fondi automatici per rigenerazione." }
+      {
+        "name": "Creator",
+        "desc": "Crea valore, guadagna royalty perpetue."
+      },
+      {
+        "name": "Co-Creatore",
+        "desc": "Attiva l'opera, ottiene visibilità eterna."
+      },
+      {
+        "name": "Collector",
+        "desc": "Custodisce valore, investe in sostenibilità."
+      },
+      {
+        "name": "EPP (20%)",
+        "desc": "Riceve fondi automatici per rigenerazione."
+      }
     ]
   },
   "natan": {
@@ -577,26 +1034,63 @@
     "subtitle": "Più vendi, meno paghi.",
     "distribution": {
       "title": "Distribuzione su €1000 vendita primaria",
-      "creator": { "label": "Creator", "value": "€680", "percent": "68%" },
-      "epp": { "label": "EPP", "value": "€200", "percent": "20%" },
-      "platform": { "label": "Platform", "value": "€100", "percent": "10%" },
-      "association": { "label": "Associazione", "value": "€20", "percent": "2%" }
+      "creator": {
+        "label": "Creator",
+        "value": "€680",
+        "percent": "68%"
+      },
+      "epp": {
+        "label": "EPP",
+        "value": "€200",
+        "percent": "20%"
+      },
+      "platform": {
+        "label": "Platform",
+        "value": "€100",
+        "percent": "10%"
+      },
+      "association": {
+        "label": "Associazione",
+        "value": "€20",
+        "percent": "2%"
+      }
     },
     "secondary": {
       "title": "Distribuzione rivendita (secondaria)",
-      "seller": { "label": "Venditore", "percent": "93%" },
-      "royalty": { "label": "Royalty Creator", "percent": "4.5%" },
-      "epp": { "label": "EPP", "percent": "1%" },
-      "platform": { "label": "Platform", "percent": "1.5%" }
+      "seller": {
+        "label": "Venditore",
+        "percent": "93%"
+      },
+      "royalty": {
+        "label": "Royalty Creator",
+        "percent": "4.5%"
+      },
+      "epp": {
+        "label": "EPP",
+        "percent": "1%"
+      },
+      "platform": {
+        "label": "Platform",
+        "percent": "1.5%"
+      }
     }
   },
   "cases": {
     "title": "Obiettivi di Impatto",
     "disclaimer": "Proiezioni Anno 1 - FlorenceEGI non è ancora lanciato",
     "items": [
-      { "name": "Maria, Pittrice", "result": "+€4,500 in 3 mesi con royalty." },
-      { "name": "Museo Civico", "result": "200 reperti digitalizzati, €12k donazioni." },
-      { "name": "GreenThreads", "result": "Filiera moda certificata, -20% resi." }
+      {
+        "name": "Maria, Pittrice",
+        "result": "+€4,500 in 3 mesi con royalty."
+      },
+      {
+        "name": "Museo Civico",
+        "result": "200 reperti digitalizzati, €12k donazioni."
+      },
+      {
+        "name": "GreenThreads",
+        "result": "Filiera moda certificata, -20% resi."
+      }
     ]
   },
   "roadmap": {
@@ -611,10 +1105,22 @@
   "faq": {
     "title": "Domande Frequenti",
     "items": [
-      { "q": "Devo capire la blockchain?", "a": "No, l'esperienza è identica a un e-commerce." },
-      { "q": "Quanto costa?", "a": "Minting gratis. Fee solo sul venduto." },
-      { "q": "Posso vendere opere fisiche?", "a": "Sì, con certificato digitale e QR code." },
-      { "q": "Royalty garantite?", "a": "Sì, smart contract trustless per sempre." }
+      {
+        "q": "Devo capire la blockchain?",
+        "a": "No, l'esperienza è identica a un e-commerce."
+      },
+      {
+        "q": "Quanto costa?",
+        "a": "Minting gratis. Fee solo sul venduto."
+      },
+      {
+        "q": "Posso vendere opere fisiche?",
+        "a": "Sì, con certificato digitale e QR code."
+      },
+      {
+        "q": "Royalty garantite?",
+        "a": "Sì, smart contract trustless per sempre."
+      }
     ]
   },
   "ctaFinal": {
@@ -673,10 +1179,22 @@
       "Zero possibilità di manipolazione"
     ],
     "highlights": [
-      { "icon": "🔒", "text": "Smart contract trustless = impossibile barare" },
-      { "icon": "📊", "text": "Dashboard pubblica con tutti i dati" },
-      { "icon": "🌍", "text": "EPP verificati dall'APS (Associazione)" },
-      { "icon": "📜", "text": "Report trimestrale pubblicato" }
+      {
+        "icon": "🔒",
+        "text": "Smart contract trustless = impossibile barare"
+      },
+      {
+        "icon": "📊",
+        "text": "Dashboard pubblica con tutti i dati"
+      },
+      {
+        "icon": "🌍",
+        "text": "EPP verificati dall'APS (Associazione)"
+      },
+      {
+        "icon": "📜",
+        "text": "Report trimestrale pubblicato"
+      }
     ]
   },
   "motto": {
@@ -719,10 +1237,22 @@
       }
     ],
     "highlights": [
-      { "icon": "✨", "text": "Qualsiasi asset può diventare un EGI" },
-      { "icon": "🔗", "text": "Certificazione blockchain permanente" },
-      { "icon": "💰", "text": "Royalty automatiche su ogni rivendita" },
-      { "icon": "🌍", "text": "20% a progetti ambientali" }
+      {
+        "icon": "✨",
+        "text": "Qualsiasi asset può diventare un EGI"
+      },
+      {
+        "icon": "🔗",
+        "text": "Certificazione blockchain permanente"
+      },
+      {
+        "icon": "💰",
+        "text": "Royalty automatiche su ogni rivendita"
+      },
+      {
+        "icon": "🌍",
+        "text": "20% a progetti ambientali"
+      }
     ]
   },
   "premessa": {
@@ -787,10 +1317,23 @@
       "title": "Il Fondamento Filosofico",
       "intro": "FlorenceEGI si ispira al concetto aristotelico delle quattro cause:",
       "causes": [
-        { "name": "Causa Materiale", "desc": "Il supporto fisico/digitale" },
-        { "name": "Causa Formale", "desc": "L'idea dell'artista" },
-        { "name": "Causa Efficiente", "desc": "Il Co-Creatore che attiva", "highlight": true },
-        { "name": "Causa Finale", "desc": "L'impatto nel mondo" }
+        {
+          "name": "Causa Materiale",
+          "desc": "Il supporto fisico/digitale"
+        },
+        {
+          "name": "Causa Formale",
+          "desc": "L'idea dell'artista"
+        },
+        {
+          "name": "Causa Efficiente",
+          "desc": "Il Co-Creatore che attiva",
+          "highlight": true
+        },
+        {
+          "name": "Causa Finale",
+          "desc": "L'impatto nel mondo"
+        }
       ]
     },
     "insight": "L'opera non è mai 'finita' nell'isolamento del creatore."
@@ -827,10 +1370,26 @@
     ],
     "flowTitle": "Flusso di Co-Creazione",
     "flow": [
-      { "icon": "🎨", "label": "Creator", "desc": "Crea l'opera" },
-      { "icon": "✨", "label": "Co-Creator", "desc": "Attiva il minting" },
-      { "icon": "⛓️", "label": "EGI on-chain", "desc": "Certificato immutabile" },
-      { "icon": "💎", "label": "Collector", "desc": "Custodisce il valore" }
+      {
+        "icon": "🎨",
+        "label": "Creator",
+        "desc": "Crea l'opera"
+      },
+      {
+        "icon": "✨",
+        "label": "Co-Creator",
+        "desc": "Attiva il minting"
+      },
+      {
+        "icon": "⛓️",
+        "label": "EGI on-chain",
+        "desc": "Certificato immutabile"
+      },
+      {
+        "icon": "💎",
+        "label": "Collector",
+        "desc": "Custodisce il valore"
+      }
     ]
   },
   "visione": {
@@ -921,14 +1480,119 @@
     ],
     "comparisonTitle": "Unicum vs Copia Digitale",
     "comparison": {
-      "headers": ["Caratteristica", "Copia Digitale", "EGI Unicum"],
+      "headers": [
+        "Caratteristica",
+        "Copia Digitale",
+        "EGI Unicum"
+      ],
       "rows": [
-        ["Replicabilità", "Infinita", "Impossibile"],
-        ["Provenienza", "Non verificabile", "On-chain completa"],
-        ["Valore legale", "Nessuno", "Prova di paternità"],
-        ["Trasferibilità", "Copia & incolla", "Transazione certificata"],
-        ["Impatto ambientale", "Zero", "20% EPP automatico"]
+        [
+          "Replicabilità",
+          "Infinita",
+          "Impossibile"
+        ],
+        [
+          "Provenienza",
+          "Non verificabile",
+          "On-chain completa"
+        ],
+        [
+          "Valore legale",
+          "Nessuno",
+          "Prova di paternità"
+        ],
+        [
+          "Trasferibilità",
+          "Copia & incolla",
+          "Transazione certificata"
+        ],
+        [
+          "Impatto ambientale",
+          "Zero",
+          "20% EPP automatico"
+        ]
       ]
+    }
+  },
+  "how": {
+    "page_title": "Come Funziona — FlorenceEGI",
+    "back": "Indietro",
+    "hero": {
+      "label": "IL PROTOCOLLO",
+      "title": "Come Funziona",
+      "subtitle": "FlorenceEGI non è solo arte. È un protocollo aperto che diversi progetti \"manipolano\" per creare valore in settori completamente diversi."
+    },
+    "protocol": {
+      "title": "EGI è un protocollo, non un prodotto",
+      "body1": "Un EGI è come una struttura vuota certificata su blockchain Algorand: un contenitore neutro di autenticità, provenienza e valore. Ogni progetto lo riempie con la propria logica.",
+      "body2": "Lo stesso protocollo che certifica un'opera d'arte può autenticare una delibera comunale, o essere usato come asset di puro trading. Il protocollo è uno — gli utilizzi sono infiniti.",
+      "chip1": "Florence ART",
+      "chip2": "NATAN LOC",
+      "chip3": "Florence PT",
+      "chip4": "+ Futuri..."
+    },
+    "manipulators": {
+      "title": "I Manipolatori di EGI",
+      "subtitle": "Ogni progetto usa il protocollo EGI a modo suo. Stesso standard, finalità radicalmente diverse."
+    },
+    "art": {
+      "tag": "ARTE & MARKETPLACE",
+      "title": "Florence ART",
+      "desc": "Trasforma opere, prodotti e beni fisici in asset digitali vendibili sul mercato primario e secondario. L'EGI diventa il \"gemello digitale\" certificato dell'oggetto, con royalty automatiche al creator su ogni rivendita.",
+      "f1": "CoA (Certificato di Autenticità) immutabile su Algorand blockchain",
+      "f2": "Royalty automatiche al creator: 4,5% fisso su ogni rivendita",
+      "f3": "EPP integrato: quota ambientale automatica ad ogni transazione",
+      "f4": "Utility traits personalizzabili: accessi, premi, benefici esclusivi",
+      "f5": "Co-Creator permanente: la firma del mecenate resta sulla blockchain per sempre",
+      "earn": "Creator (royalty 4,5% su ogni rivendita) + piattaforma + EPP. Il mercato secondario genera rendita perpetua per chi ha creato."
+    },
+    "natan": {
+      "tag": "DOCUMENTI & PUBBLICA AMMINISTRAZIONE",
+      "title": "NATAN LOC",
+      "desc": "Usa gli EGI per notarizzare documenti della Pubblica Amministrazione. Una delibera, un verbale, un atto — una volta \"egizzato\" diventa incorruttibile: il suo hash è su blockchain, la sua autenticità è verificabile da chiunque, per sempre.",
+      "f1": "Hash crittografico del documento su Algorand: impossibile alterarlo senza che si veda",
+      "f2": "Verifica pubblica immediata: chiunque può controllare l'autenticità dell'atto",
+      "f3": "AI RAG anti-hallucination (FARO): ricerche intelligenti sui documenti del comune",
+      "f4": "Multi-tenant: ogni Comune ha il proprio spazio isolato e sicuro",
+      "earn": "L'ente (Comune/PA) paga un abbonamento SaaS. Nessun trading sui documenti: nessuna royalty, nessuna fee di transazione."
+    },
+    "pt": {
+      "tag": "PURE TRADING",
+      "title": "Florence PT",
+      "desc": "EGI \"satellite\" collegati agli EGI fisici di ART, pensati esclusivamente per il trading dinamico. Zero fee: né la piattaforma né il creator guadagnano sulla PT. Guadagna solo il trader. La funzione è generare volume e visibilità per tutto l'ecosistema.",
+      "f1": "Zero fee (0%): nessun costo di piattaforma, nessuna royalty al creator",
+      "f2": "Asset ultraleggeri, transazioni in 4,5 secondi su Algorand",
+      "f3": "Trading ad alta frequenza per generare liquidità e volume",
+      "f4": "Funzione marketing: genera popolarità e hype per le collezioni ART collegate",
+      "earn": "Solo il trader. Né la piattaforma né i creator guadagnano sulla PT. È un veicolo di visibilità per l'ecosistema, non di profitto."
+    },
+    "earn": {
+      "label": "Chi guadagna:"
+    },
+    "visit": {
+      "platform": "Visita la piattaforma"
+    },
+    "thread": {
+      "title": "Il Filo Rosso: cosa accomuna tutto",
+      "item1": "⚡ Algorand Blockchain — tutte le operazioni avvengono su Algorand: finalità in 4,5 secondi, carbon-negative, costo €0,0001 per transazione.",
+      "item2": "🌿 EPP nativo — ogni tipo di EGI può contribuire a progetti ambientali verificati (riforestazione, rimozione plastica, biodiversità).",
+      "item3": "🔒 Autenticità on-chain — il protocollo EGI garantisce provenienza immutabile e verificabile pubblicamente su qualsiasi browser.",
+      "item4": "👁️ Trasparenza totale — nessun intermediario, nessun dato nascosto: tutto è verificabile su blockchain."
+    },
+    "future": {
+      "title": "I Prossimi Manipolatori",
+      "body": "Il protocollo EGI è aperto. In futuro, nuovi progetti potranno usarlo per certificare qualsiasi cosa meriti autenticità e tracciabilità permanente.",
+      "item1": "Real Estate — certificazione immobili",
+      "item2": "Ricerca scientifica — brevetti e IP",
+      "item3": "Governance aziendale — verbali e contratti",
+      "item4": "Identità digitale — certificati verificabili",
+      "item5": "Supply chain — prodotti fisici con QR/NFC",
+      "item6": "Welfare — certificati medici e scolastici",
+      "note": "La lista è limitata solo dalla fantasia. Se esiste, si può egizzare."
+    },
+    "cta": {
+      "title": "Pronto a usare il protocollo?",
+      "body": "Che tu sia un artista, un'istituzione pubblica o un trader, c'è un manipolatore EGI pensato per te. Esplora le piattaforme o contattaci per sapere come integrare EGI nel tuo progetto."
     }
   }
 }

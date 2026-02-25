@@ -4,7 +4,6 @@
     "description": "FlorenceEGI: the platform that unites art, blockchain and sustainability. Discover how to create, trade and manage EGI digital certificates.",
     "keywords": "FlorenceEGI, platform, blockchain, digital art, sustainable NFT, Algorand, AMMk, marketplace"
   },
-
   "hero": {
     "badge": "The Platform",
     "title": "FlorenceEGI",
@@ -15,16 +14,13 @@
       "secondary": "Discover How It Works"
     }
   },
-
   "intro": {
     "title": "What is FlorenceEGI?",
     "concept": "FlorenceEGI is the platform that enables the Digital Renaissance: an ecosystem where art, technology and sustainability meet to create shared value."
   },
-
   "problems": {
     "title": "The Problems We Solve",
     "subtitle": "Before FlorenceEGI vs With FlorenceEGI",
-
     "items": [
       {
         "id": "authenticity",
@@ -46,11 +42,9 @@
       }
     ]
   },
-
   "ammk": {
     "title": "The 5 Ecosystem Engines",
     "subtitle": "The AMMk architecture powering FlorenceEGI",
-
     "engines": {
       "creation": {
         "icon": "🎨",
@@ -79,17 +73,96 @@
       }
     }
   },
-
   "natan": {
     "title": "NATAN - Your AI Assistant",
     "subtitle": "Artificial Intelligence at your service",
     "description": "NATAN (Navigational AI Technical Assistant Navigator) is the intelligent assistant that guides you through the FlorenceEGI ecosystem."
   },
-
   "cta": {
     "title": "Ready for the Digital Renaissance?",
     "description": "Join thousands of creators and collectors already building the future of sustainable digital art.",
     "primary": "Create Your Account",
     "secondary": "Explore Collections"
+  },
+  "how": {
+    "page_title": "How It Works — FlorenceEGI",
+    "back": "Back",
+    "hero": {
+      "label": "THE PROTOCOL",
+      "title": "How It Works",
+      "subtitle": "FlorenceEGI is not just art. It is an open protocol that different projects \"manipulate\" to create value in completely different sectors."
+    },
+    "protocol": {
+      "title": "EGI is a protocol, not a product",
+      "body1": "An EGI is like an empty structure certified on the Algorand blockchain: a neutral container of authenticity, provenance and value. Each project fills it with its own logic.",
+      "body2": "The same protocol that certifies a work of art can authenticate a municipal resolution, or be used as a pure trading asset. The protocol is one — the uses are infinite.",
+      "chip1": "Florence ART",
+      "chip2": "NATAN LOC",
+      "chip3": "Florence PT",
+      "chip4": "+ Future..."
+    },
+    "manipulators": {
+      "title": "EGI Manipulators",
+      "subtitle": "Each project uses the EGI protocol in its own way. Same standard, radically different purposes."
+    },
+    "art": {
+      "tag": "ART & MARKETPLACE",
+      "title": "Florence ART",
+      "desc": "Transforms artworks, products and physical goods into digital assets tradable on primary and secondary markets. The EGI becomes the certified \"digital twin\" of the object, with automatic royalties to the creator on every resale.",
+      "f1": "Immutable CoA (Certificate of Authenticity) on Algorand blockchain",
+      "f2": "Automatic royalties to creator: fixed 4.5% on every resale",
+      "f3": "Built-in EPP: automatic environmental quota on every transaction",
+      "f4": "Customisable utility traits: access, rewards, exclusive benefits",
+      "f5": "Permanent Co-Creator: the patron's signature stays on the blockchain forever",
+      "earn": "Creator (4.5% royalty on every resale) + platform + EPP. The secondary market generates perpetual income for the creator."
+    },
+    "natan": {
+      "tag": "DOCUMENTS & PUBLIC ADMINISTRATION",
+      "title": "NATAN LOC",
+      "desc": "Uses EGIs to notarise documents from Public Administrations. A resolution, minutes, an act — once \"EGI-ified\" it becomes incorruptible: its hash is on the blockchain, its authenticity is verifiable by anyone, forever.",
+      "f1": "Cryptographic hash of the document on Algorand: impossible to alter without detection",
+      "f2": "Immediate public verification: anyone can check the authenticity of the act",
+      "f3": "Anti-hallucination AI RAG (FARO): intelligent searches on municipal documents",
+      "f4": "Multi-tenant: each Municipality has its own isolated and secure space",
+      "earn": "The entity (Municipality/PA) pays a SaaS subscription. No trading on documents: no royalties, no transaction fees."
+    },
+    "pt": {
+      "tag": "PURE TRADING",
+      "title": "Florence PT",
+      "desc": "\"Satellite\" EGIs linked to ART physical EGIs, designed exclusively for dynamic trading. Zero fees: neither the platform nor the creator earns from PT. Only the trader earns. The function is to generate volume and visibility for the entire ecosystem.",
+      "f1": "Zero fees (0%): no platform cost, no royalties to the creator",
+      "f2": "Ultra-light assets, 4.5-second transactions on Algorand",
+      "f3": "High-frequency trading to generate liquidity and volume",
+      "f4": "Marketing function: generates popularity and hype for linked ART collections",
+      "earn": "Only the trader. Neither the platform nor creators earn from PT. It is a visibility vehicle for the ecosystem, not a profit tool."
+    },
+    "earn": {
+      "label": "Who earns:"
+    },
+    "visit": {
+      "platform": "Visit the platform"
+    },
+    "thread": {
+      "title": "The Red Thread: what unites everything",
+      "item1": "⚡ Algorand Blockchain — all operations happen on Algorand: finality in 4.5 seconds, carbon-negative, cost €0.0001 per transaction.",
+      "item2": "🌿 Native EPP — every type of EGI can contribute to verified environmental projects (reforestation, plastic removal, biodiversity).",
+      "item3": "🔒 On-chain authenticity — the EGI protocol guarantees immutable provenance verifiable publicly on any browser.",
+      "item4": "👁️ Total transparency — no intermediaries, no hidden data: everything is verifiable on blockchain."
+    },
+    "future": {
+      "title": "Future Manipulators",
+      "body": "The EGI protocol is open. In the future, new projects will be able to use it to certify anything that deserves permanent authenticity and traceability.",
+      "item1": "Real Estate — property certification",
+      "item2": "Scientific research — patents and IP",
+      "item3": "Corporate governance — minutes and contracts",
+      "item4": "Digital identity — verifiable certificates",
+      "item5": "Supply chain — physical products with QR/NFC",
+      "item6": "Welfare — medical and educational certificates",
+      "note": "The list is limited only by imagination. If it exists, it can be EGI-ified."
+    },
+    "cta": {
+      "title": "Ready to use the protocol?",
+      "body": "Whether you are an artist, a public institution or a trader, there is an EGI manipulator designed for you. Explore the platforms or contact us to learn how to integrate EGI into your project."
+    }
   }
 }
