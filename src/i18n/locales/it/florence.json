@@ -1273,7 +1273,7 @@
   "premessa": {
     "badge": "📖 Fondamenti",
     "title": "Premessa",
-    "subtitle": "Il contesto che ha dato origine a FlorenceEGI: un'epoca di connessione senza autenticità.",
+    "subtitle": "Viviamo in un'epoca in cui tutto è connesso, ma poco è autentico. L'arte si è smaterializzata, la fiducia si è dispersa, la visibilità è diventata moneta fragile. FlorenceEGI nasce per restituire verità, riconoscimento e valore reale al mondo digitale.",
     "quote": "Viviamo in un'epoca in cui tutto è connesso, ma poco è autentico. L'arte si è smaterializzata, la fiducia si è dispersa, la visibilità è diventata moneta fragile.",
     "intro": "In questo contesto nasce FlorenceEGI, un sistema che restituisce verità, riconoscimento e valore reale al mondo digitale.",
     "notIs": {
@@ -1306,7 +1306,7 @@
   "principioFondo": {
     "badge": "✨ Fondamenti",
     "title": "Il Principio di Fondo",
-    "subtitle": "La visione fondamentale: l'arte non è completa fino all'incontro con il destinatario.",
+    "subtitle": "Non basta creare. Occorre che qualcuno accolga. L'artista genera la forma, ma è l'incontro con il mecenate che attiva la sua piena esistenza.",
     "quote": "Non basta creare. Occorre che qualcuno accolga.",
     "intro": "L'artista genera la forma, ma è l'incontro con il mecenate che attiva la sua piena esistenza.",
     "transformTitle": "La Trasformazione in EGI",
@@ -1351,12 +1351,13 @@
         }
       ]
     },
-    "insight": "L'opera non è mai 'finita' nell'isolamento del creatore."
+    "insight": "L'opera non è mai 'finita' nell'isolamento del creatore.",
+    "body": "L'opera diventa EGI — Eco Goods Invent — unendo valore estetico, traccia digitale immutabile su Algorand, e contributo ambientale tramite EPP (Environmental Protection Projects) verificati."
   },
   "cocreazione": {
     "badge": "👥 Fondamenti",
     "title": "Il Principio di Co-Creazione",
-    "subtitle": "Guarigione digitale attraverso visibilità permanente e riconoscimento.",
+    "subtitle": "L'analisi su oltre 1000 fonti evidenzia: la forma di disagio più diffusa sul web è il bisogno di essere visibili e riconosciuti. FlorenceEGI trasforma questa fragilità in struttura di guarigione digitale.",
     "need": {
       "title": "Il Bisogno Universale",
       "text": "Analisi su oltre 1000 fonti evidenzia: la forma di disagio più diffusa sul web è il bisogno di essere visibili e riconosciuti."
@@ -1384,33 +1385,12 @@
       }
     ],
     "flowTitle": "Flusso di Co-Creazione",
-    "flow": [
-      {
-        "icon": "🎨",
-        "label": "Creator",
-        "desc": "Crea l'opera"
-      },
-      {
-        "icon": "✨",
-        "label": "Co-Creator",
-        "desc": "Attiva il minting"
-      },
-      {
-        "icon": "⛓️",
-        "label": "EGI on-chain",
-        "desc": "Certificato immutabile"
-      },
-      {
-        "icon": "💎",
-        "label": "Collector",
-        "desc": "Custodisce il valore"
-      }
-    ]
+    "flow": "Creator → Co-Creatore (Minting) → Collector → Memoria Permanente Blockchain"
   },
   "visione": {
     "badge": "🚀 Visione",
     "title": "Visione Futura",
-    "subtitle": "Il futuro di FlorenceEGI e il suo impatto sul mondo dell'arte.",
+    "subtitle": "In un mondo che consuma attenzione e brucia significato, noi costruiamo memoria, equilibrio e impatto reale.",
     "statement": "Un mondo dove ogni artista può vivere della propria arte, ogni collezionista può essere mecenate, e ogni transazione rigenera il pianeta.",
     "roadmapTitle": "Roadmap di Sviluppo",
     "phases": [
@@ -1458,12 +1438,29 @@
           "Impact bond ambientali legati a EPP"
         ]
       }
+    ],
+    "pillars": [
+      {
+        "icon": "��️",
+        "title": "Memoria",
+        "desc": "Traccia permanente su blockchain di ogni contributo culturale. Immutabilità e verità storica."
+      },
+      {
+        "icon": "⚖️",
+        "title": "Equilibrio",
+        "desc": "Governance Duale che bilancia profitto e missione. Più utenti partecipano, meno ciascuno paga (fee dinamiche in roadmap)."
+      },
+      {
+        "icon": "🌍",
+        "title": "Impatto Reale",
+        "desc": "Rigenerazione ambientale tramite EPP integrati. Ogni atto economico genera un atto rigenerativo."
+      }
     ]
   },
   "unicum": {
     "badge": "🎭 Visione",
     "title": "Unicum",
-    "subtitle": "Perché ogni EGI è unico e irripetibile.",
+    "subtitle": "FlorenceEGI unisce in un'unica architettura coerente paradigmi che altrove esistono separatamente o non esistono affatto.",
     "definition": "Dal latino: \"unico, singolare, irripetibile\"",
     "intro": "Ogni EGI non è una copia, non è una riproduzione: è un evento creativo irripetibile, certificato e notarizzato nel suo momento di nascita.",
     "whatMakesTitle": "Cosa Rende un EGI un Unicum",
@@ -1527,7 +1524,18 @@
           "20% EPP automatico"
         ]
       ]
-    }
+    },
+    "items": [
+      "Certificazione Blockchain (beni fisici e digitali)",
+      "Co-Creazione Permanente (visibilità perpetua on-chain)",
+      "Compliance Totale (GDPR + MiCA-safe)",
+      "Governance Duale (equilibrio valori-impresa)",
+      "Fee Dinamiche (economia rigenerativa, in roadmap)",
+      "Integrazione EPP (impatto ambientale nativo)",
+      "Mecenatismo certificato (carriere verificabili)",
+      "N.A.T.A.N. AI (intelligenza etica integrata)",
+      "Oracode System (paradigma filosofico-tecnico)"
+    ]
   },
   "how": {
     "page_title": "Come Funziona — FlorenceEGI",
