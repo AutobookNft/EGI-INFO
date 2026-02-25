@@ -13,8 +13,8 @@
     "motto": "Se Esiste, EGIZZALO. Se lo EGIZZI, Vale.",
     "mottoHtml": "Se Esiste, <span class=\"highlight\">EGIZZALO</span>.<br>Se lo EGIZZI, <span class=\"highlight\">Vale</span>.",
     "subheadline": "La prima piattaforma che trasforma qualsiasi cosa in asset tokenizzato, tracciabile e scambiabile. Semplice come un e-commerce, potente come una blockchain.",
-    "whatWeDo": "Siamo i primi al mondo ad aver fuso Blockchain e Intelligenza Artificiale in un sistema così semplice che chiunque può usarlo. Dietro c'è Algorand (la blockchain a zero emissioni CO₂ usata dalla SIAE per i diritti d'autore), NATAN AI che ti suggerisce prezzi e descrizioni analizzando il mercato reale, smart contract automatici per le royalty perpetue. Ma tu non vedi nulla di tutto questo: carichi un'opera come su Instagram, clicchi EGIZZA, e in 5 secondi hai un certificato blockchain riconosciuto dalla legge italiana come prova di paternità. Zero wallet crypto da configurare, zero seed phrase da scrivere, zero gas fee incomprensibili. È la complessità della tecnologia resa invisibile.",
-    "howSimple": "Ogni singolo asset che crei genera impatto ambientale reale, misurabile e certificato su blockchain. Non è un claim di marketing, è matematica: il 20% del valore di ogni transazione va automaticamente a progetti EPP (Environmental Protection Projects) verificati. Riforestazione, rimozione plastica dagli oceani, protezione della biodiversità. Ogni donazione è tracciata on-chain, ogni progetto ha un bilancio pubblico verificabile, ogni euro è rendicontato in modo trasparente. Non è greenwashing da bilancio di sostenibilità, è un sistema economico dove il profitto e la rigenerazione ambientale sono la stessa cosa. Più vendi, più il pianeta guarisce.",
+    "whatWeDo": "FlorenceEGI è costruito su Algorand — la blockchain a zero emissioni CO₂ scelta dalla SIAE per la gestione dei diritti d'autore. L'intelligenza artificiale integrata (N.A.T.A.N.) ti assiste nella creazione, descrizione e pricing dei tuoi asset digitali. Il risultato: un sistema che restituisce autenticità, riconoscimento e valore reale al mondo digitale.",
+    "howSimple": "Ogni EGI venduto su Florence Art destina automaticamente il 20% del valore a campagne ambientali verificate e tracciabili on-chain. Non è una donazione volontaria: è la struttura stessa del protocollo. Tre campagne attive: rimozione plastica acquatica, riforestazione, protezione delle api. Ogni contributo è registrato su blockchain, verificabile pubblicamente.",
     "ctaPrimary": "Inizia a EGIZZARE",
     "ctaSecondary": "Scopri Come Funziona"
   },
@@ -24,7 +24,7 @@
     "subtitle": "Siamo un Asset Market Maker.",
     "description": "Permettiamo a chiunque di creare il proprio mercato. Più simile a Shopify che a OpenSea.",
     "conceptTitle": "Il Concept",
-    "conceptDesc": "FlorenceEGI è l'infrastruttura che trasforma QUALSIASI COSA in un asset digitale certificato chiamato EGI (Eco Goods Invent).",
+    "conceptDesc": "FlorenceEGI è l'infrastruttura che trasforma qualsiasi bene frutto dell'ingegno umano in un asset digitale certificato chiamato EGI (Eco Goods Invent — Environment Goods Invent).",
     "list": [
       "Arte fisica e digitale",
       "Design e artigianato",
