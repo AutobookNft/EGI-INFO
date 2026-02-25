@@ -745,7 +745,8 @@
           "Collega la Collection a un EPP (20% automatico a progetti ambientali)",
           "Oppure: niente EPP = abbonamento €4-19/mese (in base a quanti EGI)",
           "Conviene SEMPRE collegare a un EPP: guadagni di più e fai del bene"
-        ]
+        ],
+        "description": "Crea la tua Collection su FlorenceEGI. Puoi gestire fino a 8 wallet collaboratori e 4 wallet di collection. Collega un EPP (Environmental Protection Project) per destinare il 20% automatico a un progetto ambientale verificato."
       },
       {
         "number": 2,
@@ -756,7 +757,8 @@
           "EGIZZARE = importare nella piattaforma, registrare nel DB",
           "Aggiungi accessori: CoA, Traits, Utility, descrizioni AI",
           "L'EGI è listato e pronto, ma NON ancora tokenizzato"
-        ]
+        ],
+        "description": "Carica l'opera e avvia il processo di EGIZZAZIONE: il sistema genera un hash crittografico SHA-256 dell'opera e registra un Certificate of Authenticity (CoA) immutabile su Algorand. La finalità è garantita in circa 4.5 secondi."
       },
       {
         "number": 3,
@@ -766,7 +768,8 @@
           "Il MINTING avviene in quel momento: tokenizzazione su Algorand",
           "Split automatico: Creator 68% • EPP 20% • Piattaforma 10% • Associazione 2%",
           "Da quel momento: royalty 4.5% perpetue su ogni rivendita"
-        ]
+        ],
+        "description": "Il Co-Creator completa il minting attivando il tuo EGI su blockchain. La sua firma resta visibile per sempre nella catena di proprietà, anche in caso di rivendite future. Da questo momento le royalty al creator (4.5%) sono automatiche su ogni transazione."
       }
     ],
     "ctaStart": "Inizia Ora Gratis",
@@ -775,7 +778,7 @@
   "ammk": {
     "titleLine1": "Non un Marketplace.",
     "titleLine2": "Un Generatore di Asset Marketplace.",
-    "subtitle": "FlorenceEGI è un Asset Market Maker (AMMk): una piattaforma che ti permette di creare il TUO asset marketplace personalizzato in cui QUALSIASI prodotto/servizio diventa un EGI.",
+    "subtitle": "FlorenceEGI è un Asset Market Maker (AMMk): una piattaforma che permette di costruire il proprio marketplace personalizzato per qualsiasi bene frutto dell'ingegno umano. Cinque engine coordinati dal core.",
     "usersTitle": "Chi può usare AMMk",
     "users": [
       {
@@ -815,23 +818,28 @@
     "engines": [
       {
         "name": "NATAN Market Engine",
-        "desc": "AI valuta mercato, suggerisce prezzi, identifica trend"
+        "desc": "AI valuta mercato, suggerisce prezzi, identifica trend",
+        "description": "Intelligenza di mercato integrata: definisce valore, floor price e traiettoria degli asset. Analizza qualità, storico e domanda con algoritmi predittivi. Orchestra campagne e alert attivati da trigger on-chain e off-chain."
       },
       {
-        "name": "Asset Management",
-        "desc": "Mint, transfer, royalty automatici"
+        "name": "Asset Engine",
+        "desc": "Mint, transfer, royalty automatici",
+        "description": "Gestisce il ciclo di vita dell'asset: listing, aste automatiche, vendite secondarie e liquidità marketplace."
       },
       {
         "name": "Distribution Engine",
-        "desc": "Split trustless multi-wallet (Creator/EPP/Platform)"
+        "desc": "Split trustless multi-wallet (Creator/EPP/Platform)",
+        "description": "Automazione finanziaria: royalty automatiche (4.5%), fee piattaforma, quota EPP su ogni transazione. Tracciabilità fiscale end-to-end."
       },
       {
         "name": "Co-Creation Engine",
-        "desc": "Gestione collaborazioni multi-artista"
+        "desc": "Gestione collaborazioni multi-artista",
+        "description": "Orchestra il flusso Creator / Co-Creator / Collector: minting EGI, notarizzazione opere, firme digitali, catena di custodia immutabile."
       },
       {
         "name": "Compliance Engine",
-        "desc": "GDPR/MiCA/Fiscale automatico"
+        "desc": "GDPR/MiCA/Fiscale automatico",
+        "description": "GDPR by design e MiCA-safe: audit trail completo, policy condivise tra tenant, ConsentService e ULM integration."
       }
     ],
     "customizationTitle": "Personalizzazione Totale",
