@@ -155,7 +155,7 @@ export function Cocreazione(): JSX.Element {
       >
         <span>
           {data.intro.split('FlorenceEGI')[0]}
-          <GlossaryTerm term="FlorenceEGI">FlorenceEGI</GlossaryTerm>
+          <GlossaryTerm termId="FlorenceEGI">FlorenceEGI</GlossaryTerm>
           {data.intro.split('FlorenceEGI')[1]}
         </span>
       </p>
@@ -217,13 +217,13 @@ export function Cocreazione(): JSX.Element {
                 {role.description.includes('EGI') ? (
                   <span>
                     {role.description.split('EGI')[0]}
-                    <GlossaryTerm term="EGI">EGI</GlossaryTerm>
+                    <GlossaryTerm termId="EGI">EGI</GlossaryTerm>
                     {role.description.split('EGI')[1]}
                   </span>
                 ) : role.description.includes('minting') ? (
                   <span>
                     {role.description.split('minting')[0]}
-                    <GlossaryTerm term="minting">minting</GlossaryTerm>
+                    <GlossaryTerm termId="minting">minting</GlossaryTerm>
                     {role.description.split('minting')[1]}
                   </span>
                 ) : (

@@ -190,9 +190,9 @@ export function Premessa(): JSX.Element {
           <p style={{ color: COLORS.gray[700], lineHeight: 1.6 }}>
             <span>
               {data.is.text.split('EGI')[0]}
-              <GlossaryTerm term="EGI">EGI</GlossaryTerm>
+              <GlossaryTerm termId="EGI">EGI</GlossaryTerm>
               {data.is.text.split('EGI')[1]?.split('blockchain')[0]}
-              <GlossaryTerm term="blockchain">blockchain</GlossaryTerm>
+              <GlossaryTerm termId="blockchain">blockchain</GlossaryTerm>
               {data.is.text.split('blockchain')[1]}
             </span>
           </p>
@@ -305,12 +305,12 @@ export function Premessa(): JSX.Element {
                   {item.includes('blockchain') ? (
                     <>
                       {item.split('blockchain')[0]}
-                      <GlossaryTerm term="blockchain">blockchain</GlossaryTerm>
+                      <GlossaryTerm termId="blockchain">blockchain</GlossaryTerm>
                       {item.split('blockchain')[1]}
                     </>
                   ) : item.includes('Royalty') ? (
                     <>
-                      <GlossaryTerm term="Royalty">Royalty</GlossaryTerm>
+                      <GlossaryTerm termId="Royalty">Royalty</GlossaryTerm>
                       {item.split('Royalty')[1]}
                     </>
                   ) : (

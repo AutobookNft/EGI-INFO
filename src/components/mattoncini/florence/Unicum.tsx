@@ -140,7 +140,7 @@ export function Unicum(): JSX.Element {
       >
         <span>
           {data.intro.split('EGI')[0]}
-          <GlossaryTerm term="EGI">EGI</GlossaryTerm>
+          <GlossaryTerm termId="EGI">EGI</GlossaryTerm>
           {data.intro.split('EGI')[1]}
         </span>
       </p>
@@ -157,7 +157,7 @@ export function Unicum(): JSX.Element {
       >
         <span>
           {data.whatMakesTitle.split('EGI')[0]}
-          <GlossaryTerm term="EGI">EGI</GlossaryTerm>
+          <GlossaryTerm termId="EGI">EGI</GlossaryTerm>
           {data.whatMakesTitle.split('EGI')[1]}
         </span>
       </h3>
@@ -206,25 +206,25 @@ export function Unicum(): JSX.Element {
                 {factor.description.includes('Oracode') ? (
                   <span>
                     {factor.description.split('Oracode')[0]}
-                    <GlossaryTerm term="Oracode">Oracode</GlossaryTerm>
+                    <GlossaryTerm termId="Oracode">Oracode</GlossaryTerm>
                     {factor.description.split('Oracode')[1]}
                   </span>
                 ) : factor.description.includes('Algorand') ? (
                   <span>
                     {factor.description.split('Algorand')[0]}
-                    <GlossaryTerm term="Algorand">Algorand</GlossaryTerm>
+                    <GlossaryTerm termId="Algorand">Algorand</GlossaryTerm>
                     {factor.description.split('Algorand')[1]}
                   </span>
                 ) : factor.description.includes('minting') ? (
                   <span>
                     {factor.description.split('minting')[0]}
-                    <GlossaryTerm term="minting">minting</GlossaryTerm>
+                    <GlossaryTerm termId="minting">minting</GlossaryTerm>
                     {factor.description.split('minting')[1]}
                   </span>
                 ) : factor.description.includes('CoA') ? (
                   <span>
                     {factor.description.split('CoA')[0]}
-                    <GlossaryTerm term="CoA">Certificate of Authenticity</GlossaryTerm>
+                    <GlossaryTerm termId="CoA">Certificate of Authenticity</GlossaryTerm>
                     {factor.description.split('CoA')[1]}
                   </span>
                 ) : (
@@ -314,7 +314,7 @@ export function Unicum(): JSX.Element {
                         ✅ {cell.includes('EPP') ? (
                           <>
                             {cell.split('EPP')[0]}
-                            <GlossaryTerm term="EPP">EPP</GlossaryTerm>
+                            <GlossaryTerm termId="EPP">EPP</GlossaryTerm>
                             {cell.split('EPP')[1]}
                           </>
                         ) : (

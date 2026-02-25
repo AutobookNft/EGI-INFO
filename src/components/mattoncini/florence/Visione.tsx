@@ -218,43 +218,43 @@ export function Visione(): JSX.Element {
                         {item.includes('Algorand') ? (
                           <>
                             {item.split('Algorand')[0]}
-                            <GlossaryTerm term="Algorand">Algorand</GlossaryTerm>
+                            <GlossaryTerm termId="Algorand">Algorand</GlossaryTerm>
                             {item.split('Algorand')[1]}
                           </>
                         ) : item.includes('EGI') ? (
                           <>
                             {item.split('EGI')[0]}
-                            <GlossaryTerm term="EGI">EGI</GlossaryTerm>
+                            <GlossaryTerm termId="EGI">EGI</GlossaryTerm>
                             {item.split('EGI')[1]}
                           </>
                         ) : item.includes('CoA') ? (
                           <>
                             {item.split('CoA')[0]}
-                            <GlossaryTerm term="CoA">CoA</GlossaryTerm>
+                            <GlossaryTerm termId="CoA">CoA</GlossaryTerm>
                             {item.split('CoA')[1]}
                           </>
                         ) : item.includes('Oracode') ? (
                           <>
                             {item.split('Oracode')[0]}
-                            <GlossaryTerm term="Oracode">Oracode</GlossaryTerm>
+                            <GlossaryTerm termId="Oracode">Oracode</GlossaryTerm>
                             {item.split('Oracode')[1]}
                           </>
                         ) : item.includes('EPP') ? (
                           <>
                             {item.split('EPP')[0]}
-                            <GlossaryTerm term="EPP">EPP</GlossaryTerm>
+                            <GlossaryTerm termId="EPP">EPP</GlossaryTerm>
                             {item.split('EPP')[1]}
                           </>
                         ) : item.includes('DAO') ? (
                           <>
                             {item.split('DAO')[0]}
-                            <GlossaryTerm term="DAO">DAO</GlossaryTerm>
+                            <GlossaryTerm termId="DAO">DAO</GlossaryTerm>
                             {item.split('DAO')[1]}
                           </>
                         ) : item.includes('NATAN') ? (
                           <>
                             {item.split('NATAN')[0]}
-                            <GlossaryTerm term="NATAN">NATAN</GlossaryTerm>
+                            <GlossaryTerm termId="NATAN">NATAN</GlossaryTerm>
                             {item.split('NATAN')[1]}
                           </>
                         ) : (

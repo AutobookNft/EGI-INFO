@@ -160,7 +160,7 @@ export function PrincipioFondo(): JSX.Element {
         <p style={{ color: COLORS.gray[700], marginBottom: '1.5rem' }}>
           <span>
             {data.transformDesc.split('EGI')[0]}
-            <GlossaryTerm term="EGI">EGI – Eco Goods Invent</GlossaryTerm>
+            <GlossaryTerm termId="EGI">EGI – Eco Goods Invent</GlossaryTerm>
             {data.transformDesc.split('EGI')[1]}
           </span>
         </p>
@@ -200,13 +200,13 @@ export function PrincipioFondo(): JSX.Element {
                 {pillar.description.includes('Algorand') ? (
                   <span>
                     {pillar.description.split('Algorand')[0]}
-                    <GlossaryTerm term="Algorand">Algorand</GlossaryTerm>
+                    <GlossaryTerm termId="Algorand">Algorand</GlossaryTerm>
                     {pillar.description.split('Algorand')[1]}
                   </span>
                 ) : pillar.description.includes('EPP') ? (
                   <span>
                     {pillar.description.split('EPP')[0]}
-                    <GlossaryTerm term="EPP">EPP</GlossaryTerm>
+                    <GlossaryTerm termId="EPP">EPP</GlossaryTerm>
                     {pillar.description.split('EPP')[1]}
                   </span>
                 ) : (
