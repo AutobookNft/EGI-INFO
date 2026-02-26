@@ -15,7 +15,7 @@
     "sections": {
       "egi": {
         "title": "Cosa sono gli EGI",
-        "description": "Eco Goods Invent: certificati digitali che uniscono arte, blockchain e impatto ambientale."
+        "description": "Environment Goods Invent: certificati digitali che uniscono arte, blockchain e impatto ambientale."
       },
       "epp": {
         "title": "Progetti Ambientali (EPP)",
@@ -51,7 +51,7 @@
     }
   },
   "egi": {
-    "badge": "Eco Goods Invent",
+    "badge": "Environment Goods Invent",
     "title": "Cosa sono gli EGI?",
     "subtitle": "Certificati digitali che uniscono valore estetico, traccia {{blockchain}} immutabile e contributo ambientale tramite {{epp}}.",
     "beyondNft": {
@@ -102,7 +102,7 @@
     "subtitle": "Come ogni EGI contribuisce concretamente alla sostenibilità ambientale.",
     "intro": {
       "title": "Il Cuore Verde di FlorenceEGI",
-      "description": "Gli EPP rappresentano l'impegno concreto della piattaforma verso la sostenibilità. Ogni transazione, ogni minting, ogni vendita contribuisce automaticamente ai progetti ambientali verificati."
+      "description": "Gli EPP (Environmental Protection Projects) rappresentano l'impegno concreto verso la sostenibilità. Nelle vendite primarie dei profili CONTRIBUTOR, il 20% viene automaticamente destinato ai progetti ambientali verificati dall'APS (Associazione Frangette)."
     },
     "howItWorks": {
       "title": "Come Funziona",
