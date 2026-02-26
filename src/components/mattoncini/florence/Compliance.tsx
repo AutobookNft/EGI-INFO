@@ -69,7 +69,7 @@ const Compliance: React.FC = () => {
               marginBottom: '24px'
             }}
           >
-            ✅ {t('compliance.badge', 'Conformità')}
+            ✅ {t('compliance.badge')}
           </span>
 
           <h1
@@ -104,7 +104,7 @@ const Compliance: React.FC = () => {
             padding: 0,
             margin: 0
           }}
-          aria-label={t('compliance.pillarsLabel', 'I 4 pilastri della compliance')}
+          aria-label={t('compliance.pillarsLabel')}
         >
           {items.map((item, i) => (
             <li
@@ -232,7 +232,7 @@ const Compliance: React.FC = () => {
             gap: '12px'
           }}
           role="group"
-          aria-label={t('compliance.checklistLabel', 'Checklist conformità')}
+          aria-label={t('compliance.checklistLabel')}
         >
           {[
             { icon: '✓', text: t('compliance.check1') },

@@ -124,7 +124,8 @@
         }
       }
     },
-    "relatedTerms": "Termini correlati"
+    "relatedTerms": "Termini correlati",
+    "missionLabel": "Missione:"
   },
   "florenceEgi": {
     "badge": "Platform Overview",
@@ -162,7 +163,8 @@
         "description": "Custodisce l'opera, partecipa al valore, entra nella storia."
       }
     },
-    "relatedTerms": "Termini correlati"
+    "relatedTerms": "Termini correlati",
+    "coCreatorLabel": "Co-Creatore"
   },
   "disclaimer": {
     "badge": "Informazioni Legali",

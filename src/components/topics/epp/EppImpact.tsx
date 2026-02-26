@@ -173,13 +173,13 @@ const EppImpact: React.FC = () => {
     <AriaLandmark
       as="section"
       role="region"
-      label={t('impact.ariaLabel', 'Impatto ambientale EPP')}
+      label={t('impact.ariaLabel')}
       className="epp-impact py-16 lg:py-24 bg-gradient-to-b from-dark via-dark-lighter/30 to-dark"
       ref={sectionRef}
     >
       {/* Schema.org ItemList */}
       <ItemListSchema
-        name={t('impact.schemaName', 'Metriche Impatto EPP')}
+        name={t('impact.schemaName')}
         description={t('impact.schemaDescription')}
         items={schemaItems}
       />

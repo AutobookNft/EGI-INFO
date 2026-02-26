@@ -310,7 +310,7 @@ export function Premessa(): JSX.Element {
                     </>
                   ) : item.includes('Royalty') ? (
                     <>
-                      <GlossaryTerm termId="Royalty">Royalty</GlossaryTerm>
+                      <GlossaryTerm termId="Royalty">{t('premessa.royaltyLabel')}</GlossaryTerm>
                       {item.split('Royalty')[1]}
                     </>
                   ) : (

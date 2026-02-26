@@ -156,7 +156,7 @@ const EgiComponentCard: React.FC<EgiComponentCardProps> = ({
           <ul 
             className="space-y-2"
             role="list"
-            aria-label={t('components.featuresLabel', 'Caratteristiche')}
+            aria-label={t('components.featuresLabel')}
           >
             {features.map((feature, index) => (
               <li 
@@ -189,7 +189,7 @@ const EgiComponentCard: React.FC<EgiComponentCardProps> = ({
               focus:outline-none focus:ring-2 focus:ring-gold/50
             "
           >
-            <span>{isExpanded ? t('components.showLess', 'Mostra meno') : t('components.showMore', 'Scopri di più')}</span>
+            <span>{isExpanded ? t('components.showLess') : t('components.showMore')}</span>
             <span 
               className={`transform transition-transform duration-300 ${isExpanded ? 'rotate-180' : ''}`}
               aria-hidden="true"

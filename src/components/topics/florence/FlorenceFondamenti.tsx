@@ -62,7 +62,7 @@ export const FlorenceFondamenti: React.FC<FlorenceFondamentiProps> = ({
             marginBottom: '1rem',
           }}
         >
-          {t('fondamentiSection.title', 'Fondamenti e Visione')}
+          {t('fondamentiSection.title')}
         </h2>
         <p
           style={{
@@ -72,7 +72,7 @@ export const FlorenceFondamenti: React.FC<FlorenceFondamentiProps> = ({
             margin: '0 auto',
           }}
         >
-          {t('fondamentiSection.subtitle', 'I principi filosofici alla base di FlorenceEGI')}
+          {t('fondamentiSection.subtitle')}
         </p>
       </header>
 

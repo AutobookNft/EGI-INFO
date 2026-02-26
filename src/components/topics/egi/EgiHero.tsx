@@ -125,7 +125,7 @@ export function EgiHero({
             </VisuallyHidden>
           </a>
           <span id="egi-hero-cta-description" hidden>
-            {t('hero.ctaDescription', 'Scorri per leggere la definizione completa')}
+            {t('hero.ctaDescription')}
           </span>
         </div>
         
@@ -133,7 +133,7 @@ export function EgiHero({
         <figure className="egi-hero__figure">
           <img
             src={imageUrl}
-            alt={t('hero.imageAlt', 'Rappresentazione visiva di un certificato EGI con blockchain e natura')}
+            alt={t('hero.imageAlt')}
             className="egi-hero__image"
             loading="eager"
             fetchPriority="high"
@@ -142,7 +142,7 @@ export function EgiHero({
           />
           <figcaption className="egi-hero__figcaption">
             <VisuallyHidden>
-              {t('hero.imageCaption', 'Certificato digitale EGI che unisce arte, blockchain e impatto ambientale')}
+              {t('hero.imageCaption')}
             </VisuallyHidden>
           </figcaption>
         </figure>

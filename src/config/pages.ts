@@ -26,14 +26,14 @@ export const PAGES: PageDefinition[] = [
     {
         id: 'platform',
         route: '/info/platform',
-        label: 'Come Funziona',
+        label: 'pages.howItWorks.title',
         audience: 'Tutti',
         badgeColor: '#d4af37', // oro
     },
     {
         id: 'florence',
         route: '/info/florence',
-        label: 'FlorenceEGI',
+        label: 'pages.florenceEgi.title',
         audience: 'Tutti',
         badgeColor: '#6b7280', // grigio
     },
@@ -42,21 +42,21 @@ export const PAGES: PageDefinition[] = [
     {
         id: 'artist',
         route: '/archetypes/artist',
-        label: 'Per Artisti',
+        label: 'pages.artists.title',
         audience: 'Creator',
         badgeColor: '#7c3aed', // viola
     },
     {
         id: 'collector',
         route: '/archetypes/collector',
-        label: 'Per Collezionisti',
+        label: 'pages.collectors.title',
         audience: 'Collector',
         badgeColor: '#1d4ed8', // blu
     },
     {
         id: 'entrepreneur',
         route: '/archetypes/entrepreneur',
-        label: 'Per Imprenditori',
+        label: 'pages.entrepreneurs.title',
         audience: 'Company',
         badgeColor: '#059669', // verde
     },

@@ -4,7 +4,6 @@
     "description": "EGI (Eco Goods Invent) are digital certificates that combine art, blockchain and environmental impact in a single innovative solution.",
     "keywords": "EGI, Eco Goods Invent, sustainable NFT, blockchain art, digital art, authenticity certificate, FlorenceEGI"
   },
-
   "hero": {
     "badge": "Eco Goods Invent",
     "title": "What are EGI?",
@@ -13,9 +12,11 @@
     "cta": {
       "primary": "Explore EGI",
       "secondary": "How it works"
-    }
+    },
+    "scrollHint": "Scroll to read the full definition",
+    "imageAlt1": "Visual representation of an EGI certificate with blockchain and nature",
+    "imageAlt2": "EGI digital certificate combining art, blockchain and environmental impact"
   },
-
   "definition": {
     "title": "EGI: Much More Than an NFT",
     "intro": "EGI represents the natural evolution of NFTs, overcoming their limitations and adding concrete utility.",
@@ -37,13 +38,13 @@
         "meaning": "Certified creative and technological innovation"
       }
     },
-    "summary": "An EGI is a digital asset that combines artistic value with real utilities and measurable environmental impact, all certified on blockchain."
+    "summary": "An EGI is a digital asset that combines artistic value with real utilities and measurable environmental impact, all certified on blockchain.",
+    "detailedExplanation": "Detailed explanation",
+    "keyPoints": "Key points"
   },
-
   "components": {
     "title": "The Three Fundamental Components",
     "subtitle": "Each EGI consists of three elements working in perfect synergy",
-    
     "epp": {
       "icon": "🌍",
       "badge": "Environmental Protection Programs",
@@ -58,7 +59,6 @@
       ],
       "cta": "Discover EPP projects"
     },
-
     "goods": {
       "icon": "📦",
       "badge": "Goods and Services",
@@ -73,7 +73,6 @@
       ],
       "cta": "Explore collections"
     },
-
     "creativity": {
       "icon": "💡",
       "badge": "Creative Innovation",
@@ -89,42 +88,36 @@
       "cta": "Discover innovations"
     }
   },
-
   "functions": {
     "title": "The 5 Revolutionary Functions",
     "subtitle": "Each EGI carries unique capabilities that make it much more than a simple token",
-
     "rebind": {
       "icon": "🔗",
       "title": "Rebind - Dynamic Linking",
       "description": "The Rebind function allows linking a digital EGI to a physical asset in the real world, creating a bridge between digital and tangible."
     },
-
     "tokenization": {
       "icon": "🪙",
       "title": "Tokenization - Smart Fractionalization",
       "description": "Tokenization allows dividing EGI ownership into shares, democratizing access to art and valuable assets."
     },
-
     "multirole": {
       "icon": "👥",
       "title": "Multirole - Multiple Roles",
       "description": "The Multirole system allows defining different roles for each EGI: creator, co-creator, patron, collector, each with specific rights."
     },
-
     "interface": {
       "icon": "🔌",
       "title": "Interface - Interoperability",
       "description": "EGIs are designed to be interoperable with other systems and platforms, thanks to open standards and documented APIs."
     },
-
     "signature": {
       "icon": "✍️",
       "title": "Signature - Digital Signature",
       "description": "Each EGI carries the creator's cryptographic digital signature, ensuring irrefutable authenticity and attribution."
-    }
+    },
+    "smartContractLabel": "smart contract"
   },
-
   "advantages": {
     "title": "Why Choose EGI",
     "subtitle": "Advantages over traditional NFTs and digital certificates",
@@ -151,11 +144,21 @@
       }
     ]
   },
-
   "cta": {
     "title": "Start Your Digital Renaissance Journey",
     "description": "Discover how EGI can transform the way you create, collect and contribute to the environment.",
     "primary": "Explore Collections",
-    "secondary": "Become a Creator"
+    "secondary": "Become a Creator",
+    "startJourney": "Start your journey",
+    "startNow": "Start Now",
+    "noCosts": "No hidden costs",
+    "transparent": "100% transparent",
+    "impact": "Positive environmental impact"
+  },
+  "ui": {
+    "characteristicsLabel": "Characteristics",
+    "showLessLabel": "Show less",
+    "showMoreLabel": "Discover more",
+    "stakeholderSelect": "Select stakeholder category"
   }
 }

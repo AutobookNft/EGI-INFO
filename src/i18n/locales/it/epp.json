@@ -264,7 +264,8 @@
         "description": "Collaboriamo con apicoltori locali, università e associazioni ambientaliste."
       },
       "cta": "Proteggi le Api con Noi"
-    }
+    },
+    "listLabel": "Lista programmi EPP"
   },
   "howItWorks": {
     "title": "Come Funziona il Sistema EPP",
@@ -413,5 +414,9 @@
       "text": "Tutti i dati sono registrati su Algorand e verificabili pubblicamente.",
       "link": "Verifica su Explorer"
     }
+  },
+  "ui": {
+    "headerLabel": "Intestazione EPP",
+    "howContribute": "Come funziona il contributo?"
   }
 }

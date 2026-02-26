@@ -82,7 +82,7 @@ const EgiCta: React.FC = () => {
     <AriaLandmark
       as="section"
       role="region"
-      label={t('cta.ariaLabel', 'Inizia il tuo viaggio')}
+      label={t('cta.ariaLabel')}
       className="egi-cta py-20 lg:py-32 relative overflow-hidden"
     >
       {/* Background decorativo */}
@@ -117,7 +117,7 @@ const EgiCta: React.FC = () => {
             text-gold text-sm font-medium
             mb-6
           ">
-            🚀 {t('cta.badge', 'Inizia Ora')}
+            🚀 {t('cta.badge')}
           </span>
           
           {/* Title */}
@@ -170,15 +170,15 @@ const EgiCta: React.FC = () => {
           ">
             <div className="flex items-center gap-2">
               <span className="text-green-400">✓</span>
-              {t('cta.trust.noFees', 'Nessun costo nascosto')}
+              {t('cta.trust.noFees')}
             </div>
             <div className="flex items-center gap-2">
               <span className="text-green-400">✓</span>
-              {t('cta.trust.transparent', '100% trasparente')}
+              {t('cta.trust.transparent')}
             </div>
             <div className="flex items-center gap-2">
               <span className="text-green-400">✓</span>
-              {t('cta.trust.impact', 'Impatto ambientale positivo')}
+              {t('cta.trust.impact')}
             </div>
           </div>
         </div>

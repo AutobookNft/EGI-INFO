@@ -23,11 +23,11 @@ const CTAFinal: React.FC = () => {
   };
 
   const cta = ctaData || {
-    title: t('cta.finalTitle', 'Il Rinascimento Digitale Inizia Qui'),
+    title: t('cta.finalTitle'),
     stats: 'Obiettivi Anno 1: 1200+ Creator • €450k+ Donati • 100% Trasparenza',
     buttons: {
-      creator: t('cta.isCreator', 'Sono un Creator'),
-      collector: t('cta.isCollector', 'Sono un Collector'),
+      creator: t('cta.isCreator'),
+      collector: t('cta.isCollector'),
       company: t('cta.isCompany', "Sono un'Azienda"),
     },
   };

@@ -61,7 +61,7 @@ export const FlorenceNatan: React.FC<FlorenceNatanProps> = ({
     if (typeof window !== 'undefined' && (window as any).gtag) {
       (window as any).gtag('event', 'natan_chat_open', {
         event_category: 'engagement',
-        event_label: 'NATAN Assistant'
+        event_label: t('natan.assistantLabel')
       });
     }
   };

@@ -17,7 +17,7 @@ const Roadmap: React.FC = () => {
   };
 
   const roadmap = roadmapData || {
-    title: 'Il Futuro è in Sviluppo',
+    title: t('roadmap.title'),
     items: [
       'Q1 2026: Mobile App & AR',
       'Q2 2026: Social Features',
@@ -60,10 +60,7 @@ const Roadmap: React.FC = () => {
         </div>
 
         <div className="roadmap__note">
-          <p>
-            La roadmap è indicativa e soggetta a modifiche basate sul feedback della community
-            e sulle priorità di sviluppo.
-          </p>
+          <p>{t('roadmap.disclaimer')}</p>
         </div>
       </div>
 

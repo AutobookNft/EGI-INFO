@@ -60,11 +60,11 @@ const PaymentPlatformRole: React.FC = () => {
               </li>
               <li style={listItemStyle}>
                 <span style={{ color: COLORS.emerald }}>•</span>
-                <span>Scrive <GlossaryTerm termId="anchor-hash">anchor hash</GlossaryTerm>.</span>
+                <span>Scrive <GlossaryTerm termId="anchor-hash">{t('payments.anchorHash')}</GlossaryTerm>.</span>
               </li>
               <li style={listItemStyle}>
                 <span style={{ color: COLORS.emerald }}>•</span>
-                <span>Gestisce QR e verifica pubblica.</span>
+                <span>{t('payments.qrVerifica')}</span>
               </li>
               <li style={{ ...listItemStyle, marginBottom: 0 }}>
                 <span style={{ color: COLORS.emerald }}>•</span>

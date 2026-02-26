@@ -217,7 +217,7 @@ const EgiFunctions: React.FC = () => {
     >
       {/* Schema.org HowTo */}
       <HowToSchema
-        name={t('functions.schemaName', 'Come funziona un EGI')}
+        name={t('functions.schemaName')}
         description={t('functions.schemaDescription')}
         steps={howToSteps}
         totalTime="PT5M"
@@ -270,7 +270,7 @@ const EgiFunctions: React.FC = () => {
         <div 
           className="max-w-4xl mx-auto space-y-4"
           role="group"
-          aria-label={t('functions.groupLabel', 'Funzionalità EGI espandibili')}
+          aria-label={t('functions.groupLabel')}
         >
           {functionIds.map((id, index) => (
             <FunctionItem

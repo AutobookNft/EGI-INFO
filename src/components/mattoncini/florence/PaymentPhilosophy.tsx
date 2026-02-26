@@ -36,7 +36,7 @@ const PaymentPhilosophy: React.FC = () => {
             Chi possiede un <GlossaryTerm termId="wallet">wallet</GlossaryTerm> può ricevere il certificato digitale{' '}
             <GlossaryTerm termId="egi">EGI</GlossaryTerm> direttamente lì.{' '}
             Chi vuole accettare pagamenti in criptovalute può farlo tramite{' '}
-            <GlossaryTerm termId="partner-autorizzato">partner esterni autorizzati</GlossaryTerm>,{' '}
+            <GlossaryTerm termId="partner-autorizzato">{t('payments.philosophy.partnerLabel')}</GlossaryTerm>,{' '}
             senza imporre alcuna complessità agli altri utenti.
           </p>
         </div>

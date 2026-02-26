@@ -32,7 +32,7 @@ const TechPerformance: React.FC = () => {
         <header className="tech-performance__header">
           <span className="tech-performance__badge">📈 Performance</span>
           <h2 className="tech-performance__title">
-            {t('technology.performanceTitle', 'PERFORMANCE GARANTITE')}
+            {t('technology.performanceTitle')}
           </h2>
         </header>
 
@@ -51,8 +51,8 @@ const TechPerformance: React.FC = () => {
         </div>
 
         <div className="tech-performance__cta">
-          <p>{t('technology.ctaTitle', 'Tecnologia invisibile, risultati visibili.')}</p>
-          <span>{t('technology.ctaSubtitle', 'Non devi capire la blockchain. Devi solo EGIZZARE.')}</span>
+          <p>{t('technology.ctaTitle')}</p>
+          <span>{t('technology.ctaSubtitle')}</span>
         </div>
       </div>
 

@@ -132,8 +132,8 @@ export const FlorencePricing: React.FC<FlorencePricingProps> = ({
               <thead>
                 <tr>
                   <th scope="col">Tipo</th>
-                  <th scope="col">Percentuale</th>
-                  <th scope="col">Descrizione</th>
+                  <th scope="col">{t('pricing.columnPercentage')}</th>
+                  <th scope="col">{t('pricing.columnDescription')}</th>
                 </tr>
               </thead>
               <tbody>

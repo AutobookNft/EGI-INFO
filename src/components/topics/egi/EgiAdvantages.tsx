@@ -251,7 +251,7 @@ const EgiAdvantages: React.FC = () => {
         {/* Tabs navigation */}
         <div 
           role="tablist"
-          aria-label={t('advantages.tablistLabel', 'Seleziona categoria stakeholder')}
+          aria-label={t('advantages.tablistLabel')}
           className="
             flex flex-wrap justify-center gap-3
             mb-10 lg:mb-12

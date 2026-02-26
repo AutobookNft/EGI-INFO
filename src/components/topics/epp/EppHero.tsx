@@ -55,7 +55,7 @@ const EppHero: React.FC<EppHeroProps> = ({
       <AriaLandmark
         as="header"
         role="banner"
-        label={t('hero.ariaLabel', 'Intestazione EPP')}
+        label={t('hero.ariaLabel')}
         className="epp-hero relative min-h-[80vh] flex items-center justify-center overflow-hidden"
       >
         {/* Background gradient */}

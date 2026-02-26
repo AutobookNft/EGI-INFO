@@ -40,7 +40,7 @@ const CoCreatePage: React.FC = () => {
             i18nKey="coCreate.philosophy.description"
             ns="info"
             components={{
-              coCreator: <GlossaryTerm termId="co-creatore">Co-Creatore</GlossaryTerm>,
+              coCreator: <GlossaryTerm termId="co-creatore">{t('info:coCreate.coCreatorLabel')}</GlossaryTerm>,
             }}
           />
         </p>

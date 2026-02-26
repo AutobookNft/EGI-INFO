@@ -84,8 +84,8 @@ const WhatWeDo: React.FC = () => {
             marginBottom: '28px'
           }}>
             Siamo i primi al mondo ad aver fuso{' '}
-            <GlossaryTerm termId="blockchain">Blockchain</GlossaryTerm> e{' '}
-            <GlossaryTerm termId="natan">Intelligenza Artificiale</GlossaryTerm> in un 
+            <GlossaryTerm termId="blockchain">{t('whatWeDo.chainLabel')}</GlossaryTerm> e{' '}
+            <GlossaryTerm termId="natan">{t('whatWeDo.aiLabel')}</GlossaryTerm> in un 
             sistema così semplice che chiunque può usarlo.
           </p>
           
@@ -95,9 +95,9 @@ const WhatWeDo: React.FC = () => {
             lineHeight: 1.9,
             marginBottom: '28px'
           }}>
-            Dietro c'è <GlossaryTerm termId="algorand">Algorand</GlossaryTerm> (la blockchain 
+            Dietro c'è <GlossaryTerm termId="algorand">{t('whatWeDo.algorandLabel')}</GlossaryTerm> (la blockchain 
             a zero emissioni CO₂ usata dalla SIAE per i diritti d'autore),{' '}
-            <GlossaryTerm termId="natan">NATAN AI</GlossaryTerm> che ti suggerisce prezzi 
+            <GlossaryTerm termId="natan">{t('whatWeDo.natanLabel')}</GlossaryTerm> che ti suggerisce prezzi 
             e descrizioni analizzando il mercato reale,{' '}
             <GlossaryTerm termId="smart-contract">smart contract</GlossaryTerm> automatici 
             per le <GlossaryTerm termId="royalty-piattaforma">royalty perpetue</GlossaryTerm>.

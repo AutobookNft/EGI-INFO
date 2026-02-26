@@ -26,5 +26,26 @@
     "it": "Italiano",
     "en": "English",
     "switch": "Switch language"
+  },
+  "coCreate": {
+    "coCreatorLabel": "Co-Creator"
+  },
+  "epp": {
+    "missionLabel": "Mission:"
+  },
+  "home": {
+    "headline": "The Digital Renaissance starts here",
+    "carbonNegative": "Carbon Negative",
+    "madeInItaly": "Made in Italy"
+  },
+  "hero": {
+    "mottoLine1": "If It Exists,",
+    "mottoHighlight1": "EGIZE IT",
+    "mottoLine2": "If You",
+    "mottoHighlight2": "EGIZE IT,"
+  },
+  "intro": {
+    "technologyLabel": "Technology",
+    "sustainabilityLabel": "Sustainability"
   }
 }

@@ -206,25 +206,25 @@ export function Unicum(): JSX.Element {
                 {factor.description.includes('Oracode') ? (
                   <span>
                     {factor.description.split('Oracode')[0]}
-                    <GlossaryTerm termId="Oracode">Oracode</GlossaryTerm>
+                    <GlossaryTerm termId="Oracode">{t('unicum.oracodeLabel')}</GlossaryTerm>
                     {factor.description.split('Oracode')[1]}
                   </span>
                 ) : factor.description.includes('Algorand') ? (
                   <span>
                     {factor.description.split('Algorand')[0]}
-                    <GlossaryTerm termId="Algorand">Algorand</GlossaryTerm>
+                    <GlossaryTerm termId="Algorand">{t('unicum.algorandLabel')}</GlossaryTerm>
                     {factor.description.split('Algorand')[1]}
                   </span>
                 ) : factor.description.includes('minting') ? (
                   <span>
                     {factor.description.split('minting')[0]}
-                    <GlossaryTerm termId="minting">minting</GlossaryTerm>
+                    <GlossaryTerm termId="minting">{t('unicum.mintingLabel')}</GlossaryTerm>
                     {factor.description.split('minting')[1]}
                   </span>
                 ) : factor.description.includes('CoA') ? (
                   <span>
                     {factor.description.split('CoA')[0]}
-                    <GlossaryTerm termId="CoA">Certificate of Authenticity</GlossaryTerm>
+                    <GlossaryTerm termId="CoA">{t('unicum.coaLabel')}</GlossaryTerm>
                     {factor.description.split('CoA')[1]}
                   </span>
                 ) : (

@@ -19,11 +19,11 @@ const Cases: React.FC = () => {
   };
 
   const cases = casesData || {
-    title: t('cases.title', 'Chi può usare FlorenceEGI'),
-    disclaimer: t('cases.disclaimer', 'FlorenceEGI non è ancora in produzione'),
+    title: t('cases.title'),
+    disclaimer: t('cases.disclaimer'),
     items: [
       { name: 'Maria, Pittrice', result: '+€4,500 in 3 mesi con royalty.' },
-      { name: t('cases.items.1.name', 'Ente Pubblico'), result: t('cases.items.1.result', 'Notarizzazione documenti blockchain') },
+      { name: t('cases.items.1.name'), result: t('cases.items.1.result') },
       { name: 'GreenThreads', result: 'Filiera moda certificata, -20% resi.' },
     ],
   };

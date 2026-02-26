@@ -146,10 +146,10 @@ const EgiTraitsUtilities: React.FC = () => {
   
   // Utilities con icone
   const utilities = [
-    { icon: '🎫', title: t('traitsUtilities.utilities.items.events.title', 'Accesso Eventi'), description: t('traitsUtilities.utilities.items.events.description', 'Partecipa a eventi esclusivi') },
-    { icon: '💸', title: t('traitsUtilities.utilities.items.discounts.title', 'Sconti e Benefici'), description: t('traitsUtilities.utilities.items.discounts.description', 'Sconti su prodotti e servizi') },
-    { icon: '🗳️', title: t('traitsUtilities.utilities.items.voting.title', 'Governance'), description: t('traitsUtilities.utilities.items.voting.description', 'Vota nelle decisioni della community') },
-    { icon: '🎁', title: t('traitsUtilities.utilities.items.content.title', 'Contenuti Esclusivi'), description: t('traitsUtilities.utilities.items.content.description', 'Accesso a contenuti e anteprime') },
+    { icon: '🎫', title: t('traitsUtilities.utilities.items.events.title'), description: t('traitsUtilities.utilities.items.events.description') },
+    { icon: '💸', title: t('traitsUtilities.utilities.items.discounts.title'), description: t('traitsUtilities.utilities.items.discounts.description') },
+    { icon: '🗳️', title: t('traitsUtilities.utilities.items.voting.title'), description: t('traitsUtilities.utilities.items.voting.description') },
+    { icon: '🎁', title: t('traitsUtilities.utilities.items.content.title'), description: t('traitsUtilities.utilities.items.content.description') },
   ];
   
   const handleTabChange = useCallback((tab: TabType) => {
@@ -196,7 +196,7 @@ const EgiTraitsUtilities: React.FC = () => {
         {/* Tab buttons */}
         <div 
           role="tablist"
-          aria-label={t('traitsUtilities.tablistLabel', 'Seleziona categoria')}
+          aria-label={t('traitsUtilities.tablistLabel')}
           className="
             flex justify-center gap-4
             mb-10
@@ -320,7 +320,7 @@ const EgiTraitsUtilities: React.FC = () => {
             ">
               <p className="text-white/60 text-sm">
                 <span className="text-purple-400 font-medium">INVENT:</span>{' '}
-                {t('traitsUtilities.utilities.dynamicNote', 'Le utilità possono evolvere nel tempo grazie agli smart contract dinamici.')}
+                {t('traitsUtilities.utilities.dynamicNote')}
               </p>
             </div>
           </div>

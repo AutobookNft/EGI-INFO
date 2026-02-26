@@ -37,7 +37,7 @@ const ExamplesHeritage: React.FC = () => {
         <header className="examples-heritage__header">
           <span className="examples-heritage__badge">🏛️ {heritageTab.name}</span>
           <h2 className="examples-heritage__title">
-            {t('examples.title', 'Qualsiasi Cosa Esista, Può Diventare un EGI')}
+            {t('examples.title')}
           </h2>
           <p className="examples-heritage__subtitle">{heritageTab.description}</p>
         </header>

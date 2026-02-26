@@ -195,7 +195,7 @@ export function JsonLd({ schema }: JsonLdProps) {
 // ============================================
 
 const BASE_URL = 'https://florenceegi.com';
-const ORG_NAME = 'FlorenceEGI';
+const ORG_NAME = t('meta.title', 'FlorenceEGI');
 const ORG_LOGO = `${BASE_URL}/images/logo.png`;
 
 /**
@@ -311,7 +311,7 @@ export function createBreadcrumbSchema(
 export function createSoftwareSchema(): SoftwareApplicationSchema {
   return {
     '@type': 'SoftwareApplication',
-    name: 'FlorenceEGI',
+    name: t('meta.title', 'FlorenceEGI'),
     description: 'Piattaforma SaaS per la certificazione digitale di opere d\'arte con blockchain Algorand e contributo ambientale automatico',
     applicationCategory: 'BusinessApplication',
     operatingSystem: 'Web',

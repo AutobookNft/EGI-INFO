@@ -70,7 +70,7 @@ const Ecosystem: React.FC = () => {
               marginBottom: '24px'
             }}
           >
-            🔄 {t('ecosystem.badge', 'Ecosistema')}
+            🔄 {t('ecosystem.badge')}
           </span>
           
           <h1
@@ -91,7 +91,7 @@ const Ecosystem: React.FC = () => {
             maxWidth: '700px',
             margin: '0 auto'
           }}>
-            {t('ecosystem.subtitle', 'Un sistema dove tutti vincono: creatori, sostenitori e pianeta')}
+            {t('ecosystem.subtitle')}
           </p>
         </header>
 
@@ -230,7 +230,7 @@ const Ecosystem: React.FC = () => {
               textAlign: 'center'
             }}
           >
-            {t('ecosystem.flowTitle', 'Come Fluisce il Valore')}
+            {t('ecosystem.flowTitle')}
           </h3>
           
           <div
@@ -248,7 +248,7 @@ const Ecosystem: React.FC = () => {
             <div style={{ textAlign: 'center', flex: '0 0 auto' }}>
               <span style={{ fontSize: '2rem' }} aria-hidden="true">🎨</span>
               <p style={{ fontSize: '0.85rem', color: COLORS.gold, margin: '4px 0 0' }}>
-                {t('ecosystem.flow1', 'Creator crea')}
+                {t('ecosystem.flow1')}
               </p>
             </div>
             
@@ -258,7 +258,7 @@ const Ecosystem: React.FC = () => {
             <div style={{ textAlign: 'center', flex: '0 0 auto' }}>
               <span style={{ fontSize: '2rem' }} aria-hidden="true">🤝</span>
               <p style={{ fontSize: '0.85rem', color: COLORS.blue, margin: '4px 0 0' }}>
-                {t('ecosystem.flow2', 'Co-Creator attiva')}
+                {t('ecosystem.flow2')}
               </p>
             </div>
             
@@ -268,7 +268,7 @@ const Ecosystem: React.FC = () => {
             <div style={{ textAlign: 'center', flex: '0 0 auto' }}>
               <span style={{ fontSize: '2rem' }} aria-hidden="true">💰</span>
               <p style={{ fontSize: '0.85rem', color: '#ffffff', margin: '4px 0 0' }}>
-                {t('ecosystem.flow3', 'Valore generato')}
+                {t('ecosystem.flow3')}
               </p>
             </div>
             
@@ -278,7 +278,7 @@ const Ecosystem: React.FC = () => {
             <div style={{ textAlign: 'center', flex: '0 0 auto' }}>
               <span style={{ fontSize: '2rem' }} aria-hidden="true">🌍</span>
               <p style={{ fontSize: '0.85rem', color: COLORS.green, margin: '4px 0 0' }}>
-                {t('ecosystem.flow4', '20% a EPP')}
+                {t('ecosystem.flow4')}
               </p>
             </div>
             
@@ -288,7 +288,7 @@ const Ecosystem: React.FC = () => {
             <div style={{ textAlign: 'center', flex: '0 0 auto' }}>
               <span style={{ fontSize: '2rem' }} aria-hidden="true">💎</span>
               <p style={{ fontSize: '0.85rem', color: COLORS.purple, margin: '4px 0 0' }}>
-                {t('ecosystem.flow5', 'Collector custodisce')}
+                {t('ecosystem.flow5')}
               </p>
             </div>
           </div>
@@ -307,10 +307,10 @@ const Ecosystem: React.FC = () => {
           aria-label={t('ecosystem.highlightsLabel', 'Vantaggi dell\'ecosistema')}
         >
           {[
-            { icon: '♾️', text: t('ecosystem.h1', 'Royalty perpetue per i Creator') },
-            { icon: '🏆', text: t('ecosystem.h2', 'Riconoscimento eterno per Co-Creator') },
-            { icon: '📈', text: t('ecosystem.h3', 'Valore che cresce nel tempo') },
-            { icon: '🌱', text: t('ecosystem.h4', 'Impatto ambientale automatico') },
+            { icon: '♾️', text: t('ecosystem.h1') },
+            { icon: '🏆', text: t('ecosystem.h2') },
+            { icon: '📈', text: t('ecosystem.h3') },
+            { icon: '🌱', text: t('ecosystem.h4') },
           ].map((item, i) => (
             <li
               key={i}

@@ -133,8 +133,8 @@ const FlorenceProblems: React.FC = () => {
       const newValue = !prev;
       announce(
         newValue 
-          ? t('problems.showingSolutions', 'Visualizzazione soluzioni')
-          : t('problems.showingProblems', 'Visualizzazione problemi'),
+          ? t('problems.showingSolutions')
+          : t('problems.showingProblems'),
         'polite'
       );
       return newValue;
@@ -145,7 +145,7 @@ const FlorenceProblems: React.FC = () => {
     <AriaLandmark
       as="section"
       role="region"
-      label={t('problems.ariaLabel', 'Problemi e soluzioni')}
+      label={t('problems.ariaLabel')}
       className="florence-problems py-16 lg:py-24"
     >
       {/* Schema.org FAQ */}
@@ -202,8 +202,8 @@ const FlorenceProblems: React.FC = () => {
               `} />
             </span>
             {showSolutions 
-              ? t('problems.toggle.solutions', 'Soluzioni')
-              : t('problems.toggle.problems', 'Problemi')
+              ? t('problems.toggle.solutions')
+              : t('problems.toggle.problems')
             }
           </button>
         </header>
@@ -232,8 +232,8 @@ const FlorenceProblems: React.FC = () => {
         ">
           <p className="text-white/50 text-sm">
             {showSolutions
-              ? t('problems.summary.solutions', 'FlorenceEGI risolve questi problemi con tecnologia blockchain, smart contract e programmi EPP.')
-              : t('problems.summary.problems', 'Clicca il toggle per vedere come FlorenceEGI risolve questi problemi.')
+              ? t('problems.summary.solutions')
+              : t('problems.summary.problems')
             }
           </p>
         </div>

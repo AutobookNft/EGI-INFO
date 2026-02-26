@@ -43,7 +43,7 @@ const ExamplesMusic: React.FC = () => {
         <header className="examples-music__header">
           <span className="examples-music__badge">🎵 {musicTab.name}</span>
           <h2 className="examples-music__title">
-            {t('examples.title', 'Qualsiasi Cosa Esista, Può Diventare un EGI')}
+            {t('examples.title')}
           </h2>
           <p className="examples-music__subtitle">{musicTab.description}</p>
         </header>
@@ -65,7 +65,7 @@ const ExamplesMusic: React.FC = () => {
         <div className="examples-music__usecase">
           <div className="examples-music__usecase-icon">💡</div>
           <div className="examples-music__usecase-content">
-            <h4>Caso d'uso: Band Emergente</h4>
+            <h4>{t('examples.music.caseTitle', "Caso d'uso: Band Emergente")}</h4>
             <p>
               Una band può tokenizzare il nuovo album, permettendo ai fan di acquistare singole tracce.
               Ogni membro riceve automaticamente la sua quota grazie allo{' '}
@@ -75,12 +75,12 @@ const ExamplesMusic: React.FC = () => {
               <div className="examples-music__usecase-stat">
                 <span className="examples-music__stat-value">4.5%</span>
                 <span className="examples-music__stat-label">
-                  <GlossaryTerm termId="royalty">Royalty</GlossaryTerm> su ogni rivendita
+                  <GlossaryTerm termId="royalty">{t('examples.music.royaltyLabel')}</GlossaryTerm> su ogni rivendita
                 </span>
               </div>
               <div className="examples-music__usecase-stat">
                 <span className="examples-music__stat-value">∞</span>
-                <span className="examples-music__stat-label">Per sempre</span>
+                <span className="examples-music__stat-label">{t('examples.music.forever')}</span>
               </div>
             </div>
           </div>
@@ -90,11 +90,11 @@ const ExamplesMusic: React.FC = () => {
         <div className="examples-music__features">
           <div className="examples-music__feature">
             <span className="examples-music__feature-icon">🎭</span>
-            <span>Backstage pass tokenizzati</span>
+            <span>{t('examples.music.backstage')}</span>
           </div>
           <div className="examples-music__feature">
             <span className="examples-music__feature-icon">👥</span>
-            <span>Split automatico tra membri</span>
+            <span>{t('examples.music.split')}</span>
           </div>
           <div className="examples-music__feature">
             <span className="examples-music__feature-icon">🎫</span>

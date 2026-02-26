@@ -105,11 +105,11 @@ export const FlorenceIntro: React.FC<FlorenceIntroProps> = ({
             </div>
             <div className="florence-intro__pillar">
               <span className="florence-intro__pillar-icon" aria-hidden="true">⚙️</span>
-              <span className="florence-intro__pillar-label">Tecnologia</span>
+              <span className="florence-intro__pillar-label">{t('intro.technologyLabel')}</span>
             </div>
             <div className="florence-intro__pillar">
               <span className="florence-intro__pillar-icon" aria-hidden="true">🌱</span>
-              <span className="florence-intro__pillar-label">Sostenibilità</span>
+              <span className="florence-intro__pillar-label">{t('intro.sustainabilityLabel')}</span>
             </div>
           </div>
         </div>

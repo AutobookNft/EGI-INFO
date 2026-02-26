@@ -43,7 +43,7 @@ const ExamplesBooks: React.FC = () => {
         <header className="examples-books__header">
           <span className="examples-books__badge">📚 {booksTab.name}</span>
           <h2 className="examples-books__title">
-            {t('examples.title', 'Qualsiasi Cosa Esista, Può Diventare un EGI')}
+            {t('examples.title')}
           </h2>
           <p className="examples-books__subtitle">{booksTab.description}</p>
         </header>

@@ -37,11 +37,11 @@ const HomePage: React.FC = () => {
       {/* Footer minimalista */}
       <footer className="home__footer">
         <p className="home__tagline">
-          {t('hero.tagline', 'Il Rinascimento Digitale inizia qui')}
+          {t('hero.tagline')}
         </p>
         <div className="home__badges">
-          <span className="home__badge">🌱 {t('trustBadges.zeroCo2', 'Carbon Negative')}</span>
-          <span className="home__badge">🇮🇹 {t('trustBadges.madeInItaly', 'Made in Italy')}</span>
+          <span className="home__badge">🌱 {t('trustBadges.zeroCo2')}</span>
+          <span className="home__badge">🇮🇹 {t('trustBadges.madeInItaly')}</span>
         </div>
       </footer>
 

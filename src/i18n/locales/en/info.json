@@ -124,7 +124,8 @@
         }
       }
     },
-    "relatedTerms": "Related Terms"
+    "relatedTerms": "Related Terms",
+    "missionLabel": "Mission:"
   },
   "florenceEgi": {
     "badge": "Platform Overview",
@@ -162,7 +163,8 @@
         "description": "Guards the work, participates in value, enters history."
       }
     },
-    "relatedTerms": "Related Terms"
+    "relatedTerms": "Related Terms",
+    "coCreatorLabel": "Co-Creator"
   },
   "disclaimer": {
     "badge": "Legal Information",

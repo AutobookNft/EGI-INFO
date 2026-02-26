@@ -37,7 +37,7 @@ const ExamplesFashion: React.FC = () => {
         <header className="examples-fashion__header">
           <span className="examples-fashion__badge">✨ {fashionTab.name}</span>
           <h2 className="examples-fashion__title">
-            {t('examples.title', 'Qualsiasi Cosa Esista, Può Diventare un EGI')}
+            {t('examples.title')}
           </h2>
           <p className="examples-fashion__subtitle">{fashionTab.description}</p>
         </header>

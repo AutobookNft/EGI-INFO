@@ -37,7 +37,7 @@ const ExamplesSport: React.FC = () => {
         <header className="examples-sport__header">
           <span className="examples-sport__badge">🏆 {sportTab.name}</span>
           <h2 className="examples-sport__title">
-            {t('examples.title', 'Qualsiasi Cosa Esista, Può Diventare un EGI')}
+            {t('examples.title')}
           </h2>
           <p className="examples-sport__subtitle">{sportTab.description}</p>
         </header>
@@ -57,7 +57,7 @@ const ExamplesSport: React.FC = () => {
         <div className="examples-sport__highlight">
           <div className="examples-sport__highlight-icon">🎖️</div>
           <div className="examples-sport__highlight-content">
-            <h4>Risultati Certificati Forever</h4>
+            <h4>{t('examples.sport.title')}</h4>
             <p>
               I tuoi traguardi sportivi diventano <GlossaryTerm termId="egi">EGI</GlossaryTerm> permanenti.
               Maratone completate, record personali, imprese memorabili: tutto certificato su blockchain,
@@ -69,15 +69,15 @@ const ExamplesSport: React.FC = () => {
         <div className="examples-sport__features">
           <div className="examples-sport__feature">
             <span className="examples-sport__feature-icon">📍</span>
-            <span>Tracciati GPS certificati</span>
+            <span>{t('examples.sport.feature1')}</span>
           </div>
           <div className="examples-sport__feature">
             <span className="examples-sport__feature-icon">🎬</span>
-            <span>Video 360° dell'esperienza</span>
+            <span>{t('examples.sport.feature2', "Video 360° dell'esperienza")}</span>
           </div>
           <div className="examples-sport__feature">
             <span className="examples-sport__feature-icon">💰</span>
-            <span>Split sponsor automatico</span>
+            <span>{t('examples.sport.feature3')}</span>
           </div>
         </div>
       </div>

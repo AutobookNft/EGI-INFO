@@ -108,13 +108,13 @@ const EppContribute: React.FC = () => {
     <AriaLandmark
       as="section"
       role="region"
-      label={t('participation.ariaLabel', 'Come partecipare')}
+      label={t('participation.ariaLabel')}
       className="epp-contribute py-16 lg:py-24 bg-gradient-to-b from-transparent via-green-900/10 to-transparent"
     >
       {/* Schema.org HowTo */}
       <HowToSchema
-        name={t('participation.schemaName', 'Come contribuire agli EPP')}
-        description={t('participation.schemaDescription', 'Modi per partecipare ai programmi di protezione ambientale')}
+        name={t('participation.schemaName')}
+        description={t('participation.schemaDescription')}
         steps={howToSteps}
         totalTime="PT5M"
       />

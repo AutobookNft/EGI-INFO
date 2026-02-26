@@ -140,12 +140,12 @@ const FlorenceAmmk: React.FC = () => {
     <AriaLandmark
       as="section"
       role="region"
-      label={t('ammk.ariaLabel', 'AMMk - I motori di FlorenceEGI')}
+      label={t('ammk.ariaLabel')}
       className="florence-ammk py-16 lg:py-24"
     >
       {/* Schema.org ItemList */}
       <ItemListSchema
-        name={t('ammk.schemaName', 'AMMk Engines')}
+        name={t('ammk.schemaName')}
         description={t('ammk.schemaDescription')}
         items={schemaItems}
       />
@@ -161,7 +161,7 @@ const FlorenceAmmk: React.FC = () => {
             text-purple-400 text-sm font-medium
             mb-4
           ">
-            ⚙️ {t('ammk.badge', 'Tecnologia Core')}
+            ⚙️ {t('ammk.badge')}
           </span>
           
           <h2 className="
@@ -242,7 +242,7 @@ const FlorenceAmmk: React.FC = () => {
           text-center
         ">
           <p className="text-white/50 text-sm">
-            <span className="text-purple-400 font-medium">AMMk</span> = {t('ammk.techNote', 'Automatic Market Maker killer: un sistema avanzato che supera i limiti degli AMM tradizionali con pricing dinamico, discovery intelligente e governance decentralizzata.')}
+            <span className="text-purple-400 font-medium">AMMk</span> = {t('ammk.techNote')}
           </p>
         </div>
       </div>

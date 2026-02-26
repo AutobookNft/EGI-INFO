@@ -44,7 +44,7 @@ const ExamplesArt: React.FC = () => {
         <header className="examples-art__header">
           <span className="examples-art__badge">🎨 {artTab.name}</span>
           <h2 className="examples-art__title">
-            {t('examples.title', 'Qualsiasi Cosa Esista, Può Diventare un EGI')}
+            {t('examples.title')}
           </h2>
           <p className="examples-art__subtitle">{artTab.description}</p>
         </header>

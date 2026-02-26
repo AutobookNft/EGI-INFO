@@ -103,7 +103,7 @@ export function EgiDefinition({
       {/* Extended explanation */}
       <article 
         className="egi-definition__article"
-        aria-label={t('definition.articleLabel', 'Spiegazione dettagliata')}
+        aria-label={t('definition.articleLabel')}
       >
         <p>{t('definition.paragraph1')}</p>
         <p>{t('definition.paragraph2')}</p>
@@ -114,7 +114,7 @@ export function EgiDefinition({
         </h3>
         <ul 
           className="egi-definition__key-points"
-          aria-label={t('definition.keyPointsLabel', 'Punti chiave')}
+          aria-label={t('definition.keyPointsLabel')}
         >
           <li>
             <GlossaryTerm termKey="blockchain">

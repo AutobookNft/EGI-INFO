@@ -218,7 +218,7 @@ export function Visione(): JSX.Element {
                         {item.includes('Algorand') ? (
                           <>
                             {item.split('Algorand')[0]}
-                            <GlossaryTerm termId="Algorand">Algorand</GlossaryTerm>
+                            <GlossaryTerm termId="Algorand">{t('visione.algorandLabel')}</GlossaryTerm>
                             {item.split('Algorand')[1]}
                           </>
                         ) : item.includes('EGI') ? (
@@ -236,7 +236,7 @@ export function Visione(): JSX.Element {
                         ) : item.includes('Oracode') ? (
                           <>
                             {item.split('Oracode')[0]}
-                            <GlossaryTerm termId="Oracode">Oracode</GlossaryTerm>
+                            <GlossaryTerm termId="Oracode">{t('visione.oracodeLabel')}</GlossaryTerm>
                             {item.split('Oracode')[1]}
                           </>
                         ) : item.includes('EPP') ? (

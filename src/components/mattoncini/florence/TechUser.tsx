@@ -31,7 +31,7 @@ const TechUser: React.FC = () => {
         <header className="tech-user__header">
           <span className="tech-user__badge">👤 Lato Utente</span>
           <h2 className="tech-user__title">
-            {t('technology.userColumnTitle', 'TU VEDI')}
+            {t('technology.userColumnTitle')}
           </h2>
           <p className="tech-user__subtitle">
             Semplicità senza compromessi
@@ -49,7 +49,7 @@ const TechUser: React.FC = () => {
         </div>
 
         <div className="tech-user__tagline">
-          <p>💡 Non devi capire la blockchain. Devi solo <strong>EGIZZARE</strong>.</p>
+          <p>💡 Non devi capire la blockchain. Devi solo <strong>{t('technology.egizzare')}</strong>.</p>
         </div>
       </div>
 

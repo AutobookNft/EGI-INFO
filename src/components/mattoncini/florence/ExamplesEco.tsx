@@ -38,7 +38,7 @@ const ExamplesEco: React.FC = () => {
         <header className="examples-eco__header">
           <span className="examples-eco__badge">🌍 {ecoTab.name}</span>
           <h2 className="examples-eco__title">
-            {t('examples.title', 'Qualsiasi Cosa Esista, Può Diventare un EGI')}
+            {t('examples.title')}
           </h2>
           <p className="examples-eco__subtitle">{ecoTab.description}</p>
         </header>

@@ -28,7 +28,7 @@ const AMMkEngines: React.FC = () => {
         <header className="ammk-engines__header">
           <span className="ammk-engines__badge">⚙️ Engine</span>
           <h2 className="ammk-engines__title">
-            {t('ammk.enginesTitle', '5 Engine Integrati')}
+            {t('ammk.enginesTitle')}
           </h2>
           <p className="ammk-engines__subtitle">
             I motori che alimentano ogni operazione

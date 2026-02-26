@@ -26,7 +26,7 @@ const AMMkUsers: React.FC = () => {
         <header className="ammk-users__header">
           <span className="ammk-users__badge">👥 Chi Usa AMMk</span>
           <h2 className="ammk-users__title">
-            {t('ammk.usersTitle', 'Chi può usare AMMk')}
+            {t('ammk.usersTitle')}
           </h2>
           <p className="ammk-users__subtitle">
             Da creator singoli a grandi istituzioni

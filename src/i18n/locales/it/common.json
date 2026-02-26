@@ -26,5 +26,26 @@
     "it": "Italiano",
     "en": "English",
     "switch": "Cambia lingua"
+  },
+  "coCreate": {
+    "coCreatorLabel": "Co-Creatore"
+  },
+  "epp": {
+    "missionLabel": "Missione:"
+  },
+  "home": {
+    "headline": "Il Rinascimento Digitale inizia qui",
+    "carbonNegative": "Carbon Negative",
+    "madeInItaly": "Made in Italy"
+  },
+  "hero": {
+    "mottoLine1": "Se Esiste,",
+    "mottoHighlight1": "EGIZZALO",
+    "mottoLine2": "Se lo",
+    "mottoHighlight2": "EGIZZI,"
+  },
+  "intro": {
+    "technologyLabel": "Tecnologia",
+    "sustainabilityLabel": "Sostenibilità"
   }
 }

@@ -263,7 +263,7 @@ const Payments: React.FC = () => {
               🔐
             </span>
             <p style={{ fontSize: '0.9rem', color: 'rgba(255, 255, 255, 0.8)', margin: 0 }}>
-              <GlossaryTerm termId="mica-safe">MiCA-safe</GlossaryTerm> {t('payments.micaNote')}
+              <GlossaryTerm termId="mica-safe">{t('payments.micaSafe')}</GlossaryTerm> {t('payments.micaNote')}
             </p>
           </div>
           

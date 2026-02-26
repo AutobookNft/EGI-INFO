@@ -24,7 +24,7 @@ const FlorenceHero: React.FC = () => {
     <AriaLandmark
       as="header"
       role="banner"
-      label={t('hero.ariaLabel', 'Intestazione FlorenceEGI')}
+      label={t('hero.ariaLabel')}
       className="florence-hero relative min-h-screen flex items-center overflow-hidden"
     >
       {/* SEO Head */}
@@ -112,7 +112,7 @@ const FlorenceHero: React.FC = () => {
             leading-tight
           ">
             <span className="text-white">Se Esiste, </span>
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-gold to-gold-light">EGIZZALO</span>
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-gold to-gold-light">{t('howItWorks.motto.highlight1')}</span>
             <span className="text-white">.</span>
             <br />
             <span className="text-white">Se lo EGIZZI, </span>

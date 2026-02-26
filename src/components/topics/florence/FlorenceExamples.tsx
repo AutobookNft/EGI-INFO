@@ -144,7 +144,7 @@ const FlorenceExamples: React.FC = () => {
     <AriaLandmark
       as="section"
       role="region"
-      label={t('examples.ariaLabel', 'Esempi per settore')}
+      label={t('examples.ariaLabel')}
       className="florence-examples py-16 lg:py-24 bg-gradient-to-b from-transparent via-dark-lighter/10 to-transparent"
     >
       {/* Schema.org ItemList */}
@@ -178,7 +178,7 @@ const FlorenceExamples: React.FC = () => {
         <div 
           ref={tabListRef}
           role="tablist"
-          aria-label={t('examples.tablistLabel', 'Seleziona settore')}
+          aria-label={t('examples.tablistLabel')}
           className="
             flex flex-wrap justify-center gap-2 lg:gap-3
             mb-10
@@ -270,7 +270,7 @@ const FlorenceExamples: React.FC = () => {
               hover:underline
             "
           >
-            {t('examples.seeAll', 'Esplora tutte le collezioni')}
+            {t('examples.seeAll')}
             <span aria-hidden="true">→</span>
           </a>
         </div>

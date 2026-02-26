@@ -25,20 +25,20 @@ const InfoPageLayout: React.FC = () => {
 
   const menuItems = [
     { path: '/', label: t('nav.home', 'Home'), icon: '🏠', exact: true },
-    { path: '/info/egi', label: t('nav.egi', 'Cosa sono gli EGI'), icon: '📜' },
-    { path: '/info/epp', label: t('nav.epp', 'Progetti EPP'), icon: '🌱' },
-    { path: '/info/platform', label: t('nav.platform', 'La Piattaforma'), icon: '🏛️' },
-    { path: '/info/co-create', label: t('nav.coCreate', 'Co-Creazione'), icon: '🤝' },
-    { path: '/info/disclaimer', label: t('nav.disclaimer', 'Disclaimer'), icon: '⚠️' },
-    { path: '/info/why-cannot-buy', label: t('nav.whyCannotBuy', 'FAQ Acquisto'), icon: '❓' },
-    { path: '/info/source-truth', label: t('nav.sourceTruth', 'Documentazione'), icon: '📖' },
+    { path: '/info/egi', label: t('nav.egi'), icon: '📜' },
+    { path: '/info/epp', label: t('nav.epp'), icon: '🌱' },
+    { path: '/info/platform', label: t('nav.platform'), icon: '🏛️' },
+    { path: '/info/co-create', label: t('nav.coCreate'), icon: '🤝' },
+    { path: '/info/disclaimer', label: t('nav.disclaimer'), icon: '⚠️' },
+    { path: '/info/why-cannot-buy', label: t('nav.whyCannotBuy'), icon: '❓' },
+    { path: '/info/source-truth', label: t('nav.sourceTruth'), icon: '📖' },
   ];
 
   const audienceItems = [
-    { path: '/archetypes/artist', label: t('nav.artist', 'Per Artisti'), icon: '🎨' },
-    { path: '/archetypes/entrepreneur', label: t('nav.entrepreneur', 'Per Imprenditori'), icon: '💼' },
-    { path: '/archetypes/collector', label: t('nav.collector', 'Per Collezionisti'), icon: '🖼️' },
-    { path: '/archetypes/public-admin', label: t('nav.publicAdmin', 'Pubblica Amministrazione'), icon: '🏛️' },
+    { path: '/archetypes/artist', label: t('nav.artist'), icon: '🎨' },
+    { path: '/archetypes/entrepreneur', label: t('nav.entrepreneur'), icon: '💼' },
+    { path: '/archetypes/collector', label: t('nav.collector'), icon: '🖼️' },
+    { path: '/archetypes/public-admin', label: t('nav.publicAdmin'), icon: '🏛️' },
   ];
 
   return (

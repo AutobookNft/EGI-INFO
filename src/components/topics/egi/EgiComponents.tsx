@@ -172,7 +172,7 @@ const EgiComponents: React.FC = () => {
     >
       {/* Schema.org ItemList for all components */}
       <ItemListSchema
-        name={t('components.schemaName', 'Componenti EGI')}
+        name={t('components.schemaName')}
         description={t('components.schemaDescription')}
         items={listItems}
       />
@@ -228,7 +228,7 @@ const EgiComponents: React.FC = () => {
             gap-6 lg:gap-8
           "
           role="list"
-          aria-label={t('components.listLabel', 'Lista componenti EGI')}
+          aria-label={t('components.listLabel')}
         >
           {componentIds.map((id, index) => (
             <div key={id} role="listitem">

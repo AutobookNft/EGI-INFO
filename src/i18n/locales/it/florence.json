@@ -489,7 +489,12 @@
           }
         ]
       }
-    ]
+    ],
+    "solutionsView": "Visualizzazione soluzioni",
+    "problemsView": "Visualizzazione problemi",
+    "problemsSolutions": "Problemi e soluzioni",
+    "solutionsLabel": "Soluzioni",
+    "problemsLabel": "Problemi"
   },
   "examples": {
     "title": "Qualsiasi Cosa Esista, Può Diventare un EGI",
@@ -648,7 +653,10 @@
           }
         ]
       }
-    ]
+    ],
+    "sectorLabel": "Esempi per settore",
+    "sectorSelect": "Seleziona settore",
+    "exploreAll": "Esplora tutte le collezioni"
   },
   "howItWorks": {
     "title": "Il Flusso Completo",
@@ -775,7 +783,12 @@
       }
     ],
     "ctaStart": "Inizia Ora Gratis",
-    "ctaDemo": "Guarda Demo Live"
+    "ctaDemo": "Guarda Demo Live",
+    "motto": {
+      "line1": "Se Esiste,",
+      "highlight1": "EGIZZALO",
+      "line2": "Se lo EGIZZI,"
+    }
   },
   "ammk": {
     "titleLine1": "Non un Marketplace.",
@@ -866,7 +879,31 @@
     "ctaTitle": "Vuoi creare il tuo marketplace EGI?",
     "ctaSubtitle": "Inizia con il piano che si adatta al tuo volume — scalabile nel tempo.",
     "ctaButton": "Richiedi Demo AMMk",
-    "customizationSubtitle": "Il tuo spazio, con le tue regole di business"
+    "customizationSubtitle": "Il tuo spazio, con le tue regole di business",
+    "ariaLabel": "AMMk - I motori di FlorenceEGI",
+    "enginesLabel": "AMMk Engines",
+    "techCoreLabel": "Tecnologia Core",
+    "fullDesc": "Automatic Market Maker killer: un sistema avanzato che supera i limiti degli AMM tradizionali",
+    "custom": {
+      "features": [
+        {
+          "title": "Tenant isolato",
+          "desc": "Dati separati, RBAC dedicato"
+        },
+        {
+          "title": "Workflow custom",
+          "desc": "Approvazioni, moderazione, drops"
+        },
+        {
+          "title": "Prezzi personalizzati",
+          "desc": "Fee struttura adattabile"
+        },
+        {
+          "title": "Analytics dedicata",
+          "desc": "Dati esclusivi per tenant"
+        }
+      ]
+    }
   },
   "technology": {
     "titleLine1": "Stack Enterprise,",
@@ -876,26 +913,26 @@
     "userFeatures": [
       {
         "title": "Interfaccia drag&drop",
-        "desc": "Carica opere intuitivamente"
+        "desc": "Carica opere facilmente"
       },
       {
-        "title": "Dashboard mobile-responsive",
+        "title": "Dashboard responsive",
         "desc": "Gestisci da qualsiasi dispositivo"
       },
       {
         "title": "Notifiche real-time",
-        "desc": "Mai perdere una vendita"
+        "desc": "Non perdere mai una vendita"
       },
       {
-        "title": "Analytics comprensibili",
+        "title": "Analytics chiare",
         "desc": "Dati senza complessità"
       }
     ],
-    "systemColumnTitle": "SISTEMA FA",
+    "systemColumnTitle": "IL SISTEMA FA",
     "systemFeatures": [
       {
         "title": "Blockchain Algorand",
-        "desc": "1000+ TPS, finalità 4.5 secondi, Proof-of-Stake pura"
+        "desc": "1000 TPS, finalità 4,5s, Proof-of-Stake pura"
       },
       {
         "title": "Smart contract TEAL",
@@ -906,12 +943,12 @@
         "desc": "Log immutabile 10 anni"
       },
       {
-        "title": "AES-256 Encryption",
+        "title": "Cifratura AES-256",
         "desc": "Chiavi wallet protette"
       },
       {
         "title": "Multi-tenant SaaS",
-        "desc": "Scalabile infinitamente"
+        "desc": "Scalabile autonomamente"
       },
       {
         "title": "NATAN AI",
@@ -952,7 +989,13 @@
     "ctaTitle": "Tecnologia invisibile, risultati visibili.",
     "ctaSubtitle": "Non devi capire la blockchain. Devi solo EGIZZARE.",
     "ctaButton": "Scopri la Documentazione Tecnica",
-    "badge": "⚙️ Architettura Tecnica"
+    "badge": "⚙️ Architettura Tecnica",
+    "algorandDesc": "1000 transazioni/s, finalità 4,5s, Proof-of-Stake pura",
+    "algorandLabel": "Algorand",
+    "poweredByLabel": "Powered by",
+    "egizzare": "EGIZZARE",
+    "tagline": "Tecnologia invisibile, risultati visibili.",
+    "userSubtitle": "Semplicità senza compromessi"
   },
   "payments": {
     "title": "Inclusione Finanziaria Totale",
@@ -987,7 +1030,25 @@
     "inclusionDesc": "Non importa se sei esperto di crypto o se non hai mai usato un wallet. FlorenceEGI ti permette di partecipare con il metodo che preferisci.",
     "levelsLabel": "Livelli di pagamento disponibili",
     "levelLabel": "Livello",
-    "techDetailsLabel": "Dettagli tecnici pagamenti"
+    "techDetailsLabel": "Dettagli tecnici pagamenti",
+    "platformRoleTitle": "Cosa fa (e non fa) la piattaforma",
+    "incassaLabel": "Incassa",
+    "tramiteLabel": "tramite",
+    "emetteTrasferisce": "Emette e trasferisce",
+    "scrive": "Scrive",
+    "anchorHash": "anchor hash",
+    "qrVerifica": "Gestisce QR e verifica pubblica.",
+    "calcola": "Calcola",
+    "philosophy": {
+      "title": "Filosofia: Inclusione Progressiva",
+      "walletLabel": "wallet",
+      "partnerLabel": "partner esterni autorizzati"
+    },
+    "royaltyLabel": "Royalty",
+    "micaSafe": "MiCA-safe",
+    "nonGestisce": "NON gestisce",
+    "nonCustodisce": "NON custodisce",
+    "nonEsegue": "NON esegue"
   },
   "compliance": {
     "title": "Compliance Totale",
@@ -1120,7 +1181,15 @@
         "label": "Platform",
         "percent": "1.5%"
       },
-      "note": "Profilo CONTRIBUTOR: Creator 4.5%, Natan 0.8%, Frangette 0.2%, EPP 1.5% — Totale 7.0%. Venditore incassa 93.0%. Profilo NORMAL: Creator 6.0%, Natan 1.0% — Totale 7.0%."
+      "note": "Profilo CONTRIBUTOR: Creator 4.5%, Natan 0.8%, Frangette 0.2%, EPP 1.5% — Totale 7.0%. Venditore incassa 93.0%. Profilo NORMAL: Creator 6.0%, Natan 1.0% — Totale 7.0%.",
+      "subtitle": "Quando un Co-Creator rivende il suo EGI",
+      "sellerLabel": "Venditore",
+      "sellerDesc": "Riceve quasi tutto il ricavato",
+      "primarySaleLabel": "Vendita Primaria",
+      "creatorReceives": "Creator riceve",
+      "eppReceives": "EPP riceve",
+      "resaleLabel": "Rivendita",
+      "compareTitle": "Confronto: Primaria vs Rivendita"
     },
     "point1": "Nessuna fee di listing — paghi solo quando vendi",
     "point2": {
@@ -1130,7 +1199,9 @@
     "point3": {
       "royaltyLabel": "Royalty al Creator",
       "suffix": "— 4.5% automatico su ogni rivendita successiva (smart contract Algorand)"
-    }
+    },
+    "columnPercentage": "Percentuale",
+    "columnDescription": "Descrizione"
   },
   "cases": {
     "title": "Chi può usare FlorenceEGI",
@@ -1180,7 +1251,11 @@
         "a": "Sì, smart contract trustless per sempre."
       }
     ],
-    "moreQuestionsTitle": "Hai altre domande?"
+    "moreQuestionsTitle": "Hai altre domande?",
+    "listLabel": "Lista FAQ",
+    "noResults": "Nessuna FAQ disponibile.",
+    "noAnswerQuestion": "Non trovi la risposta che cerchi?",
+    "contactUs": "Contattaci"
   },
   "ctaFinal": {
     "title": "Il Rinascimento Digitale Inizia Qui",
@@ -1339,7 +1414,9 @@
         "Royalty automatiche e trasparenti",
         "Impatto ambientale positivo misurabile"
       ]
-    }
+    },
+    "blockchainLabel": "blockchain",
+    "royaltyLabel": "Royalty"
   },
   "principioFondo": {
     "badge": "✨ Fondamenti",
@@ -1494,7 +1571,9 @@
         "title": "Impatto Reale",
         "desc": "Rigenerazione ambientale tramite EPP integrati. Ogni atto economico genera un atto rigenerativo."
       }
-    ]
+    ],
+    "algorandLabel": "Algorand",
+    "oracodeLabel": "Oracode"
   },
   "unicum": {
     "badge": "🎭 Visione",
@@ -1574,7 +1653,11 @@
       "Mecenatismo certificato (carriere verificabili)",
       "N.A.T.A.N. AI (intelligenza etica integrata)",
       "Oracode System (paradigma filosofico-tecnico)"
-    ]
+    ],
+    "oracodeLabel": "Oracode",
+    "algorandLabel": "Algorand",
+    "mintingLabel": "minting",
+    "coaLabel": "Certificate of Authenticity"
   },
   "how": {
     "page_title": "Come Funziona — FlorenceEGI",
@@ -1662,5 +1745,49 @@
     "isCreator": "Sono un Creator",
     "isCollector": "Sono un Collector",
     "isCompany": "Sono un'Azienda"
+  },
+  "whatWeDo": {
+    "techTitle": "La complessità della tecnologia resa invisibile",
+    "chainLabel": "Blockchain",
+    "aiLabel": "Intelligenza Artificiale",
+    "systemDesc": "in un sistema così semplice che chiunque può usarlo.",
+    "behindTitle": "Dietro c'è",
+    "algorandLabel": "Algorand",
+    "natanLabel": "NATAN AI"
+  },
+  "fondamenti": {
+    "title": "Fondamenti e Visione",
+    "subtitle": "I principi filosofici alla base di FlorenceEGI"
+  },
+  "walletRedemption": {
+    "badge": "💎 Riscatto EGI",
+    "title": "Riscatto Wallet — Trasferimento EGI al Wallet Personale",
+    "subtitle": "L'utente che desidera ottenere la piena proprietà dei propri EGI può richiedere il riscatto del wallet.",
+    "detailsButton": "Riscatto Wallet — Dettaglio Completo",
+    "whyPayTitle": "Perché è richiesto un pagamento?",
+    "whyPayDesc": "La blockchain Algorand richiede che ogni wallet che intende ricevere un ASA effettui preventivamente un'operazione chiamata opt-in. Questa operazione blocca temporaneamente 0,1 ALGO per ogni ASA che il wallet intende detenere.",
+    "formulaTitle": "📊 Formula di calcolo del costo",
+    "formulaDesc": "Il costo totale del riscatto è determinato dalla seguente formula:",
+    "formula": "Costo = (N × 0,1 ALGO) + 0,1 ALGO + fee di rete",
+    "formulaNote": "Dove N è il numero di EGI posseduti. Il secondo addendo rappresenta il bilancio minimo per l'account Algorand. Le fee di rete coprono opt-in e trasferimento (~0,001 ALGO ciascuna).",
+    "exampleTitle": "Esempio pratico",
+    "exampleDesc": "Un utente che possiede 50 EGI dovrà sostenere un costo di circa:",
+    "exampleItem1": "50 × 0,1 ALGO = 5 ALGO (per gli opt-in)",
+    "exampleItem2": "0,1 ALGO (bilancio minimo account)",
+    "exampleItem3": "~0,1 ALGO (fee di rete per ~100 transazioni)",
+    "exampleTotal": "Totale: ~5,2 ALGO",
+    "exampleNote": "Il costo effettivo in euro dipende dal valore di mercato di ALGO al momento del riscatto.",
+    "flowTitle": "Flusso operativo del riscatto",
+    "step1": "Richiesta: L'utente avvia la procedura dalla dashboard e visualizza il costo calcolato.",
+    "step2": "Pagamento: L'importo in EGILI viene scalato dal saldo dell'utente.",
+    "step3": "Funding: La piattaforma trasferisce gli ALGO necessari dal Treasury al wallet dell'utente.",
+    "step4": "Opt-in automatico: Il sistema esegue l'opt-in per ogni ASA di proprietà dell'utente.",
+    "step5": "Trasferimento ASA: Gli EGI vengono trasferiti dal Treasury al wallet personale.",
+    "step6": "Consegna seed phrase: L'utente visualizza la propria frase segreta (25 parole).",
+    "step7": "Cancellazione: La frase segreta cifrata viene eliminata definitivamente dal database.",
+    "zeroProfitTitle": "💰 Politica Zero-Profitto",
+    "zeroProfitDesc": "FlorenceEGI non applica alcun margine o commissione. Il costo copre esclusivamente le spese imposte dalla blockchain Algorand (requisiti bilancio minimo e fee transazione).",
+    "afterTitle": "✅ Dopo il riscatto",
+    "afterDesc": "Il wallet diventa completamente non-custodial. L'utente è l'unico detentore delle chiavi private e può gestire i propri EGI tramite qualsiasi client Algorand compatibile."
   }
 }

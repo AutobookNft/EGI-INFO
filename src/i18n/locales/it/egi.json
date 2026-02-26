@@ -12,7 +12,10 @@
     "cta": {
       "primary": "Esplora gli EGI",
       "secondary": "Come funzionano"
-    }
+    },
+    "scrollHint": "Scorri per leggere la definizione completa",
+    "imageAlt1": "Rappresentazione visiva di un certificato EGI con blockchain e natura",
+    "imageAlt2": "Certificato digitale EGI che unisce arte, blockchain e impatto ambientale"
   },
   "definition": {
     "title": "L'EGI: Molto più di un NFT",
@@ -35,7 +38,9 @@
         "meaning": "Innovazione creativa e tecnologica certificata"
       }
     },
-    "summary": "Un EGI è un asset digitale che combina il valore artistico con utilità reali e impatto ambientale misurabile, tutto certificato su blockchain."
+    "summary": "Un EGI è un asset digitale che combina il valore artistico con utilità reali e impatto ambientale misurabile, tutto certificato su blockchain.",
+    "detailedExplanation": "Spiegazione dettagliata",
+    "keyPoints": "Punti chiave"
   },
   "components": {
     "title": "I Componenti Tecnici dell'EGI",
@@ -293,7 +298,8 @@
         "Attribuzione inconfutabile",
         "Protezione contro le frodi"
       ]
-    }
+    },
+    "smartContractLabel": "smart contract"
   },
   "traitsUtilities": {
     "title": "Traits e Utilità",
@@ -469,7 +475,12 @@
     "description": "Scopri come gli EGI possono trasformare il modo in cui crei, collezioni e contribuisci all'ambiente.",
     "primary": "Esplora le Collezioni",
     "secondary": "Diventa Creator",
-    "tertiary": "Contattaci"
+    "tertiary": "Contattaci",
+    "startJourney": "Inizia il tuo viaggio",
+    "startNow": "Inizia Ora",
+    "noCosts": "Nessun costo nascosto",
+    "transparent": "100% trasparente",
+    "impact": "Impatto ambientale positivo"
   },
   "accessibility": {
     "skipToContent": "Salta al contenuto principale",
@@ -478,5 +489,11 @@
     "expandSection": "Espandi sezione",
     "collapseSection": "Comprimi sezione",
     "glossaryTerm": "Clicca per vedere la definizione"
+  },
+  "ui": {
+    "characteristicsLabel": "Caratteristiche",
+    "showLessLabel": "Mostra meno",
+    "showMoreLabel": "Scopri di più",
+    "stakeholderSelect": "Seleziona categoria stakeholder"
   }
 }

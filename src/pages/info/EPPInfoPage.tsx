@@ -102,7 +102,7 @@ const EPPInfoPage: React.FC = () => {
             <span className="epp-program-badge">{t(`programs.${activeProgram}.badge`)}</span>
             <h3 className="epp-program-title">{t(`programs.${activeProgram}.title`)}</h3>
             <p className="epp-program-desc">{t(`programs.${activeProgram}.description`)}</p>
-            <p className="epp-program-mission"><strong>Missione:</strong> {t(`programs.${activeProgram}.mission`)}</p>
+            <p className="epp-program-mission"><strong>{t('missionLabel')}</strong> {t(`programs.${activeProgram}.mission`)}</p>
           </div>
 
           {/* Activities */}

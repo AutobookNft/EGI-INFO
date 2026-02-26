@@ -41,7 +41,7 @@ const PricingSecondary: React.FC = () => {
         <header className="pricing-secondary__header">
           <span className="pricing-secondary__badge">🔄 Mercato Secondario</span>
           <h2 className="pricing-secondary__title">
-            {t('pricing.secondary.title', 'Distribuzione rivendita (secondaria)')}
+            {t('pricing.secondary.title')}
           </h2>
           <p className="pricing-secondary__subtitle">
             Quando un Co-Creator rivende il suo EGI
@@ -55,7 +55,7 @@ const PricingSecondary: React.FC = () => {
             <div className="pricing-secondary__seller-icon">👤</div>
             <div className="pricing-secondary__seller-info">
               <GlossaryTerm termId="co-creator">
-                <span className="pricing-secondary__seller-label">Venditore</span>
+                <span className="pricing-secondary__seller-label">{t('pricing.secondary.sellerLabel')}</span>
               </GlossaryTerm>
               <span className="pricing-secondary__seller-value">93%</span>
             </div>
@@ -126,13 +126,13 @@ const PricingSecondary: React.FC = () => {
         {/* Key Difference */}
         <div className="pricing-secondary__comparison">
           <div className="pricing-secondary__compare-item pricing-secondary__compare-item--primary">
-            <h4>Vendita Primaria</h4>
+            <h4>{t('pricing.secondary.primarySaleLabel')}</h4>
             <p>Creator riceve <strong>68%</strong></p>
             <p>EPP riceve <strong>20%</strong></p>
           </div>
           <div className="pricing-secondary__compare-vs">VS</div>
           <div className="pricing-secondary__compare-item pricing-secondary__compare-item--secondary">
-            <h4>Rivendita</h4>
+            <h4>{t('pricing.secondary.resaleLabel')}</h4>
             <p>Venditore riceve <strong>93%</strong></p>
             <p>Creator riceve <GlossaryTerm termId="royalty"><strong>4.5% royalty</strong></GlossaryTerm> per sempre</p>
           </div>

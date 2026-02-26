@@ -40,7 +40,12 @@
         "before": "Energy-hungry blockchains, no environmental contribution, greenwashing",
         "after": "Algorand carbon-negative, integrated EPP, measurable impact"
       }
-    ]
+    ],
+    "solutionsView": "Solutions view",
+    "problemsView": "Problems view",
+    "problemsSolutions": "Problems and solutions",
+    "solutionsLabel": "Solutions",
+    "problemsLabel": "Problems"
   },
   "ammk": {
     "title": "The 5 Ecosystem Engines",
@@ -71,6 +76,30 @@
         "title": "Analytics Engine",
         "description": "Data analysis: dashboards, reports and insights."
       }
+    },
+    "ariaLabel": "AMMk - The engines of FlorenceEGI",
+    "enginesLabel": "AMMk Engines",
+    "techCoreLabel": "Core Technology",
+    "fullDesc": "Automatic Market Maker killer: an advanced system that overcomes the limits of traditional AMMs",
+    "custom": {
+      "features": [
+        {
+          "title": "Isolated tenant",
+          "desc": "Separate data, dedicated RBAC"
+        },
+        {
+          "title": "Custom workflow",
+          "desc": "Approvals, moderation, drops"
+        },
+        {
+          "title": "Custom pricing",
+          "desc": "Adaptable fee structure"
+        },
+        {
+          "title": "Dedicated analytics",
+          "desc": "Exclusive data per tenant"
+        }
+      ]
     }
   },
   "natan": {
@@ -164,5 +193,183 @@
       "title": "Ready to use the protocol?",
       "body": "Whether you are an artist, a public institution or a trader, there is an EGI manipulator designed for you. Explore the platforms or contact us to learn how to integrate EGI into your project."
     }
+  },
+  "technology": {
+    "systemFeatures": [
+      {
+        "title": "Algorand Blockchain",
+        "desc": "1000 TPS, 4.5s finality, Pure Proof-of-Stake"
+      },
+      {
+        "title": "TEAL Smart contracts",
+        "desc": "Verifiable and secure"
+      },
+      {
+        "title": "ULM Audit Trail",
+        "desc": "Immutable 10-year log"
+      },
+      {
+        "title": "AES-256 Encryption",
+        "desc": "Protected wallet keys"
+      },
+      {
+        "title": "Multi-tenant SaaS",
+        "desc": "Infinitely scalable"
+      },
+      {
+        "title": "NATAN AI",
+        "desc": "RAG, Valuation, Activation"
+      },
+      {
+        "title": "Event Bus pub/sub",
+        "desc": "Async communication"
+      },
+      {
+        "title": "Full Observability",
+        "desc": "UEM/ULM/GDPR monitoring"
+      }
+    ],
+    "userFeatures": [
+      {
+        "title": "Drag & drop interface",
+        "desc": "Upload your works easily"
+      },
+      {
+        "title": "Responsive dashboard",
+        "desc": "Manage from any device"
+      },
+      {
+        "title": "Real-time notifications",
+        "desc": "Never miss a sale"
+      },
+      {
+        "title": "Clear analytics",
+        "desc": "Data without complexity"
+      }
+    ],
+    "systemColumnTitle": "THE SYSTEM DOES",
+    "userColumnTitle": "YOU SEE",
+    "performanceTitle": "TECHNICAL FEATURES",
+    "algorandDesc": "1000 tx/s, 4.5s finality, Pure Proof-of-Stake",
+    "algorandLabel": "Algorand",
+    "poweredByLabel": "Powered by",
+    "egizzare": "EGIZE",
+    "tagline": "Invisible technology, visible results.",
+    "userSubtitle": "Simplicity without compromise"
+  },
+  "pricing": {
+    "secondary": {
+      "title": "Resale distribution (secondary)",
+      "subtitle": "When a Co-Creator resells their EGI",
+      "sellerLabel": "Seller",
+      "sellerDesc": "Receives almost all the revenue",
+      "primarySaleLabel": "Primary Sale",
+      "creatorReceives": "Creator receives",
+      "eppReceives": "EPP receives",
+      "resaleLabel": "Resale",
+      "compareTitle": "Comparison: Primary vs Resale"
+    },
+    "columnPercentage": "Percentage",
+    "columnDescription": "Description"
+  },
+  "roadmap": {
+    "title": "Development Objectives",
+    "disclaimer": "Indicative roadmap — priorities subject to change"
+  },
+  "whatWeDo": {
+    "techTitle": "Enterprise complexity made invisible",
+    "chainLabel": "Blockchain",
+    "aiLabel": "Artificial Intelligence",
+    "systemDesc": "in a system so simple anyone can use it.",
+    "behindTitle": "Behind it there's",
+    "algorandLabel": "Algorand",
+    "natanLabel": "NATAN AI"
+  },
+  "payments": {
+    "platformRoleTitle": "What the platform does (and does not do)",
+    "incassaLabel": "Collects",
+    "tramiteLabel": "via",
+    "emetteTrasferisce": "Issues and transfers",
+    "scrive": "Writes",
+    "anchorHash": "anchor hash",
+    "qrVerifica": "Manages QR and public verification.",
+    "calcola": "Calculates",
+    "philosophy": {
+      "title": "Philosophy: Progressive Inclusion",
+      "walletLabel": "wallet",
+      "partnerLabel": "authorized external partners"
+    },
+    "royaltyLabel": "Royalty",
+    "micaSafe": "MiCA-safe",
+    "nonGestisce": "Does NOT manage",
+    "nonCustodisce": "Does NOT hold",
+    "nonEsegue": "Does NOT execute"
+  },
+  "faq": {
+    "listLabel": "FAQ list",
+    "noResults": "No FAQ available.",
+    "noAnswerQuestion": "Can't find the answer you're looking for?",
+    "contactUs": "Contact us"
+  },
+  "examples": {
+    "sectorLabel": "Examples by sector",
+    "sectorSelect": "Select sector",
+    "exploreAll": "Explore all collections"
+  },
+  "fondamenti": {
+    "title": "Foundations and Vision",
+    "subtitle": "The philosophical principles behind FlorenceEGI"
+  },
+  "howItWorks": {
+    "motto": {
+      "line1": "If It Exists,",
+      "highlight1": "EGIZE IT",
+      "line2": "If You EGIZE It,"
+    }
+  },
+  "unicum": {
+    "oracodeLabel": "Oracode",
+    "algorandLabel": "Algorand",
+    "mintingLabel": "minting",
+    "coaLabel": "Certificate of Authenticity"
+  },
+  "visione": {
+    "algorandLabel": "Algorand",
+    "oracodeLabel": "Oracode"
+  },
+  "premessa": {
+    "blockchainLabel": "blockchain",
+    "royaltyLabel": "Royalty"
+  },
+  "walletRedemption": {
+    "badge": "💎 EGI Redemption",
+    "title": "Wallet Redemption — EGI Transfer to Personal Wallet",
+    "subtitle": "Users wishing to obtain full ownership of their EGIs can request wallet redemption.",
+    "detailsButton": "Wallet Redemption — Full Details",
+    "whyPayTitle": "Why is a payment required?",
+    "whyPayDesc": "The Algorand blockchain requires every wallet that intends to receive an ASA to first perform an opt-in operation. This temporarily locks 0.1 ALGO per ASA.",
+    "formulaTitle": "📊 Cost formula",
+    "formulaDesc": "The total redemption cost is determined by the following formula:",
+    "formula": "Cost = (N × 0.1 ALGO) + 0.1 ALGO + network fee",
+    "formulaNote": "Where N is the number of EGIs owned. The second term is the minimum account balance. Network fees cover opt-in and transfer (~0.001 ALGO each).",
+    "exampleTitle": "Practical example",
+    "exampleDesc": "A user with 50 EGIs will need approximately:",
+    "exampleItem1": "50 × 0.1 ALGO = 5 ALGO (for opt-ins)",
+    "exampleItem2": "0.1 ALGO (minimum account balance)",
+    "exampleItem3": "~0.1 ALGO (network fee for ~100 transactions)",
+    "exampleTotal": "Total: ~5.2 ALGO",
+    "exampleNote": "The actual cost in EUR depends on the market value of ALGO at redemption time.",
+    "flowTitle": "Redemption operational flow",
+    "step1": "Request: User starts the process from the dashboard and sees the calculated cost.",
+    "step2": "Payment: The EGILI amount is deducted from the user balance.",
+    "step3": "Funding: The platform transfers the required ALGO from Treasury to the user wallet.",
+    "step4": "Auto opt-in: The system performs opt-in for each ASA owned by the user.",
+    "step5": "ASA transfer: EGIs are transferred from Treasury to the personal wallet.",
+    "step6": "Seed phrase delivery: The user sees their secret phrase (25 words).",
+    "step7": "Deletion: The encrypted secret phrase is permanently deleted from the database.",
+    "zeroProfitTitle": "💰 Zero-Profit Policy",
+    "zeroProfitDesc": "FlorenceEGI applies no margin or commission. The cost covers only Algorand blockchain costs (minimum balance requirements and transaction fees).",
+    "afterTitle": "✅ After redemption",
+    "afterDesc": "The wallet becomes fully non-custodial. The user is the sole holder of private keys and can manage their EGIs via any compatible Algorand client."
   }
 }

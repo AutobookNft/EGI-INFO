@@ -164,7 +164,7 @@ const FlorenceFaq: React.FC = () => {
     <AriaLandmark
       as="section"
       role="region"
-      label={t('faq.ariaLabel', 'Domande frequenti')}
+      label={t('faq.ariaLabel')}
       className="florence-faq py-16 lg:py-24 bg-gradient-to-b from-transparent via-dark-lighter/10 to-transparent"
     >
       {/* Schema.org FAQPage */}
@@ -204,7 +204,7 @@ const FlorenceFaq: React.FC = () => {
         {/* FAQ accordion */}
         <div className="max-w-3xl mx-auto">
           {Array.isArray(faqItems) && faqItems.length > 0 ? (
-            <div className="space-y-4" role="group" aria-label={t('faq.groupLabel', 'Lista FAQ')}>
+            <div className="space-y-4" role="group" aria-label={t('faq.groupLabel')}>
               {faqItems.map((item) => (
                 <FaqAccordionItem
                   key={item.id}
@@ -216,7 +216,7 @@ const FlorenceFaq: React.FC = () => {
             </div>
           ) : (
             <p className="text-white/50 text-center">
-              {t('faq.noItems', 'Nessuna FAQ disponibile.')}
+              {t('faq.noItems')}
             </p>
           )}
         </div>
@@ -232,7 +232,7 @@ const FlorenceFaq: React.FC = () => {
           text-center
         ">
           <p className="text-white/70 mb-4">
-            {t('faq.notFound', 'Non trovi la risposta che cerchi?')}
+            {t('faq.notFound')}
           </p>
           <a
             href="/contact"
@@ -246,7 +246,7 @@ const FlorenceFaq: React.FC = () => {
               transition-all duration-300
             "
           >
-            {t('faq.contactUs', 'Contattaci')}
+            {t('faq.contactUs')}
             <span aria-hidden="true">→</span>
           </a>
         </div>

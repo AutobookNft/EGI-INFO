@@ -55,14 +55,14 @@ const EppPrograms: React.FC = () => {
     <AriaLandmark
       as="section"
       role="region"
-      label={t('programs.ariaLabel', 'I tre programmi EPP')}
+      label={t('programs.ariaLabel')}
       className="epp-programs py-16 lg:py-24"
       id="programs"
     >
       {/* Schema.org ItemList */}
       <ItemListSchema
-        name={t('programs.schemaName', 'Programmi EPP')}
-        description={t('programs.schemaDescription', 'I tre programmi di protezione ambientale EPP')}
+        name={t('programs.schemaName')}
+        description={t('programs.schemaDescription')}
         items={schemaItems}
       />
       
@@ -93,7 +93,7 @@ const EppPrograms: React.FC = () => {
             gap-6 lg:gap-8
           "
           role="list"
-          aria-label={t('programs.listLabel', 'Lista programmi EPP')}
+          aria-label={t('programs.listLabel')}
         >
           {programs.map((programId) => (
             <div key={programId} role="listitem">
@@ -116,10 +116,10 @@ const EppPrograms: React.FC = () => {
           text-center
         ">
           <h3 className="text-xl font-display font-semibold text-white mb-2">
-            {t('programs.howTeaser.title', 'Come funziona il contributo?')}
+            {t('programs.howTeaser.title')}
           </h3>
           <p className="text-white/60 mb-4">
-            {t('programs.howTeaser.description', 'Ogni transazione EGI destina automaticamente una percentuale ai programmi EPP.')}
+            {t('programs.howTeaser.description')}
           </p>
           <a
             href="#how-it-works"
@@ -129,7 +129,7 @@ const EppPrograms: React.FC = () => {
               hover:underline
             "
           >
-            {t('programs.howTeaser.cta', 'Scopri come')}
+            {t('programs.howTeaser.cta')}
             <span aria-hidden="true">→</span>
           </a>
         </div>

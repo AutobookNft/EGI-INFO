@@ -46,10 +46,10 @@ const PricingPrimary: React.FC = () => {
         <header className="pricing-primary__header">
           <span className="pricing-primary__badge">{t('pricing.distribution.badge')}</span>
           <h2 className="pricing-primary__title">
-            {t('pricing.distribution.title', 'Distribuzione su €1000 vendita primaria')}
+            {t('pricing.distribution.title')}
           </h2>
           <p className="pricing-primary__subtitle">
-            {t('pricing.subtitle', 'Più vendi, meno paghi.')}
+            {t('pricing.subtitle')}
           </p>
         </header>
 
