@@ -14,7 +14,7 @@
     "mottoHtml": "Se Esiste, <span class=\"highlight\">EGIZZALO</span>.<br>Se lo EGIZZI, <span class=\"highlight\">Vale</span>.",
     "subheadline": "La prima piattaforma che trasforma qualsiasi cosa in asset tokenizzato, tracciabile e scambiabile. Semplice come un e-commerce, potente come una blockchain.",
     "whatWeDo": "FlorenceEGI è costruito su Algorand — la blockchain a zero emissioni CO₂ scelta dalla SIAE per la gestione dei diritti d'autore. L'intelligenza artificiale integrata (N.A.T.A.N.) ti assiste nella creazione, descrizione e pricing dei tuoi asset digitali. Il risultato: un sistema che restituisce autenticità, riconoscimento e valore reale al mondo digitale.",
-    "howSimple": "Ogni EGI venduto su Florence Art destina automaticamente il 20% del valore a campagne ambientali verificate e tracciabili on-chain. Non è una donazione volontaria: è la struttura stessa del protocollo. Tre campagne attive: rimozione plastica acquatica, riforestazione, protezione delle api. Ogni contributo è registrato su blockchain, verificabile pubblicamente.",
+    "howSimple": "Ogni EGI venduto su Florence Art (profilo CONTRIBUTOR) destina automaticamente il 20% del valore a progetti ambientali verificati e tracciabili on-chain. Non è una donazione volontaria: è la struttura stessa del protocollo. Ogni contributo è registrato su blockchain Algorand, verificabile pubblicamente.",
     "ctaPrimary": "Inizia a EGIZZARE",
     "ctaSecondary": "Scopri Come Funziona"
   },
@@ -24,7 +24,7 @@
     "subtitle": "Siamo un Asset Market Maker.",
     "description": "Permettiamo a chiunque di creare il proprio mercato. Più simile a Shopify che a OpenSea.",
     "conceptTitle": "Il Concept",
-    "conceptDesc": "FlorenceEGI è l'infrastruttura che trasforma qualsiasi bene frutto dell'ingegno umano in un asset digitale certificato chiamato EGI (Eco Goods Invent — Environment Goods Invent).",
+    "conceptDesc": "FlorenceEGI è l'infrastruttura che trasforma qualsiasi bene frutto dell'ingegno umano in un asset digitale certificato chiamato EGI (Environment Goods Invent).",
     "list": [
       "Arte fisica e digitale",
       "Design e artigianato",
@@ -924,7 +924,7 @@
         "desc": "UEM/ULM/GDPR monitoring"
       }
     ],
-    "performanceTitle": "PERFORMANCE GARANTITE",
+    "performanceTitle": "CARATTERISTICHE TECNICHE",
     "performance": [
       {
         "label": "Minting",
@@ -934,17 +934,17 @@
       {
         "label": "Disponibilità",
         "value": "Alta",
-        "desc": "Architettura distribuita multi-tenant"
+        "desc": "Architettura multi-tenant SaaS distribuita"
       },
       {
         "label": "Sicurezza",
-        "value": "SOC 2",
-        "desc": "Type II compliant"
+        "value": "GDPR",
+        "desc": "GDPR by design, audit trail immutabile"
       },
       {
-        "label": "Utenti concurrent",
-        "value": "100k+",
-        "desc": "Scalabilità enterprise"
+        "label": "Scalabilità",
+        "value": "Multi-tenant",
+        "desc": "Ogni tenant isolato e scalabile autonomamente"
       }
     ],
     "ctaTitle": "Tecnologia invisibile, risultati visibili.",
@@ -1036,7 +1036,7 @@
       },
       {
         "name": "EPP",
-        "desc": "Environmental Protection Project: riceve automaticamente il 20% su ogni transazione (profilo Contributor). Progetti verificati: riforestazione, ocean cleanup, biodiversità."
+        "desc": "Environmental Protection Project: riceve automaticamente il 20% su ogni vendita primaria (profilo Contributor). Progetti ambientali verificati: riforestazione, riduzione plastica. Scelti e verificati dall'APS (Frangette)."
       }
     ]
   },
@@ -1131,31 +1131,32 @@
     }
   },
   "cases": {
-    "title": "Obiettivi di Impatto",
-    "disclaimer": "Proiezioni Anno 1 - FlorenceEGI non è ancora lanciato",
+    "title": "Chi può usare FlorenceEGI",
+    "disclaimer": "Scenari illustrativi — FlorenceEGI non è ancora in produzione",
     "items": [
       {
-        "name": "Maria, Pittrice",
+        "name": "Creator (Artista)",
         "result": "Royalty automatiche garantite da smart contract su ogni rivendita. (04_Gestione §Rebind)"
       },
       {
-        "name": "Museo Civico",
-        "result": "Royalty automatiche garantite da smart contract su ogni rivendita. (04_Gestione §Rebind)"
+        "name": "Ente Pubblico",
+        "result": "Notarizzazione documenti su blockchain: prova di paternità e autenticità verificabile pubblicamente."
       },
       {
-        "name": "GreenThreads",
-        "result": "Filiera moda certificata, -20% resi."
+        "name": "Brand / Azienda",
+        "result": "Certificazione blockchain di prodotti o edizioni limitate con filiera tracciabile on-chain."
       }
     ]
   },
   "roadmap": {
-    "title": "Il Futuro è in Sviluppo",
+    "title": "Obiettivi di Sviluppo",
     "items": [
-      "Q1 2026: Mobile App & AR",
-      "Q2 2026: Social Features",
-      "Q3 2026: AI Predictive",
-      "Q4 2026: Global Expansion"
-    ]
+      "Lancio piattaforma Florence Art (Mercato Primario)",
+      "Florence PT — Pure Trading integrato",
+      "NATAN LOC — Notarizzazione documenti PA",
+      "AMMk aperto a partner e tenant esterni"
+    ],
+    "disclaimer": "Roadmap indicativa — priorità soggette a variazione"
   },
   "faq": {
     "title": "Domande Frequenti",
