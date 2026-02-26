@@ -54,7 +54,7 @@ const Governance: React.FC = () => {
               marginBottom: '24px'
             }}
           >
-            🏛️ {t('governance.badge', 'Governance')}
+            🏛️ {t('governance.badge')}
           </span>
           
           <h1
@@ -75,7 +75,7 @@ const Governance: React.FC = () => {
             maxWidth: '700px',
             margin: '0 auto'
           }}>
-            {t('governance.subtitle', 'Equilibrio tra innovazione commerciale e missione etica')}
+            {t('governance.subtitle')}
           </p>
         </header>
 
@@ -88,7 +88,7 @@ const Governance: React.FC = () => {
             marginBottom: '48px'
           }}
           role="group"
-          aria-label={t('governance.structureLabel', 'Struttura governance duale')}
+          aria-label={t('governance.structureLabel')}
         >
           {/* SRL */}
           <article
@@ -171,10 +171,10 @@ const Governance: React.FC = () => {
               }}
             >
               {[
-                t('governance.srl.f1', 'Sviluppo tecnologico'),
-                t('governance.srl.f2', 'Operazioni commerciali'),
-                t('governance.srl.f3', 'Scaling e crescita'),
-                t('governance.srl.f4', 'Partnership strategiche'),
+                t('governance.srl.f1'),
+                t('governance.srl.f2'),
+                t('governance.srl.f3'),
+                t('governance.srl.f4'),
               ].map((feature, i) => (
                 <li
                   key={i}
@@ -289,10 +289,10 @@ const Governance: React.FC = () => {
               }}
             >
               {[
-                t('governance.aps.f1', 'Custode della missione'),
-                t('governance.aps.f2', 'Potere di veto etico'),
-                t('governance.aps.f3', 'Verifica EPP'),
-                t('governance.aps.f4', 'Tutela community'),
+                t('governance.aps.f1'),
+                t('governance.aps.f2'),
+                t('governance.aps.f3'),
+                t('governance.aps.f4'),
               ].map((feature, i) => (
                 <li
                   key={i}
@@ -364,7 +364,7 @@ const Governance: React.FC = () => {
               marginBottom: '16px'
             }}
           >
-            {t('governance.balanceTitle', 'Equilibrio Perfetto')}
+            {t('governance.balanceTitle')}
           </h3>
           
           <p
@@ -388,13 +388,13 @@ const Governance: React.FC = () => {
             gap: '16px'
           }}
           role="group"
-          aria-label={t('governance.whyWorksLabel', 'Perché funziona')}
+          aria-label={t('governance.whyWorksLabel')}
         >
           {[
-            { icon: '🎯', text: t('governance.w1', 'Profitto allineato ai valori') },
-            { icon: '🔒', text: t('governance.w2', 'Trasparenza garantita') },
-            { icon: '🌱', text: t('governance.w3', 'Impatto ambientale protetto') },
-            { icon: '👥', text: t('governance.w4', 'Community al centro') },
+            { icon: '🎯', text: t('governance.w1') },
+            { icon: '🔒', text: t('governance.w2') },
+            { icon: '🌱', text: t('governance.w3') },
+            { icon: '👥', text: t('governance.w4') },
           ].map((item, i) => (
             <div
               key={i}

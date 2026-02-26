@@ -31,10 +31,10 @@ const AMMkCustom: React.FC = () => {
         <header className="ammk-custom__header">
           <span className="ammk-custom__badge">✨ Personalizzazione</span>
           <h2 className="ammk-custom__title">
-            {t('ammk.customizationTitle', 'Personalizzazione Totale')}
+            {t('ammk.customizationTitle')}
           </h2>
           <p className="ammk-custom__subtitle">
-            Il tuo marketplace, le tue regole
+            {t('ammk.customizationSubtitle')}
           </p>
         </header>
 
@@ -51,10 +51,10 @@ const AMMkCustom: React.FC = () => {
         </div>
 
         <div className="ammk-custom__cta">
-          <h3>{t('ammk.ctaTitle', 'Vuoi creare il tuo marketplace EGI?')}</h3>
+          <h3>{t('ammk.ctaTitle')}</h3>
           <p>{t('ammk.ctaSubtitle', 'Inizia oggi e trasforma qualsiasi asset in un\'opportunità di valore.')}</p>
           <button className="ammk-custom__btn">
-            {t('ammk.ctaButton', 'Richiedi Demo AMMk')} →
+            {t('ammk.ctaButton')} →
           </button>
         </div>
       </div>

@@ -17,13 +17,7 @@ const AMMkEngines: React.FC = () => {
     desc: string;
   }>;
 
-  const engines = enginesData || [
-    { name: 'NATAN Market Engine', desc: 'AI valuta mercato, suggerisce prezzi, identifica trend' },
-    { name: 'Asset Management', desc: 'Mint, transfer, royalty automatici' },
-    { name: 'Distribution Engine', desc: 'Split trustless multi-wallet (Creator/EPP/Platform)' },
-    { name: 'Co-Creation Engine', desc: 'Gestione collaborazioni multi-artista' },
-    { name: 'Compliance Engine', desc: 'GDPR/MiCA/Fiscale automatico' },
-  ];
+  const engines = enginesData ?? [];
 
   const ICONS = ['🤖', '📦', '💰', '🤝', '✅'];
   const COLORS = ['#a78bfa', '#4ade80', '#fbbf24', '#60a5fa', '#f87171'];

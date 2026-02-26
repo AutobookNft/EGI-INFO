@@ -22,7 +22,7 @@ const Technology: React.FC = () => {
             display: 'inline-block', padding: '10px 20px',
             background: 'rgba(167, 139, 250, 0.15)', border: '1px solid rgba(167, 139, 250, 0.35)',
             borderRadius: '50px', color: PURPLE, fontSize: '14px', fontWeight: 600, marginBottom: '24px'
-          }}>⚙️ Under the Hood</span>
+          }}>{t('technology.badge')}</span>
           <h1 style={{ fontSize: 'clamp(1.8rem, 5vw, 2.5rem)', fontWeight: 800, color: '#ffffff', marginBottom: '8px' }}>
             {t('technology.titleLine1')}
           </h1>

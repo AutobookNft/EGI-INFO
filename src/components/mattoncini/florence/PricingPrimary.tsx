@@ -44,7 +44,7 @@ const PricingPrimary: React.FC = () => {
       <div className="pricing-primary__container">
         {/* Header */}
         <header className="pricing-primary__header">
-          <span className="pricing-primary__badge">💰 Mercato Primario</span>
+          <span className="pricing-primary__badge">{t('pricing.distribution.badge')}</span>
           <h2 className="pricing-primary__title">
             {t('pricing.distribution.title', 'Distribuzione su €1000 vendita primaria')}
           </h2>
@@ -63,7 +63,7 @@ const PricingPrimary: React.FC = () => {
                 const circumference = 2 * Math.PI * 35; // r=35
                 const strokeLength = (slice.percent / 100) * circumference;
                 const strokeOffset = (offset / 100) * circumference;
-                
+
                 return (
                   <circle
                     key={slice.key}
@@ -83,10 +83,10 @@ const PricingPrimary: React.FC = () => {
               })}
               {/* Center text */}
               <text x="50" y="47" textAnchor="middle" className="pricing-primary__center-amount">
-                €1000
+                {t('pricing.distribution.exampleAmount')}
               </text>
               <text x="50" y="58" textAnchor="middle" className="pricing-primary__center-label">
-                Vendita
+                {t('pricing.distribution.exampleLabel')}
               </text>
             </svg>
           </div>
@@ -99,9 +99,9 @@ const PricingPrimary: React.FC = () => {
                 value: string;
                 percent: string;
               };
-              
+
               return (
-                <div 
+                <div
                   key={slice.key}
                   className="pricing-primary__card"
                   style={{ '--accent-color': slice.color } as React.CSSProperties}
@@ -113,7 +113,7 @@ const PricingPrimary: React.FC = () => {
                     <span className="pricing-primary__card-percent">{data.percent}</span>
                   </div>
                   <div className="pricing-primary__card-value">{data.value}</div>
-                  <div 
+                  <div
                     className="pricing-primary__card-bar"
                     style={{ width: `${slice.percent}%` }}
                   />
@@ -127,18 +127,20 @@ const PricingPrimary: React.FC = () => {
         <div className="pricing-primary__points">
           <div className="pricing-primary__point">
             <span className="pricing-primary__point-icon">✅</span>
-            <span>Zero fee di listing - paghi solo sul venduto</span>
+            <span>{t('pricing.point1')}</span>
           </div>
           <div className="pricing-primary__point">
             <span className="pricing-primary__point-icon">🌱</span>
             <span>
-              <GlossaryTerm termId="epp">20% EPP</GlossaryTerm> = impatto ambientale garantito
+              <GlossaryTerm termId="epp">{t('pricing.point2.eppLabel')}</GlossaryTerm>
+              {' '}{t('pricing.point2.suffix')}
             </span>
           </div>
           <div className="pricing-primary__point">
             <span className="pricing-primary__point-icon">🔄</span>
             <span>
-              +<GlossaryTerm termId="royalty">royalty 4.5%</GlossaryTerm> perpetue su ogni rivendita
+              <GlossaryTerm termId="royalty">{t('pricing.point3.royaltyLabel')}</GlossaryTerm>
+              {' '}{t('pricing.point3.suffix')}
             </span>
           </div>
         </div>

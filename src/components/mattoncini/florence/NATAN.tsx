@@ -61,7 +61,7 @@ const NATAN: React.FC = () => {
               marginBottom: '24px'
             }}
           >
-            🤖 {t('natan.badge', 'Intelligenza Artificiale')}
+            🤖 {t('natan.badge')}
           </span>
           
           <h1
@@ -164,7 +164,7 @@ const NATAN: React.FC = () => {
               position: 'relative',
               zIndex: 1
             }}
-            aria-label={t('natan.featuresLabel', 'Funzionalità di NATAN AI')}
+            aria-label={t('natan.featuresLabel')}
           >
             {features.map((feature, i) => (
               <li
@@ -257,13 +257,13 @@ const NATAN: React.FC = () => {
               padding: 0,
               margin: 0
             }}
-            aria-label={t('natan.principlesLabel', 'Principi etici di NATAN')}
+            aria-label={t('natan.principlesLabel')}
           >
             {[
-              { icon: '🔍', title: t('natan.p1Title', 'Trasparente'), desc: t('natan.p1Desc', 'Ogni suggerimento è spiegato') },
-              { icon: '🎨', title: t('natan.p2Title', 'Non Sostitutivo'), desc: t('natan.p2Desc', 'Amplifica, non rimpiazza il talento') },
-              { icon: '📊', title: t('natan.p3Title', 'Basato su Dati'), desc: t('natan.p3Desc', 'Analisi di mercato reali') },
-              { icon: '🔒', title: t('natan.p4Title', 'Privacy-First'), desc: t('natan.p4Desc', 'I tuoi dati restano tuoi') },
+              { icon: '🔍', title: t('natan.p1Title'), desc: t('natan.p1Desc') },
+              { icon: '🎨', title: t('natan.p2Title'), desc: t('natan.p2Desc') },
+              { icon: '📊', title: t('natan.p3Title'), desc: t('natan.p3Desc') },
+              { icon: '🔒', title: t('natan.p4Title'), desc: t('natan.p4Desc') },
             ].map((principle, i) => (
               <li
                 key={i}
@@ -306,7 +306,7 @@ const NATAN: React.FC = () => {
             gap: '20px'
           }}
           role="group"
-          aria-label={t('natan.capabilitiesLabel', 'Capacità di NATAN')}
+          aria-label={t('natan.capabilitiesLabel')}
         >
           {/* RAG */}
           <div
@@ -321,10 +321,10 @@ const NATAN: React.FC = () => {
               📚
             </span>
             <h3 style={{ fontSize: '1.1rem', fontWeight: 600, color: COLORS.blue, marginBottom: '8px' }}>
-              <GlossaryTerm termId="rag">RAG</GlossaryTerm> {t('natan.ragTitle', 'Documentale')}
+              <GlossaryTerm termId="rag">RAG</GlossaryTerm> {t('natan.ragTitle')}
             </h3>
             <p style={{ fontSize: '0.9rem', color: 'rgba(255,255,255,0.7)', margin: 0 }}>
-              {t('natan.ragDesc', 'Risposte contestuali basate sulla documentazione')}
+              {t('natan.ragDesc')}
             </p>
           </div>
 
@@ -341,10 +341,10 @@ const NATAN: React.FC = () => {
               💎
             </span>
             <h3 style={{ fontSize: '1.1rem', fontWeight: 600, color: COLORS.gold, marginBottom: '8px' }}>
-              <GlossaryTerm termId="valuation">Valuation</GlossaryTerm> {t('natan.valuationTitle', 'Engine')}
+              <GlossaryTerm termId="valuation">Valuation</GlossaryTerm> {t('natan.valuationTitle')}
             </h3>
             <p style={{ fontSize: '0.9rem', color: 'rgba(255,255,255,0.7)', margin: 0 }}>
-              {t('natan.valuationDesc', 'Suggerimenti di prezzo basati su mercato reale')}
+              {t('natan.valuationDesc')}
             </p>
           </div>
 
@@ -364,7 +364,7 @@ const NATAN: React.FC = () => {
               <GlossaryTerm termId="natan-market-engine">Market Engine</GlossaryTerm>
             </h3>
             <p style={{ fontSize: '0.9rem', color: 'rgba(255,255,255,0.7)', margin: 0 }}>
-              {t('natan.marketDesc', 'Campagne, notifiche e attivazione automatica')}
+              {t('natan.marketDesc')}
             </p>
           </div>
         </div>

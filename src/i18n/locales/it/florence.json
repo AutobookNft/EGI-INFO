@@ -842,7 +842,7 @@
         "description": "GDPR by design e MiCA-safe: audit trail completo, policy condivise tra tenant, ConsentService e ULM integration."
       }
     ],
-    "customizationTitle": "Personalizzazione Totale",
+    "customizationTitle": "Personalizzazione Tenant",
     "customization": [
       {
         "title": "Brand personalizzato",
@@ -862,8 +862,9 @@
       }
     ],
     "ctaTitle": "Vuoi creare il tuo marketplace EGI?",
-    "ctaSubtitle": "Inizia oggi e trasforma qualsiasi asset in un'opportunità di valore.",
-    "ctaButton": "Richiedi Demo AMMk"
+    "ctaSubtitle": "Inizia con il piano che si adatta al tuo volume — scalabile nel tempo.",
+    "ctaButton": "Richiedi Demo AMMk",
+    "customizationSubtitle": "Il tuo spazio, con le tue regole di business"
   },
   "technology": {
     "titleLine1": "Stack Enterprise,",
@@ -948,7 +949,8 @@
     ],
     "ctaTitle": "Tecnologia invisibile, risultati visibili.",
     "ctaSubtitle": "Non devi capire la blockchain. Devi solo EGIZZARE.",
-    "ctaButton": "Scopri la Documentazione Tecnica"
+    "ctaButton": "Scopri la Documentazione Tecnica",
+    "badge": "⚙️ Architettura Tecnica"
   },
   "payments": {
     "title": "Inclusione Finanziaria Totale",
@@ -973,7 +975,17 @@
         "desc": "Utilizzo degli Egili guadagnati (1 Egilo = €0,01 valore percepito interno). Non trasferibili, non quotati, MiCA-safe come punti fedeltà.",
         "target": "Utenti attivi dell'ecosistema"
       }
-    ]
+    ],
+    "badge": "Sistemi di pagamento",
+    "settlementNote": "Regolamento rapido per ogni livello",
+    "pspNote": "PSP partner autorizzati (CASP/EMI)",
+    "micaNote": "by design",
+    "globalNote": "Accessibile da tutto il mondo",
+    "inclusionTitle": "Inclusione Progressiva",
+    "inclusionDesc": "Non importa se sei esperto di crypto o se non hai mai usato un wallet. FlorenceEGI ti permette di partecipare con il metodo che preferisci.",
+    "levelsLabel": "Livelli di pagamento disponibili",
+    "levelLabel": "Livello",
+    "techDetailsLabel": "Dettagli tecnici pagamenti"
   },
   "compliance": {
     "title": "Compliance Totale",
@@ -995,7 +1007,17 @@
         "title": "Blockchain Legale",
         "desc": "Registrazione blockchain produce effetti analoghi a validazione temporale elettronica ex eIDAS (art. 8-ter DL 135/2018). SIAE usa Algorand per gestione diritti d'autore."
       }
-    ]
+    ],
+    "check1": "GDPR by design",
+    "check2": "MiCA-safe",
+    "check3": "Fatturazione SDI integrata",
+    "check4": "Diritti d'autore tutelati",
+    "check5": "Conformità normativa gestita",
+    "check6": "Audit trail completo",
+    "messageTitle": "Pensaci tu a creare, alla conformità pensiamo noi.",
+    "messageDesc": "Gli aspetti GDPR, MiCA e fiscali sono gestiti automaticamente dalla piattaforma. Puoi concentrarti sulla creazione.",
+    "pillarsLabel": "I 4 pilastri della compliance",
+    "checklistLabel": "Checklist conformità"
   },
   "ecosystem": {
     "title": "3 Ruoli, 1 Circolo Virtuoso",
@@ -1040,13 +1062,19 @@
       "title": "APS Valoriale",
       "desc": "Vigila sui principi fondativi, tutela il 20% EPP (obbligo statutario), veto su decisioni contrarie ai valori. 1% fee piattaforma → pool Egili per community."
     },
-    "subtitle": "Due entità complementari che garantiscono equilibrio tra impresa e missione: FlorenceEGI SRL (operativa) e Associazione Frangette APS (custode dei valori). L'APS ha potere di veto sulle decisioni contrarie alla missione."
+    "subtitle": "Due entità complementari che garantiscono equilibrio tra impresa e missione: FlorenceEGI SRL (operativa) e Associazione Frangette APS (custode dei valori). L'APS ha potere di veto sulle decisioni contrarie alla missione.",
+    "w1": "Profitto compatibile con i valori etici",
+    "w2": "Trasparenza garantita per statuto",
+    "w3": "Impatto ambientale protetto dall'APS",
+    "w4": "Community partecipativa",
+    "balanceTitle": "Governance Duale: Equilibrio tra crescita e missione",
+    "whyWorksLabel": "Perché funziona"
   },
   "pricing": {
     "title": "Fee Dinamiche",
     "subtitle": "Più vendi, meno paghi.",
     "distribution": {
-      "title": "Distribuzione su €1000 vendita primaria",
+      "title": "Come si distribuisce il ricavo di una prima vendita",
       "creator": {
         "label": "Creator",
         "value": "€680",
@@ -1067,7 +1095,10 @@
         "value": "€20",
         "percent": "2%"
       },
-      "note": "Profilo CONTRIBUTOR (Creator & Company etiche). Profilo NORMAL (solo Company): Owner 90%, EPP 0%, Piattaforma 10%, Frangette 0%."
+      "note": "Profilo CONTRIBUTOR (Creator & Company etiche). Profilo NORMAL (solo Company): Owner 90%, EPP 0%, Piattaforma 10%, Frangette 0%.",
+      "badge": "💰 Mercato Primario",
+      "exampleAmount": "€1000",
+      "exampleLabel": "es. vendita"
     },
     "secondary": {
       "title": "Distribuzione rivendita (secondaria)",
@@ -1088,6 +1119,15 @@
         "percent": "1.5%"
       },
       "note": "Profilo CONTRIBUTOR: Creator 4.5%, Natan 0.8%, Frangette 0.2%, EPP 1.5% — Totale 7.0%. Venditore incassa 93.0%. Profilo NORMAL: Creator 6.0%, Natan 1.0% — Totale 7.0%."
+    },
+    "point1": "Nessuna fee di listing — paghi solo quando vendi",
+    "point2": {
+      "eppLabel": "EPP 20%",
+      "suffix": "— contributo ambientale incluso nel protocollo"
+    },
+    "point3": {
+      "royaltyLabel": "Royalty al Creator",
+      "suffix": "— 4.5% automatico su ogni rivendita successiva (smart contract Algorand)"
     }
   },
   "cases": {
@@ -1210,7 +1250,8 @@
         "icon": "📜",
         "text": "Report trimestrale pubblicato"
       }
-    ]
+    ],
+    "ctaLabel": "Scopri i Progetti EPP"
   },
   "motto": {
     "text": "Se Esiste, EGIZZALO. Se lo EGIZZI, Vale.",

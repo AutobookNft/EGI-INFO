@@ -69,7 +69,7 @@ const Payments: React.FC = () => {
               marginBottom: '24px'
             }}
           >
-            💰 {t('payments.badge', 'Pagamenti')}
+            💰 {t('payments.badge')}
           </span>
           
           <h1
@@ -90,7 +90,7 @@ const Payments: React.FC = () => {
             maxWidth: '700px',
             margin: '0 auto'
           }}>
-            {t('payments.subtitle', 'Paga come preferisci, senza barriere tecniche')}
+            {t('payments.subtitle')}
           </p>
         </header>
 
@@ -104,7 +104,7 @@ const Payments: React.FC = () => {
             padding: 0,
             margin: 0
           }}
-          aria-label={t('payments.levelsLabel', 'Livelli di pagamento disponibili')}
+          aria-label={t('payments.levelsLabel')}
         >
           {levels.map((level, i) => (
             <li
@@ -152,7 +152,7 @@ const Payments: React.FC = () => {
                   letterSpacing: '0.5px'
                 }}
               >
-                {t('payments.levelLabel', 'Livello')} {i + 1}
+                {t('payments.levelLabel')} {i + 1}
               </span>
               
               {/* Titolo */}
@@ -202,9 +202,9 @@ const Payments: React.FC = () => {
             }}
           >
             <span style={{ color: COLORS.gold, fontWeight: 600 }}>
-              {t('payments.inclusionTitle', 'Inclusione Totale')}:
+              {t('payments.inclusionTitle')}:
             </span>{' '}
-            {t('payments.inclusionDesc', 'Non importa se sei esperto di crypto o se non hai mai usato un wallet. FlorenceEGI ti permette di partecipare con il metodo che preferisci.')}
+            {t('payments.inclusionDesc')}
           </p>
         </div>
 
@@ -217,7 +217,7 @@ const Payments: React.FC = () => {
             gap: '16px'
           }}
           role="group"
-          aria-label={t('payments.techDetailsLabel', 'Dettagli tecnici pagamenti')}
+          aria-label={t('payments.techDetailsLabel')}
         >
           <div
             style={{
@@ -231,7 +231,7 @@ const Payments: React.FC = () => {
               🏦
             </span>
             <p style={{ fontSize: '0.9rem', color: 'rgba(255, 255, 255, 0.8)', margin: 0 }}>
-              <GlossaryTerm termId="psp">PSP</GlossaryTerm> {t('payments.pspNote', 'autorizzati (Stripe)')}
+              <GlossaryTerm termId="psp">PSP</GlossaryTerm> {t('payments.pspNote')}
             </p>
           </div>
           
@@ -247,7 +247,7 @@ const Payments: React.FC = () => {
               ⚡
             </span>
             <p style={{ fontSize: '0.9rem', color: 'rgba(255, 255, 255, 0.8)', margin: 0 }}>
-              {t('payments.settlementNote', 'Settlement T+2 massimo')}
+              {t('payments.settlementNote')}
             </p>
           </div>
           
@@ -263,7 +263,7 @@ const Payments: React.FC = () => {
               🔐
             </span>
             <p style={{ fontSize: '0.9rem', color: 'rgba(255, 255, 255, 0.8)', margin: 0 }}>
-              <GlossaryTerm termId="mica-safe">MiCA-safe</GlossaryTerm> {t('payments.micaNote', 'by design')}
+              <GlossaryTerm termId="mica-safe">MiCA-safe</GlossaryTerm> {t('payments.micaNote')}
             </p>
           </div>
           
@@ -279,7 +279,7 @@ const Payments: React.FC = () => {
               🌍
             </span>
             <p style={{ fontSize: '0.9rem', color: 'rgba(255, 255, 255, 0.8)', margin: 0 }}>
-              {t('payments.globalNote', 'Pagamenti globali semplificati')}
+              {t('payments.globalNote')}
             </p>
           </div>
         </div>

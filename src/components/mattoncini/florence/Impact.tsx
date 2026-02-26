@@ -246,7 +246,7 @@ const Impact: React.FC = () => {
               transition: 'transform 0.2s, box-shadow 0.2s'
             }}
           >
-            Scopri i Progetti EPP
+            {t('impact.ctaLabel')}
             <span>→</span>
           </a>
         </div>

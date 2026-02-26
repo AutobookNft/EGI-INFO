@@ -38,7 +38,7 @@ const PILLAR_TERMS = ['gdpr', 'mica', 'fatturazione', 'diritti-morali'] as const
 // ============================================
 const Compliance: React.FC = () => {
   const { t } = useTranslation('florence');
-  
+
   // Estrai dati da i18n
   const items = t('compliance.items', { returnObjects: true }) as ComplianceItem[];
 
@@ -53,7 +53,7 @@ const Compliance: React.FC = () => {
       role="region"
     >
       <div style={{ maxWidth: '1000px', margin: '0 auto' }}>
-        
+
         {/* HEADER */}
         <header style={{ textAlign: 'center', marginBottom: '60px' }}>
           <span
@@ -71,7 +71,7 @@ const Compliance: React.FC = () => {
           >
             ✅ {t('compliance.badge', 'Conformità')}
           </span>
-          
+
           <h1
             id="compliance-title"
             style={{
@@ -83,7 +83,7 @@ const Compliance: React.FC = () => {
           >
             {t('compliance.title')}
           </h1>
-          
+
           <p style={{
             fontSize: '1.25rem',
             color: 'rgba(255, 255, 255, 0.7)',
@@ -130,7 +130,7 @@ const Compliance: React.FC = () => {
                 }}
                 aria-hidden="true"
               />
-              
+
               {/* Icona */}
               <div
                 style={{
@@ -148,7 +148,7 @@ const Compliance: React.FC = () => {
               >
                 {PILLAR_ICONS[i]}
               </div>
-              
+
               {/* Titolo con GlossaryTerm */}
               <h2
                 style={{
@@ -164,7 +164,7 @@ const Compliance: React.FC = () => {
                   item.title
                 )}
               </h2>
-              
+
               {/* Descrizione */}
               <p
                 style={{
@@ -197,7 +197,7 @@ const Compliance: React.FC = () => {
           >
             🎯
           </span>
-          
+
           <h3
             style={{
               fontSize: '1.5rem',
@@ -206,9 +206,10 @@ const Compliance: React.FC = () => {
               marginBottom: '12px'
             }}
           >
-            {t('compliance.messageTitle', 'Pensaci tu a creare, al resto pensiamo noi.')}
+            {t('compliance.messageTitle')}
+
           </h3>
-          
+
           <p
             style={{
               fontSize: '1.1rem',
@@ -218,7 +219,7 @@ const Compliance: React.FC = () => {
               lineHeight: 1.6
             }}
           >
-            {t('compliance.messageDesc', 'Tutti gli aspetti legali, fiscali e normativi sono gestiti automaticamente dalla piattaforma. Tu devi solo concentrarti sulla tua creatività.')}
+            {t('compliance.messageDesc')}
           </p>
         </div>
 
@@ -234,12 +235,12 @@ const Compliance: React.FC = () => {
           aria-label={t('compliance.checklistLabel', 'Checklist conformità')}
         >
           {[
-            { icon: '✓', text: t('compliance.check1', 'GDPR by design') },
-            { icon: '✓', text: t('compliance.check2', 'MiCA-safe') },
-            { icon: '✓', text: t('compliance.check3', 'Fatturazione SDI auto') },
+            { icon: '✓', text: t('compliance.check1') },
+            { icon: '✓', text: t('compliance.check2') },
+            { icon: '✓', text: t('compliance.check3') },
             { icon: '✓', text: t('compliance.check4', 'Diritti d\'autore tutelati') },
-            { icon: '✓', text: t('compliance.check5', 'Zero rischi legali') },
-            { icon: '✓', text: t('compliance.check6', 'Audit trail completo') },
+            { icon: '✓', text: t('compliance.check5') },
+            { icon: '✓', text: t('compliance.check6') },
           ].map((check, i) => (
             <div
               key={i}
