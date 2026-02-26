@@ -19,7 +19,7 @@ interface Project {
   icon: string;
   title: string;
   description: string;
-  partner: string;
+  // partner rimosso: i partner non sono documentati ufficialmente
 }
 
 interface Highlight {
@@ -37,7 +37,7 @@ const Impact: React.FC = () => {
   const projectColors = [GREEN, BLUE, YELLOW];
 
   return (
-    <section 
+    <section
       style={{
         minHeight: '100vh',
         padding: '80px 20px',
@@ -45,7 +45,7 @@ const Impact: React.FC = () => {
       }}
     >
       <div style={{ maxWidth: '1000px', margin: '0 auto' }}>
-        
+
         {/* Header */}
         <div style={{ textAlign: 'center', marginBottom: '60px' }}>
           <span style={{
@@ -61,7 +61,7 @@ const Impact: React.FC = () => {
           }}>
             {t('impact.badge')}
           </span>
-          
+
           <h1 style={{
             fontSize: 'clamp(2rem, 5vw, 3.5rem)',
             fontWeight: 800,
@@ -71,12 +71,16 @@ const Impact: React.FC = () => {
           }}>
             {t('impact.title')}
           </h1>
-          
+
           <p style={{
             fontSize: '1.25rem',
             color: 'rgba(255, 255, 255, 0.6)'
           }}>
             {t('impact.subtitle')}
+          </p>
+          {/* Intro verificato vs documentazione */}
+          <p style={{ fontSize: '1rem', color: 'rgba(255, 255, 255, 0.55)', marginTop: '16px', maxWidth: '680px', margin: '16px auto 0', lineHeight: 1.7 }}>
+            {t('impact.intro')}
           </p>
         </div>
 
@@ -115,12 +119,12 @@ const Impact: React.FC = () => {
         </div>
 
         {/* Progetti EPP */}
-        <h2 style={{ 
-          fontSize: '1.5rem', 
-          fontWeight: 700, 
-          color: '#fff', 
+        <h2 style={{
+          fontSize: '1.5rem',
+          fontWeight: 700,
+          color: '#fff',
           textAlign: 'center',
-          marginBottom: '30px' 
+          marginBottom: '30px'
         }}>
           {t('impact.ui.projectsTitle')}
         </h2>
@@ -142,11 +146,8 @@ const Impact: React.FC = () => {
               <h3 style={{ fontSize: '1.25rem', fontWeight: 700, color: projectColors[i], marginBottom: '12px' }}>
                 {project.title}
               </h3>
-              <p style={{ fontSize: '0.95rem', color: 'rgba(255, 255, 255, 0.7)', lineHeight: 1.6, marginBottom: '12px' }}>
+              <p style={{ fontSize: '0.95rem', color: 'rgba(255, 255, 255, 0.7)', lineHeight: 1.6 }}>
                 {project.description}
-              </p>
-              <p style={{ fontSize: '0.8rem', color: 'rgba(255, 255, 255, 0.5)' }}>
-                {project.partner}
               </p>
             </div>
           ))}
@@ -166,19 +167,19 @@ const Impact: React.FC = () => {
             gap: '40px'
           }}>
             <div>
-              <h3 style={{ 
-                fontSize: '1.25rem', 
-                fontWeight: 700, 
-                color: RED, 
+              <h3 style={{
+                fontSize: '1.25rem',
+                fontWeight: 700,
+                color: RED,
                 marginBottom: '20px'
               }}>
                 {t('impact.ui.greenwashingTitle')}
               </h3>
               <ul style={{ listStyle: 'none', padding: 0, margin: 0 }}>
                 {greenwashing.map((item, i) => (
-                  <li key={i} style={{ 
-                    display: 'flex', 
-                    alignItems: 'flex-start', 
+                  <li key={i} style={{
+                    display: 'flex',
+                    alignItems: 'flex-start',
                     gap: '10px',
                     marginBottom: '12px',
                     color: 'rgba(255, 255, 255, 0.6)'
@@ -189,21 +190,21 @@ const Impact: React.FC = () => {
                 ))}
               </ul>
             </div>
-            
+
             <div>
-              <h3 style={{ 
-                fontSize: '1.25rem', 
-                fontWeight: 700, 
-                color: GREEN, 
+              <h3 style={{
+                fontSize: '1.25rem',
+                fontWeight: 700,
+                color: GREEN,
                 marginBottom: '20px'
               }}>
                 {t('impact.ui.ourApproachTitle')}
               </h3>
               <ul style={{ listStyle: 'none', padding: 0, margin: 0 }}>
                 {ourApproach.map((item, i) => (
-                  <li key={i} style={{ 
-                    display: 'flex', 
-                    alignItems: 'flex-start', 
+                  <li key={i} style={{
+                    display: 'flex',
+                    alignItems: 'flex-start',
                     gap: '10px',
                     marginBottom: '12px',
                     color: 'rgba(255, 255, 255, 0.85)'

@@ -1188,70 +1188,63 @@
     }
   },
   "impact": {
-    "badge": "🌍 Impatto Reale",
-    "title": "Il 20% di Ogni Vendita Rigenera il Pianeta",
-    "subtitle": "Non è greenwashing. È matematica.",
+    "badge": "🌱 EPP — Environmental Protection Projects",
+    "title": "Il 20% che fa la differenza",
+    "subtitle": "Non è greenwashing. È on-chain.",
+    "ctaLabel": "Approfondisci i Programmi EPP",
+    "intro": "Gli EPP (Environmental Protection Projects) sono il contributo ambientale nativo di FlorenceEGI: il 20% di ogni vendita primaria su profilo CONTRIBUTOR è destinato automaticamente a progetti ambientali selezionati e verificati dall'APS (Frangette).",
     "ui": {
       "examplePrefix": "Esempio: vendi per €1000",
       "exampleAmount": "€200",
-      "exampleSuffix": "vanno automaticamente a progetti ambientali verificati",
-      "trackingNote": "Ogni centesimo tracciabile su blockchain",
-      "projectsTitle": "Progetti EPP Attivi",
-      "greenwashingTitle": "❌ Cos'è il Greenwashing",
-      "ourApproachTitle": "✅ Il Nostro Approccio"
+      "exampleSuffix": "vanno a progetti ambientali verificati on-chain",
+      "trackingNote": "Ogni contributo EPP è tracciabile su blockchain Algorand",
+      "projectsTitle": "Aree di intervento EPP",
+      "greenwashingTitle": "❌ Greenwashing",
+      "ourApproachTitle": "✅ L'approccio EPP"
     },
     "projects": [
       {
         "icon": "🌳",
         "title": "Riforestazione",
-        "description": "Piantumazione certificata in aree degradate",
-        "partner": "Partner: Treedom, 3Bee"
+        "description": "Sostegno a progetti di piantumazione in aree degradate, verificati dall'APS."
       },
       {
         "icon": "🌊",
-        "title": "Pulizia Oceani",
-        "description": "Rimozione plastica dai mari",
-        "partner": "Partner: Ocean Cleanup, Plastic Bank"
-      },
-      {
-        "icon": "🦋",
-        "title": "Biodiversità",
-        "description": "Protezione specie a rischio",
-        "partner": "Partner: WWF Italia, Legambiente"
+        "title": "Riduzione Plastica",
+        "description": "Contributo a iniziative di pulizia e riduzione della plastica negli ecosistemi acquatici."
       }
     ],
     "greenwashing": [
-      "\"Siamo green!\" senza prove concrete",
-      "Donazioni una tantum per marketing",
-      "Percentuali vaghe e non verificabili",
-      "Offset carbonico senza trasparenza"
+      "Dichiarazioni ambientali senza prove on-chain",
+      "Donazioni episodiche usate come marketing",
+      "Percentuali non verificabili né tracciabili",
+      "Nessuna rendicontazione pubblica"
     ],
     "ourApproach": [
-      "20% fisso, automatico, trustless",
-      "Ogni transazione tracciabile su blockchain",
-      "EPP scelti e verificati dall'APS",
+      "20% automatico su ogni vendita primaria CONTRIBUTOR",
+      "Distribuzione tracciabile su blockchain Algorand",
+      "Progetti selezionati e verificati dall'APS",
       "Report pubblico trimestrale",
-      "Zero possibilità di manipolazione"
+      "Immutabilità garantita da smart contract"
     ],
     "highlights": [
       {
         "icon": "🔒",
-        "text": "Smart contract trustless = impossibile barare"
+        "text": "Smart contract: la distribuzione è automatica e immutabile"
       },
       {
-        "icon": "📊",
-        "text": "Dashboard pubblica con tutti i dati"
+        "icon": "🌐",
+        "text": "Ogni contributo verificabile su Algorand Explorer"
       },
       {
-        "icon": "🌍",
-        "text": "EPP verificati dall'APS (Associazione)"
+        "icon": "⚖️",
+        "text": "Progetti selezionati dall'APS (non dall'azienda)"
       },
       {
-        "icon": "📜",
-        "text": "Report trimestrale pubblicato"
+        "icon": "📋",
+        "text": "Report trimestrale pubblico"
       }
-    ],
-    "ctaLabel": "Scopri i Progetti EPP"
+    ]
   },
   "motto": {
     "text": "Se Esiste, EGIZZALO. Se lo EGIZZI, Vale.",
