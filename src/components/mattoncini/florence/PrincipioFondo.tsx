@@ -160,7 +160,7 @@ export function PrincipioFondo(): JSX.Element {
         <p style={{ color: COLORS.gray[700], marginBottom: '1.5rem' }}>
           <span>
             {data.transformDesc.split('EGI')[0]}
-            <GlossaryTerm termId="EGI">EGI – Eco Goods Invent</GlossaryTerm>
+            <GlossaryTerm termId="EGI">{t('principioFondo.acronymFull')}</GlossaryTerm>
             {data.transformDesc.split('EGI')[1]}
           </span>
         </p>

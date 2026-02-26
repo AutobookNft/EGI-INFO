@@ -20,7 +20,7 @@ const TechPerformance: React.FC = () => {
   const performance = performanceData || [
     { label: 'Minting', value: '< 5s', desc: 'Certificazione istantanea' },
     { label: 'Uptime SLA', value: '99.9%', desc: 'Disponibilità garantita' },
-    { label: 'Sicurezza', value: 'SOC 2', desc: 'Type II compliant' },
+    { label: 'Sicurezza', value: 'SOC 2', desc: 'GDPR by design' },
     { label: 'Utenti concurrent', value: '100k+', desc: 'Scalabilità enterprise' },
   ];
 

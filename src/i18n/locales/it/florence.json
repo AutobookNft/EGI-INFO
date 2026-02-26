@@ -678,7 +678,9 @@
       "splitEpp": "EPP (Ambiente)",
       "splitPlatform": "Piattaforma",
       "splitAssociation": "Associazione",
-      "royaltyNote": "Da quel momento: royalty 4.5% perpetue su ogni rivendita"
+      "royaltyNote": "Da quel momento: royalty 4.5% perpetue su ogni rivendita",
+      "withEppDesc": "Il 20% di ogni vendita va automaticamente a progetti ambientali verificati. Nessun costo fisso mensile. Solo commissione sulla vendita.",
+      "withoutEppDesc": "Profilo NORMAL (Company): abbonamento mensile obbligatorio in base alla collection. Nessuna quota EPP. Solo per aziende senza profilo CONTRIBUTOR."
     },
     "highlights": {
       "step1": [
@@ -1177,7 +1179,8 @@
         "q": "Royalty garantite?",
         "a": "Sì, smart contract trustless per sempre."
       }
-    ]
+    ],
+    "moreQuestionsTitle": "Hai altre domande?"
   },
   "ctaFinal": {
     "title": "Il Rinascimento Digitale Inizia Qui",
@@ -1387,7 +1390,8 @@
       ]
     },
     "insight": "L'opera non è mai 'finita' nell'isolamento del creatore.",
-    "body": "L'opera diventa EGI — Eco Goods Invent — unendo valore estetico, traccia digitale immutabile su Algorand, e contributo ambientale tramite EPP (Environmental Protection Projects) verificati."
+    "body": "L'opera diventa EGI — Eco Goods Invent — unendo valore estetico, traccia digitale immutabile su Algorand, e contributo ambientale tramite EPP (Environmental Protection Projects) verificati.",
+    "acronymFull": "EGI – Environment Goods Invent"
   },
   "cocreazione": {
     "badge": "👥 Fondamenti",
@@ -1652,5 +1656,11 @@
       "title": "Pronto a usare il protocollo?",
       "body": "Che tu sia un artista, un'istituzione pubblica o un trader, c'è un manipolatore EGI pensato per te. Esplora le piattaforme o contattaci per sapere come integrare EGI nel tuo progetto."
     }
+  },
+  "cta": {
+    "finalTitle": "Il Rinascimento Digitale Inizia Qui",
+    "isCreator": "Sono un Creator",
+    "isCollector": "Sono un Collector",
+    "isCompany": "Sono un'Azienda"
   }
 }

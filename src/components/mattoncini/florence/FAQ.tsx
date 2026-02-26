@@ -63,7 +63,7 @@ const FAQ: React.FC = () => {
         </div>
 
         <div className="faq__more">
-          <p>Hai altre domande?</p>
+          <p>{t('faq.moreQuestionsTitle', 'Hai altre domande?')}</p>
           <a href="mailto:info@florenceegi.com" className="faq__contact">
             Contattaci →
           </a>

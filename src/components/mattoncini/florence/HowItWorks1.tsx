@@ -155,8 +155,7 @@ const HowItWorks1: React.FC = () => {
               {t('howItWorks.ui.withEpp')}
             </h3>
             <p style={{ fontSize: '1rem', color: 'rgba(255,255,255,0.8)', lineHeight: 1.6 }}>
-              Il 20% di ogni vendita va automaticamente a progetti ambientali. 
-              Nessun costo fisso. Guadagni di più e fai del bene.
+              {t('howItWorks.ui.withEppDesc')}
             </p>
           </article>
 
@@ -176,8 +175,7 @@ const HowItWorks1: React.FC = () => {
               {t('howItWorks.ui.withoutEpp')}
             </h3>
             <p style={{ fontSize: '1rem', color: 'rgba(255,255,255,0.6)', lineHeight: 1.6 }}>
-              Abbonamento mensile €4-19/mese in base a quanti EGI contiene la collection. 
-              Meno conveniente, ma possibile.
+              {t('howItWorks.ui.withoutEppDesc')}
             </p>
           </article>
         </div>

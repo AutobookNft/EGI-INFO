@@ -4,7 +4,6 @@
  */
 
 import React, { useState } from 'react';
-import { useTranslation } from 'react-i18next';
 import { GlossaryTerm } from '../../common/GlossaryTerm';
 
 const COLORS = {
@@ -15,6 +14,7 @@ const COLORS = {
   emeraldLight: 'rgba(16, 185, 129, 0.1)',
   blue: '#3b82f6',
   blueLight: 'rgba(59, 130, 246, 0.1)',
+
   amber: '#f59e0b',
   amberLight: 'rgba(245, 158, 11, 0.1)',
   white: '#ffffff',
@@ -39,7 +39,7 @@ const WalletRedemption: React.FC = () => {
   return (
     <section style={{ minHeight: '100vh', padding: 'clamp(40px, 8vw, 80px) 20px', background: '#0a0a0a' }} aria-labelledby="redemption-title">
       <div style={{ maxWidth: '1000px', margin: '0 auto' }}>
-        
+
         {/* HEADER */}
         <header style={{ textAlign: 'center', marginBottom: '48px' }}>
           <span style={{ display: 'inline-block', padding: '10px 20px', background: COLORS.goldLight, border: `1px solid ${COLORS.goldBorder}`, borderRadius: '50px', color: COLORS.gold, fontSize: '14px', fontWeight: 600, marginBottom: '24px' }}>
@@ -60,10 +60,10 @@ const WalletRedemption: React.FC = () => {
             <span style={{ flex: 1 }}>Riscatto Wallet — Dettaglio Completo</span>
             <span style={{ transform: isExpanded ? 'rotate(180deg)' : 'rotate(0deg)', transition: 'transform 0.3s' }}>▼</span>
           </button>
-          
+
           {isExpanded && (
             <div style={{ padding: '0 24px 24px', borderTop: `1px solid ${COLORS.cardBorder}` }}>
-              
+
               {/* PERCHÉ È RICHIESTO UN PAGAMENTO */}
               <h4 style={{ color: COLORS.gold, fontWeight: 700, marginTop: '24px', marginBottom: '12px', fontSize: '1.05rem' }}>
                 Perché è richiesto un pagamento?
@@ -102,7 +102,7 @@ const WalletRedemption: React.FC = () => {
                 <li style={{ ...listItemStyle, marginBottom: 0 }}><span style={{ color: COLORS.gold }}>•</span><span><strong>Totale: ~5,2 ALGO</strong></span></li>
               </ul>
               <p style={{ color: COLORS.textPrimary, lineHeight: 1.7 }}>
-                Al cambio corrente (dicembre 2025: 1 ALGO ≈ 0,12 €), questo equivale a circa <strong>0,62 €</strong>. L'importo viene addebitato in <GlossaryTerm termId="egili">EGILI</GlossaryTerm> al tasso di conversione vigente al momento della richiesta.
+                Il costo effettivo in euro dipende dal valore di mercato di ALGO al momento del riscatto. L'importo in <GlossaryTerm termId="egili">EGILI</GlossaryTerm> viene calcolato al tasso di conversione vigente al momento della richiesta.
               </p>
 
               {/* FLUSSO OPERATIVO */}

@@ -19,11 +19,11 @@ const Cases: React.FC = () => {
   };
 
   const cases = casesData || {
-    title: 'Obiettivi di Impatto',
-    disclaimer: 'Proiezioni Anno 1 - FlorenceEGI non è ancora lanciato',
+    title: t('cases.title', 'Chi può usare FlorenceEGI'),
+    disclaimer: t('cases.disclaimer', 'FlorenceEGI non è ancora in produzione'),
     items: [
       { name: 'Maria, Pittrice', result: '+€4,500 in 3 mesi con royalty.' },
-      { name: 'Museo Civico', result: '200 reperti digitalizzati, €12k donazioni.' },
+      { name: t('cases.items.1.name', 'Ente Pubblico'), result: t('cases.items.1.result', 'Notarizzazione documenti blockchain') },
       { name: 'GreenThreads', result: 'Filiera moda certificata, -20% resi.' },
     ],
   };

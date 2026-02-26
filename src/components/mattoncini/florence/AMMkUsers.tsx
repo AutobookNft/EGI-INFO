@@ -16,17 +16,7 @@ const AMMkUsers: React.FC = () => {
     desc: string;
   }>;
 
-  const users = usersData || [
-    { title: 'Creator singoli', desc: 'Artisti, fotografi, musicisti indipendenti' },
-    { title: 'Gallerie', desc: 'Rappresentanza artisti + vendita commissioni' },
-    { title: 'Musei', desc: 'Collezione digitale + merchandising tokenizzato' },
-    { title: 'Brand', desc: 'Prodotti limited edition certificati blockchain' },
-    { title: 'Onlus', desc: 'Progetti ambientali con donazioni tracciabili' },
-    { title: 'Università', desc: 'Ricerca scientifica + pubblicazioni tokenizzate' },
-    { title: 'Comuni', desc: 'Patrimonio culturale digitalizzato' },
-    { title: 'Agenzie', desc: 'Servizi creativi + IP licensing' },
-    { title: 'Studi legali/Notai', desc: 'Notarizzazione documenti via NATAN' },
-  ];
+  const users = (t('ammk.users', { returnObjects: true }) as Array<{title:string;desc:string}>) ?? [];
 
   const ICONS = ['👨‍🎨', '🖼️', '🏛️', '🏢', '💚', '🎓', '🏙️', '📢', '⚖️'];
 
