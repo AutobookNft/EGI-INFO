@@ -278,7 +278,7 @@
       {
         "number": "2",
         "title": "Conto Dedicato",
-        "description": "Ogni EPP ha un proprio conto Stripe collegato, separato e tracciabile."
+        "description": "Ogni EPP ha un conto dedicato, separato e tracciabile."
       },
       {
         "number": "3",
@@ -310,7 +310,7 @@
           "description": "Su ogni rivendita successiva"
         }
       ],
-      "note": "Le percentuali sono automaticamente dedotte e inviate al conto Stripe del progetto EPP collegato alla collection"
+      "note": "Le percentuali sono automaticamente dedotte e inviate al conto del progetto EPP collegato alla collection"
     }
   },
   "transparency": {
@@ -330,8 +330,8 @@
       },
       {
         "icon": "🏛️",
-        "title": "Audit Indipendenti",
-        "description": "Verifica da parte di terzi certificati"
+        "title": "Verificabilità Pubblica",
+        "description": "Chiunque può verificare le transazioni EPP su Algorand Explorer"
       }
     ],
     "cta": "Visualizza i Report",

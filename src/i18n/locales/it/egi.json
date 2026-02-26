@@ -1,21 +1,19 @@
 {
   "meta": {
     "title": "Cosa sono gli EGI - FlorenceEGI",
-    "description": "Gli EGI (Eco Goods Invent) sono certificati digitali che uniscono arte, blockchain e impatto ambientale in un'unica soluzione innovativa.",
-    "keywords": "EGI, Eco Goods Invent, NFT sostenibile, blockchain art, arte digitale, certificato autenticità, FlorenceEGI"
+    "description": "Gli EGI (Environment Goods Invent) sono certificati digitali che uniscono arte, blockchain e impatto ambientale in un'unica soluzione innovativa.",
+    "keywords": "EGI, Environment Goods Invent, NFT sostenibile, blockchain art, arte digitale, certificato autenticità, FlorenceEGI"
   },
-
   "hero": {
-    "badge": "Eco Goods Invent",
+    "badge": "Environment Goods Invent",
     "title": "Cosa sono gli EGI?",
     "subtitle": "I Certificati Digitali del Rinascimento Ecologico",
-    "description": "EGI significa Eco Goods Invent: certificati digitali che uniscono valore estetico, traccia blockchain immutabile e contributo ambientale verificabile.",
+    "description": "EGI significa Environment Goods Invent: certificati digitali che uniscono valore estetico, traccia blockchain immutabile e contributo ambientale verificabile.",
     "cta": {
       "primary": "Esplora gli EGI",
       "secondary": "Come funzionano"
     }
   },
-
   "definition": {
     "title": "L'EGI: Molto più di un NFT",
     "intro": "Gli EGI rappresentano l'evoluzione naturale degli NFT, superandone i limiti e aggiungendo utilità concreta.",
@@ -23,8 +21,8 @@
       "title": "Cosa significa EGI?",
       "e": {
         "letter": "E",
-        "word": "Eco",
-        "meaning": "Impatto ambientale positivo integrato nativamente"
+        "word": "Environment",
+        "meaning": "Contributo ambientale integrato nativamente in ogni EGI"
       },
       "g": {
         "letter": "G",
@@ -39,7 +37,6 @@
     },
     "summary": "Un EGI è un asset digitale che combina il valore artistico con utilità reali e impatto ambientale misurabile, tutto certificato su blockchain."
   },
-
   "components": {
     "title": "I Componenti Tecnici dell'EGI",
     "subtitle": "Ogni EGI è costruito su una base tecnologica solida e verificabile",
@@ -47,18 +44,15 @@
     "schemaName": "Componenti Tecnici EGI",
     "schemaDescription": "I cinque componenti fondamentali che costituiscono ogni EGI: certificato digitale, registro blockchain, smart contract, layer metadati, protocollo verifica",
     "listLabel": "Lista componenti EGI",
-    
     "intro": {
       "part1": "Ogni",
       "part2": "è costruito su una architettura modulare che sfrutta la",
       "part3": "per garantire immutabilità, trasparenza e verificabilità."
     },
-    
     "techNote": {
       "label": "Nota tecnica",
       "text": "Tutti i componenti sono open-source e verificabili. Il codice sorgente è disponibile su GitHub."
     },
-    
     "items": {
       "digital-certificate": {
         "name": "Certificato Digitale",
@@ -86,12 +80,10 @@
         "purpose": "Trasparenza"
       }
     },
-    
     "threeComponents": {
       "title": "Le Tre Componenti Fondamentali",
       "subtitle": "Ogni EGI è composto da tre elementi che lavorano in sinergia perfetta"
     },
-    
     "epp": {
       "icon": "🌍",
       "badge": "Environmental Protection Programs",
@@ -120,7 +112,6 @@
       },
       "cta": "Scopri i progetti EPP"
     },
-
     "goods": {
       "icon": "📦",
       "badge": "Beni e Servizi",
@@ -149,7 +140,6 @@
       },
       "cta": "Esplora le collezioni"
     },
-
     "creativity": {
       "icon": "💡",
       "badge": "Innovazione Creativa",
@@ -179,7 +169,6 @@
       "cta": "Scopri le innovazioni"
     }
   },
-
   "functions": {
     "title": "Come Funziona un EGI",
     "subtitle": "Il processo che rende ogni EGI unico, verificabile e utile",
@@ -188,20 +177,16 @@
     "schemaDescription": "Guida passo-passo al funzionamento di un EGI: dalla certificazione alla tracciabilità, dall'autenticità alla gestione della proprietà.",
     "badge": "Funzionalità Core",
     "groupLabel": "Funzionalità EGI espandibili",
-    
     "intro": {
       "part1": "Ogni EGI utilizza",
       "part2": "per automatizzare processi che tradizionalmente richiedevano intermediari costosi e lenti."
     },
-    
     "expanded": "Sezione {{title}} espansa",
     "collapsed": "Sezione {{title}} compressa",
-    
     "hint": {
       "clickToExpand": "Clicca su una funzione per espandere i dettagli",
       "clickToCollapse": "Clicca di nuovo per comprimere"
     },
-    
     "items": {
       "certification": {
         "title": "Certificazione Digitale",
@@ -254,7 +239,6 @@
         ]
       }
     },
-
     "legacyFeatures": {
       "icon": "🔗",
       "title": "Rebind - Il Legame Dinamico",
@@ -266,7 +250,6 @@
         "Storia di provenienza immutabile"
       ]
     },
-
     "tokenization": {
       "icon": "🪙",
       "title": "Tokenization - Frazionamento Intelligente",
@@ -278,7 +261,6 @@
         "Liquidità aumentata"
       ]
     },
-
     "multirole": {
       "icon": "👥",
       "title": "Multirole - Ruoli Multipli",
@@ -290,7 +272,6 @@
         "Governance distribuita"
       ]
     },
-
     "interface": {
       "icon": "🔌",
       "title": "Interface - Interoperabilità",
@@ -302,7 +283,6 @@
         "Compatibilità cross-platform"
       ]
     },
-
     "signature": {
       "icon": "✍️",
       "title": "Signature - Firma Digitale",
@@ -315,11 +295,9 @@
       ]
     }
   },
-
   "traitsUtilities": {
     "title": "Traits e Utilità",
     "subtitle": "Ogni EGI può includere caratteristiche e utilità personalizzate",
-
     "traits": {
       "title": "Traits - Caratteristiche",
       "description": "I traits sono le caratteristiche uniche che definiscono ogni EGI: tecnica artistica, materiali, supporto, edizione.",
@@ -330,7 +308,6 @@
         "Edizione: Unica, Limitata, Aperta"
       ]
     },
-
     "utilities": {
       "title": "Utilità - Benefici Concreti",
       "description": "Le utilità sono i benefici concreti che ogni EGI offre al suo possessore.",
@@ -342,21 +319,18 @@
       ]
     }
   },
-
   "advantages": {
     "title": "Vantaggi per Ogni Stakeholder",
     "subtitle": "Scopri come gli EGI creano valore per artisti, collezionisti, gallerie e istituzioni",
     "ariaLabel": "Vantaggi dell'EGI per categoria",
     "tablistLabel": "Seleziona categoria stakeholder",
     "tabChanged": "Visualizzazione vantaggi per {{tab}}",
-    
     "tabs": {
       "artists": "Artisti",
-      "collectors": "Collezionisti", 
+      "collectors": "Collezionisti",
       "galleries": "Gallerie",
       "institutions": "Istituzioni"
     },
-    
     "artists": {
       "title": "Vantaggi per gli Artisti",
       "intro": "Gli EGI offrono ai creator strumenti potenti per proteggere, monetizzare e tracciare le proprie opere.",
@@ -381,7 +355,6 @@
         }
       }
     },
-    
     "collectors": {
       "title": "Vantaggi per i Collezionisti",
       "intro": "Investi con sicurezza: provenienza certificata, autenticità garantita e valore tracciabile.",
@@ -406,7 +379,6 @@
         }
       }
     },
-    
     "galleries": {
       "title": "Vantaggi per le Gallerie",
       "intro": "Modernizza la tua galleria con strumenti digitali per inventario, vendite e fiducia.",
@@ -431,7 +403,6 @@
         }
       }
     },
-    
     "institutions": {
       "title": "Vantaggi per le Istituzioni",
       "intro": "Cataloga, preserva e rendi accessibile il patrimonio culturale con tecnologia d'avanguardia.",
@@ -456,12 +427,10 @@
         }
       }
     },
-    
     "cta": {
       "text": "Pronto a scoprire come gli EGI possono trasformare il tuo settore?",
       "button": "Parla con un Esperto"
     },
-
     "legacyItems": [
       {
         "icon": "🌱",
@@ -495,7 +464,6 @@
       }
     ]
   },
-
   "cta": {
     "title": "Inizia il Tuo Viaggio nel Rinascimento Digitale",
     "description": "Scopri come gli EGI possono trasformare il modo in cui crei, collezioni e contribuisci all'ambiente.",
@@ -503,7 +471,6 @@
     "secondary": "Diventa Creator",
     "tertiary": "Contattaci"
   },
-
   "accessibility": {
     "skipToContent": "Salta al contenuto principale",
     "openMenu": "Apri menu navigazione",
