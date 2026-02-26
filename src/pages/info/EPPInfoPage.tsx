@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import { GlossaryTerm } from '../../components/common/GlossaryTerm';
+
 
 /**
  * EPPInfoPage - Programmi di Protezione Ambientale
@@ -24,13 +24,13 @@ const EPPInfoPage: React.FC = () => {
         <h1 className="epp-title">{t('hero.title')}</h1>
         <p className="epp-subtitle">{t('hero.subtitle')}</p>
         <p className="epp-description">{t('hero.description')}</p>
-        
+
         {/* Notice: questi sono OBIETTIVI, non risultati */}
         <div className="epp-projection-notice">
           <span className="epp-projection-icon">🎯</span>
           <span className="epp-projection-text">{t('hero.projection_notice')}</span>
         </div>
-        
+
         <div className="epp-hero-stats">
           <div className="epp-stat">
             <span className="epp-stat__value">{t('hero.stats.trees.value')}</span>
@@ -58,19 +58,14 @@ const EPPInfoPage: React.FC = () => {
       <section className="epp-section">
         <h2 className="epp-section__title">{t('intro.title')}</h2>
         <p className="epp-section__text">{t('intro.description')}</p>
-        
-        {/* Glossary Terms Context */}
+
         <div className="epp-glossary-context">
           <p className="epp-glossary-context__text">
-            Ogni <GlossaryTerm termId="egi">EGI</GlossaryTerm> che viene creato o venduto sulla piattaforma{' '}
-            <GlossaryTerm termId="florenceegi">FlorenceEGI</GlossaryTerm> destina automaticamente una quota 
-            ai progetti <GlossaryTerm termId="epp">EPP</GlossaryTerm>. Questo avviene tramite{' '}
-            <GlossaryTerm termId="smart-contract">smart contract</GlossaryTerm> sulla blockchain{' '}
-            <GlossaryTerm termId="algorand">Algorand</GlossaryTerm>, garantendo che ogni contributo sia{' '}
-            <GlossaryTerm termId="on-chain">tracciabile on-chain</GlossaryTerm> e verificabile da chiunque.
+            {t('intro.glossaryContext')}
           </p>
         </div>
-        
+
+
         <div className="epp-principles">
           {[0, 1, 2].map((i) => (
             <div key={i} className="epp-principle">
@@ -86,7 +81,7 @@ const EPPInfoPage: React.FC = () => {
       <section className="epp-section epp-programs">
         <h2 className="epp-section__title">{t('programs.title')}</h2>
         <p className="epp-section__subtitle">{t('programs.subtitle')}</p>
-        
+
         {/* Program Tabs */}
         <div className="epp-tabs">
           {programs.map((prog) => (
@@ -151,7 +146,7 @@ const EPPInfoPage: React.FC = () => {
       <section className="epp-section">
         <h2 className="epp-section__title">{t('howItWorks.title')}</h2>
         <p className="epp-section__subtitle">{t('howItWorks.subtitle')}</p>
-        
+
         <div className="epp-steps">
           {howItWorksSteps.map((i) => (
             <div key={i} className="epp-step">
@@ -182,18 +177,13 @@ const EPPInfoPage: React.FC = () => {
         <h2 className="epp-section__title">{t('transparency.title')}</h2>
         <p className="epp-section__subtitle">{t('transparency.subtitle')}</p>
         <p className="epp-section__text">{t('transparency.description')}</p>
-        
+
         {/* Blockchain Transparency */}
         <div className="epp-blockchain-note">
-          <p>
-            Grazie alla <GlossaryTerm termId="blockchain">blockchain</GlossaryTerm>{' '}
-            <GlossaryTerm termId="algorand">Algorand</GlossaryTerm>, ogni transazione lascia un{' '}
-            <GlossaryTerm termId="audit-trail">audit trail</GlossaryTerm> immutabile. Questo significa che 
-            puoi verificare <GlossaryTerm termId="on-chain">on-chain</GlossaryTerm> ogni singolo contributo 
-            ai progetti EPP, garantendo <GlossaryTerm termId="trasparenza">trasparenza totale</GlossaryTerm>.
-          </p>
+          <p>{t('transparency.blockchainNote')}</p>
         </div>
-        
+
+
         <div className="epp-transparency__grid">
           {[0, 1, 2].map((i) => (
             <div key={i} className="epp-transparency__item">
@@ -209,7 +199,7 @@ const EPPInfoPage: React.FC = () => {
       <section className="epp-section">
         <h2 className="epp-section__title">{t('participation.title')}</h2>
         <p className="epp-section__subtitle">{t('participation.subtitle')}</p>
-        
+
         <div className="epp-participation__grid">
           {[0, 1, 2, 3].map((i) => (
             <div key={i} className="epp-participation__item">
