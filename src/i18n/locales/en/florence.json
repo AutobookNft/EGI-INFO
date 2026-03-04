@@ -610,5 +610,24 @@
   },
   "principioFondo": {
     "algorandLabel": "Algorand"
+  },
+  "impact": {
+    "projects": [
+      {
+        "icon": "🌳",
+        "title": "Reforestation",
+        "description": "Support for tree-planting projects in degraded areas, verified by APS. Not just reforesting, but maintaining vital ecosystems to rehabilitate ecological balance."
+      },
+      {
+        "icon": "🌊",
+        "title": "Aquatic Plastic Removal",
+        "description": "Contribution to concrete plastic removal initiatives from aquatic environments: seas, lakes and rivers. A crucial action for the health of our ecosystems."
+      },
+      {
+        "icon": "🐝",
+        "title": "Bee Population Enhancement",
+        "description": "Programs supporting bee populations, fundamental for biodiversity and global food security. Bees are responsible for over 70% of pollination."
+      }
+    ]
   }
 }

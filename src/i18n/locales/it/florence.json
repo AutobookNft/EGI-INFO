@@ -1353,12 +1353,17 @@
       {
         "icon": "🌳",
         "title": "Riforestazione",
-        "description": "Sostegno a progetti di piantumazione in aree degradate, verificati dall'APS."
+        "description": "Sostegno a progetti di piantumazione in aree degradate, verificati dall'APS. Non solo si riforestano le aree ma si mantengono vitali per riabilitare l'equilibrio degli ecosistemi."
       },
       {
         "icon": "🌊",
-        "title": "Riduzione Plastica",
-        "description": "Contributo a iniziative di pulizia e riduzione della plastica negli ecosistemi acquatici."
+        "title": "Riduzione Plastica Acquatica",
+        "description": "Contributo a iniziative concrete di rimozione della plastica dagli ambienti acquatici: mari, laghi e fiumi. Un'azione cruciale per la salute degli ecosistemi."
+      },
+      {
+        "icon": "🐝",
+        "title": "Protezione delle Api",
+        "description": "Programmi di supporto alla popolazione delle api, fondamentali per la biodiversità e la sicurezza alimentare globale. Le api sono responsabili di oltre il 70% dell'impollinazione."
       }
     ],
     "greenwashing": [
