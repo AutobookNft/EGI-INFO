@@ -287,28 +287,34 @@
     "disclaimer": "Indicative roadmap — priorities subject to change"
   },
   "whatWeDo": {
-    "badge": "Who we are",
-    "title": "FlorenceEGI restores truth, recognition and real value to the digital world",
-    "intro": "We are not a marketplace. We are an infrastructure: we certify, protect and make your real assets liquid — art, documents, products, ideas — on Algorand blockchain.",
-    "body1": "Every EGI (Eco Goods Invent) is a digital certificate that fuses three inseparable things: your asset, automatic perpetual royalties, and direct funding of verified environmental projects. We hold no funds. We manage no crypto. You pay in euros, value generates itself.",
-    "body2": "The place where a work becomes real because someone creates it, recognises it and completes it. The artist generates the form, but it is the encounter with the patron that activates its full existence. Every transaction permanently inscribes in the blockchain the names of who created and who chose to believe in that work.",
+    "badge": "Asset Market Maker",
+    "title": "FlorenceEGI is the world's first Asset Market Maker for your assets",
+    "ammkAnalogy": "Just as Shopify lets you create a store to sell products, FlorenceEGI gives you the infrastructure to build a marketplace that sells assets — things that don't end with the transaction, but keep generating value over time.",
+    "diffTitle": "Product vs Asset: the difference that changes everything",
+    "diffProduct": "A product: you sell it, the transaction ends.",
+    "diffAsset": "An asset: it keeps generating value after the first sale — automatic royalties, secondary market, certified environmental contribution, appreciation over time.",
+    "diffNote": "An asset is not just a work of art. It can be anything capable of generating value: a document, a patent, a contract, a physical product, an idea.",
+    "pillarsTitle": "What makes up every EGI",
     "pillars": [
       {
         "icon": "🎨",
-        "title": "Aesthetic Value",
-        "desc": "Any asset born from human ingenuity: physical and digital art, design, music, documents, intellectual property."
+        "title": "Your asset (Goods)",
+        "desc": "Anything born from human ingenuity: physical and digital art, design, music, documents, contracts, intellectual property."
       },
       {
         "icon": "⛓️",
-        "title": "Immutable Record",
-        "desc": "Certificate of Authenticity (CoA) on Algorand. SHA-256 cryptographic hash + permanent timestamp. Public QR verification — no login required."
+        "title": "Blockchain record (Invent)",
+        "desc": "Certificate of Authenticity (CoA) on Algorand. SHA-256 hash + permanent timestamp. Public QR verification — no login. Automatic 4.5% royalties on every resale."
       },
       {
         "icon": "🌱",
-        "title": "Environmental Impact",
-        "desc": "20% of every transaction automatically funds one of three EPP programmes: Appropriate Restoration Forestry, Aquatic Plastic Removal, Bee Population Enhancement."
+        "title": "Environmental impact (Eco)",
+        "desc": "20% of every transaction automatically funds EPP programmes: Appropriate Restoration Forestry, Aquatic Plastic Removal, Bee Population Enhancement."
       }
     ],
+    "coTitle": "Who creates, who activates, who holds",
+    "coBody": "The work becomes real because someone creates it, recognises it and completes it. The artist generates the form; the patron (Co-Creator) activates it through minting; the Collector becomes its custodian. Every transaction permanently inscribes in the blockchain the names of all who participated.",
+    "note": "GDPR by design · MiCA-safe · Euro payments · Zero upfront costs",
     "highlights": [
       {
         "value": "4.5%",
@@ -316,22 +322,17 @@
       },
       {
         "value": "20%",
-        "label": "To verified environmental projects"
+        "label": "To EPP environmental projects"
       },
       {
         "value": "0€",
-        "label": "No upfront costs"
+        "label": "Upfront costs"
       },
       {
         "value": "4.5s",
-        "label": "Algorand blockchain finality"
+        "label": "Algorand finality"
       }
-    ],
-    "note": "GDPR by design · MiCA-safe · Zero upfront costs · Euro payments",
-    "ammkLabel": "Asset Market Maker",
-    "ammkTitle": "FlorenceEGI is the world's first AMMk",
-    "ammkDesc": "It originates, certifies, values and makes digital assets liquid through 5 specialised engines: NATAN Market Engine, Asset Engine, Distribution Engine, Co-Creation Engine, Compliance Engine.",
-    "ammkCta": "Explore how the AMMk works →"
+    ]
   },
   "payments": {
     "platformRoleTitle": "What the platform does (and does not do)",
