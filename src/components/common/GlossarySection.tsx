@@ -60,7 +60,7 @@ export const GlossarySection: React.FC<GlossarySectionProps> = ({
       {/* Header - proporzionato */}
       <div className="glossary-section__header">
         <h3 className="glossary-section__title">
-          {title || t('title', 'Glossario')}
+          {title || t('title')}
         </h3>
         <div className="glossary-section__divider" />
       </div>

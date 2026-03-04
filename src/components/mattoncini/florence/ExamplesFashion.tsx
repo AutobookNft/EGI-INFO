@@ -19,15 +19,7 @@ const ExamplesFashion: React.FC = () => {
     items: Array<{ title: string; desc: string }>;
   }>;
 
-  const fashionTab = tabData?.find(tab => tab.id === 'fashion') || {
-    name: 'Moda',
-    description: 'Scarpe artigianali, gioielli tracciati, abiti unici.',
-    items: [
-      { title: 'Scarpa artigianale', desc: 'Prototipo unico + storia produzione' },
-      { title: 'Gioiello', desc: 'Certificato autenticità + tracciabilità gemme' },
-      { title: 'Abito sartoriale', desc: 'Design esclusivo + making-of' },
-    ],
-  };
+  const fashionTab = tabData?.find(tab => tab.id === 'fashion') ?? { name: \'\', description: \'\', items: [] };
 
   const ICONS = ['👟', '💎', '👗'];
 

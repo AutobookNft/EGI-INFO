@@ -19,15 +19,7 @@ const ExamplesSport: React.FC = () => {
     items: Array<{ title: string; desc: string }>;
   }>;
 
-  const sportTab = tabData?.find(tab => tab.id === 'sport') || {
-    name: 'Sport & Exp',
-    description: 'Risultati maratone, percorsi GPS, memorabilia.',
-    items: [
-      { title: 'Maratona', desc: 'Risultato certificato + sponsor split' },
-      { title: 'Gara ciclismo', desc: 'Percorso GPS + memorabilia' },
-      { title: 'Immersione subacquea', desc: 'Esperienza documentata + video 360°' },
-    ],
-  };
+  const sportTab = tabData?.find(tab => tab.id === 'sport') ?? { name: \'\', description: \'\', items: [] };
 
   const ICONS = ['🏃', '🚴', '🤿'];
 

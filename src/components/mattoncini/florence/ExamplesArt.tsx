@@ -23,17 +23,7 @@ const ExamplesArt: React.FC = () => {
     items: Array<{ title: string; desc: string }>;
   }>;
 
-  const artTab = tabData?.find(tab => tab.id === 'art') || {
-    name: 'Arte & Creatività',
-    description: 'Quadri fisici, sculture, murales georeferenziati.',
-    items: [
-      { title: 'Quadro fisico', desc: 'EGI + certificato + royalty perpetua' },
-      { title: 'Fotografia', desc: 'Serie limitata tokenizzata' },
-      { title: 'Scultura', desc: 'Gemello digitale 3D + proprietà fisica' },
-      { title: 'Murales', desc: 'Opera georeferenziata + NFT' },
-      { title: 'Installazione', desc: 'Documentazione immersiva + accesso esclusivo' },
-    ],
-  };
+  const artTab = tabData?.find(tab => tab.id === 'art') ?? { name: \'\', description: \'\', items: [] };
 
   const ICONS = ['🎨', '📸', '🗿', '🖼️', '🎭'];
 

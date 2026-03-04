@@ -19,15 +19,7 @@ const ExamplesHeritage: React.FC = () => {
     items: Array<{ title: string; desc: string }>;
   }>;
 
-  const heritageTab = tabData?.find(tab => tab.id === 'culture') || {
-    name: 'Heritage',
-    description: 'Reperti museali, manoscritti, opere teatrali.',
-    items: [
-      { title: 'Reperto storico', desc: 'Certificato provenienza + 3D scan' },
-      { title: 'Manoscritto', desc: 'Digitalizzazione HD + accesso ricerca' },
-      { title: 'Opera teatrale', desc: 'Replica streaming + royalty cast' },
-    ],
-  };
+  const heritageTab = tabData?.find(tab => tab.id === 'culture') ?? { name: \'\', description: \'\', items: [] };
 
   const ICONS = ['🏺', '📜', '🎭'];
 

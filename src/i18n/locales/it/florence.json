@@ -528,54 +528,31 @@
         ]
       },
       {
-        "id": "music",
-        "name": "Musica & Show",
-        "description": "Canzoni, album, ticket concerti, backstage pass.",
-        "items": [
-          {
-            "title": "Canzone",
-            "desc": "Music NFT + split royalty con band"
-          },
-          {
-            "title": "Album",
-            "desc": "Tracce vendibili separatamente"
-          },
-          {
-            "title": "Concerto",
-            "desc": "Ticket + backstage access token"
-          },
-          {
-            "title": "Podcast",
-            "desc": "Episodi premium tokenizzati"
-          }
-        ]
-      },
-      {
         "id": "books",
         "name": "Libri & Content",
         "description": "Libri, e-book firmati, articoli esclusivi.",
         "items": [
           {
-            "title": "Libro",
-            "desc": "Capitoli vendibili singolarmente"
+            "title": "Capitoli vendibili",
+            "desc": "Singolarmente tokenizzati"
           },
           {
-            "title": "E-book",
-            "desc": "Edizioni limitate firmate"
+            "title": "Edizioni limitate firmate",
+            "desc": "Copia digitale + firma d'autore"
           },
           {
-            "title": "Articolo",
-            "desc": "Accesso esclusivo + archivio storico"
+            "title": "Archivio storico",
+            "desc": "Accesso esclusivo + archivio"
           },
           {
             "title": "Ricetta segreta",
-            "desc": "IP protetto + licenze uso"
+            "desc": "Contenuto esclusivo tokenizzato"
           }
         ]
       },
       {
         "id": "eco",
-        "name": "Ambiente",
+        "name": "Impatto Ecologico",
         "description": "Alberi piantati, kg plastica rimossa, crediti green.",
         "items": [
           {
@@ -588,36 +565,17 @@
           },
           {
             "title": "Restauro monumento",
-            "desc": "Contributo storico certificato"
+            "desc": "Heritage token verificabile"
           },
           {
             "title": "Energia rinnovabile",
-            "desc": "kWh verdi scambiabili"
-          }
-        ]
-      },
-      {
-        "id": "sport",
-        "name": "Sport & Exp",
-        "description": "Risultati maratone, percorsi GPS, memorabilia.",
-        "items": [
-          {
-            "title": "Maratona",
-            "desc": "Risultato certificato + sponsor split"
-          },
-          {
-            "title": "Gara ciclismo",
-            "desc": "Percorso GPS + memorabilia"
-          },
-          {
-            "title": "Immersione subacquea",
-            "desc": "Esperienza documentata + video 360°"
+            "desc": "Crediti green on-chain"
           }
         ]
       },
       {
         "id": "fashion",
-        "name": "Moda",
+        "name": "Fashion & Luxury",
         "description": "Scarpe artigianali, gioielli tracciati, abiti unici.",
         "items": [
           {
@@ -635,8 +593,8 @@
         ]
       },
       {
-        "id": "culture",
-        "name": "Heritage",
+        "id": "heritage",
+        "name": "Patrimonio Culturale",
         "description": "Reperti museali, manoscritti, opere teatrali.",
         "items": [
           {
@@ -649,7 +607,49 @@
           },
           {
             "title": "Opera teatrale",
-            "desc": "Replica streaming + royalty cast"
+            "desc": "Registrazione video + diritti derivati"
+          }
+        ]
+      },
+      {
+        "id": "music",
+        "name": "Musica & Show",
+        "description": "Canzoni, album, ticket concerti, backstage pass.",
+        "items": [
+          {
+            "title": "Album tokenizzato",
+            "desc": "Music NFT + split royalty con band"
+          },
+          {
+            "title": "Tracce singole",
+            "desc": "Vendibili separatamente"
+          },
+          {
+            "title": "Ticket + backstage",
+            "desc": "Access token esclusivo"
+          },
+          {
+            "title": "Podcast premium",
+            "desc": "Episodi tokenizzati"
+          }
+        ]
+      },
+      {
+        "id": "sport",
+        "name": "Sport & Experience",
+        "description": "Risultati maratone, percorsi GPS, memorabilia.",
+        "items": [
+          {
+            "title": "Maratona completata",
+            "desc": "Risultato certificato + sponsor split"
+          },
+          {
+            "title": "Gara ciclismo",
+            "desc": "Percorso GPS + memorabilia"
+          },
+          {
+            "title": "Immersione subacquea",
+            "desc": "Video 360° + certificato esperienza"
           }
         ]
       }
@@ -903,7 +903,8 @@
           "desc": "Dati esclusivi per tenant"
         }
       ]
-    }
+    },
+    "eventBus": "Event Bus pub/sub"
   },
   "technology": {
     "titleLine1": "Stack Enterprise,",
@@ -995,7 +996,9 @@
     "poweredByLabel": "Powered by",
     "egizzare": "EGIZZARE",
     "tagline": "Tecnologia invisibile, risultati visibili.",
-    "userSubtitle": "Semplicità senza compromessi"
+    "userSubtitle": "Semplicità senza compromessi",
+    "eventBus": "Event Bus pub/sub",
+    "enterprisePower": "Potenza enterprise invisibile"
   },
   "payments": {
     "title": "Inclusione Finanziaria Totale",
@@ -1048,7 +1051,66 @@
     "micaSafe": "MiCA-safe",
     "nonGestisce": "NON gestisce",
     "nonCustodisce": "NON custodisce",
-    "nonEsegue": "NON esegue"
+    "nonEsegue": "NON esegue",
+    "level1": {
+      "badge": "💶 Livello 1",
+      "title": "Pagamento Fiat Semplice",
+      "subtitle": "Il Creator non ha wallet, il Collector non ha wallet",
+      "desc": "Il modo più semplice. Tutto gestito dalla piattaforma, nessuna complessità blockchain per nessuno.",
+      "step1": "Paga in euro (carta, bonifico, PayPal) tramite il checkout della piattaforma.",
+      "step2": "Riceve il pagamento, esegue il minting sul wallet custodiale, scrive l'anchor hash on-chain e salda le royalty automaticamente.",
+      "step3": "Verifica pubblica con QR.",
+      "step4": "Riceve il provento netto in euro sul conto bancario collegato.",
+      "noAlgo": "Nessun ALGO, nessun wallet, nessuna gas fee."
+    },
+    "level2": {
+      "badge": "🔗 Livello 2",
+      "title": "Collector con Wallet Personale",
+      "subtitle": "Il Creator non ha wallet, il Collector ha un wallet non-custodial",
+      "desc": "Il Collector vuole la vera proprietà blockchain degli EGI acquistati.",
+      "step1": "Paga sempre in euro (nessun crypto richiesto).",
+      "step2": "Sceglie dove ricevere l'EGI: wallet personale (non-custodial) o wallet custodial della piattaforma.",
+      "step3": "Se sceglie il wallet personale, il sistema esegue automaticamente l'opt-in ASA necessario.",
+      "step4": "Riceve i fondi netti in euro sul conto."
+    },
+    "level3": {
+      "badge": "🏦 Livello 3",
+      "title": "Integrazione Partner CASP/EMI",
+      "subtitle": "Creator con tenant enterprise, accetta pagamenti tramite partner autorizzato",
+      "desc": "Soluzione MiCA-safe per piattaforme enterprise che gestiscono volumi elevati.",
+      "step1": "Si affida a un Partner autorizzato (CASP/EMI) abilitato nella piattaforma.",
+      "step2": "I clienti pagano sul checkout del Partner.",
+      "step3": "Il settlement è gestito dal Partner con reportistica conforme MiCA.",
+      "step4": "Riceve i fondi tramite il circuito del Partner (SEPA, bonifico istituzionale).",
+      "micaSafe": "MiCA-safe"
+    },
+    "level4": {
+      "badge": "🪙 Livello 4",
+      "title": "Pagamento con EGILI",
+      "subtitle": "Il Creator abilita gli EGILI come forma di pagamento per i propri EGI",
+      "desc": "Un sistema innovativo dove i token utility EGILI possono essere usati come mezzo di scambio all'interno della piattaforma.",
+      "step1": "Accumula EGILI attraverso attività meritevoli (vendite, referral, partecipazione community).",
+      "step2": "Al checkout vede l'opzione \"Paga con EGILI\" (solo se abilitata dal Creator).",
+      "step3": "Il sistema verifica il saldo: se sufficiente, l'opzione è disponibile.",
+      "step4": "Gli EGILI vengono bruciati (rimossi definitivamente dalla circolazione).",
+      "step5": "Riceve un regalo in EGILI Gift dalla piattaforma, equivalente agli EGILI bruciati dal Buyer.",
+      "egiliDesc": "EGILI è il token utility interno della piattaforma.",
+      "notTransferable": "Non trasferibile: Non può essere ceduto o venduto.",
+      "notQuoted": "Non quotato: Nessuna quotazione su exchange.",
+      "accountBound": "Account-bound: Legato all'account utente.",
+      "meritBased": "Merit-based: Si guadagna con attività meritevoli.",
+      "burnRate": "Tasso di conversione: Trasparente e fisso.",
+      "earnTitle": "Come guadagnare EGILI:",
+      "earn1": "Volume vendite: Il Creator guadagna EGILI proporzionalmente alle vendite.",
+      "earn2": "Referral verificati: Bonus EGILI per ogni nuovo Creator introdotto.",
+      "earn3": "Donazioni EPP volontarie: Extra EGILI per chi contribuisce agli EPP.",
+      "earn4": "Partecipazione community: Presenza forum, beta testing, contributi.",
+      "earn5": "Fondo distributivo: Una quota degli EGILI Gift ricevuti dal Creator.",
+      "flowTitle": "Il Flusso Completo del Pagamento EGILI"
+    },
+    "royaltiesLabel": "royalties",
+    "custodireCrypto": "Custodire criptovalute per terzi.",
+    "calcolaLabel": "Calcola"
   },
   "compliance": {
     "title": "Compliance Totale",
@@ -1113,7 +1175,9 @@
       "Matching Collezionisti"
     ],
     "ethics": "Etica & Trasparenza",
-    "ethicsDesc": "Conforme al paradigma Oracode OS3.0: ogni suggerimento è basato su metriche reali e ogni decisione algoritmica è interrogabile. GDPR integrato: ConsentService, ULM logging, AuditLogService. Diritti utente: accesso, rettifica, cancellazione, portabilità."
+    "ethicsDesc": "Conforme al paradigma Oracode OS3.0: ogni suggerimento è basato su metriche reali e ogni decisione algoritmica è interrogabile. GDPR integrato: ConsentService, ULM logging, AuditLogService. Diritti utente: accesso, rettifica, cancellazione, portabilità.",
+    "valuationLabel": "Valuation",
+    "marketEngineLabel": "Market Engine"
   },
   "governance": {
     "title": "Governance Duale",
@@ -1189,7 +1253,9 @@
       "creatorReceives": "Creator riceve",
       "eppReceives": "EPP riceve",
       "resaleLabel": "Rivendita",
-      "compareTitle": "Confronto: Primaria vs Rivendita"
+      "compareTitle": "Confronto: Primaria vs Rivendita",
+      "forever": "per sempre",
+      "royaltyLabel": "Royalty Perpetue Garantite"
     },
     "point1": "Nessuna fee di listing — paghi solo quando vendi",
     "point2": {
@@ -1219,7 +1285,9 @@
         "name": "Brand / Azienda",
         "result": "Certificazione blockchain di prodotti o edizioni limitate con filiera tracciabile on-chain."
       }
-    ]
+    ],
+    "creatorLabel": "Creator",
+    "goalsLabel": "obiettivi"
   },
   "roadmap": {
     "title": "Obiettivi di Sviluppo",
@@ -1468,7 +1536,8 @@
     },
     "insight": "L'opera non è mai 'finita' nell'isolamento del creatore.",
     "body": "L'opera diventa EGI — Eco Goods Invent — unendo valore estetico, traccia digitale immutabile su Algorand, e contributo ambientale tramite EPP (Environmental Protection Projects) verificati.",
-    "acronymFull": "EGI – Environment Goods Invent"
+    "acronymFull": "EGI – Environment Goods Invent",
+    "algorandLabel": "Algorand"
   },
   "cocreazione": {
     "badge": "👥 Fondamenti",
@@ -1501,7 +1570,9 @@
       }
     ],
     "flowTitle": "Flusso di Co-Creazione",
-    "flow": "Creator → Co-Creatore (Minting) → Collector → Memoria Permanente Blockchain"
+    "flow": "Creator → Co-Creatore (Minting) → Collector → Memoria Permanente Blockchain",
+    "platformLabel": "FlorenceEGI",
+    "mintingLabel": "minting"
   },
   "visione": {
     "badge": "🚀 Visione",
@@ -1744,7 +1815,10 @@
     "finalTitle": "Il Rinascimento Digitale Inizia Qui",
     "isCreator": "Sono un Creator",
     "isCollector": "Sono un Collector",
-    "isCompany": "Sono un'Azienda"
+    "isCompany": "Sono un'Azienda",
+    "creatorLabel": "Creator",
+    "algorandLabel": "Algorand",
+    "micaCompliant": "MiCA Compliant"
   },
   "whatWeDo": {
     "techTitle": "La complessità della tecnologia resa invisibile",
@@ -1753,7 +1827,10 @@
     "systemDesc": "in un sistema così semplice che chiunque può usarlo.",
     "behindTitle": "Dietro c'è",
     "algorandLabel": "Algorand",
-    "natanLabel": "NATAN AI"
+    "natanLabel": "NATAN AI",
+    "carbonNegative": "Blockchain carbon-negative",
+    "madeInItaly": "Made in Italy",
+    "florentineDesign": "Design fiorentino"
   },
   "fondamenti": {
     "title": "Fondamenti e Visione",

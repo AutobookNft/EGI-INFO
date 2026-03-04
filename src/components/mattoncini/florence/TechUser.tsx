@@ -11,17 +11,12 @@ import { useTranslation } from 'react-i18next';
 const TechUser: React.FC = () => {
   const { t } = useTranslation('florence');
 
-  const userFeaturesData = t('technology.userFeatures', { returnObjects: true }) as Array<{
+  const userFeatures = t('technology.userFeatures', { returnObjects: true }) as Array<{
     title: string;
     desc: string;
   }>;
 
-  const userFeatures = userFeaturesData || [
-    { title: 'Interfaccia drag&drop', desc: 'Carica opere intuitivamente' },
-    { title: 'Dashboard mobile-responsive', desc: 'Gestisci da qualsiasi dispositivo' },
-    { title: 'Notifiche real-time', desc: 'Mai perdere una vendita' },
-    { title: 'Analytics comprensibili', desc: 'Dati senza complessità' },
-  ];
+  
 
   const ICONS = ['📤', '📱', '🔔', '📊'];
 

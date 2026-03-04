@@ -23,16 +23,7 @@ const ExamplesMusic: React.FC = () => {
     items: Array<{ title: string; desc: string }>;
   }>;
 
-  const musicTab = tabData?.find(tab => tab.id === 'music') || {
-    name: 'Musica & Show',
-    description: 'Canzoni, album, ticket concerti, backstage pass.',
-    items: [
-      { title: 'Canzone', desc: 'Music NFT + split royalty con band' },
-      { title: 'Album', desc: 'Tracce vendibili separatamente' },
-      { title: 'Concerto', desc: 'Ticket + backstage access token' },
-      { title: 'Podcast', desc: 'Episodi premium tokenizzati' },
-    ],
-  };
+  const musicTab = tabData?.find(tab => tab.id === 'music') ?? { name: \'\', description: \'\', items: [] };
 
   const ICONS = ['🎵', '💿', '🎤', '🎙️'];
 

@@ -341,7 +341,7 @@ const NATAN: React.FC = () => {
               💎
             </span>
             <h3 style={{ fontSize: '1.1rem', fontWeight: 600, color: COLORS.gold, marginBottom: '8px' }}>
-              <GlossaryTerm termId="valuation">Valuation</GlossaryTerm> {t('natan.valuationTitle')}
+              <GlossaryTerm termId="valuation">{t('natan.valuationLabel')}</GlossaryTerm> {t('natan.valuationTitle')}
             </h3>
             <p style={{ fontSize: '0.9rem', color: 'rgba(255,255,255,0.7)', margin: 0 }}>
               {t('natan.valuationDesc')}
@@ -361,7 +361,7 @@ const NATAN: React.FC = () => {
               🚀
             </span>
             <h3 style={{ fontSize: '1.1rem', fontWeight: 600, color: COLORS.purple, marginBottom: '8px' }}>
-              <GlossaryTerm termId="natan-market-engine">Market Engine</GlossaryTerm>
+              <GlossaryTerm termId="natan-market-engine">{t('natan.marketEngineLabel')}</GlossaryTerm>
             </h3>
             <p style={{ fontSize: '0.9rem', color: 'rgba(255,255,255,0.7)', margin: 0 }}>
               {t('natan.marketDesc')}

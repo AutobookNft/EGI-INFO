@@ -200,7 +200,7 @@ export function PrincipioFondo(): JSX.Element {
                 {pillar.description.includes('Algorand') ? (
                   <span>
                     {pillar.description.split('Algorand')[0]}
-                    <GlossaryTerm termId="Algorand">Algorand</GlossaryTerm>
+                    <GlossaryTerm termId="Algorand">{t('principioFondo.algorandLabel')}</GlossaryTerm>
                     {pillar.description.split('Algorand')[1]}
                   </span>
                 ) : pillar.description.includes('EPP') ? (

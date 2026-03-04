@@ -18,7 +18,7 @@ const FAQ: React.FC = () => {
   };
 
   const faq = faqData || {
-    title: 'Domande Frequenti',
+    title: t('faq.title'),
     items: [
       { q: 'Devo capire la blockchain?', a: 'No, l\'esperienza è identica a un e-commerce.' },
       { q: 'Quanto costa?', a: 'Minting gratis. Fee solo sul venduto.' },

@@ -47,7 +47,7 @@ const CTAFinal: React.FC = () => {
             <div className="cta-final__stat">
               <span className="cta-final__stat-value">1200+</span>
               <span className="cta-final__stat-label">
-                <GlossaryTerm termId="creator">Creator</GlossaryTerm>
+                <GlossaryTerm termId="creator">{t('cta.creatorLabel')}</GlossaryTerm>
               </span>
             </div>
             <div className="cta-final__stat-divider">•</div>
@@ -85,9 +85,9 @@ const CTAFinal: React.FC = () => {
 
           <div className="cta-final__footer">
             <p>
-              Powered by <GlossaryTerm termId="algorand">Algorand</GlossaryTerm> • 
+              Powered by <GlossaryTerm termId="algorand">{t('cta.algorandLabel')}</GlossaryTerm> • 
               Made in Italy 🇮🇹 • 
-              <GlossaryTerm termId="mica">MiCA Compliant</GlossaryTerm>
+              <GlossaryTerm termId="mica">{t('cta.micaCompliant')}</GlossaryTerm>
             </p>
           </div>
         </div>

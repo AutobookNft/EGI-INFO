@@ -19,16 +19,7 @@ const ExamplesEco: React.FC = () => {
     items: Array<{ title: string; desc: string }>;
   }>;
 
-  const ecoTab = tabData?.find(tab => tab.id === 'eco') || {
-    name: 'Ambiente',
-    description: 'Alberi piantati, kg plastica rimossa, crediti green.',
-    items: [
-      { title: 'Albero piantato', desc: 'Carbon credit certificato' },
-      { title: 'Pulizia oceano', desc: 'Kg plastica rimossa tokenizzati' },
-      { title: 'Restauro monumento', desc: 'Contributo storico certificato' },
-      { title: 'Energia rinnovabile', desc: 'kWh verdi scambiabili' },
-    ],
-  };
+  const ecoTab = tabData?.find(tab => tab.id === 'eco') ?? { name: \'\', description: \'\', items: [] };
 
   const ICONS = ['🌳', '🌊', '🏛️', '⚡'];
 

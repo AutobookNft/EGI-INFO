@@ -100,18 +100,24 @@
           "desc": "Exclusive data per tenant"
         }
       ]
-    }
+    },
+    "eventBus": "Event Bus pub/sub"
   },
   "natan": {
     "title": "NATAN - Your AI Assistant",
     "subtitle": "Artificial Intelligence at your service",
-    "description": "NATAN (Navigational AI Technical Assistant Navigator) is the intelligent assistant that guides you through the FlorenceEGI ecosystem."
+    "description": "NATAN (Navigational AI Technical Assistant Navigator) is the intelligent assistant that guides you through the FlorenceEGI ecosystem.",
+    "valuationLabel": "Valuation",
+    "marketEngineLabel": "Market Engine"
   },
   "cta": {
     "title": "Ready for the Digital Renaissance?",
     "description": "Join thousands of creators and collectors already building the future of sustainable digital art.",
     "primary": "Create Your Account",
-    "secondary": "Explore Collections"
+    "secondary": "Explore Collections",
+    "creatorLabel": "Creator",
+    "algorandLabel": "Algorand",
+    "micaCompliant": "MiCA Compliant"
   },
   "how": {
     "page_title": "How It Works — FlorenceEGI",
@@ -255,7 +261,9 @@
     "poweredByLabel": "Powered by",
     "egizzare": "EGIZE",
     "tagline": "Invisible technology, visible results.",
-    "userSubtitle": "Simplicity without compromise"
+    "userSubtitle": "Simplicity without compromise",
+    "eventBus": "Event Bus pub/sub",
+    "enterprisePower": "Invisible enterprise power"
   },
   "pricing": {
     "secondary": {
@@ -267,7 +275,9 @@
       "creatorReceives": "Creator receives",
       "eppReceives": "EPP receives",
       "resaleLabel": "Resale",
-      "compareTitle": "Comparison: Primary vs Resale"
+      "compareTitle": "Comparison: Primary vs Resale",
+      "forever": "forever",
+      "royaltyLabel": "Guaranteed Perpetual Royalties"
     },
     "columnPercentage": "Percentage",
     "columnDescription": "Description"
@@ -283,7 +293,10 @@
     "systemDesc": "in a system so simple anyone can use it.",
     "behindTitle": "Behind it there's",
     "algorandLabel": "Algorand",
-    "natanLabel": "NATAN AI"
+    "natanLabel": "NATAN AI",
+    "carbonNegative": "Carbon-negative blockchain",
+    "madeInItaly": "Made in Italy",
+    "florentineDesign": "Florentine design"
   },
   "payments": {
     "platformRoleTitle": "What the platform does (and does not do)",
@@ -303,18 +316,233 @@
     "micaSafe": "MiCA-safe",
     "nonGestisce": "Does NOT manage",
     "nonCustodisce": "Does NOT hold",
-    "nonEsegue": "Does NOT execute"
+    "nonEsegue": "Does NOT execute",
+    "level1": {
+      "badge": "💶 Level 1",
+      "title": "Simple Fiat Payment",
+      "subtitle": "The Creator has no wallet, the Collector has no wallet",
+      "desc": "The simplest method. Everything managed by the platform, no blockchain complexity for anyone.",
+      "step1": "Pays in euros (card, transfer, PayPal) via platform checkout.",
+      "step2": "Receives payment, mints on custodial wallet, writes anchor hash on-chain and settles royalties automatically.",
+      "step3": "Public verification with QR.",
+      "step4": "Receives net proceeds in euros on linked bank account.",
+      "noAlgo": "No ALGO, no wallet, no gas fees."
+    },
+    "level2": {
+      "badge": "🔗 Level 2",
+      "title": "Collector with Personal Wallet",
+      "subtitle": "Creator has no wallet, Collector has a non-custodial wallet",
+      "desc": "The Collector wants true blockchain ownership of purchased EGIs.",
+      "step1": "Always pays in euros (no crypto required).",
+      "step2": "Chooses where to receive the EGI: personal wallet (non-custodial) or platform custodial wallet.",
+      "step3": "If choosing personal wallet, system automatically performs the required ASA opt-in.",
+      "step4": "Receives net funds in euros on account."
+    },
+    "level3": {
+      "badge": "🏦 Level 3",
+      "title": "CASP/EMI Partner Integration",
+      "subtitle": "Enterprise Creator, accepts payments via authorized partner",
+      "desc": "MiCA-safe solution for enterprise platforms handling high volumes.",
+      "step1": "Relies on an authorized Partner (CASP/EMI) enabled on the platform.",
+      "step2": "Customers pay on the Partner checkout.",
+      "step3": "Settlement managed by Partner with MiCA-compliant reporting.",
+      "step4": "Receives funds via Partner circuit (SEPA, institutional transfer).",
+      "micaSafe": "MiCA-safe"
+    },
+    "level4": {
+      "badge": "🪙 Level 4",
+      "title": "Payment with EGILI",
+      "subtitle": "Creator enables EGILI as payment method for their EGIs",
+      "desc": "An innovative system where EGILI utility tokens can be used as a means of exchange within the platform.",
+      "step1": "Accumulates EGILI through merit-based activities (sales, referrals, community participation).",
+      "step2": "At checkout sees \"Pay with EGILI\" option (only if enabled by Creator).",
+      "step3": "System verifies balance: if sufficient, option is available.",
+      "step4": "EGILI are burned (permanently removed from circulation).",
+      "step5": "Receives an EGILI Gift from the platform, equivalent to the EGILI burned by the Buyer.",
+      "egiliDesc": "EGILI is the internal utility token of the platform.",
+      "notTransferable": "Not transferable: Cannot be transferred or sold.",
+      "notQuoted": "Not quoted: No exchange listing.",
+      "accountBound": "Account-bound: Tied to the user account.",
+      "meritBased": "Merit-based: Earned through merit activities.",
+      "burnRate": "Conversion rate: Transparent and fixed.",
+      "earnTitle": "How to earn EGILI:",
+      "earn1": "Sales volume: Creator earns EGILI proportional to sales.",
+      "earn2": "Verified referrals: EGILI bonus for every new Creator introduced.",
+      "earn3": "Voluntary EPP donations: Extra EGILI for EPP contributors.",
+      "earn4": "Community participation: Forum presence, beta testing, contributions.",
+      "earn5": "Distributive fund: A share of EGILI Gift received by Creator.",
+      "flowTitle": "The Complete EGILI Payment Flow"
+    },
+    "royaltiesLabel": "royalties",
+    "custodireCrypto": "Hold cryptocurrencies for third parties.",
+    "calcolaLabel": "Calculates"
   },
   "faq": {
     "listLabel": "FAQ list",
     "noResults": "No FAQ available.",
     "noAnswerQuestion": "Can't find the answer you're looking for?",
-    "contactUs": "Contact us"
+    "contactUs": "Contact us",
+    "title": "Frequently Asked Questions"
   },
   "examples": {
     "sectorLabel": "Examples by sector",
     "sectorSelect": "Select sector",
-    "exploreAll": "Explore all collections"
+    "exploreAll": "Explore all collections",
+    "tabs": [
+      {
+        "id": "art",
+        "name": "Art & Creativity",
+        "description": "Physical paintings, sculptures, geolocated murals.",
+        "items": [
+          {
+            "title": "Physical painting",
+            "desc": "EGI + certificate + perpetual royalty"
+          },
+          {
+            "title": "Photography",
+            "desc": "Limited tokenized series"
+          },
+          {
+            "title": "Sculpture",
+            "desc": "3D digital twin + physical ownership"
+          },
+          {
+            "title": "Mural",
+            "desc": "Geolocated artwork + NFT"
+          },
+          {
+            "title": "Installation",
+            "desc": "Immersive documentation + exclusive access"
+          }
+        ]
+      },
+      {
+        "id": "books",
+        "name": "Books & Content",
+        "description": "Books, signed e-books, exclusive articles.",
+        "items": [
+          {
+            "title": "Sellable chapters",
+            "desc": "Individually tokenized"
+          },
+          {
+            "title": "Signed limited editions",
+            "desc": "Digital copy + author signature"
+          },
+          {
+            "title": "Historical archive",
+            "desc": "Exclusive access + archive"
+          },
+          {
+            "title": "Secret recipe",
+            "desc": "Exclusive tokenized content"
+          }
+        ]
+      },
+      {
+        "id": "eco",
+        "name": "Ecological Impact",
+        "description": "Trees planted, plastic removed, green credits.",
+        "items": [
+          {
+            "title": "Tree planted",
+            "desc": "Certified carbon credit"
+          },
+          {
+            "title": "Ocean cleanup",
+            "desc": "Tokenized plastic removed kg"
+          },
+          {
+            "title": "Monument restoration",
+            "desc": "Verifiable heritage token"
+          },
+          {
+            "title": "Renewable energy",
+            "desc": "On-chain green credits"
+          }
+        ]
+      },
+      {
+        "id": "fashion",
+        "name": "Fashion & Luxury",
+        "description": "Artisan shoes, traced jewels, unique garments.",
+        "items": [
+          {
+            "title": "Artisan shoe",
+            "desc": "Unique prototype + production history"
+          },
+          {
+            "title": "Jewel",
+            "desc": "Authenticity certificate + gem traceability"
+          },
+          {
+            "title": "Tailored garment",
+            "desc": "Exclusive design + making-of"
+          }
+        ]
+      },
+      {
+        "id": "heritage",
+        "name": "Cultural Heritage",
+        "description": "Museum artifacts, manuscripts, theatrical works.",
+        "items": [
+          {
+            "title": "Historical artifact",
+            "desc": "Provenance certificate + 3D scan"
+          },
+          {
+            "title": "Manuscript",
+            "desc": "HD digitization + research access"
+          },
+          {
+            "title": "Theatrical work",
+            "desc": "Video recording + derivative rights"
+          }
+        ]
+      },
+      {
+        "id": "music",
+        "name": "Music & Show",
+        "description": "Songs, albums, concert tickets, backstage passes.",
+        "items": [
+          {
+            "title": "Tokenized album",
+            "desc": "Music NFT + split royalty with band"
+          },
+          {
+            "title": "Single tracks",
+            "desc": "Individually sellable"
+          },
+          {
+            "title": "Ticket + backstage",
+            "desc": "Exclusive access token"
+          },
+          {
+            "title": "Premium podcast",
+            "desc": "Tokenized episodes"
+          }
+        ]
+      },
+      {
+        "id": "sport",
+        "name": "Sport & Experience",
+        "description": "Marathon results, GPS routes, memorabilia.",
+        "items": [
+          {
+            "title": "Completed marathon",
+            "desc": "Certified result + sponsor split"
+          },
+          {
+            "title": "Cycling race",
+            "desc": "GPS route + memorabilia"
+          },
+          {
+            "title": "Diving experience",
+            "desc": "360° video + experience certificate"
+          }
+        ]
+      }
+    ]
   },
   "fondamenti": {
     "title": "Foundations and Vision",
@@ -371,5 +599,16 @@
     "zeroProfitDesc": "FlorenceEGI applies no margin or commission. The cost covers only Algorand blockchain costs (minimum balance requirements and transaction fees).",
     "afterTitle": "✅ After redemption",
     "afterDesc": "The wallet becomes fully non-custodial. The user is the sole holder of private keys and can manage their EGIs via any compatible Algorand client."
+  },
+  "cases": {
+    "creatorLabel": "Creator",
+    "goalsLabel": "goals"
+  },
+  "cocreazione": {
+    "platformLabel": "FlorenceEGI",
+    "mintingLabel": "minting"
+  },
+  "principioFondo": {
+    "algorandLabel": "Algorand"
   }
 }

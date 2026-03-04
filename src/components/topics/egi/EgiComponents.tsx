@@ -211,11 +211,11 @@ const EgiComponents: React.FC = () => {
           <p className="text-white/80 leading-relaxed">
             {t('components.intro.part1')}{' '}
             <GlossaryTerm termId="egi">
-              {t('glossary:egi.term', 'EGI')}
+              {t('glossary:egi.term')}
             </GlossaryTerm>{' '}
             {t('components.intro.part2')}{' '}
             <GlossaryTerm termId="blockchain">
-              {t('glossary:blockchain.term', 'blockchain')}
+              {t('glossary:blockchain.term')}
             </GlossaryTerm>{' '}
             {t('components.intro.part3')}
           </p>

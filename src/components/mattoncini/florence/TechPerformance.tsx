@@ -11,18 +11,13 @@ import { useTranslation } from 'react-i18next';
 const TechPerformance: React.FC = () => {
   const { t } = useTranslation('florence');
 
-  const performanceData = t('technology.performance', { returnObjects: true }) as Array<{
+  const performance = t('technology.performance', { returnObjects: true }) as Array<{
     label: string;
     value: string;
     desc: string;
   }>;
 
-  const performance = performanceData || [
-    { label: 'Minting', value: '< 5s', desc: 'Certificazione istantanea' },
-    { label: 'Uptime SLA', value: '99.9%', desc: 'Disponibilità garantita' },
-    { label: 'Sicurezza', value: 'SOC 2', desc: 'GDPR by design' },
-    { label: 'Utenti concurrent', value: '100k+', desc: 'Scalabilità enterprise' },
-  ];
+  
 
   const COLORS = ['#4ade80', '#60a5fa', '#f87171', '#fbbf24'];
 

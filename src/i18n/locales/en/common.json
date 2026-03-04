@@ -47,5 +47,12 @@
   "intro": {
     "technologyLabel": "Technology",
     "sustainabilityLabel": "Sustainability"
+  },
+  "terms": {
+    "smartContract": "smart contract",
+    "royaltyPerpetue": "perpetual royalties",
+    "certificatoBlockchain": "blockchain certificate",
+    "seedPhrase": "seed phrase",
+    "gasFee": "gas fee"
   }
 }

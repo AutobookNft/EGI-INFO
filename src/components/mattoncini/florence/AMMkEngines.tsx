@@ -56,7 +56,7 @@ const AMMkEngines: React.FC = () => {
           <span className="ammk-engines__note-icon">🔗</span>
           <p>
             Tutti gli engine lavorano insieme attraverso un{' '}
-            <GlossaryTerm termId="smart-contract">Event Bus pub/sub</GlossaryTerm>,
+            <GlossaryTerm termId="smart-contract">{t('ammk.eventBus')}</GlossaryTerm>,
             garantendo comunicazione asincrona e scalabilità enterprise.
           </p>
         </div>

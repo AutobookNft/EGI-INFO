@@ -16,12 +16,7 @@ const AMMkCustom: React.FC = () => {
     desc: string;
   }>;
 
-  const customization = customData || [
-    { title: 'Brand personalizzato', desc: 'Logo, colori, dominio custom' },
-    { title: 'Fee configurabili', desc: 'Default 10%, dinamiche fino a 5%' },
-    { title: 'Tenant isolato', desc: 'Dati separati, RBAC dedicato' },
-    { title: 'Workflow custom', desc: 'Approvazioni, moderazione, drops' },
-  ];
+  
 
   const ICONS = ['🎨', '💵', '🔒', '⚡'];
 

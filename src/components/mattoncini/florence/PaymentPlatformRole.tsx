@@ -68,7 +68,7 @@ const PaymentPlatformRole: React.FC = () => {
               </li>
               <li style={{ ...listItemStyle, marginBottom: 0 }}>
                 <span style={{ color: COLORS.emerald }}>•</span>
-                <span>Calcola <GlossaryTerm termId="royalties">royalties</GlossaryTerm> per il <GlossaryTerm termId="psp">PSP</GlossaryTerm>.</span>
+                <span>Calcola <GlossaryTerm termId="royalties">{t('payments.royaltiesLabel')}</GlossaryTerm> per il <GlossaryTerm termId="psp">PSP</GlossaryTerm>.</span>
               </li>
             </ul>
           </div>
@@ -81,7 +81,7 @@ const PaymentPlatformRole: React.FC = () => {
             <ul style={{ listStyle: 'none', padding: 0, margin: 0, color: COLORS.textPrimary }}>
               <li style={listItemStyle}>
                 <span style={{ color: COLORS.red }}>•</span>
-                <span>Custodire criptovalute per terzi.</span>
+                <span>{t('payments.custodireCrypto')}</span>
               </li>
               <li style={listItemStyle}>
                 <span style={{ color: COLORS.red }}>•</span>

@@ -99,8 +99,8 @@ const WhatWeDo: React.FC = () => {
             a zero emissioni CO₂ usata dalla SIAE per i diritti d'autore),{' '}
             <GlossaryTerm termId="natan">{t('whatWeDo.natanLabel')}</GlossaryTerm> che ti suggerisce prezzi 
             e descrizioni analizzando il mercato reale,{' '}
-            <GlossaryTerm termId="smart-contract">smart contract</GlossaryTerm> automatici 
-            per le <GlossaryTerm termId="royalty-piattaforma">royalty perpetue</GlossaryTerm>.
+            <GlossaryTerm termId="smart-contract">{t('common:terms.smartContract')}</GlossaryTerm> automatici 
+            per le <GlossaryTerm termId="royalty-piattaforma">{t('common:terms.royaltyPerpetue')}</GlossaryTerm>.
           </p>
           
           <p style={{
@@ -110,7 +110,7 @@ const WhatWeDo: React.FC = () => {
           }}>
             Ma tu non vedi nulla di tutto questo: carichi un'opera come su Instagram, 
             clicchi <span style={{ color: GOLD, fontWeight: 700 }}>EGIZZA</span>, e in 5 secondi hai un{' '}
-            <GlossaryTerm termId="coa">certificato blockchain</GlossaryTerm> riconosciuto 
+            <GlossaryTerm termId="coa">{t('common:terms.certificatoBlockchain')}</GlossaryTerm> riconosciuto 
             dalla legge italiana come prova di paternità.
           </p>
         </div>
@@ -139,7 +139,7 @@ const WhatWeDo: React.FC = () => {
               Zero Seed Phrase
             </h3>
             <p style={{ fontSize: '0.95rem', color: 'rgba(255, 255, 255, 0.7)', lineHeight: 1.6 }}>
-              Nessuna <GlossaryTerm termId="seed-phrase">seed phrase</GlossaryTerm> da 
+              Nessuna <GlossaryTerm termId="seed-phrase">{t('common:terms.seedPhrase')}</GlossaryTerm> da 
               scrivere o ricordare per sempre
             </p>
           </div>
@@ -150,7 +150,7 @@ const WhatWeDo: React.FC = () => {
               Zero Gas Fee
             </h3>
             <p style={{ fontSize: '0.95rem', color: 'rgba(255, 255, 255, 0.7)', lineHeight: 1.6 }}>
-              Niente <GlossaryTerm termId="gas-fee">gas fee</GlossaryTerm> incomprensibili, 
+              Niente <GlossaryTerm termId="gas-fee">{t('common:terms.gasFee')}</GlossaryTerm> incomprensibili, 
               paghi solo sul venduto
             </p>
           </div>

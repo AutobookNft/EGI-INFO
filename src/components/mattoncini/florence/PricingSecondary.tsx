@@ -142,7 +142,7 @@ const PricingSecondary: React.FC = () => {
         <div className="pricing-secondary__highlight">
           <span className="pricing-secondary__highlight-icon">💎</span>
           <div className="pricing-secondary__highlight-text">
-            <strong>Royalty Perpetue Garantite</strong>
+            <strong>{t('pricing.secondary.royaltyLabel')}</strong>
             <p>
               Grazie allo <GlossaryTerm termId="smart-contract">smart contract trustless</GlossaryTerm>, 
               il Creator originale riceve automaticamente il 4.5% su OGNI rivendita futura, per sempre.

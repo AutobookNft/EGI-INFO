@@ -181,7 +181,7 @@ const FlorenceFaq: React.FC = () => {
             text-gold text-sm font-medium
             mb-4
           ">
-            ❓ {t('faq.badge', 'FAQ')}
+            ❓ {t('faq.badge')}
           </span>
           
           <h2 className="

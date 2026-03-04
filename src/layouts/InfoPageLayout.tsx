@@ -24,7 +24,7 @@ const InfoPageLayout: React.FC = () => {
   const [sidebarOpen, setSidebarOpen] = React.useState(false);
 
   const menuItems = [
-    { path: '/', label: t('nav.home', 'Home'), icon: '🏠', exact: true },
+    { path: '/', label: t('nav.home'), icon: '🏠', exact: true },
     { path: '/info/egi', label: t('nav.egi'), icon: '📜' },
     { path: '/info/epp', label: t('nav.epp'), icon: '🌱' },
     { path: '/info/platform', label: t('nav.platform'), icon: '🏛️' },

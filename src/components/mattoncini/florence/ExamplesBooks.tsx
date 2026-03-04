@@ -23,16 +23,7 @@ const ExamplesBooks: React.FC = () => {
     items: Array<{ title: string; desc: string }>;
   }>;
 
-  const booksTab = tabData?.find(tab => tab.id === 'books') || {
-    name: 'Libri & Content',
-    description: 'Libri, e-book firmati, articoli esclusivi.',
-    items: [
-      { title: 'Libro', desc: 'Capitoli vendibili singolarmente' },
-      { title: 'E-book', desc: 'Edizioni limitate firmate' },
-      { title: 'Articolo', desc: 'Accesso esclusivo + archivio storico' },
-      { title: 'Ricetta segreta', desc: 'IP protetto + licenze uso' },
-    ],
-  };
+  const booksTab = tabData?.find(tab => tab.id === 'books') ?? { name: \'\', description: \'\', items: [] };
 
   const ICONS = ['📚', '📱', '📰', '🍳'];
 

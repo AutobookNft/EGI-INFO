@@ -12,21 +12,12 @@ import GlossaryTerm from '../../common/GlossaryTerm';
 const TechSystem: React.FC = () => {
   const { t } = useTranslation('florence');
 
-  const systemFeaturesData = t('technology.systemFeatures', { returnObjects: true }) as Array<{
+  const systemFeatures = t('technology.systemFeatures', { returnObjects: true }) as Array<{
     title: string;
     desc: string;
   }>;
 
-  const systemFeatures = systemFeaturesData || [
-    { title: 'Blockchain Algorand', desc: '1000 TPS, <5s finalità, €0.001/tx' },
-    { title: 'Smart contract TEAL', desc: 'Verificabili e sicuri' },
-    { title: 'ULM Audit Trail', desc: 'Log immutabile 10 anni' },
-    { title: 'AES-256 Encryption', desc: 'Chiavi wallet protette' },
-    { title: 'Multi-tenant SaaS', desc: 'Scalabile infinitamente' },
-    { title: 'NATAN AI', desc: 'RAG, Valuation, Activation' },
-    { title: 'Event Bus pub/sub', desc: 'Comunicazione asincrona' },
-    { title: 'Observability completa', desc: 'UEM/ULM/GDPR monitoring' },
-  ];
+  
 
   const ICONS = ['⛓️', '📜', '📋', '🔐', '☁️', '🤖', '📡', '👁️'];
 
@@ -39,7 +30,7 @@ const TechSystem: React.FC = () => {
             {t('technology.systemColumnTitle', t('technology.systemColumnTitle'))}
           </h2>
           <p className="tech-system__subtitle">
-            Potenza enterprise invisibile
+            t('technology.enterprisePower')
           </p>
         </header>
 

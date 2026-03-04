@@ -60,7 +60,7 @@ const Cases: React.FC = () => {
           <div className="cases__stat">
             <span className="cases__stat-value">1200+</span>
             <span className="cases__stat-label">
-              <GlossaryTerm termId="creator">Creator</GlossaryTerm> obiettivo
+              <GlossaryTerm termId="creator">{t('cases.creatorLabel')}</GlossaryTerm> obiettivo
             </span>
           </div>
           <div className="cases__stat">
@@ -78,7 +78,7 @@ const Cases: React.FC = () => {
         <div className="cases__note">
           <span className="cases__note-icon">💡</span>
           <p>
-            Questi sono <strong>obiettivi</strong>, non risultati. FlorenceEGI è in fase 
+            Questi sono <strong>{t('cases.goalsLabel')}</strong>, non risultati. FlorenceEGI è in fase 
             di sviluppo. Ogni numero sarà verificabile su blockchain una volta lanciato.
           </p>
         </div>
