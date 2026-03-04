@@ -247,11 +247,22 @@ const COLORS = {
   yellow: '#fbbf24',    // Warning/Attention
 } as const;
 
+// Regole tipografiche — colori da usare SEMPRE
+// h1 (titolo sezione)      → color: COLORS.gold    (#d4af37) — Brand principale
+// h2 (sottotitolo)         → color: '#ffffff'
+// h3 (card title)          → color: COLORS[i]      (dipende dal contesto)
+// p  (body text)           → color: 'rgba(255,255,255,0.7)'
+// p  (testo secondario)    → color: 'rgba(255,255,255,0.55)'
+// badge/pill text          → color: COLORS.purple  o colore sezione
+
 // Spaziature standard
 // padding: '80px 20px'      → Section padding
 // maxWidth: '1000px'        → Container max-width
 // borderRadius: '16px'      → Card
 // borderRadius: '50px'      → Badge/pill
+
+// Background standard
+// section background       → '#0a0a0a'  (NO gradienti personalizzati)
 ```
 
 ### Checklist Mattoncino Completo
