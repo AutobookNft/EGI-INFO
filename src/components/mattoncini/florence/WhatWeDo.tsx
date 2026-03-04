@@ -14,7 +14,7 @@ import { useTranslation } from 'react-i18next';
 
 const GOLD = '#d4af37';
 const GREEN = '#4ade80';
-const PURPLE = '#a855f7';
+const PURPLE = '#a78bfa';
 
 interface Pillar {
   icon: string;
@@ -38,7 +38,7 @@ const WhatWeDo: React.FC = () => {
       style={{
         minHeight: '100vh',
         padding: '80px 20px',
-        background: 'linear-gradient(135deg, #0a0a0a 0%, rgba(168,85,247,0.05) 50%, #0a0a0a 100%)'
+        background: '#0a0a0a'
       }}
     >
       <div style={{ maxWidth: '1000px', margin: '0 auto' }}>
@@ -48,10 +48,11 @@ const WhatWeDo: React.FC = () => {
           <span style={{
             display: 'inline-block',
             padding: '10px 24px',
-            background: 'rgba(168,85,247,0.12)',
-            border: '1px solid rgba(168,85,247,0.35)',
+            background: 'rgba(167,139,250,0.12)',
+            border: '1px solid rgba(167,139,250,0.35)',
             borderRadius: '50px',
             color: PURPLE,
+
             fontSize: '14px',
             fontWeight: 600,
             letterSpacing: '0.05em',
