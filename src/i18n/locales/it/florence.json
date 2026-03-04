@@ -1866,7 +1866,11 @@
         "label": "Finalità blockchain Algorand"
       }
     ],
-    "note": "GDPR by design · MiCA-safe · Zero costi iniziali · Pagamenti in euro"
+    "note": "GDPR by design · MiCA-safe · Zero costi iniziali · Pagamenti in euro",
+    "ammkLabel": "Asset Market Maker",
+    "ammkTitle": "FlorenceEGI è il primo AMMk al mondo",
+    "ammkDesc": "Origina, certifica, valuta e rende liquidi gli asset digitali attraverso 5 engine specializzati: NATAN Market Engine, Asset Engine, Distribution Engine, Co-Creation Engine, Compliance Engine.",
+    "ammkCta": "Approfondisci come funziona l'AMMk →"
   },
   "fondamenti": {
     "title": "Fondamenti e Visione",

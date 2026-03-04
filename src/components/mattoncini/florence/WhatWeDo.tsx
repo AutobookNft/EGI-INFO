@@ -139,6 +139,66 @@ const WhatWeDo: React.FC = () => {
           ))}
         </div>
 
+        {/* AMMk — Asset Market Maker */}
+        <div style={{
+          background: 'rgba(212,175,55,0.06)',
+          border: `2px solid ${GOLD}40`,
+          borderRadius: '24px',
+          padding: '40px',
+          marginBottom: '50px',
+          textAlign: 'center'
+        }}>
+          <span style={{
+            display: 'inline-block',
+            padding: '6px 18px',
+            background: `${GOLD}18`,
+            border: `1px solid ${GOLD}50`,
+            borderRadius: '50px',
+            color: GOLD,
+            fontSize: '12px',
+            fontWeight: 700,
+            letterSpacing: '0.1em',
+            textTransform: 'uppercase' as const,
+            marginBottom: '20px'
+          }}>
+            {t('whatWeDo.ammkLabel')}
+          </span>
+
+          <h2 style={{
+            fontSize: 'clamp(1.3rem, 3vw, 2rem)',
+            fontWeight: 800,
+            color: '#ffffff',
+            marginBottom: '16px',
+            lineHeight: 1.3
+          }}>
+            {t('whatWeDo.ammkTitle')}
+          </h2>
+
+          <p style={{
+            fontSize: '1rem',
+            color: 'rgba(255,255,255,0.7)',
+            lineHeight: 1.7,
+            maxWidth: '700px',
+            margin: '0 auto 20px'
+          }}>
+            {t('whatWeDo.ammkDesc')}
+          </p>
+
+          <a href="/info/florence/ammk" style={{
+            display: 'inline-block',
+            padding: '10px 24px',
+            background: `${GOLD}18`,
+            border: `1px solid ${GOLD}60`,
+            borderRadius: '50px',
+            color: GOLD,
+            fontSize: '0.9rem',
+            fontWeight: 600,
+            textDecoration: 'none'
+          }}>
+            {t('whatWeDo.ammkCta')}
+          </a>
+        </div>
+
         {/* Highlights numerici */}
         <div style={{
           display: 'grid',

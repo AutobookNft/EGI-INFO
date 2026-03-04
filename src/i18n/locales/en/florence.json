@@ -327,7 +327,11 @@
         "label": "Algorand blockchain finality"
       }
     ],
-    "note": "GDPR by design · MiCA-safe · Zero upfront costs · Euro payments"
+    "note": "GDPR by design · MiCA-safe · Zero upfront costs · Euro payments",
+    "ammkLabel": "Asset Market Maker",
+    "ammkTitle": "FlorenceEGI is the world's first AMMk",
+    "ammkDesc": "It originates, certifies, values and makes digital assets liquid through 5 specialised engines: NATAN Market Engine, Asset Engine, Distribution Engine, Co-Creation Engine, Compliance Engine.",
+    "ammkCta": "Explore how the AMMk works →"
   },
   "payments": {
     "platformRoleTitle": "What the platform does (and does not do)",
