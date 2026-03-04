@@ -19,7 +19,7 @@ const ExamplesSport: React.FC = () => {
     items: Array<{ title: string; desc: string }>;
   }>;
 
-  const sportTab = tabData?.find(tab => tab.id === 'sport') ?? { name: \'\', description: \'\', items: [] };
+  const sportTab = tabData?.find(tab => tab.id === 'sport') ?? { name: '', description: '', items: [] };
 
   const ICONS = ['🏃', '🚴', '🤿'];
 

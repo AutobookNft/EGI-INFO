@@ -19,7 +19,7 @@ const ExamplesFashion: React.FC = () => {
     items: Array<{ title: string; desc: string }>;
   }>;
 
-  const fashionTab = tabData?.find(tab => tab.id === 'fashion') ?? { name: \'\', description: \'\', items: [] };
+  const fashionTab = tabData?.find(tab => tab.id === 'fashion') ?? { name: '', description: '', items: [] };
 
   const ICONS = ['👟', '💎', '👗'];
 

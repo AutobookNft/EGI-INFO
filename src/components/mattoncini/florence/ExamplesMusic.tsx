@@ -23,7 +23,7 @@ const ExamplesMusic: React.FC = () => {
     items: Array<{ title: string; desc: string }>;
   }>;
 
-  const musicTab = tabData?.find(tab => tab.id === 'music') ?? { name: \'\', description: \'\', items: [] };
+  const musicTab = tabData?.find(tab => tab.id === 'music') ?? { name: '', description: '', items: [] };
 
   const ICONS = ['🎵', '💿', '🎤', '🎙️'];
 

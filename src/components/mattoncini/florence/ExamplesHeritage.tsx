@@ -19,7 +19,7 @@ const ExamplesHeritage: React.FC = () => {
     items: Array<{ title: string; desc: string }>;
   }>;
 
-  const heritageTab = tabData?.find(tab => tab.id === 'culture') ?? { name: \'\', description: \'\', items: [] };
+  const heritageTab = tabData?.find(tab => tab.id === 'culture') ?? { name: '', description: '', items: [] };
 
   const ICONS = ['🏺', '📜', '🎭'];
 

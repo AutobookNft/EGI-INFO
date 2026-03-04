@@ -23,7 +23,7 @@ const ExamplesBooks: React.FC = () => {
     items: Array<{ title: string; desc: string }>;
   }>;
 
-  const booksTab = tabData?.find(tab => tab.id === 'books') ?? { name: \'\', description: \'\', items: [] };
+  const booksTab = tabData?.find(tab => tab.id === 'books') ?? { name: '', description: '', items: [] };
 
   const ICONS = ['📚', '📱', '📰', '🍳'];
 

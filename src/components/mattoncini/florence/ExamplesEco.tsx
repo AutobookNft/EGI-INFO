@@ -19,7 +19,7 @@ const ExamplesEco: React.FC = () => {
     items: Array<{ title: string; desc: string }>;
   }>;
 
-  const ecoTab = tabData?.find(tab => tab.id === 'eco') ?? { name: \'\', description: \'\', items: [] };
+  const ecoTab = tabData?.find(tab => tab.id === 'eco') ?? { name: '', description: '', items: [] };
 
   const ICONS = ['🌳', '🌊', '🏛️', '⚡'];
 
