@@ -365,7 +365,7 @@
         "old": "Bonifici T+7, fee alte",
         "new": "Settlement T+2, 4 metodi pagamento",
         "detailProblem": "Vendi un'opera a un collezionista giapponese. Il bonifico impiega 7 giorni.",
-        "detailSolution": "4 metodi di pagamento (FIAT, crypto, Egili, misto). Settlement in 2 giorni massimi.",
+        "detailSolution": "FIAT o crypto tramite PSP Partner",
         "oldCaption": "giorni per ricevere i soldi",
         "newCaption": "giorni al massimo",
         "oldValue": "7+",
@@ -379,7 +379,7 @@
           {
             "icon": "💳",
             "title": "4 Metodi",
-            "desc": "FIAT, crypto, Egili, misto"
+            "desc": "FIAT o crypto tramite PSP Partner"
           },
           {
             "icon": "🌍",
@@ -730,7 +730,7 @@
       "step3": [
         {
           "icon": "💳",
-          "text": "Pagamento con carta, crypto o Egili"
+          "text": "Pagamento FIAT o crypto tramite PSP (Partner autorizzato)"
         },
         {
           "icon": "⛓️",
